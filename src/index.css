@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #121212;  /* or #1e1e1e to match your SVG */
+  color: #ffffff;
+  font-family: sans-serif;
+}

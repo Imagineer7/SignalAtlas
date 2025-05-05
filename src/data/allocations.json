@@ -1,0 +1,73 @@
+[
+    {
+      "start": 3000000,
+      "end": 30000000,
+      "label": "Amateur Radio",
+      "usage": "Amateur, Fixed, Mobile",
+      "color": "#88c0d0"
+    },
+    {
+      "start": 30000000,
+      "end": 88000000,
+      "label": "VHF Mobile",
+      "usage": "Broadcast, Mobile",
+      "color": "#a3be8c"
+    },
+    {
+      "start": 88000000,
+      "end": 108000000,
+      "label": "FM Broadcast",
+      "usage": "Broadcast",
+      "color": "#b48ead"
+    },
+    {
+      "start": 108000000,
+      "end": 137000000,
+      "label": "Aeronautical Navigation",
+      "usage": "Navigation, Mobile",
+      "color": "#ebcb8b"
+    },
+    {
+      "start": 137000000,
+      "end": 144000000,
+      "label": "Satellite Communications",
+      "usage": "Fixed, Satellite",
+      "color": "#d08770"
+    },
+    {
+      "start": 144000000,
+      "end": 148000000,
+      "label": "Amateur Radio",
+      "usage": "Amateur",
+      "color": "#88c0d0"
+    },
+    {
+      "start": 148000000,
+      "end": 174000000,
+      "label": "Land Mobile",
+      "usage": "Mobile, Fixed",
+      "color": "#a3be8c"
+    },
+    {
+      "start": 174000000,
+      "end": 216000000,
+      "label": "TV Broadcast (Channels 7-13)",
+      "usage": "Broadcast",
+      "color": "#b48ead"
+    },
+    {
+      "start": 216000000,
+      "end": 225000000,
+      "label": "Amateur Radio",
+      "usage": "Amateur",
+      "color": "#88c0d0"
+    },
+    {
+      "start": 225000000,
+      "end": 400000000,
+      "label": "Military Communications",
+      "usage": "Mobile, Fixed",
+      "color": "#bf616a"
+    }
+  ]
+  

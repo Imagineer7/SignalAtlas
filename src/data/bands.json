@@ -1,0 +1,11 @@
+[
+    { "start": 0, "end": 30000, "label": "VLF (Very Low Frequency)", "color": "#b0c4de" },
+    { "start": 30000, "end": 300000, "label": "LF (Low Frequency)", "color": "#add8e6" },
+    { "start": 300000, "end": 3000000, "label": "MF (Medium Frequency)", "color": "#87cefa" },
+    { "start": 3000000, "end": 30000000, "label": "HF (High Frequency)", "color": "#4682b4" },
+    { "start": 30000000, "end": 300000000, "label": "VHF (Very High Frequency)", "color": "#5f9ea0" },
+    { "start": 300000000, "end": 3000000000, "label": "UHF (Ultra High Frequency)", "color": "#20b2aa" },
+    { "start": 3000000000, "end": 30000000000, "label": "SHF (Super High Frequency)", "color": "#008b8b" },
+    { "start": 30000000000, "end": 300000000000, "label": "EHF (Extremely High Frequency)", "color": "#00688b" }
+  ]
+  
