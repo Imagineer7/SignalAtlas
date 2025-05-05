@@ -3,6 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import bands from '../data/bands.json';
 import allocations from '../data/allocations.json';
+import signals from '../data/signals.json';
 
 const SpectrumView = () => {
   const ref = useRef();
@@ -10,6 +11,7 @@ const SpectrumView = () => {
   const xScaleRef = useRef();
   const markerRef = useRef();
   const markerLabelRef = useRef();
+  const hoverLineRef = useRef();
   const margin = { top: 20, right: 20, bottom: 40, left: 20 };
   const [showAllocations, setShowAllocations] = useState(true);
 
@@ -40,6 +42,7 @@ const SpectrumView = () => {
     const allocTextLayer = svg.append("g").attr("class", "alloc-text-layer");
     const labelLayer = svg.append("g").attr("class", "label-layer");
     const markerLayer = svg.append("g").attr("class", "marker-layer");
+    const signalGroup = svg.append("g").attr("class", "signal-group");
 
     const x = d3.scaleLinear()
       .domain([0, 300_000_000_000])
@@ -49,7 +52,7 @@ const SpectrumView = () => {
 
     const xAxis = d3.axisBottom(x).ticks(12);
 
-    const axisGroup = zoomLayer.append("g")
+    zoomLayer.append("g")
       .attr("transform", `translate(0, ${height - margin.bottom})`)
       .attr("class", "x-axis")
       .call(xAxis)
@@ -79,7 +82,7 @@ const SpectrumView = () => {
       .append("title")
       .text(d => `${d.label}: ${d.usage}`);
 
-    const allocTexts = allocTextLayer.selectAll("text")
+    allocTextLayer.selectAll("text")
       .data(allocations)
       .enter()
       .append("text")
@@ -131,6 +134,49 @@ const SpectrumView = () => {
       .attr("font-weight", "bold")
       .text(d => d.label);
 
+    const hoverLine = markerLayer.append("line")
+      .attr("y1", 0)
+      .attr("y2", height)
+      .attr("stroke", "#888")
+      .attr("stroke-dasharray", "4 2")
+      .attr("stroke-width", 1)
+      .style("display", "none");
+
+    hoverLineRef.current = hoverLine;
+
+    signalGroup.selectAll("circle")
+      .data(signals)
+      .enter()
+      .append("circle")
+      .attr("cx", d => x(d.frequency))
+      .attr("cy", 20)
+      .attr("r", 5)
+      .attr("fill", d => d.color || "#ff0")
+      .style("cursor", "pointer")
+      .on("click", (_, d) => goToFrequency({ preventDefault: () => {}, target: { elements: { freq: { value: d.frequency.toString() } } } }))
+      .on("mouseover", (_, d) => {
+        hoverLineRef.current
+          .attr("x1", x(d.frequency))
+          .attr("x2", x(d.frequency))
+          .style("display", "block");
+      })
+      .on("mouseout", () => {
+        hoverLineRef.current.style("display", "none");
+      })
+      .append("title")
+      .text(d => `${d.label}\n${d.description || ''}`);
+
+    signalGroup.selectAll("text")
+      .data(signals)
+      .enter()
+      .append("text")
+      .attr("x", d => x(d.frequency))
+      .attr("y", 35)
+      .attr("text-anchor", "middle")
+      .attr("fill", "#ddd")
+      .attr("font-size", "10px")
+      .text(d => d.label);
+
     const marker = markerLayer.append("line")
       .attr("y1", 30)
       .attr("y2", height - margin.bottom)
@@ -161,10 +207,8 @@ const SpectrumView = () => {
       .on("zoom", (event) => {
         const transform = event.transform;
         const zx = transform.rescaleX(x);
-        const visibleHz = zx.domain()[1] - zx.domain()[0];
 
-        const tickFormat = formatAxis(zx);
-        xAxis.tickFormat(tickFormat);
+        xAxis.tickFormat(formatAxis(zx));
         zoomLayer.select(".x-axis").call(xAxis.scale(zx)).selectAll("text").attr("fill", "#ccc");
 
         allocLayer.selectAll("rect")
@@ -173,31 +217,23 @@ const SpectrumView = () => {
 
         allocTextLayer.selectAll("text")
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
-          .style("display", d => (zx(d.end) - zx(d.start)) > 40 && showAllocations ? "block" : "none");
+          .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
-        bandsGroup.selectAll("rect")
+        zoomLayer.selectAll("rect")
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start));
 
-        bandsGroup.selectAll("text")
+        zoomLayer.selectAll("text")
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
         labelLayer.selectAll("text")
-          .attr("x", d => {
-            const left = zx(d.start);
-            const right = zx(d.end);
-            const visibleLeft = Math.max(left, margin.left);
-            const visibleRight = Math.min(right, width - margin.right);
-            if (visibleRight < margin.left || visibleLeft > width - margin.right) return -1000;
-            return (visibleLeft + visibleRight) / 2;
-          })
-          .style("display", d => {
-            const left = zx(d.start);
-            const right = zx(d.end);
-            const width = zx(d.end) - zx(d.start);
-            return (width < 40 || right < margin.left || left > width - margin.right) ? "none" : "block";
-          });
+          .attr("x", d => (zx(d.start) + zx(d.end)) / 2);
+
+        signalGroup.selectAll("circle")
+          .attr("cx", d => zx(d.frequency));
+        signalGroup.selectAll("text")
+          .attr("x", d => zx(d.frequency));
 
         if (markerRef.current && markerRef.current.style("display") !== "none") {
           const markerX = +markerRef.current.attr("data-freq");
@@ -205,6 +241,8 @@ const SpectrumView = () => {
           markerRef.current.attr("x1", fx).attr("x2", fx);
           markerLabelRef.current.attr("x", fx);
         }
+
+        if (hoverLineRef.current) hoverLineRef.current.style("display", "none");
       });
 
     svg.call(zoom);

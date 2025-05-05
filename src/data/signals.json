@@ -1,0 +1,32 @@
+[
+  {
+    "frequency": 4625000,
+    "label": "The Buzzer (UVB-76)",
+    "description": "Russian military shortwave station known for a buzzing sound",
+    "color": "#ff5555"
+  },
+  {
+    "frequency": 10000000,
+    "label": "WWV (10 MHz)",
+    "description": "NIST time signal broadcast from Fort Collins, Colorado",
+    "color": "#ffaa00"
+  },
+  {
+    "frequency": 142000000,
+    "label": "International Space Station",
+    "description": "ARISS voice downlink",
+    "color": "#00ffcc"
+  },
+  {
+    "frequency": 2400000000,
+    "label": "Wi-Fi (2.4 GHz)",
+    "description": "Common Wi-Fi frequency band",
+    "color": "#00ccff"
+  },
+  {
+    "frequency": 1090000000,
+    "label": "ADS-B",
+    "description": "Aircraft transponder broadcasts for flight tracking",
+    "color": "#aa66ff"
+  }
+]
