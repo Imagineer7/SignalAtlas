@@ -1,73 +1,1150 @@
 [
-    {
-      "start": 3000000,
-      "end": 30000000,
-      "label": "Amateur Radio",
-      "usage": "Amateur, Fixed, Mobile",
-      "color": "#88c0d0"
-    },
-    {
-      "start": 30000000,
-      "end": 88000000,
-      "label": "VHF Mobile",
-      "usage": "Broadcast, Mobile",
-      "color": "#a3be8c"
-    },
-    {
-      "start": 88000000,
-      "end": 108000000,
-      "label": "FM Broadcast",
-      "usage": "Broadcast",
-      "color": "#b48ead"
-    },
-    {
-      "start": 108000000,
-      "end": 137000000,
-      "label": "Aeronautical Navigation",
-      "usage": "Navigation, Mobile",
-      "color": "#ebcb8b"
-    },
-    {
-      "start": 137000000,
-      "end": 144000000,
-      "label": "Satellite Communications",
-      "usage": "Fixed, Satellite",
-      "color": "#d08770"
-    },
-    {
-      "start": 144000000,
-      "end": 148000000,
-      "label": "Amateur Radio",
-      "usage": "Amateur",
-      "color": "#88c0d0"
-    },
-    {
-      "start": 148000000,
-      "end": 174000000,
-      "label": "Land Mobile",
-      "usage": "Mobile, Fixed",
-      "color": "#a3be8c"
-    },
-    {
-      "start": 174000000,
-      "end": 216000000,
-      "label": "TV Broadcast (Channels 7-13)",
-      "usage": "Broadcast",
-      "color": "#b48ead"
-    },
-    {
-      "start": 216000000,
-      "end": 225000000,
-      "label": "Amateur Radio",
-      "usage": "Amateur",
-      "color": "#88c0d0"
-    },
-    {
-      "start": 225000000,
-      "end": 400000000,
-      "label": "Military Communications",
-      "usage": "Mobile, Fixed",
-      "color": "#bf616a"
-    }
-  ]
-  
+  {
+    "start": 3000,
+    "end": 20000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 20000,
+    "end": 22000,
+    "label": "Maritime Mobile, Navigation",
+    "usage": "Maritime Mobile, Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 22000,
+    "end": 70000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 70000,
+    "end": 84000,
+    "label": "Navigation (LORAN)",
+    "usage": "Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 84000,
+    "end": 90000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 90000,
+    "end": 110000,
+    "label": "Aeronautical and Maritime Navigation",
+    "usage": "Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 110000,
+    "end": 130000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 130000,
+    "end": 148500,
+    "label": "Aeronautical Navigation (Non-Directional Beacons)",
+    "usage": "Aeronautical Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 148500,
+    "end": 283500,
+    "label": "Aeronautical Navigation (NDBs)",
+    "usage": "Aeronautical Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 283500,
+    "end": 315000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 315000,
+    "end": 405000,
+    "label": "Standard Frequency & Time Signal",
+    "usage": "Standard Frequency",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 405000,
+    "end": 526500,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 526500,
+    "end": 535000,
+    "label": "AM Broadcast (Lower Edge)",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 535000,
+    "end": 1605000,
+    "label": "AM Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 1605000,
+    "end": 1705000,
+    "label": "AM Broadcast (Extended Band)",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 1705000,
+    "end": 1800000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1800000,
+    "end": 2000000,
+    "label": "Amateur Radio (160m Band)",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 2000000,
+    "end": 2850000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2850000,
+    "end": 3000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile (except aeronautical mobile)",
+    "color": "#d08770"
+  },
+  {
+    "start": 3000000,
+    "end": 3200000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile (except aeronautical mobile)",
+    "color": "#d08770"
+  },
+  {
+    "start": 3200000,
+    "end": 3400000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 3400000,
+    "end": 3500000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 3500000,
+    "end": 4000000,
+    "label": "Amateur, Fixed",
+    "usage": "Amateur, Fixed",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 4000000,
+    "end": 4438000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 4438000,
+    "end": 4650000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 4650000,
+    "end": 4700000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 4700000,
+    "end": 4995000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 4995000,
+    "end": 5000000,
+    "label": "Fixed (US Only)",
+    "usage": "Fixed (US, federal)",
+    "color": "#bf616a"
+  },
+  {
+    "start": 5000000,
+    "end": 5100000,
+    "label": "Amateur (Secondary)",
+    "usage": "Amateur (Secondary)",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 5100000,
+    "end": 5351000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 5351000,
+    "end": 5430000,
+    "label": "Amateur (Secondary)",
+    "usage": "Amateur (Secondary)",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 5430000,
+    "end": 5730000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 5730000,
+    "end": 5950000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 5950000,
+    "end": 6200000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 6200000,
+    "end": 6525000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 6525000,
+    "end": 6765000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 6765000,
+    "end": 7000000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 7000000,
+    "end": 7300000,
+    "label": "Amateur, Fixed",
+    "usage": "Amateur, Fixed",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 7300000,
+    "end": 8100000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 8100000,
+    "end": 8815000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 8815000,
+    "end": 9900000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 9900000,
+    "end": 9995000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 9995000,
+    "end": 10000000,
+    "label": "Standard Frequency",
+    "usage": "Standard Frequency & Time Signal",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 10000000,
+    "end": 10150000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 10150000,
+    "end": 10150000,
+    "label": "Amateur",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 10150000,
+    "end": 11175000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 11175000,
+    "end": 12050000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 12050000,
+    "end": 13200000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 13200000,
+    "end": 13357000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 13357000,
+    "end": 13570000,
+    "label": "Amateur",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 13570000,
+    "end": 13870000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 13870000,
+    "end": 14350000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 14350000,
+    "end": 14990000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 14990000,
+    "end": 15010000,
+    "label": "Standard Frequency",
+    "usage": "Standard Frequency & Time Signal",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 15010000,
+    "end": 15100000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 15100000,
+    "end": 15600000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 15600000,
+    "end": 17480000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 17480000,
+    "end": 17900000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 17900000,
+    "end": 18068000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 18068000,
+    "end": 18168000,
+    "label": "Amateur",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 18168000,
+    "end": 18900000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 18900000,
+    "end": 19020000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 19020000,
+    "end": 20000000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 20000000,
+    "end": 21000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 21000000,
+    "end": 21450000,
+    "label": "Amateur",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 21450000,
+    "end": 21850000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 21850000,
+    "end": 21924000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 21924000,
+    "end": 22000000,
+    "label": "Standard Frequency",
+    "usage": "Standard Frequency & Time Signal",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 22000000,
+    "end": 22855000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 22855000,
+    "end": 23350000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 23350000,
+    "end": 25000000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 25000000,
+    "end": 25670000,
+    "label": "Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 25670000,
+    "end": 27000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile (includes Citizens Band)",
+    "color": "#d08770"
+  },
+  {
+    "start": 27000000,
+    "end": 28000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 28000000,
+    "end": 29700000,
+    "label": "Amateur",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 29700000,
+    "end": 30000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 30000000,
+    "end": 32000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 32000000,
+    "end": 33000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 33000000,
+    "end": 34000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 34000000,
+    "end": 35000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 35000000,
+    "end": 36000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 36000000,
+    "end": 37000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 37000000,
+    "end": 38000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 38000000,
+    "end": 39000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 39000000,
+    "end": 40000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 40000000,
+    "end": 41000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 41000000,
+    "end": 42000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 42000000,
+    "end": 43000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 43000000,
+    "end": 44000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 44000000,
+    "end": 45000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 45000000,
+    "end": 46000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 46000000,
+    "end": 47000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 47000000,
+    "end": 48000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 48000000,
+    "end": 49000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 49000000,
+    "end": 50000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 50000000,
+    "end": 54000000,
+    "label": "Amateur Radio (6m Band)",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 54000000,
+    "end": 60000000,
+    "label": "TV Broadcast (Channels 2-3)",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 60000000,
+    "end": 72000000,
+    "label": "TV Broadcast (Channels 4-5)",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 72000000,
+    "end": 76000000,
+    "label": "TV Broadcast (Channel 6)",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 76000000,
+    "end": 88000000,
+    "label": "Land Mobile",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 88000000,
+    "end": 108000000,
+    "label": "FM Broadcast",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 108000000,
+    "end": 111975000,
+    "label": "Aeronautical Navigation (ILS)",
+    "usage": "Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 111975000,
+    "end": 117975000,
+    "label": "Aeronautical Navigation (VOR)",
+    "usage": "Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 117975000,
+    "end": 137000000,
+    "label": "Aeronautical Mobile (Route)",
+    "usage": "Mobile (Air), Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 137000000,
+    "end": 137025000,
+    "label": "Meteorological Satellite",
+    "usage": "Satellite",
+    "color": "#d08770"
+  },
+  {
+    "start": 137025000,
+    "end": 137175000,
+    "label": "Meteorological Aids",
+    "usage": "Meteorological Aids",
+    "color": "#d08770"
+  },
+  {
+    "start": 137175000,
+    "end": 137825000,
+    "label": "Satellite Services",
+    "usage": "Satellite",
+    "color": "#d08770"
+  },
+  {
+    "start": 137825000,
+    "end": 138000000,
+    "label": "Meteorological Satellite",
+    "usage": "Satellite",
+    "color": "#d08770"
+  },
+  {
+    "start": 138000000,
+    "end": 144000000,
+    "label": "Military Mobile",
+    "usage": "Mobile (Military)",
+    "color": "#bf616a"
+  },
+  {
+    "start": 144000000,
+    "end": 148000000,
+    "label": "Amateur Radio (2m Band)",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 148000000,
+    "end": 150800000,
+    "label": "Federal Land Mobile",
+    "usage": "Fixed, Mobile (Federal)",
+    "color": "#bf616a"
+  },
+  {
+    "start": 150800000,
+    "end": 162037500,
+    "label": "Land Mobile (Public Safety, Business)",
+    "usage": "Mobile, Fixed",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 162037500,
+    "end": 173000000,
+    "label": "Maritime, Weather, Federal",
+    "usage": "Marine, Weather, Federal",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 173000000,
+    "end": 174000000,
+    "label": "Radiolocation, Meteorological",
+    "usage": "Radiolocation",
+    "color": "#d08770"
+  },
+  {
+    "start": 174000000,
+    "end": 216000000,
+    "label": "TV Broadcast (Channels 7-13)",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 216000000,
+    "end": 220000000,
+    "label": "Amateur, Fixed, Mobile",
+    "usage": "Amateur, Mobile, Fixed",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 220000000,
+    "end": 222000000,
+    "label": "Land Mobile (Amateur Secondary)",
+    "usage": "Mobile, Fixed, Amateur (Secondary)",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 222000000,
+    "end": 225000000,
+    "label": "Amateur Radio (1.25m Band)",
+    "usage": "Amateur",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 225000000,
+    "end": 243000000,
+    "label": "Military Mobile, Satellite",
+    "usage": "Military, Satellite",
+    "color": "#bf616a"
+  },
+  {
+    "start": 243000000,
+    "end": 270000000,
+    "label": "Military Radiolocation",
+    "usage": "Radiolocation (Military)",
+    "color": "#bf616a"
+  },
+  {
+    "start": 270000000,
+    "end": 300000000,
+    "label": "Radiolocation, Meteorological",
+    "usage": "Radiolocation, Meteorological",
+    "color": "#d08770"
+  },
+  {
+    "start": 300000000,
+    "end": 322000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 322000000,
+    "end": 328600000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 328600000,
+    "end": 335400000,
+    "label": "Aeronautical Navigation",
+    "usage": "Aeronautical Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 335400000,
+    "end": 399900000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 400000000,
+    "end": 406000000,
+    "label": "Meteorological Aids",
+    "usage": "Meteorological Aids",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 406000000,
+    "end": 420000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 420000000,
+    "end": 450000000,
+    "label": "Amateur, Radiolocation",
+    "usage": "Amateur, Radiolocation",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 450000000,
+    "end": 470000000,
+    "label": "Land Mobile",
+    "usage": "Land Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 470000000,
+    "end": 512000000,
+    "label": "Broadcast Television",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 512000000,
+    "end": 608000000,
+    "label": "Broadcast Television",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 608000000,
+    "end": 614000000,
+    "label": "Radio Astronomy",
+    "usage": "Radio Astronomy",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 614000000,
+    "end": 698000000,
+    "label": "Broadcast Television",
+    "usage": "Broadcast",
+    "color": "#b48ead"
+  },
+  {
+    "start": 698000000,
+    "end": 806000000,
+    "label": "Land Mobile",
+    "usage": "Land Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 806000000,
+    "end": 890000000,
+    "label": "Land Mobile",
+    "usage": "Land Mobile",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 890000000,
+    "end": 960000000,
+    "label": "Mobile",
+    "usage": "Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 960000000,
+    "end": 1215000000,
+    "label": "Aeronautical Navigation",
+    "usage": "Aeronautical Navigation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 1215000000,
+    "end": 1240000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1240000000,
+    "end": 1300000000,
+    "label": "Amateur, Radiolocation",
+    "usage": "Amateur, Radiolocation",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 1300000000,
+    "end": 1390000000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 1390000000,
+    "end": 1400000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1400000000,
+    "end": 1427000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1427000000,
+    "end": 1435000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1435000000,
+    "end": 1452000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1452000000,
+    "end": 1490000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1490000000,
+    "end": 1525000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1525000000,
+    "end": 1535000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1535000000,
+    "end": 1559000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1559000000,
+    "end": 1610000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1610000000,
+    "end": 1660000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1660000000,
+    "end": 1700000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1700000000,
+    "end": 1850000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1850000000,
+    "end": 1990000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 1990000000,
+    "end": 2110000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2110000000,
+    "end": 2200000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2200000000,
+    "end": 2290000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2290000000,
+    "end": 2300000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2300000000,
+    "end": 2310000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2310000000,
+    "end": 2320000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2320000000,
+    "end": 2345000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2345000000,
+    "end": 2360000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2360000000,
+    "end": 2390000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2390000000,
+    "end": 2400000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770"
+  },
+  {
+    "start": 2400000000,
+    "end": 2483500000,
+    "label": "ISM Band",
+    "usage": "Industrial, Scientific, Medical",
+    "color": "#a3be8c"
+  }
+]
