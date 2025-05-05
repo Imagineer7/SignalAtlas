@@ -223,12 +223,9 @@ const SpectrumView = () => {
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start));
 
-        zoomLayer.selectAll("text")
+        labelLayer.selectAll("text")
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
-
-        labelLayer.selectAll("text")
-          .attr("x", d => (zx(d.start) + zx(d.end)) / 2);
 
         signalGroup.selectAll("circle")
           .attr("cx", d => zx(d.frequency));
