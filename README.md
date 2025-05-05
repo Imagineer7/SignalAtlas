@@ -11,7 +11,7 @@ Check it out Here: https://imagineer7.github.io/SignalAtlas/
 
 ---
 
-### 🚀 Features
+### Features
 
 - Zoomable and pannable view of the RF spectrum (from Hz to hundreds of GHz)
 - Frequency band overlays (e.g., VHF, UHF, SHF)
