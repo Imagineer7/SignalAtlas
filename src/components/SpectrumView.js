@@ -14,6 +14,7 @@ const SpectrumView = () => {
   const hoverLineRef = useRef();
   const margin = { top: 20, right: 20, bottom: 40, left: 20 };
   const [showAllocations, setShowAllocations] = useState(true);
+  const [showSignals, setShowSignals] = useState(true);
 
   useEffect(() => {
     const width = 1200;
@@ -116,7 +117,7 @@ const SpectrumView = () => {
       .enter()
       .append("text")
       .attr("x", d => x((d.start + d.end) / 2))
-      .attr("y", 40)
+      .attr("y", 140)
       .attr("text-anchor", "middle")
       .attr("fill", "#fff")
       .attr("font-size", "14px")
@@ -133,7 +134,7 @@ const SpectrumView = () => {
 
     hoverLineRef.current = hoverLine;
 
-    signalGroup.selectAll("circle")
+    const signalCircles = signalGroup.selectAll("circle")
       .data(signals)
       .enter()
       .append("circle")
@@ -155,7 +156,7 @@ const SpectrumView = () => {
       .append("title")
       .text(d => `${d.label}\n${d.description || ''}`);
 
-    signalGroup.selectAll("text")
+    const signalTexts = signalGroup.selectAll("text")
       .data(signals)
       .enter()
       .append("text")
@@ -216,10 +217,22 @@ const SpectrumView = () => {
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
+        // Dynamically hide overlapping signal markers and labels
+        const signalPositions = signals.map(d => zx(d.frequency));
+        const signalThreshold = 10; // Minimum px spacing to show labels
+
+        const positions = signals.map(d => zx(d.frequency));
         signalGroup.selectAll("circle")
-          .attr("cx", d => zx(d.frequency));
+          .attr("cx", d => zx(d.frequency))
+          .transition()
+          .duration(200)
+          .style("opacity", (_, i) => showSignals && (i === 0 || Math.abs(positions[i] - positions[i - 1]) > 20) ? 1 : 0);
+
         signalGroup.selectAll("text")
-          .attr("x", d => zx(d.frequency));
+          .attr("x", d => zx(d.frequency))
+          .transition()
+          .duration(200)
+          .style("opacity", (_, i) => showSignals && (i === 0 || Math.abs(positions[i] - positions[i - 1]) > 20) ? 1 : 0);
 
         if (markerRef.current && markerRef.current.style("display") !== "none") {
           const markerX = +markerRef.current.attr("data-freq");
@@ -233,7 +246,7 @@ const SpectrumView = () => {
 
     svg.call(zoom);
     zoomRef.current = zoom;
-  }, [showAllocations]);
+  }, [showAllocations, showSignals]);
 
   const resetZoom = () => {
     const svg = d3.select(ref.current);
@@ -298,6 +311,7 @@ const SpectrumView = () => {
   return (
     <div style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}>
       <h2>SignalAtlas</h2>
+  
       <form onSubmit={goToFrequency} style={{ marginBottom: '10px' }}>
         <input
           type="text"
@@ -308,23 +322,49 @@ const SpectrumView = () => {
         <button type="submit" style={{ padding: '6px 12px', background: '#333', color: 'white' }}>Go</button>
         <button type="button" onClick={resetZoom} style={{ marginLeft: '10px', padding: '6px 12px' }}>Reset Zoom</button>
       </form>
-      <label style={{ display: 'block', marginBottom: '10px' }}>
-        <input type="checkbox" checked={showAllocations} onChange={toggleAllocations} /> Show Allocations
-      </label>
+  
+      <div style={{ marginBottom: '10px' }}>
+        <label style={{ marginRight: '20px' }}>
+          <input
+            type="checkbox"
+            checked={showAllocations}
+            onChange={() => setShowAllocations(!showAllocations)}
+            style={{ marginRight: '6px' }}
+          />
+          Show Allocations
+        </label>
+        <label>
+          <input
+            type="checkbox"
+            checked={showSignals}
+            onChange={() => setShowSignals(!showSignals)}
+            style={{ marginRight: '6px' }}
+          />
+          Show Signal Markers
+        </label>
+      </div>
+  
       <div style={{ marginBottom: '10px' }}>
         {bands.map((band, i) => (
           <button
             key={i}
             onClick={() => zoomToBand(band)}
-            style={{ marginRight: '6px', padding: '4px 8px', background: '#222', color: '#fff', border: '1px solid #444' }}
+            style={{
+              marginRight: '6px',
+              padding: '4px 8px',
+              background: '#222',
+              color: '#fff',
+              border: '1px solid #444'
+            }}
           >
             {band.name || band.label}
           </button>
         ))}
       </div>
+  
       <svg ref={ref} width="100%" height="400px" />
     </div>
-  );
+  );  
 };
 
 export default SpectrumView;
