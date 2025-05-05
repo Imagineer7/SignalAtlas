@@ -273,7 +273,7 @@ const SpectrumView = () => {
 
   return (
     <div style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}>
-      <h2>Interactive Radio Spectrum Explorer</h2>
+      <h2>SignalAtlas</h2>
       <form onSubmit={goToFrequency} style={{ marginBottom: '10px' }}>
         <input
           type="text"
