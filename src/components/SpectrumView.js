@@ -111,17 +111,6 @@ const SpectrumView = () => {
       .append("title")
       .text(d => d.label);
 
-    bandsGroup.selectAll("text")
-      .data(bands)
-      .enter()
-      .append("text")
-      .attr("x", d => (x(d.start) + x(d.end)) / 2)
-      .attr("y", 115)
-      .attr("text-anchor", "middle")
-      .attr("fill", "#ccc")
-      .attr("font-size", "12px")
-      .text(d => d.label);
-
     labelLayer.selectAll("text")
       .data(bands)
       .enter()
