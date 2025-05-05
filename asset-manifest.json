@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/SignalAtlas/static/css/main.1b30e894.chunk.css",
+    "main.js": "/SignalAtlas/static/js/main.08025d70.chunk.js",
+    "main.js.map": "/SignalAtlas/static/js/main.08025d70.chunk.js.map",
+    "runtime~main.js": "/SignalAtlas/static/js/runtime~main.c3a58aa9.js",
+    "runtime~main.js.map": "/SignalAtlas/static/js/runtime~main.c3a58aa9.js.map",
+    "static/js/2.39315e8b.chunk.js": "/SignalAtlas/static/js/2.39315e8b.chunk.js",
+    "static/js/2.39315e8b.chunk.js.map": "/SignalAtlas/static/js/2.39315e8b.chunk.js.map",
+    "static/js/3.3b37501d.chunk.js": "/SignalAtlas/static/js/3.3b37501d.chunk.js",
+    "static/js/3.3b37501d.chunk.js.map": "/SignalAtlas/static/js/3.3b37501d.chunk.js.map",
+    "index.html": "/SignalAtlas/index.html",
+    "precache-manifest.29423218bb850d0faccb6b1ec35f9029.js": "/SignalAtlas/precache-manifest.29423218bb850d0faccb6b1ec35f9029.js",
+    "service-worker.js": "/SignalAtlas/service-worker.js",
+    "static/css/main.1b30e894.chunk.css.map": "/SignalAtlas/static/css/main.1b30e894.chunk.css.map"
+  }
+}
