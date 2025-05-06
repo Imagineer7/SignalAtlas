@@ -83,36 +83,54 @@ const SpectrumView = () => {
       .append("title")
       .text(d => `${d.label}: ${d.usage}`);
 
-      allocTextLayer.selectAll("text")
-      .data(allocations)
-      .enter()
-      .append("text")
-        .attr("text-anchor", "middle")
-        .attr("fill", "#aaa")
-        .attr("font-size", "10px")
-        .text(d => d.label);
+      // ❶ bind data
+      const allocLabels = allocTextLayer.selectAll("text").data(allocations);
+
+      // ❷ remove any old labels
+      allocLabels.exit().remove();
+
+      // ❸ append any new labels, then merge to get full update selection
+      allocLabels.enter()
+        .append("text")
+          .attr("text-anchor", "middle")
+          .attr("fill", "#aaa")
+          .attr("font-size", "10px")
+        .merge(allocLabels)
+          // (we’ll set x/y & opacity via styleAllocLabels)
+          .text(d => d.label);
         
       // Collision‐avoidant positioning for allocation labels
       function styleAllocLabels(scale) {
-        const lanes     = [];
-        const minSpacing = 50;  // px between adjacent labels
-        const baseY      = 190; // first row
-        const lineH      = 14;  // vertical step for each additional row
-
+        const lanes      = [];
+        const minSpacing = 50;   // px between adjacent labels
+        const baseY      = 190;  // first row Y
+        const lineH      = 14;   // row height increment
+        const minWidthPx = 30;   // hide labels narrower than 30px
+      
         allocTextLayer.selectAll("text")
-          .style("opacity", showAllocations ? 1 : 0)   // start visible or hidden
           .each(function(d) {
-            const cx = (scale(d.start) + scale(d.end)) / 2;
+            const cx      = (scale(d.start) + scale(d.end)) / 2;
+            const widthPx = scale(d.end) - scale(d.start);
+      
+            // 1) if toggled off or too narrow, hide and skip lane logic entirely
+            if (!showAllocations || widthPx < minWidthPx) {
+              return d3.select(this).style("opacity", 0);
+            }
+      
+            // 2) find the first lane with enough room
             let lane = 0;
             while (lanes[lane] != null && cx - lanes[lane] < minSpacing) {
               lane++;
             }
             lanes[lane] = cx;
+      
+            // 3) position & show
             d3.select(this)
               .attr("x", cx)
-              .attr("y", baseY + lane * lineH);
+              .attr("y", baseY + lane * lineH)
+              .style("opacity", 1);
           });
-      }
+      }      
 
       // Initial call at load
       styleAllocLabels(x);
@@ -364,7 +382,7 @@ const SpectrumView = () => {
             onChange={() => setShowSignals(!showSignals)}
             style={{ marginRight: '6px' }}
           />
-          Show Signal Markers
+          Show Band Markers
         </label>
       </div>
   
