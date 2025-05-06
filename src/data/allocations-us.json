@@ -97,7 +97,7 @@
   },
   {
     "start": 190000,
-    "end": 200000,
+    "end": 415000,
     "label": "Aeronautical Radionavigation",
     "usage": "Radionavigation",
     "color": "#ebcb8b",
@@ -106,15 +106,15 @@
   {
     "start": 200000,
     "end": 275000,
-    "label": "Aeronautical Mobile, Radionavigation",
-    "usage": "Aeronautical Mobile, Radionavigation",
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
     "color": "#a3be8c",
     "secondary": false
   },
   {
     "start": 275000,
     "end": 285000,
-    "label": "Maritime Radionavigation (Radiobeacons)",
+    "label": "Maritime Radionavigation",
     "usage": "Radionavigation",
     "color": "#ebcb8b",
     "secondary": false
@@ -122,9 +122,65 @@
   {
     "start": 285000,
     "end": 300000,
-    "label": "Aeronautical & Maritime Radionavigation (Radiobeacons)",
+    "label": "Aeronautical & Maritime Radionavigation",
     "usage": "Radionavigation",
     "color": "#ebcb8a",
+    "secondary": true
+  },
+  {
+    "start": 300000,
+    "end": 325000,
+    "label": "Maritime Radionavigation (Radiobeacons)",
+    "usage": "Radio Navigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 325000,
+    "end": 335000,
+    "label": "Maritime Radionavigation, Maritime Mobile",
+    "usage": "Radio Navigation",
+    "color": "#ebcb9a",
+    "secondary": false
+  },
+  {
+    "start": 335000,
+    "end": 415000,
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": true
+  },
+  {
+    "start": 415000,
+    "end": 495000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 495000,
+    "end": 505000,
+    "label": "Standard Frequency & Time Signal",
+    "usage": "Time Signal",
+    "color": "#5e81ac",
+    "secondary": false
+  },
+  {
+    "start": 505000,
+    "end": 525000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 525000,
+    "end": 535000,
+    "label": "Aeronautical Radionavigation (Radiobeacons)",
+    "usage": "Radionavigation",
+    "color": "#ebcb8b",
     "secondary": true
   },
   {
@@ -138,7 +194,7 @@
   {
     "start": 1705000,
     "end": 2501000,
-    "label": "Fixed & Mobile",
+    "label": "Fixed, Mobile",
     "usage": "Fixed, Mobile",
     "color": "#d08770",
     "secondary": false
@@ -153,33 +209,1073 @@
   },
   {
     "start": 2502000,
-    "end": 2700000,
-    "label": "Fixed & Mobile",
+    "end": 3000000,
+    "label": "Fixed, Mobile",
     "usage": "Fixed, Mobile",
     "color": "#d08770",
     "secondary": false
   },
   {
-    "start": 2700000,
-    "end": 2900000,
-    "label": "Fixed & Mobile",
+    "start": 3000000,
+    "end": 3300000,
+    "label": "Aeronautical Mobile (R)",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 3300000,
+    "end": 3500000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 3500000,
+    "end": 4000000,
+    "label": "Amateur (80 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 4000000,
+    "end": 4200000,
+    "label": "Fixed, Mobile, Maritime Mobile",
+    "usage": "Fixed, Mobile, Maritime Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 4200000,
+    "end": 4400000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 4400000,
+    "end": 4800000,
+    "label": "Fixed",
+    "usage": "Fixed",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 4800000,
+    "end": 5000000,
+    "label": "Mobile",
+    "usage": "Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 5000000,
+    "end": 5150000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 5150000,
+    "end": 5330500,
+    "label": "Fixed, Mobile",
     "usage": "Fixed, Mobile",
     "color": "#d08770",
     "secondary": false
   },
   {
-    "start": 2700000,
-    "end": 2900000,
-    "label": "Navigation Aids",
-    "usage": "Radionavigation",
-    "color": "#ebcb8b",
+    "start": 5330500,
+    "end": 5406400,
+    "label": "Amateur (60 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
     "secondary": true
   },
   {
-    "start": 2900000,
-    "end": 3000000,
-    "label": "Fixed & Mobile",
+    "start": 5406400,
+    "end": 5650000,
+    "label": "Fixed, Mobile",
     "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 5650000,
+    "end": 5850000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 5850000,
+    "end": 6200000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 6200000,
+    "end": 6525000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 6525000,
+    "end": 6680000,
+    "label": "Mobile",
+    "usage": "Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 6680000,
+    "end": 7000000,
+    "label": "Fixed",
+    "usage": "Fixed",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 7000000,
+    "end": 7300000,
+    "label": "Amateur (40 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 7300000,
+    "end": 7350000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 7350000,
+    "end": 7800000,
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 7800000,
+    "end": 9400000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 9400000,
+    "end": 9950000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 9950000,
+    "end": 10100000,
+    "label": "Space Research",
+    "usage": "Space Research",
+    "color": "#8fbcbb",
+    "secondary": true
+  },
+  {
+    "start": 10100000,
+    "end": 10150000,
+    "label": "Amateur (30 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 10150000,
+    "end": 11700000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 11700000,
+    "end": 12150000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 12150000,
+    "end": 13000000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 13000000,
+    "end": 14000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 14000000,
+    "end": 14350000,
+    "label": "Amateur (20 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 14350000,
+    "end": 15150000,
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 15150000,
+    "end": 16200000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 16200000,
+    "end": 18000000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 18000000,
+    "end": 18068000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 18068000,
+    "end": 18168000,
+    "label": "Amateur (17 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 18168000,
+    "end": 20000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 20000000,
+    "end": 21000000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 21000000,
+    "end": 21450000,
+    "label": "Amateur (15 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 21450000,
+    "end": 23000000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 23000000,
+    "end": 24890000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 24890000,
+    "end": 24990000,
+    "label": "Amateur (12 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 24990000,
+    "end": 28000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 28000000,
+    "end": 29700000,
+    "label": "Amateur (10 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 29700000,
+    "end": 30000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 30000000,
+    "end": 50000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 50000000,
+    "end": 54000000,
+    "label": "Amateur (6 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 54000000,
+    "end": 88000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 88000000,
+    "end": 108000000,
+    "label": "Broadcasting (FM)",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 108000000,
+    "end": 118000000,
+    "label": "Aeronautical Radionavigation",
+    "usage": "Navigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 118000000,
+    "end": 137000000,
+    "label": "Aeronautical Mobile",
+    "usage": "Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 137000000,
+    "end": 144000000,
+    "label": "Fixed, Mobile, Radiolocation, Space Research",
+    "usage": "Fixed, Mobile, Radiolocation, Space Research",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 144000000,
+    "end": 148000000,
+    "label": "Amateur (2 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 148000000,
+    "end": 174000000,
+    "label": "Land Mobile & Fixed",
+    "usage": "Land Mobile, Fixed",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 174000000,
+    "end": 216000000,
+    "label": "Broadcasting (TV VHF)",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 216000000,
+    "end": 220000000,
+    "label": "Land Mobile & Fixed",
+    "usage": "Land Mobile, Fixed",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 220000000,
+    "end": 222000000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 222000000,
+    "end": 225000000,
+    "label": "Amateur (1.25 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 225000000,
+    "end": 300000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 300000000,
+    "end": 328600000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 328600000,
+    "end": 335400000,
+    "label": "Aeronautical Radionavigation",
+    "usage": "Radionavigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 335400000,
+    "end": 399900000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 399900000,
+    "end": 400050000,
+    "label": "Mobile Satellite",
+    "usage": "Mobile Satellite",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 400050000,
+    "end": 400150000,
+    "label": "Standard Frequency & Time Signal (Satellite)",
+    "usage": "Standard Frequency & Time Signal",
+    "color": "#5e81ac",
+    "secondary": false
+  },
+  {
+    "start": 400150000,
+    "end": 403000000,
+    "label": "Meteorological Aids & Satellite",
+    "usage": "Meteorological Aids, Satellite Communications",
+    "color": "#8fbcbb",
+    "secondary": true
+  },
+  {
+    "start": 403000000,
+    "end": 406100000,
+    "label": "Meteorological Aids",
+    "usage": "Meteorological Aids",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 406100000,
+    "end": 410000000,
+    "label": "Fixed, Mobile, Radio Astronomy",
+    "usage": "Fixed, Mobile, Radio Astronomy",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 410000000,
+    "end": 420000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 420000000,
+    "end": 450000000,
+    "label": "Amateur (70 cm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 450000000,
+    "end": 470000000,
+    "label": "Land Mobile, Fixed",
+    "usage": "Land Mobile, Fixed",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 470000000,
+    "end": 512000000,
+    "label": "Fixed, Broadcasting, Land Mobile",
+    "usage": "Fixed, Broadcasting, Land Mobile",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 512000000,
+    "end": 608000000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 608000000,
+    "end": 614000000,
+    "label": "Land Mobile, Radio Astronomy",
+    "usage": "Land Mobile, Radio Astronomy",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 614000000,
+    "end": 698000000,
+    "label": "Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 698000000,
+    "end": 806000000,
+    "label": "Fixed, Mobile, Broadcasting",
+    "usage": "Fixed, Mobile, Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 806000000,
+    "end": 824000000,
+    "label": "Fixed, Land Mobile",
+    "usage": "Fixed, Land Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 824000000,
+    "end": 849000000,
+    "label": "Fixed, Land Mobile",
+    "usage": "Fixed, Land Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 849000000,
+    "end": 851000000,
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 851000000,
+    "end": 866000000,
+    "label": "Fixed, Land Mobile",
+    "usage": "Fixed, Land Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 866000000,
+    "end": 894000000,
+    "label": "Fixed, Land Mobile",
+    "usage": "Fixed, Land Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 894000000,
+    "end": 896000000,
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 896000000,
+    "end": 902000000,
+    "label": "Fixed, Land Mobile, Mobile",
+    "usage": "Fixed, Land Mobile, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 902000000,
+    "end": 928000000,
+    "label": "Amateur (33 cm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 928000000,
+    "end": 960000000,
+    "label": "Fixed, Land Mobile",
+    "usage": "Fixed, Land Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 960000000,
+    "end": 1215000000,
+    "label": "Aeronautical Radionavigation",
+    "usage": "Radionavigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 1215000000,
+    "end": 1240000000,
+    "label": "Radiolocation, Radionavigation Satellite",
+    "usage": "Radiolocation, Radionavigation Satellite",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 1240000000,
+    "end": 1300000000,
+    "label": "Amateur (23 cm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 1300000000,
+    "end": 1395000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 1395000000,
+    "end": 1400000000,
+    "label": "Land Mobile",
+    "usage": "Land Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 1400000000,
+    "end": 1427000000,
+    "label": "Earth Exploration Satellite, Radio Astronomy, Space Research",
+    "usage": "Earth Exploration Satellite, Radio Astronomy, Space Research",
+    "color": "#8fbcbb",
+    "secondary": true
+  },
+  {
+    "start": 1427000000,
+    "end": 1432000000,
+    "label": "Fixed, Mobile, Space Operation",
+    "usage": "Fixed, Mobile, Space Operation",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 1432000000,
+    "end": 1435000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 1435000000,
+    "end": 1525000000,
+    "label": "Aeronautical Mobile (Telemetry)",
+    "usage": "Aeronautical Mobile Telemetry",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 1525000000,
+    "end": 1544000000,
+    "label": "Mobile Satellite",
+    "usage": "Mobile Satellite",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 1544000000,
+    "end": 1558500000,
+    "label": "Aeronautical Mobile Satellite",
+    "usage": "Aeronautical Mobile Satellite",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 1558500000,
+    "end": 1610000000,
+    "label": "Aeronautical Radionavigation",
+    "usage": "Radionavigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 1610000000,
+    "end": 1660000000,
+    "label": "Mobile Satellite, Aeronautical Radionavigation",
+    "usage": "Mobile Satellite, Radionavigation",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 1660000000,
+    "end": 1670000000,
+    "label": "Radio Astronomy, Space Research",
+    "usage": "Radio Astronomy, Space Research",
+    "color": "#8fbcbb",
+    "secondary": true
+  },
+  {
+    "start": 1670000000,
+    "end": 1700000000,
+    "label": "Meteorological Aids",
+    "usage": "Meteorological Aids",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 1700000000,
+    "end": 1990000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 1990000000,
+    "end": 2025000000,
+    "label": "Mobile Satellite",
+    "usage": "Mobile Satellite",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 2025000000,
+    "end": 2200000000,
+    "label": "Space Operation, Space Research, Fixed, Mobile",
+    "usage": "Space Operation, Space Research, Fixed, Mobile",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 2200000000,
+    "end": 2300000000,
+    "label": "Fixed, Mobile, Space Research",
+    "usage": "Fixed, Mobile, Space Research",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 2300000000,
+    "end": 2305000000,
+    "label": "Amateur (13 cm band lower)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 2305000000,
+    "end": 2310000000,
+    "label": "Amateur (13 cm band upper)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": true
+  },
+  {
+    "start": 2310000000,
+    "end": 2320000000,
+    "label": "Fixed, Mobile, Radiolocation, Broadcasting Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Broadcasting Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 2320000000,
+    "end": 2345000000,
+    "label": "Broadcasting Satellite, Fixed, Mobile, Radiolocation",
+    "usage": "Broadcasting Satellite, Fixed, Mobile, Radiolocation",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 2345000000,
+    "end": 2390000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 2390000000,
+    "end": 2450000000,
+    "label": "Amateur (13 cm band upper)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 2450000000,
+    "end": 2483500000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 2483500000,
+    "end": 2500000000,
+    "label": "Mobile Satellite, Radiodetermination Satellite",
+    "usage": "Mobile Satellite, Radiodetermination Satellite",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 2500000000,
+    "end": 2655000000,
+    "label": "Fixed, Fixed Satellite, Mobile (excl. aeronautical), Broadcasting Satellite",
+    "usage": "Fixed, Fixed Satellite, Mobile (excl. aeronautical), Broadcasting Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 2655000000,
+    "end": 2690000000,
+    "label": "Fixed, Fixed Satellite, Mobile (excl. aeronautical), Broadcasting Satellite, Earth Exploration Satellite (passive), Radio Astronomy, Space Research (passive)",
+    "usage": "Fixed, Fixed Satellite, Mobile (excl. aeronautical), Broadcasting Satellite, Earth Exploration Satellite (passive), Radio Astronomy, Space Research (passive)",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  {
+    "start": 2690000000,
+    "end": 2700000000,
+    "label": "Earth Exploration Satellite (passive), Radio Astronomy, Space Research (passive)",
+    "usage": "Earth Exploration Satellite (passive), Radio Astronomy, Space Research (passive)",
+    "color": "#8fbcbb",
+    "secondary": false
+  },
+  { 
+    "start": 2700000000,
+    "end": 2900000000,
+    "label": "Aeronautical Radionavigation, Meteorological Aids, Radiolocation",
+    "usage": "Aeronautical Radionavigation, Meteorological Aids, Radiolocation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 2900000000,
+    "end": 3000000000,
+    "label": "Maritime Radionavigation, Radiolocation",
+    "usage": "Maritime Radionavigation, Radiolocation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 3000000000,
+    "end": 3300000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 3300000000,
+    "end": 3500000000,
+    "label": "Amateur (9 cm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": true
+  },
+  {
+    "start": 3500000000,
+    "end": 5650000000,
+    "label": "Fixed, Mobile, Radiolocation",
+    "usage": "Fixed, Mobile, Radiolocation",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 5650000000,
+    "end": 5925000000,
+    "label": "Amateur (5 cm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 5925000000,
+    "end": 10000000000,
+    "label": "Fixed, Mobile, Radiolocation, Earth Exploration Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, EESS",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 10000000000,
+    "end": 10500000000,
+    "label": "Amateur (3 cm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 10500000000,
+    "end": 24000000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 24000000000,
+    "end": 24250000000,
+    "label": "Amateur (1.2 cm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 24250000000,
+    "end": 30000000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 30000000000,
+    "end": 47000000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 47000000000,
+    "end": 47200000000,
+    "label": "Amateur (6 mm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 47200000000,
+    "end": 75500000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 75500000000,
+    "end": 81000000000,
+    "label": "Amateur (4 mm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 81000000000,
+    "end": 119000000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 119000000000,
+    "end": 121000000000,
+    "label": "Amateur (2.5 mm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 121000000000,
+    "end": 134000000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 134000000000,
+    "end": 141000000000,
+    "label": "Amateur (2 mm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 141000000000,
+    "end": 241000000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 241000000000,
+    "end": 250000000000,
+    "label": "Amateur (1.2 mm band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  },
+  {
+    "start": 250000000000,
+    "end": 300000000000,
+    "label": "Fixed, Mobile, Radiolocation, Satellite",
+    "usage": "Fixed, Mobile, Radiolocation, Satellite",
     "color": "#d08770",
     "secondary": false
   }
