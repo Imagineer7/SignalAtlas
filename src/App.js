@@ -1,5 +1,6 @@
 import React from 'react';
 import SpectrumView from './components/SpectrumView';
+import Topbar from './components/Topbar';
 
 function App() {
   return (

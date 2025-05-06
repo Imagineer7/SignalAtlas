@@ -8,6 +8,26 @@ import allocationsUS from '../data/allocations-us.json';
 import allocationsEU from '../data/allocations-eu.json';
 import allocationsAPAC from '../data/allocations-apac.json';
 import '../styles.css';
+import Topbar from './Topbar';
+
+function getTruncatedLabel(label, pixelWidth) {
+  if (pixelWidth < 30) return label.slice(0, 5) + '…';
+  if (pixelWidth < 50) return label.slice(0, 10) + '…';
+  return label;
+}
+
+function truncateToFit(textElem, fullLabel, maxWidthPx) {
+  const textNode = d3.select(textElem);
+  textNode.text(fullLabel);
+
+  if (textNode.node().getComputedTextLength() <= maxWidthPx) return;
+
+  let truncated = fullLabel;
+  while (truncated.length > 1 && textNode.node().getComputedTextLength() > maxWidthPx) {
+    truncated = truncated.slice(0, -1);
+    textNode.text(truncated + "…");
+  }
+}
 
 const SpectrumView = () => {
   const ref = useRef();
@@ -21,6 +41,7 @@ const SpectrumView = () => {
   const [showSignals, setShowSignals] = useState(true);
   const [region, setRegion] = useState('US');
   const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [freqInput, setFreqInput] = useState('');
 
   const regionMap = {
         US: allocationsUS,
@@ -105,13 +126,14 @@ const SpectrumView = () => {
 
       // ❸ append any new labels, then merge to get full update selection
       allocLabels.enter()
-        .append("text")
-          .attr("text-anchor", "middle")
-          .attr("fill", "#aaa")
-          .attr("font-size", "10px")
-        .merge(allocLabels)
-          // (we’ll set x/y & opacity via styleAllocLabels)
-          .text(d => d.label);
+      .append("text")
+        .attr("text-anchor", "middle")
+        .attr("fill", "#aaa")
+        .attr("font-size", "10px")
+        .attr("x", -9999) // hide far off-screen
+        .attr("y", -9999)
+    .merge(allocLabels)
+      .text(d => d.label);    
         
       // Collision‐avoidant positioning for allocation labels
       function styleAllocLabels(scale) {
@@ -140,9 +162,14 @@ const SpectrumView = () => {
       
             // 3) position & show
             d3.select(this)
-              .attr("x", cx)
-              .attr("y", baseY + lane * lineH)
-              .style("opacity", 1);
+            .attr("x", cx)
+            .attr("y", baseY + lane * lineH)
+            .style("opacity", 1);
+
+            if (widthPx < 10) {
+              return d3.select(this).style("opacity", 0);
+            }        
+            truncateToFit(this, d.label, widthPx);          
           });
       }      
 
@@ -210,7 +237,10 @@ const SpectrumView = () => {
       .attr("text-anchor", "middle")
       .attr("fill", "#ccc")
       .attr("font-size", "9px")
-      .text(d => d.label);
+      .each(function(d) {
+        const widthPx = x(d.end) - x(d.start);
+        truncateToFit(this, d.label, widthPx);
+      });      
 
     const marker = markerLayer.append("line")
       .attr("y1", 30)
@@ -270,6 +300,10 @@ const SpectrumView = () => {
 
         signalGroup.selectAll("text")
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
+          .each(function(d) {
+            const widthPx = zx(d.end) - zx(d.start);
+            truncateToFit(this, d.label, widthPx);
+          })          
           .style("opacity", d => {
             const width = zx(d.end) - zx(d.start);
             return showSignals && width > 40 ? 1 : 0;
@@ -302,6 +336,10 @@ const SpectrumView = () => {
 
     svg.call(zoom);
     zoomRef.current = zoom;
+    setTimeout(() => {
+      svg.call(zoom.transform, d3.zoomIdentity);
+    }, 0);
+
   }, [showAllocations, showSignals, allocations]);
 
   const resetZoom = () => {
@@ -365,68 +403,39 @@ const SpectrumView = () => {
   };
 
   return (
-    <div className="spectrum-view-container" style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}>
+    <div
+      className="spectrum-view-container"
+      style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}
+    >
+      {/* ⬆️ Topbar with all controls */}
+      <Topbar
+        frequency={freqInput}
+        onFrequencyChange={setFreqInput}
+        onGo={() => {
+          const fakeEvent = {
+            preventDefault: () => {},
+            target: {
+              elements: {
+                freq: { value: freqInput },
+              },
+            },
+          };
+          goToFrequency(fakeEvent);
+        }}
+        onReset={resetZoom}
+        showAllocations={showAllocations}
+        setShowAllocations={setShowAllocations}
+        showBands={showSignals}
+        setShowBands={setShowSignals}
+        region={region === 'US' ? 'United States' : region === 'EU' ? 'Europe' : region}
+        setRegion={(r) => setRegion(r === 'United States' ? 'US' : r === 'Europe' ? 'EU' : r)}
+      />
   
-      {/* Frequency jump form */}
-      <form onSubmit={goToFrequency} style={{ marginBottom: '10px' }}>
-        <input
-          type="text"
-          name="freq"
-          placeholder="Enter frequency (e.g. 4625, 2.4GHz)"
-          style={{ padding: '6px', marginRight: '8px', width: '200px' }}
-        />
-        <button type="submit" style={{ padding: '6px 12px', background: '#333', color: 'white' }}>Go</button>
-        <button type="button" onClick={resetZoom} style={{ marginLeft: '10px', padding: '6px 12px' }}>Reset Zoom</button>
-      </form>
-  
-      {/* Show/hide toggles */}
-      <div style={{ marginBottom: '10px' }}>
-        <label style={{ marginRight: '20px' }}>
-          <input
-            type="checkbox"
-            checked={showAllocations}
-            onChange={() => setShowAllocations(!showAllocations)}
-            style={{ marginRight: '6px' }}
-          />
-          Show Allocations
-        </label>
-        <label>
-          <input
-            type="checkbox"
-            checked={showSignals}
-            onChange={() => setShowSignals(!showSignals)}
-            style={{ marginRight: '6px' }}
-          />
-          Show Band Markers
-        </label>
-      </div>
-  
-      {/* Region selector */}
-      <div className="region-selector" style={{ marginBottom: '10px' }}>
-        <label htmlFor="region-select" style={{ marginRight: '6px', color: '#ccc' }}>Region:</label>
-        <select
-          id="region-select"
-          value={region}
-          onChange={e => setRegion(e.target.value)}
-          style={{
-            padding: '6px',
-            background: '#222',
-            color: 'white',
-            border: '1px solid #444',
-            borderRadius: '4px'
-          }}
-        >
-          <option value="US">United States</option>
-          <option value="EU">Europe</option>
-          {/* add more as needed */}
-        </select>
-      </div>
-  
-      {/* Collapsible sidebar */}
+      {/* ⬅️ Collapsible sidebar with band jump buttons */}
       <div className={`band-sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
         <button
           className="sidebar-toggle"
-          onClick={() => setSidebarOpen(o => !o)}
+          onClick={() => setSidebarOpen((o) => !o)}
           aria-label={sidebarOpen ? 'Collapse sidebar' : 'Open sidebar'}
           style={{
             background: '#222',
@@ -435,7 +444,7 @@ const SpectrumView = () => {
             padding: '4px 8px',
             borderRadius: '4px',
             cursor: 'pointer',
-            marginBottom: '8px'
+            marginBottom: '8px',
           }}
         >
           {sidebarOpen ? '«' : '»'}
@@ -445,11 +454,7 @@ const SpectrumView = () => {
           <div className="buttons-container-wrapper">
             <div className="buttons-container">
               {bands.slice(0, 8).map((band, i) => (
-                <button
-                  key={i}
-                  className="band-button"
-                  onClick={() => zoomToBand(band)}
-                >
+                <button key={i} className="band-button" onClick={() => zoomToBand(band)}>
                   {band.name || band.label}
                 </button>
               ))}
@@ -458,7 +463,7 @@ const SpectrumView = () => {
         )}
       </div>
   
-      {/* The spectrum SVG */}
+      {/* 📊 Spectrum canvas */}
       <svg ref={ref} width="100%" height="400px" />
     </div>
   );     
