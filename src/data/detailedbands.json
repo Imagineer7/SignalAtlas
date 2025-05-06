@@ -66,8 +66,8 @@
   {
     "start": 2400000000,
     "end": 2483500000,
-    "label": "2.4 GHz ISM Band",
-    "description": "Wi-Fi, Bluetooth, and microwave devices.",
+    "label": "2.4 GHz ISM Band and 2.4 GHz RC Control & Telemetry",
+    "description": "Wi-Fi, Bluetooth, and microwave devices. 2.400–2.4835 GHz ISM band commonly used for drone flight‐control links and telemetry (e.g. FrSky ACCST, DSMX, Crossfire).",
     "type": "ISM",
     "color": "#d08770"
   },
@@ -438,5 +438,117 @@
     "description": "2182 kHz international voice distress & calling frequency.",
     "type": "marine",
     "color": "#5e81ac"
+  },
+  {
+    "start": 54000000,
+    "end": 88000000,
+    "label": "VHF TV Channels 2–6",
+    "description": "54 MHz–88 MHz television broadcast channels (2–6).",
+    "type": "broadcast",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 1030000000,
+    "end": 1030000000,
+    "label": "SSR Interrogation (1030 MHz)",
+    "description": "Secondary surveillance radar interrogation (ATCRBS/TCAS).",
+    "type": "aviation",
+    "color": "#bf616a"
+  },
+  {
+    "start": 243000000,
+    "end": 243000000,
+    "label": "Military Guard (243 MHz)",
+    "description": "243.0 MHz international military aircraft emergency/guard frequency.",
+    "type": "military",
+    "color": "#bf616a"
+  },
+  {
+    "start": 824000000,
+    "end": 849000000,
+    "label": "Cellular (824–849 MHz Uplink)",
+    "description": "824–849 MHz mobile station transmissions for cellular networks (GSM, LTE).",
+    "type": "commercial",
+    "color": "#d08770"
+  },
+  {
+    "start": 869000000,
+    "end": 894000000,
+    "label": "Cellular (869–894 MHz Downlink)",
+    "description": "869–894 MHz base station transmissions for cellular networks (GSM, LTE).",
+    "type": "commercial",
+    "color": "#d08770"
+  },
+  {
+    "start": 1710000000,
+    "end": 1755000000,
+    "label": "AWS-1 Uplink",
+    "description": "1710–1755 MHz mobile transmissions (AWS-1 band).",
+    "type": "commercial",
+    "color": "#d08770"
+  },
+  {
+    "start": 2110000000,
+    "end": 2155000000,
+    "label": "AWS-1 Downlink",
+    "description": "2110–2155 MHz base station transmissions (AWS-1 band).",
+    "type": "commercial",
+    "color": "#d08770"
+  },
+  {
+    "start": 3700000000,
+    "end": 4200000000,
+    "label": "C-Band Satellite Downlink",
+    "description": "3700–4200 MHz downlinks for fixed satellite service.",
+    "type": "satellite",
+    "color": "#8fbcbb"
+  },
+  {
+    "start": 8025000000,
+    "end": 8400000000,
+    "label": "X-Band Deep-Space",
+    "description": "8025–8400 MHz deep-space communications (NASA).",
+    "type": "satellite",
+    "color": "#8fbcbb"
+  },
+  {
+    "start": 433050000,
+    "end": 434790000,
+    "label": "433 MHz RC Telemetry",
+    "description": "433.05–434.79 MHz unlicensed band often used for long‐range telemetry on FPV drones (LoRa, 4G-style links).",
+    "type": "drone",
+    "color": "#bf616a"
+  },
+  {
+    "start": 902000000,
+    "end": 928000000,
+    "label": "900 MHz RC Control & Telemetry",
+    "description": "902–928 MHz ISM band used for extended‐range control and telemetry (FHSS, LoRa) on UAVs.",
+    "type": "drone",
+    "color": "#bf616a"
+  },
+  {
+    "start": 5725000000,
+    "end": 5875000000,
+    "label": "5.8 GHz FPV Video",
+    "description": "5.725–5.875 GHz ISM band allocated for unlicensed video downlinks (analogue and digital) on FPV drones.",
+    "type": "drone",
+    "color": "#bf616a"
+  },
+  {
+    "start": 5665000000,
+    "end": 5695000000,
+    "label": "5.6 GHz Amateur Satellite/UAV",
+    "description": "5.650–5.665 GHz secondary amateur allocation sometimes used for UAV telemetry and satellite uplinks.",
+    "type": "drone",
+    "color": "#bf616a"
+  },
+  {
+    "start": 24000000000,
+    "end": 24200000000,
+    "label": "24 GHz Radar/Telemetry",
+    "description": "24.00–24.25 GHz band used for short‐range radar altimeters and experimental drone telemetry links.",
+    "type": "drone",
+    "color": "#bf616a"
   }
 ]
