@@ -366,7 +366,6 @@ const SpectrumView = () => {
 
   return (
     <div className="spectrum-view-container" style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}>
-      <h2>SignalAtlas</h2>
   
       {/* Frequency jump form */}
       <form onSubmit={goToFrequency} style={{ marginBottom: '10px' }}>

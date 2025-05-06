@@ -1,3 +1,12 @@
+/* Optional: Styling for h1 */
+h1 {
+  margin: 0;                   /* Remove default margin to prevent extra spacing */
+  font-size: 2rem;             /* Adjust font size for the heading */
+  font-weight: bold;           /* Bold the font */
+  color: white;                /* Ensure text is visible */
+}
+
+/* Optional additional App styling */
 .App {
   text-align: center;
 }
