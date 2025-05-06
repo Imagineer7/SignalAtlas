@@ -2,8 +2,12 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import bands from '../data/bands.json';
-import allocations from '../data/allocations.json';
+//import allocations from '../data/allocations.json';
 import signals from '../data/detailedbands.json';
+import allocationsUS from '../data/allocations-us.json';
+import allocationsEU from '../data/allocations-eu.json';
+import allocationsAPAC from '../data/allocations-apac.json';
+import '../styles.css';
 
 const SpectrumView = () => {
   const ref = useRef();
@@ -15,6 +19,16 @@ const SpectrumView = () => {
   const margin = { top: 20, right: 20, bottom: 40, left: 20 };
   const [showAllocations, setShowAllocations] = useState(true);
   const [showSignals, setShowSignals] = useState(true);
+  const [region, setRegion] = useState('US');
+  const [sidebarOpen, setSidebarOpen] = useState(true);
+
+  const regionMap = {
+        US: allocationsUS,
+        EU: allocationsEU,
+        APAC: allocationsAPAC
+      };
+      // current allocations for D3
+  const allocations = regionMap[region];
 
   useEffect(() => {
     const width = 1200;
@@ -288,7 +302,7 @@ const SpectrumView = () => {
 
     svg.call(zoom);
     zoomRef.current = zoom;
-  }, [showAllocations, showSignals]);
+  }, [showAllocations, showSignals, allocations]);
 
   const resetZoom = () => {
     const svg = d3.select(ref.current);
@@ -351,9 +365,10 @@ const SpectrumView = () => {
   };
 
   return (
-    <div style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}>
+    <div className="spectrum-view-container" style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}>
       <h2>SignalAtlas</h2>
   
+      {/* Frequency jump form */}
       <form onSubmit={goToFrequency} style={{ marginBottom: '10px' }}>
         <input
           type="text"
@@ -365,6 +380,7 @@ const SpectrumView = () => {
         <button type="button" onClick={resetZoom} style={{ marginLeft: '10px', padding: '6px 12px' }}>Reset Zoom</button>
       </form>
   
+      {/* Show/hide toggles */}
       <div style={{ marginBottom: '10px' }}>
         <label style={{ marginRight: '20px' }}>
           <input
@@ -386,27 +402,67 @@ const SpectrumView = () => {
         </label>
       </div>
   
-      <div style={{ marginBottom: '10px' }}>
-        {bands.map((band, i) => (
-          <button
-            key={i}
-            onClick={() => zoomToBand(band)}
-            style={{
-              marginRight: '6px',
-              padding: '4px 8px',
-              background: '#222',
-              color: '#fff',
-              border: '1px solid #444'
-            }}
-          >
-            {band.name || band.label}
-          </button>
-        ))}
+      {/* Region selector */}
+      <div className="region-selector" style={{ marginBottom: '10px' }}>
+        <label htmlFor="region-select" style={{ marginRight: '6px', color: '#ccc' }}>Region:</label>
+        <select
+          id="region-select"
+          value={region}
+          onChange={e => setRegion(e.target.value)}
+          style={{
+            padding: '6px',
+            background: '#222',
+            color: 'white',
+            border: '1px solid #444',
+            borderRadius: '4px'
+          }}
+        >
+          <option value="US">United States</option>
+          <option value="EU">Europe</option>
+          {/* add more as needed */}
+        </select>
       </div>
   
+      {/* Collapsible sidebar */}
+      <div className={`band-sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
+        <button
+          className="sidebar-toggle"
+          onClick={() => setSidebarOpen(o => !o)}
+          aria-label={sidebarOpen ? 'Collapse sidebar' : 'Open sidebar'}
+          style={{
+            background: '#222',
+            color: '#fff',
+            border: 'none',
+            padding: '4px 8px',
+            borderRadius: '4px',
+            cursor: 'pointer',
+            marginBottom: '8px'
+          }}
+        >
+          {sidebarOpen ? '«' : '»'}
+        </button>
+  
+        {sidebarOpen && (
+          <div className="buttons-container-wrapper">
+            <div className="buttons-container">
+              {bands.slice(0, 8).map((band, i) => (
+                <button
+                  key={i}
+                  className="band-button"
+                  onClick={() => zoomToBand(band)}
+                >
+                  {band.name || band.label}
+                </button>
+              ))}
+            </div>
+          </div>
+        )}
+      </div>
+  
+      {/* The spectrum SVG */}
       <svg ref={ref} width="100%" height="400px" />
     </div>
-  );  
+  );     
 };
 
 export default SpectrumView;

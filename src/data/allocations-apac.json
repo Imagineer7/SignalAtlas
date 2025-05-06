@@ -1,0 +1,51 @@
+[
+    {
+      "start": 144000000,
+      "end": 146000000,
+      "label": "2m Amateur Radio (APAC)",
+      "description": "Amateur radio band for the Asia-Pacific region in the VHF spectrum.",
+      "type": "amateur",
+      "color": "#a3be8c"
+    },
+    {
+      "start": 40000000,
+      "end": 41000000,
+      "label": "APAC VHF Band (Band I)",
+      "description": "Used for FM radio, television broadcasting, and mobile communications.",
+      "type": "broadcast",
+      "color": "#8fbcbb"
+    },
+    {
+      "start": 170000000,
+      "end": 172000000,
+      "label": "4m Amateur Radio (APAC)",
+      "description": "Amateur radio band in the Asia-Pacific region in the VHF spectrum.",
+      "type": "amateur",
+      "color": "#81a1c1"
+    },
+    {
+      "start": 156000000,
+      "end": 162000000,
+      "label": "Marine VHF Band (APAC)",
+      "description": "Channels for maritime communication and distress.",
+      "type": "marine",
+      "color": "#bf616a"
+    },
+    {
+      "start": 915000000,
+      "end": 928000000,
+      "label": "915 MHz ISM Band (APAC)",
+      "description": "Unlicensed band for IoT, LoRa, and other wireless communication.",
+      "type": "ISM",
+      "color": "#d08770"
+    },
+    {
+      "start": 880000000,
+      "end": 915000000,
+      "label": "UHF TV Band (APAC)",
+      "description": "Band used for television broadcasts in the UHF spectrum.",
+      "type": "broadcast",
+      "color": "#a3be8c"
+    }
+  ]
+  

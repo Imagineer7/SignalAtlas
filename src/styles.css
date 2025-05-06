@@ -1,0 +1,129 @@
+/* Ensure the container is the positioning context */
+.spectrum-view-container {
+    position: relative;
+  }
+  
+  /* The sidebar that holds the buttons */
+  .band-sidebar {
+    position: fixed; /* Fixed positioning to keep it visible while scrolling */
+    top: 100px; /* Adjust the vertical spacing from the top */
+    right: 20px; /* Distance from the right edge */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end; /* Align buttons to the right */
+    z-index: 10; /* Ensure it stays above the SVG */
+  }
+  
+  /* Wrapper for the buttons container */
+  .buttons-container-wrapper {
+    width: 220px; /* Ensure the container has a defined width */
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5); /* Subtle dark background */
+    border-radius: 8px; /* Optional rounded corners for the wrapper */
+    z-index: 1000; /* Ensure it is above other elements */
+  }
+  
+  /* The buttons container (a grid layout) */
+  .buttons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 columns */
+    grid-template-rows: repeat(4, 1fr); /* 4 rows */
+    gap: 10px; /* space between buttons */
+    width: 100%; /* Ensure it doesn't go beyond its parent */
+    padding: 0;
+  }
+  
+  /* Button Styling */
+  .band-button {
+    border: none;
+    background: #222; /* Dark background for the button */
+    color: #fff; /* White text color */
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.25s ease, transform 0.15s ease, box-shadow 0.25s ease;
+    text-align: center; /* Center align text */
+    font-size: 14px;
+    font-weight: bold;
+    box-sizing: border-box; /* Prevents padding from causing overflow */
+  }
+  
+  /* Button hover effect */
+  .band-button:hover,
+  .band-button:focus {
+    background: #333; /* Slightly lighter background on hover */
+    transform: translateX(-4px); /* Slightly shift the button on hover */
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.6); /* Shadow effect */
+  }
+  
+  /* Ensure smooth transitions and focus effects */
+  .band-button:focus {
+    outline: none; /* Remove the default focus outline */
+  }
+  
+  /* Make the button a little bigger and add smooth transitions */
+  .band-button.large {
+    font-size: 16px; /* Larger font size */
+    background: #4caf50; /* Custom background for larger buttons */
+    border-radius: 12px; /* Larger rounded corners */
+  }
+  
+  /* Responsive layout to handle smaller screens */
+  @media (max-width: 768px) {
+    .buttons-container {
+      grid-template-columns: 1fr 1fr; /* Stack the buttons vertically on smaller screens */
+    }
+  }
+/* base sidebar positioning (unchanged) */
+.band-sidebar {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+    transition: width 0.3s ease;
+  }
+  
+  /* OPEN state: width fits the 2×4 grid */
+  .band-sidebar.open {
+    width: 220px; /* same as before */
+  }
+  
+  /* CLOSED state: just a narrow handle */
+  .band-sidebar.closed {
+    width: 30px;
+  }
+  
+  /* toggle handle */
+  .sidebar-toggle {
+    display: block;
+    width: 100%;
+    border: none;
+    background: #222;
+    color: #fff;
+    padding: 4px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    text-align: center;
+    transition: background 0.2s ease;
+  }
+  .sidebar-toggle:hover {
+    background: #333;
+  }
+
+  .region-selector {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* style the <select> to match your dark theme */
+  #region-select {
+    padding: 6px;
+    background: #222;
+    color: #fff;
+    border: 1px solid #444;
+    border-radius: 4px;
+  }
+  
+    
