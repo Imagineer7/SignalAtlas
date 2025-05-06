@@ -1,0 +1,442 @@
+[
+  {
+    "start": 162400000,
+    "end": 162550000,
+    "label": "NOAA Weather Radio",
+    "description": "Continuous VHF weather broadcasts by NOAA.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 121500000,
+    "end": 121500000,
+    "label": "Aviation Emergency (Guard)",
+    "description": "121.5 MHz guard channel for aircraft emergencies.",
+    "type": "aviation",
+    "color": "#bf616a"
+  },
+  {
+    "start": 156000000,
+    "end": 162025000,
+    "label": "Marine VHF Band",
+    "description": "Channels for maritime communication and distress.",
+    "type": "marine",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 137000000,
+    "end": 138000000,
+    "label": "VHF Weather Satellites",
+    "description": "APT and HRPT downlinks from NOAA polar-orbiting satellites.",
+    "type": "satellite",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 26965000,
+    "end": 27405000,
+    "label": "CB Radio (US)",
+    "description": "40 channel Citizens Band Radio service.",
+    "type": "personal",
+    "color": "#d08770"
+  },
+  {
+    "start": 462000000,
+    "end": 467712500,
+    "label": "FRS/GMRS",
+    "description": "Family and General Mobile Radio Services.",
+    "type": "personal",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 1090000000,
+    "end": 1090000000,
+    "label": "ADS-B (Aircraft Beacons)",
+    "description": "1090 MHz extended squitter for aircraft position reporting.",
+    "type": "aviation",
+    "color": "#88c0d0"
+  },
+  {
+    "start": 978000000,
+    "end": 978000000,
+    "label": "UAT (ADS-B In)",
+    "description": "Universal Access Transceiver for general aviation ADS-B.",
+    "type": "aviation",
+    "color": "#b48ead"
+  },
+  {
+    "start": 2400000000,
+    "end": 2483500000,
+    "label": "2.4 GHz ISM Band",
+    "description": "Wi-Fi, Bluetooth, and microwave devices.",
+    "type": "ISM",
+    "color": "#d08770"
+  },
+  {
+    "start": 902000000,
+    "end": 928000000,
+    "label": "902\u2013928 MHz ISM Band",
+    "description": "Unlicensed band for IoT, SCADA, LoRa, and RFID.",
+    "type": "ISM",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 225000000,
+    "end": 400000000,
+    "label": "UHF Military Band",
+    "description": "Voice/data for military aircraft, SATCOM, and tactical systems.",
+    "type": "military",
+    "color": "#bf616a"
+  },
+  {
+    "start": 420000000,
+    "end": 450000000,
+    "label": "70cm Amateur Radio",
+    "description": "Amateur radio and repeater operations in UHF.",
+    "type": "amateur",
+    "color": "#b48ead"
+  },
+  {
+    "start": 530000,
+    "end": 1700000,
+    "label": "AM Broadcast (Medium Wave)",
+    "description": "530 kHz–1.7 MHz medium wave AM radio stations.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 88000000,
+    "end": 108000000,
+    "label": "FM Broadcast (88–108 MHz)",
+    "description": "Commercial FM radio band.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 108000000,
+    "end": 137000000,
+    "label": "VHF Aircraft Communications",
+    "description": "108 MHz–137 MHz civil aviation voice/data.",
+    "type": "aviation",
+    "color": "#bf616a"
+  },
+  {
+    "start": 1575420000,
+    "end": 1575420000,
+    "label": "GPS L1",
+    "description": "1575.42 MHz navigation signal for GPS.",
+    "type": "navigation",
+    "color": "#8fbcbb"
+  },
+  {
+    "start": 1227600000,
+    "end": 1227600000,
+    "label": "GPS L2",
+    "description": "1227.60 MHz navigation signal for GPS.",
+    "type": "navigation",
+    "color": "#8fbcbb"
+  },
+  {
+    "start": 1800000,
+    "end": 2000000,
+    "label": "160 m Amateur Radio",
+    "description": "1.8 MHz–2.0 MHz HF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 3500000,
+    "end": 4000000,
+    "label": "80 m Amateur Radio",
+    "description": "3.5 MHz–4.0 MHz HF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 14000000,
+    "end": 14350000,
+    "label": "20 m Amateur Radio",
+    "description": "14.0 MHz–14.35 MHz HF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 470000000,
+    "end": 608000000,
+    "label": "UHF TV Channels",
+    "description": "470 MHz–608 MHz television broadcasting.",
+    "type": "broadcast",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 5150000000,
+    "end": 5850000000,
+    "label": "5 GHz UNII Bands",
+    "description": "5 GHz wireless LAN (Wi-Fi) U-NII/ISM bands.",
+    "type": "ISM",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 144000000,
+    "end": 148000000,
+    "label": "2 m Amateur Radio",
+    "description": "144 MHz–148 MHz VHF amateur radio band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 28000000,
+    "end": 29700000,
+    "label": "10 m Amateur Radio",
+    "description": "28 MHz–29.7 MHz HF amateur radio band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 161975000,
+    "end": 162025000,
+    "label": "Marine AIS",
+    "description": "161.975 MHz & 162.025 MHz Automatic Identification System for vessels.",
+    "type": "marine",
+    "color": "#5e81ac"
+  },
+  {
+    "start": 108000000,
+    "end": 117975000,
+    "label": "VOR/ILS Navigation",
+    "description": "108 MHz–117.975 MHz VHF airway, VOR, and ILS localizer frequencies.",
+    "type": "aviation",
+    "color": "#bf616a"
+  },
+  {
+    "start": 174000000,
+    "end": 240000000,
+    "label": "DAB Band III",
+    "description": "174 MHz–240 MHz digital audio broadcasting (DAB) band.",
+    "type": "broadcast",
+    "color": "#8fbcbb"
+  },
+  {
+    "start": 380000000,
+    "end": 400000000,
+    "label": "TETRA PMR",
+    "description": "380 MHz–400 MHz Professional Mobile Radio (TETRA) band.",
+    "type": "public-safety",
+    "color": "#bf616a"
+  },
+  {
+    "start": 433050000,
+    "end": 434790000,
+    "label": "433 MHz ISM Band",
+    "description": "433.05 MHz–434.79 MHz unlicensed ISM band (RFID, remote controls).",
+    "type": "ISM",
+    "color": "#ebcb8b"
+  },
+  {
+    "start": 809000000,
+    "end": 824000000,
+    "label": "800 MHz Public Safety (Uplink)",
+    "description": "809 MHz–824 MHz uplink for public safety trunked radio.",
+    "type": "public-safety",
+    "color": "#bf616a"
+  },
+  {
+    "start": 854000000,
+    "end": 869000000,
+    "label": "800 MHz Public Safety (Downlink)",
+    "description": "854 MHz–869 MHz downlink for public safety trunked radio.",
+    "type": "public-safety",
+    "color": "#bf616a"
+  },
+  {
+    "start": 3550000000,
+    "end": 3700000000,
+    "label": "CBRS (Citizens Broadband)",
+    "description": "3.55 GHz–3.7 GHz shared band for private LTE/5G (CBRS).",
+    "type": "commercial",
+    "color": "#d08770"
+  },
+  {
+    "start": 5332000,
+    "end": 5405000,
+    "label": "60 m Amateur Radio",
+    "description": "5.332–5.405 MHz HF amateur allocation (channelized, no voice).",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 7000000,
+    "end": 7300000,
+    "label": "40 m Amateur Radio",
+    "description": "7.0–7.3 MHz HF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 10100000,
+    "end": 10150000,
+    "label": "30 m Amateur Radio",
+    "description": "10.1–10.15 MHz WARC HF band (no voice).",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 18068000,
+    "end": 18168000,
+    "label": "17 m Amateur Radio",
+    "description": "18.068–18.168 MHz WARC HF band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 21000000,
+    "end": 21450000,
+    "label": "15 m Amateur Radio",
+    "description": "21.0–21.45 MHz HF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 24890000,
+    "end": 24990000,
+    "label": "12 m Amateur Radio",
+    "description": "24.89–24.99 MHz WARC HF band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 50000000,
+    "end": 54000000,
+    "label": "6 m Amateur Radio",
+    "description": "50–54 MHz VHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 222000000,
+    "end": 225000000,
+    "label": "1.25 m Amateur Radio",
+    "description": "222–225 MHz VHF/UHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 1240000000,
+    "end": 1300000000,
+    "label": "23 cm Amateur Radio",
+    "description": "1240–1300 MHz UHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 2300000000,
+    "end": 2450000000,
+    "label": "13 cm Amateur Radio",
+    "description": "2300–2450 MHz SHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 3300000000,
+    "end": 3500000000,
+    "label": "9 cm Amateur Radio",
+    "description": "3300–3500 MHz SHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 5650000000,
+    "end": 5925000000,
+    "label": "5 cm Amateur Radio",
+    "description": "5650–5925 MHz SHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 10000000000,
+    "end": 10500000000,
+    "label": "3 cm Amateur Radio",
+    "description": "10.0–10.5 GHz SHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 24000000000,
+    "end": 24250000000,
+    "label": "1.25 cm Amateur Radio",
+    "description": "24.00–24.25 GHz EHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 47000000000,
+    "end": 47200000000,
+    "label": "6 mm Amateur Radio",
+    "description": "47.0–47.2 GHz EHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 76000000000,
+    "end": 81000000000,
+    "label": "4 mm Amateur Radio",
+    "description": "76–81 GHz EHF amateur band.",
+    "type": "amateur",
+    "color": "#a3be8c"
+  },
+  {
+    "start": 2300000,
+    "end": 2495000,
+    "label": "Shortwave Broadcast Band 1",
+    "description": "2.30–2.495 MHz international shortwave broadcasting.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 3900000,
+    "end": 4000000,
+    "label": "Shortwave Broadcast Band 2",
+    "description": "3.9–4.0 MHz international shortwave broadcasting.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 7100000,
+    "end": 7350000,
+    "label": "Shortwave Broadcast Band 4",
+    "description": "7.1–7.35 MHz international shortwave broadcasting.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 11650000,
+    "end": 12100000,
+    "label": "Shortwave Broadcast Band 6",
+    "description": "11.65–12.10 MHz international shortwave broadcasting.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 15100000,
+    "end": 15800000,
+    "label": "Shortwave Broadcast Band 8",
+    "description": "15.1–15.8 MHz international shortwave broadcasting.",
+    "type": "broadcast",
+    "color": "#81a1c1"
+  },
+  {
+    "start": 2750000,
+    "end": 3400000,
+    "label": "Oceanic Aeronautical HF",
+    "description": "2.75–3.4 MHz HF aeronautical communications over oceanic routes.",
+    "type": "aviation",
+    "color": "#bf616a"
+  },
+  {
+    "start": 2182000,
+    "end": 2182000,
+    "label": "Maritime Distress (2182 kHz)",
+    "description": "2182 kHz international voice distress & calling frequency.",
+    "type": "marine",
+    "color": "#5e81ac"
+  }
+]

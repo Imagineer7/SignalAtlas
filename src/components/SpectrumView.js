@@ -3,7 +3,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import bands from '../data/bands.json';
 import allocations from '../data/allocations.json';
-import signals from '../data/signals.json';
+import signals from '../data/detailedbands.json';
 
 const SpectrumView = () => {
   const ref = useRef();
@@ -83,17 +83,39 @@ const SpectrumView = () => {
       .append("title")
       .text(d => `${d.label}: ${d.usage}`);
 
-    allocTextLayer.selectAll("text")
+      allocTextLayer.selectAll("text")
       .data(allocations)
       .enter()
       .append("text")
-      .attr("x", d => (x(d.start) + x(d.end)) / 2)
-      .attr("y", 190)
-      .attr("text-anchor", "middle")
-      .attr("fill", "#aaa")
-      .attr("font-size", "10px")
-      .text(d => d.label)
-      .style("display", d => showAllocations ? "block" : "none");
+        .attr("text-anchor", "middle")
+        .attr("fill", "#aaa")
+        .attr("font-size", "10px")
+        .text(d => d.label);
+        
+      // Collision‐avoidant positioning for allocation labels
+      function styleAllocLabels(scale) {
+        const lanes     = [];
+        const minSpacing = 50;  // px between adjacent labels
+        const baseY      = 190; // first row
+        const lineH      = 14;  // vertical step for each additional row
+
+        allocTextLayer.selectAll("text")
+          .style("opacity", showAllocations ? 1 : 0)   // start visible or hidden
+          .each(function(d) {
+            const cx = (scale(d.start) + scale(d.end)) / 2;
+            let lane = 0;
+            while (lanes[lane] != null && cx - lanes[lane] < minSpacing) {
+              lane++;
+            }
+            lanes[lane] = cx;
+            d3.select(this)
+              .attr("x", cx)
+              .attr("y", baseY + lane * lineH);
+          });
+      }
+
+      // Initial call at load
+      styleAllocLabels(x);
 
     const bandsGroup = zoomLayer.append("g");
 
@@ -134,37 +156,28 @@ const SpectrumView = () => {
 
     hoverLineRef.current = hoverLine;
 
-    const signalCircles = signalGroup.selectAll("circle")
+    signalGroup.selectAll("rect")
       .data(signals)
       .enter()
-      .append("circle")
-      .attr("cx", d => x(d.frequency))
-      .attr("cy", 20)
-      .attr("r", 5)
+      .append("rect")
+      .attr("x", d => x(d.start))
+      .attr("y", 160)
+      .attr("width", d => x(d.end) - x(d.start))
+      .attr("height", 8)
       .attr("fill", d => d.color || "#ff0")
-      .style("cursor", "pointer")
-      .on("click", (_, d) => goToFrequency({ preventDefault: () => {}, target: { elements: { freq: { value: d.frequency.toString() } } } }))
-      .on("mouseover", (_, d) => {
-        hoverLineRef.current
-          .attr("x1", x(d.frequency))
-          .attr("x2", x(d.frequency))
-          .style("display", "block");
-      })
-      .on("mouseout", () => {
-        hoverLineRef.current.style("display", "none");
-      })
+      .attr("opacity", 0.8)
       .append("title")
       .text(d => `${d.label}\n${d.description || ''}`);
 
-    const signalTexts = signalGroup.selectAll("text")
+    signalGroup.selectAll("text")
       .data(signals)
       .enter()
       .append("text")
-      .attr("x", d => x(d.frequency))
-      .attr("y", 35)
+      .attr("x", d => (x(d.start) + x(d.end)) / 2)
+      .attr("y", 167)
       .attr("text-anchor", "middle")
-      .attr("fill", "#ddd")
-      .attr("font-size", "10px")
+      .attr("fill", "#ccc")
+      .attr("font-size", "9px")
       .text(d => d.label);
 
     const marker = markerLayer.append("line")
@@ -197,6 +210,7 @@ const SpectrumView = () => {
       .on("zoom", (event) => {
         const transform = event.transform;
         const zx = transform.rescaleX(x);
+        const zoomLevel = transform.k;
 
         xAxis.tickFormat(formatAxis(zx));
         zoomLayer.select(".x-axis").call(xAxis.scale(zx)).selectAll("text").attr("fill", "#ccc");
@@ -205,9 +219,7 @@ const SpectrumView = () => {
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start));
 
-        allocTextLayer.selectAll("text")
-          .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
-          .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
+          styleAllocLabels(zx);      
 
         zoomLayer.selectAll("rect")
           .attr("x", d => zx(d.start))
@@ -217,22 +229,19 @@ const SpectrumView = () => {
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
-        // Dynamically hide overlapping signal markers and labels
-        const signalPositions = signals.map(d => zx(d.frequency));
-        const signalThreshold = 10; // Minimum px spacing to show labels
+        const showDetailedSignals = zoomLevel > 5000;
 
-        const positions = signals.map(d => zx(d.frequency));
-        signalGroup.selectAll("circle")
-          .attr("cx", d => zx(d.frequency))
-          .transition()
-          .duration(200)
-          .style("opacity", (_, i) => showSignals && (i === 0 || Math.abs(positions[i] - positions[i - 1]) > 20) ? 1 : 0);
+        signalGroup.selectAll("rect")
+          .attr("x", d => zx(d.start))
+          .attr("width", d => zx(d.end) - zx(d.start))
+          .style("opacity", d => showSignals && (zx(d.end) - zx(d.start)) > 1 ? 0.8 : 0);
 
         signalGroup.selectAll("text")
-          .attr("x", d => zx(d.frequency))
-          .transition()
-          .duration(200)
-          .style("opacity", (_, i) => showSignals && (i === 0 || Math.abs(positions[i] - positions[i - 1]) > 20) ? 1 : 0);
+          .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
+          .style("opacity", d => {
+            const width = zx(d.end) - zx(d.start);
+            return showSignals && width > 40 ? 1 : 0;
+          });
 
         if (markerRef.current && markerRef.current.style("display") !== "none") {
           const markerX = +markerRef.current.attr("data-freq");
@@ -242,6 +251,21 @@ const SpectrumView = () => {
         }
 
         if (hoverLineRef.current) hoverLineRef.current.style("display", "none");
+
+        //hide any that are too close to the last one
+        if (showAllocations) {
+        let lastX = -Infinity;
+        const minSpacing = 50; // px between labels—you can tweak this
+
+        allocTextLayer.selectAll("text")
+          .each(function(d) {
+            const cx = (zx(d.start) + zx(d.end)) / 2;
+            if (cx - lastX > minSpacing) {
+              d3.select(this).style("opacity", 1);
+              lastX = cx;
+            }
+          });
+        }
       });
 
     svg.call(zoom);
