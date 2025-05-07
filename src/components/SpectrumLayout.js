@@ -24,6 +24,9 @@ const SpectrumLayout = ({
   setSelectedBand,
   instructionsOpen,
   setInstructionsOpen,
+  detailedBands,
+  suggestions,
+  setSuggestions
 }) => {
   const instructionsRef = useRef(null);
 
@@ -36,24 +39,18 @@ const SpectrumLayout = ({
       <Topbar
         frequency={freqInput}
         onFrequencyChange={setFreqInput}
-        onGo={() => {
-          const fakeEvent = {
-            preventDefault: () => {},
-            target: {
-              elements: {
-                freq: { value: freqInput },
-              },
-            },
-          };
-          goToFrequency(fakeEvent);
-        }}
+        onGo={goToFrequency}
         onReset={resetZoom}
         showAllocations={showAllocations}
         setShowAllocations={setShowAllocations}
         showBands={showBands}
         setShowBands={setShowBands}
-        region={region === 'US' ? 'United States' : region === 'EU' ? 'Europe' : region}
-        setRegion={(r) => setRegion(r === 'United States' ? 'US' : r === 'Europe' ? 'EU' : r)}
+        region={region}
+        setRegion={setRegion}
+        bands={bands}
+        detailedBands={detailedBands}
+        suggestions={suggestions}
+        setSuggestions={setSuggestions}
       />
 
       <button

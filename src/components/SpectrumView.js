@@ -44,6 +44,47 @@ const SpectrumView = () => {
   const [freqInput, setFreqInput] = useState('');
   const [selectedBand, setSelectedBand] = useState(null);
   const [instructionsOpen, setInstructionsOpen] = useState(false);
+  const [suggestions, setSuggestions] = useState([]);
+  const inputRef = useRef();
+
+  const zoomToFrequency = (freq) => {
+    const svg = d3.select(ref.current);
+    const width = svg.node().getBoundingClientRect().width;
+    const x = xScaleRef.current;
+  
+    let bandwidth;
+    if (freq < 1e6) bandwidth = 20_000;                  // < 1 MHz: narrow view
+    else if (freq < 30e6) bandwidth = 1_000_000;           // HF: zoom close
+    else if (freq < 300e6) bandwidth = 10_000_000;          // VHF
+    else if (freq < 1e9) bandwidth = 150_000_000;          // UHF
+    else if (freq < 5e9) bandwidth = 500_000_000;         // SHF
+    else bandwidth = 10_000_000_000;                         // EHF and beyond
+
+    const scale = width / (x(freq + bandwidth / 2) - x(freq - bandwidth / 2));
+    const tx = -x(freq) * scale + width / 2;
+    const transform = d3.zoomIdentity.translate(tx, 0).scale(scale);
+  
+    svg.transition().duration(500).call(zoomRef.current.transform, transform);
+  
+    if (markerRef.current) {
+      markerRef.current
+        .attr("x1", x(freq))
+        .attr("x2", x(freq))
+        .attr("data-freq", freq)
+        .style("display", "block");
+    }
+  
+    if (markerLabelRef.current) {
+      const label = freq >= 1e9 ? `${(freq / 1e9).toFixed(3)} GHz`
+        : freq >= 1e6 ? `${(freq / 1e6).toFixed(3)} MHz`
+        : freq >= 1e3 ? `${(freq / 1e3).toFixed(3)} kHz`
+        : `${freq.toFixed(0)} Hz`;
+      markerLabelRef.current
+        .attr("x", x(freq))
+        .text(label)
+        .style("display", "block");
+    }
+  };  
 
   const instructionsRef = useRef();
 
@@ -81,6 +122,15 @@ const SpectrumView = () => {
       .attr("viewBox", `0 0 ${width} ${height}`)
       .style("background", "#1e1e1e");
 
+    svg.append("defs").append("filter")
+      .attr("id", "glow")
+      .append("feDropShadow")
+      .attr("dx", 0)
+      .attr("dy", 0)
+      .attr("stdDeviation", 2)
+      .attr("flood-color", "#fff")
+      .attr("flood-opacity", 0.7);    
+    
     svg.append("defs")
       .append("pattern")
       .attr("id", "diagonal-stripes")
@@ -260,11 +310,29 @@ const SpectrumView = () => {
         .attr("fill", d.color || "#ff0")
         .attr("opacity", 0.8)
         .style("cursor", "pointer")
+        .on("mouseover", function () {
+          d3.select(this)
+            .transition()
+            .duration(150)
+            .attr("height", 12)
+            .attr("y", detailedBandBaseY + lane * detailedBandLineHeight - 2)
+            .attr("opacity", 1)
+            .attr("filter", "url(#glow)");
+        })
+        .on("mouseout", function () {
+          d3.select(this)
+            .transition()
+            .duration(150)
+            .attr("height", 8)
+            .attr("y", detailedBandBaseY + lane * detailedBandLineHeight)
+            .attr("opacity", 0.8)
+            .attr("filter", null);
+        })        
         .on("click", () => {
           const found = subbandDetails.find(b =>
             b.label === d.label || (b.start === d.start && b.end === d.end)
           );
-          setSelectedBand(found || d); // fallback to showing d if no match
+          setSelectedBand(found || d);
         })
         .append("title")
         .text(`${d.label}\n${d.description || ''}`);
@@ -282,6 +350,7 @@ const SpectrumView = () => {
     .attr("fill", "#ccc")
     .attr("font-size", "9px")
     .text(d => d.label)
+    .style("pointer-events", "none")
     .each(function(d) {
       const widthPx = x(d.end) - x(d.start);
       truncateToFit(this, d.label, widthPx);
@@ -407,41 +476,29 @@ const SpectrumView = () => {
   const goToFrequency = (e) => {
     e.preventDefault();
     const input = e.target.elements.freq.value.trim().toLowerCase();
+  
+    // Try to parse input as frequency
     let freq = parseFloat(input);
     if (input.includes("ghz")) freq *= 1e9;
     else if (input.includes("mhz")) freq *= 1e6;
     else if (input.includes("khz")) freq *= 1e3;
-    if (isNaN(freq)) return;
-
-    const svg = d3.select(ref.current);
-    const width = svg.node().getBoundingClientRect().width;
-    const x = xScaleRef.current;
-
-    const bandwidth = 100_000;
-    const scale = width / (x(freq + bandwidth / 2) - x(freq - bandwidth / 2));
-    const tx = -x(freq) * scale + width / 2;
-    const transform = d3.zoomIdentity.translate(tx, 0).scale(scale);
-
-    svg.transition().duration(500).call(zoomRef.current.transform, transform);
-
-    if (markerRef.current) {
-      markerRef.current
-        .attr("x1", x(freq))
-        .attr("x2", x(freq))
-        .attr("data-freq", freq)
-        .style("display", "block");
+  
+    // If it's a valid frequency, zoom to it
+    if (!isNaN(freq)) {
+      zoomToFrequency(freq);
+      return;
     }
-    if (markerLabelRef.current) {
-      const label = freq >= 1e9 ? `${(freq / 1e9).toFixed(3)} GHz`
-        : freq >= 1e6 ? `${(freq / 1e6).toFixed(3)} MHz`
-        : freq >= 1e3 ? `${(freq / 1e3).toFixed(3)} kHz`
-        : `${freq.toFixed(0)} Hz`;
-      markerLabelRef.current
-        .attr("x", x(freq))
-        .text(label)
-        .style("display", "block");
+  
+    // Otherwise, try to match by label
+    const allBands = [...bands, ...detailedBands];
+    const match = allBands.find(b =>
+      b.label?.toLowerCase() === input || b.name?.toLowerCase() === input
+    );
+  
+    if (match) {
+      zoomToBand(match);
     }
-  };
+  };  
 
   //const toggleAllocations = () => {
   //  setShowAllocations(prev => !prev);
@@ -468,6 +525,9 @@ const SpectrumView = () => {
       setSelectedBand={setSelectedBand}
       instructionsOpen={instructionsOpen}
       setInstructionsOpen={setInstructionsOpen}
+      detailedBands={detailedBands}
+      suggestions={suggestions}
+      setSuggestions={setSuggestions}
     />
   );        
 };
