@@ -106,22 +106,29 @@ const SpectrumView = () => {
   }, [instructionsOpen]);
 
   const regionMap = {
-        US: allocationsUS,
-        EU: allocationsEU,
-        APAC: allocationsAPAC
-      };
-  const allocations = regionMap[region];
-
+    US: allocationsUS,
+    EU: allocationsEU,
+    APAC: allocationsAPAC,
+  };
+  
+  // Ensure allocations are updated when the region changes
+  const allocations = regionMap[region] || [];  // Fallback to an empty array if allocations not found
+  
   useEffect(() => {
+    console.log('Region changed:', region);
+    console.log('Allocations:', allocations);
+  
     const width = 1200;
     const height = 300;
-
+  
+    // Clear the SVG
     d3.select(ref.current).selectAll("*").remove();
-
+  
     const svg = d3.select(ref.current)
       .attr("viewBox", `0 0 ${width} ${height}`)
       .style("background", "#1e1e1e");
-
+  
+    // Add glow effect for hover
     svg.append("defs").append("filter")
       .attr("id", "glow")
       .append("feDropShadow")
@@ -129,8 +136,9 @@ const SpectrumView = () => {
       .attr("dy", 0)
       .attr("stdDeviation", 2)
       .attr("flood-color", "#fff")
-      .attr("flood-opacity", 0.7);    
-    
+      .attr("flood-opacity", 0.7);
+  
+    // Add diagonal stripes pattern
     svg.append("defs")
       .append("pattern")
       .attr("id", "diagonal-stripes")
@@ -142,29 +150,32 @@ const SpectrumView = () => {
       .attr("stroke", "white")
       .attr("stroke-opacity", 0.05)
       .attr("stroke-width", 1);
-
+  
+    // Layers for different parts of the spectrum
     const zoomLayer = svg.append("g").attr("class", "zoom-layer");
     const allocLayer = svg.append("g").attr("class", "alloc-layer");
     const allocTextLayer = svg.append("g").attr("class", "alloc-text-layer");
     const labelLayer = svg.append("g").attr("class", "label-layer");
     const markerLayer = svg.append("g").attr("class", "marker-layer");
     const bandGroup = svg.append("g").attr("class", "band-group");
-
+  
+    // Define the scale for the x-axis
     const x = d3.scaleLinear()
       .domain([0, 300_000_000_000])
       .range([margin.left, width - margin.right]);
-
+  
     xScaleRef.current = x;
-
+  
     const xAxis = d3.axisBottom(x).ticks(12);
-
+  
     zoomLayer.append("g")
       .attr("transform", `translate(0, ${height - margin.bottom})`)
       .attr("class", "x-axis")
       .call(xAxis)
       .selectAll("text")
       .attr("fill", "#ccc");
-
+  
+    // Helper function to format the axis labels
     const formatAxis = (scale) => {
       const visibleHz = scale.domain()[1] - scale.domain()[0];
       if (visibleHz < 1_000) return d => `${d.toFixed(0)} Hz`;
@@ -172,9 +183,10 @@ const SpectrumView = () => {
       if (visibleHz < 1_000_000_000) return d => `${(d / 1e6).toFixed(2)} MHz`;
       return d => `${(d / 1e9).toFixed(2)} GHz`;
     };
-
+  
+    // Render the allocations
     allocLayer.selectAll("rect")
-      .data(allocations)
+      .data(allocations)  // Using the updated allocations data
       .enter()
       .append("rect")
       .attr("x", d => x(d.start))
@@ -187,7 +199,8 @@ const SpectrumView = () => {
       .style("display", showAllocations ? "block" : "none")
       .append("title")
       .text(d => `${d.label}: ${d.usage}`);
-
+  
+    // Render the allocation labels
     const allocLabels = allocTextLayer.selectAll("text").data(allocations);
     allocLabels.exit().remove();
     allocLabels.enter()
@@ -199,41 +212,41 @@ const SpectrumView = () => {
       .attr("y", -9999)
       .merge(allocLabels)
       .text(d => d.label);
-
+  
     function styleAllocLabels(scale) {
       const lanes = [];
       const minSpacing = 50;
       const baseY = 190;
       const lineH = 14;
       const minWidthPx = 30;
-
+  
       allocTextLayer.selectAll("text")
         .each(function(d) {
           const cx = (scale(d.start) + scale(d.end)) / 2;
           const widthPx = scale(d.end) - scale(d.start);
-
+  
           if (!showAllocations || widthPx < minWidthPx) {
             return d3.select(this).style("opacity", 0);
           }
-
+  
           let lane = 0;
           while (lanes[lane] != null && cx - lanes[lane] < minSpacing) {
             lane++;
           }
           lanes[lane] = cx;
-
+  
           d3.select(this)
             .attr("x", cx)
             .attr("y", baseY + lane * lineH)
             .style("opacity", 1);
-
+  
           if (widthPx < 10) {
             return d3.select(this).style("opacity", 0);
           }
           truncateToFit(this, d.label, widthPx);
         });
     }
-
+  
     styleAllocLabels(x);
 
     const bandsGroup = zoomLayer.append("g");
@@ -464,7 +477,7 @@ const SpectrumView = () => {
       svg.call(zoom.transform, d3.zoomIdentity);
     }, 0);
 
-  }, [showAllocations, showBands, allocations, margin.bottom, margin.left, margin.right]);
+  }, [region, allocations, showAllocations, margin.bottom, margin.left, margin.right]);
 
   const resetZoom = () => {
     const svg = d3.select(ref.current);
@@ -553,6 +566,7 @@ const SpectrumView = () => {
       detailedBands={detailedBands}
       suggestions={suggestions}
       setSuggestions={setSuggestions}
+      allocations={allocations}
     />
   );        
 };

@@ -1,219 +1,242 @@
 [
-    {
-        "start": 164000000,
-        "end": 167000000,
-        "label": "Earth Exploration-Satellite (Passive)",
-        "description": "Used for satellite-based measurement of water vapour and atmospheric sounding.",
-        "type": "satellite",
-        "color": "#3498db"
-      },
-      {
-        "start": 167000000,
-        "end": 174500000,
-        "label": "Fixed, Mobile, and Inter-Satellite",
-        "description": "Communication between fixed points and satellites, also used for mobile services.",
-        "type": "satellite",
-        "color": "#e74c3c"
-      },
-      {
-        "start": 174500000,
-        "end": 174800000,
-        "label": "Mobile and Inter-Satellite",
-        "description": "Used for mobile communications and space-based satellite services.",
-        "type": "mobile",
-        "color": "#2ecc71"
-      },
-      {
-        "start": 174800000,
-        "end": 182000000,
-        "label": "Earth Exploration-Satellite (Passive)",
-        "description": "Satellite sensing of atmospheric conditions, including water vapour.",
-        "type": "satellite",
-        "color": "#9b59b6"
-      },
-      {
-        "start": 182000000,
-        "end": 185000000,
-        "label": "Radio Astronomy",
-        "description": "Used for radio astronomy observations, including continuum and spectral line observations.",
-        "type": "science",
-        "color": "#f39c12"
-      },
-      {
-        "start": 185000000,
-        "end": 190000000,
-        "label": "Earth Exploration-Satellite (Passive)",
-        "description": "Used for passive satellite sensing of atmospheric conditions.",
-        "type": "satellite",
-        "color": "#f1c40f"
-      },
-      {
-        "start": 2290000000,
-        "end": 2300000000,
-        "label": "Mobile and Fixed Satellite",
-        "description": "Used for fixed and mobile satellite communication, deep space research.",
-        "type": "satellite",
-        "color": "#e67e22"
-      },
-      {
-        "start": 2300000000,
-        "end": 2400000000,
-        "label": "Fixed, Mobile, and Amateur Radio",
-        "description": "Includes use for fixed and mobile systems, as well as amateur radio services.",
-        "type": "amateur",
-        "color": "#e74c3c"
-      },
-      {
-        "start": 230000000,
-        "end": 231000000,
-        "label": "Mobile Satellite (Uplink)",
-        "description": "Used for uplink communication between earth stations and satellites.",
-        "type": "satellite",
-        "color": "#3498db"
-      },
-      {
-        "start": 231000000,
-        "end": 232500000,
-        "label": "Mobile Satellite (Downlink)",
-        "description": "Downlink communication from satellites to earth stations.",
-        "type": "satellite",
-        "color": "#e74c3c"
-      },
-      {
-        "start": 232500000,
-        "end": 234000000,
-        "label": "Amateur Radio and Earth Exploration",
-        "description": "Used for amateur radio and satellite-based earth observation.",
-        "type": "amateur",
-        "color": "#2ecc71"
-      },
-      {
-        "start": 234000000,
-        "end": 235000000,
-        "label": "Satellite Mobile Communication",
-        "description": "Used for mobile satellite communication for remote areas.",
-        "type": "satellite",
-        "color": "#9b59b6"
-      },
-      {
-        "start": 235000000,
-        "end": 237500000,
-        "label": "Fixed and Mobile Satellite Communication",
-        "description": "Used for fixed and mobile satellite communications.",
-        "type": "satellite",
-        "color": "#f39c12"
-      },
-      {
-        "start": 237500000,
-        "end": 240000000,
-        "label": "Satellite and Terrestrial Communication",
-        "description": "Used for both satellite and terrestrial communication services.",
-        "type": "satellite",
-        "color": "#f1c40f"
-      },
-      {
-        "start": 2800000000,
-        "end": 2835000000,
-        "label": "Fixed Satellite Services (FSS)",
-        "description": "Used for fixed satellite communication, including data and video services.",
-        "type": "satellite",
-        "color": "#e67e22"
-      },
-      {
-        "start": 2835000000,
-        "end": 2920000000,
-        "label": "Mobile Satellite Services (MSS)",
-        "description": "Mobile satellite services used for communication, including voice and data services.",
-        "type": "satellite",
-        "color": "#f39c12"
-      },
-      {
-        "start": 2920000000,
-        "end": 2980000000,
-        "label": "Radio Astronomy",
-        "description": "Allocated for radio astronomy observations.",
-        "type": "science",
-        "color": "#9b59b6"
-      },
-      {
-        "start": 2980000000,
-        "end": 3000000000,
-        "label": "Satellite Communication (Uplink and Downlink)",
-        "description": "Uplink and downlink communication for satellite systems.",
-        "type": "satellite",
-        "color": "#f1c40f"
-      },
-      {
-        "start": 3000000000,
-        "end": 3100000000,
-        "label": "Fixed Satellite Service (FSS)",
-        "description": "Used for satellite communication in the fixed satellite service.",
-        "type": "satellite",
-        "color": "#3498db"
-      },
-      {
-        "start": 3100000000,
-        "end": 3300000000,
-        "label": "Mobile Satellite Communication (MSS)",
-        "description": "Communication services used for mobile satellite communication in remote areas.",
-        "type": "satellite",
-        "color": "#e74c3c"
-      },
-      {
-        "start": 0,
-        "end": 8300,
-        "label": "Not Allocated",
-        "description": "Not allocated for any specific purpose.",
-        "type": "none",
-        "color": "#555"
-      },
-      {
-        "start": 8300,
-        "end": 9000,
-        "label": "Meteorological Aids",
-        "description": "Used for meteorological aids such as lightning detection systems.",
-        "type": "meteorological",
-        "color": "#a3be8c"
-      },
-      {
-        "start": 9000,
-        "end": 11300,
-        "label": "Meteorological Aids & Radionavigation",
-        "description": "Band used for meteorological aids and radionavigation.",
-        "type": "mixed",
-        "color": "#5e81ac"
-      },
-      {
-        "start": 11300,
-        "end": 14000,
-        "label": "Fixed & Maritime Mobile",
-        "description": "Used for fixed and maritime mobile communication.",
-        "type": "maritime",
-        "color": "#88c0d0"
-      },
-      {
-        "start": 14000,
-        "end": 19950,
-        "label": "Fixed & Maritime Mobile (Further allocations)",
-        "description": "Further maritime mobile and fixed communication bands.",
-        "type": "maritime",
-        "color": "#ebcb8b"
-      },
-      {
-        "start": 19950,
-        "end": 20050,
-        "label": "Standard Frequency and Time Signal (20 kHz)",
-        "description": "Used for standard frequency and time signals.",
-        "type": "standard",
-        "color": "#b48ead"
-      },
-      {
-        "start": 20050,
-        "end": 70000,
-        "label": "Fixed & Maritime Mobile (Further allocations)",
-        "description": "Further allocation for fixed and maritime mobile.",
-        "type": "maritime",
-        "color": "#a3be8c"
-      }
-  ]
-  
+  {
+    "start": 0,
+    "end": 9000,
+    "label": "Not Allocated",
+    "usage": "Not Allocated",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 9000,
+    "end": 14000,
+    "label": "Radio Navigation",
+    "usage": "Radio Navigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 14000,
+    "end": 19950,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 19950,
+    "end": 20050,
+    "label": "Standard Frequency & Time Signal",
+    "usage": "Time Signal",
+    "color": "#5e81ac",
+    "secondary": false
+  },
+  {
+    "start": 20050,
+    "end": 59000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 59000,
+    "end": 61000,
+    "label": "Standard Frequency & Time Signal",
+    "usage": "Time Signal",
+    "color": "#5e81ac",
+    "secondary": false
+  },
+  {
+    "start": 61000,
+    "end": 70000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 70000,
+    "end": 90000,
+    "label": "Maritime Mobile, Radiolocation, Fixed",
+    "usage": "Maritime Mobile, Radiolocation, Fixed",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 90000,
+    "end": 110000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 110000,
+    "end": 130000,
+    "label": "Fixed, Radiolocation, Maritime Mobile",
+    "usage": "Fixed, Radiolocation, Maritime Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 130000,
+    "end": 160000,
+    "label": "Fixed, Maritime Mobile",
+    "usage": "Fixed, Maritime Mobile",
+    "color": "#d08750",
+    "secondary": false
+  },
+  {
+    "start": 160000,
+    "end": 190000,
+    "label": "Maritime Mobile, Fixed",
+    "usage": "Maritime Mobile, Fixed",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 190000,
+    "end": 415000,
+    "label": "Aeronautical Radionavigation",
+    "usage": "Radionavigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 200000,
+    "end": 275000,
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 275000,
+    "end": 285000,
+    "label": "Maritime Radionavigation",
+    "usage": "Radionavigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 285000,
+    "end": 300000,
+    "label": "Aeronautical & Maritime Radionavigation",
+    "usage": "Radionavigation",
+    "color": "#ebcb8a",
+    "secondary": true
+  },
+  {
+    "start": 300000,
+    "end": 325000,
+    "label": "Maritime Radionavigation (Radiobeacons)",
+    "usage": "Radio Navigation",
+    "color": "#ebcb8b",
+    "secondary": false
+  },
+  {
+    "start": 325000,
+    "end": 335000,
+    "label": "Maritime Radionavigation, Maritime Mobile",
+    "usage": "Radio Navigation",
+    "color": "#ebcb9a",
+    "secondary": false
+  },
+  {
+    "start": 335000,
+    "end": 415000,
+    "label": "Aeronautical Mobile",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": true
+  },
+  {
+    "start": 415000,
+    "end": 495000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 495000,
+    "end": 505000,
+    "label": "Standard Frequency & Time Signal",
+    "usage": "Time Signal",
+    "color": "#5e81ac",
+    "secondary": false
+  },
+  {
+    "start": 505000,
+    "end": 525000,
+    "label": "Maritime Mobile",
+    "usage": "Maritime Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 525000,
+    "end": 535000,
+    "label": "Aeronautical Radionavigation (Radiobeacons)",
+    "usage": "Radionavigation",
+    "color": "#ebcb8b",
+    "secondary": true
+  },
+  {
+    "start": 535000,
+    "end": 1705000,
+    "label": "AM Broadcasting",
+    "usage": "Broadcasting",
+    "color": "#b48ead",
+    "secondary": false
+  },
+  {
+    "start": 1705000,
+    "end": 2501000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 2501000,
+    "end": 2502000,
+    "label": "Space Research",
+    "usage": "Space Research",
+    "color": "#8fbcbb",
+    "secondary": true
+  },
+  {
+    "start": 2502000,
+    "end": 3000000,
+    "label": "Fixed, Mobile",
+    "usage": "Fixed, Mobile",
+    "color": "#d08770",
+    "secondary": false
+  },
+  {
+    "start": 3000000,
+    "end": 3300000,
+    "label": "Aeronautical Mobile (R)",
+    "usage": "Aeronautical Mobile",
+    "color": "#a3be8c",
+    "secondary": false
+  },
+  {
+    "start": 3300000,
+    "end": 3500000,
+    "label": "Radiolocation",
+    "usage": "Radiolocation",
+    "color": "#bf616a",
+    "secondary": false
+  },
+  {
+    "start": 3500000,
+    "end": 4000000,
+    "label": "Amateur (80 m band)",
+    "usage": "Amateur",
+    "color": "#88c0d0",
+    "secondary": false
+  }
+]
