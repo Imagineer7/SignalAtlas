@@ -574,42 +574,43 @@ const SpectrumView = () => {
                   const laneSpacing = 12;
                   const externalLabelThreshold = 40;
 
-                  selectedBand.subbands.forEach((sb) => {
+                  selectedBand.subbands.forEach((sb, i) => {
                     const xStart = scale(sb.start);
                     const xEnd = scale(sb.end);
                     const barWidth = xEnd - xStart;
                     const fill = getModeColor(sb.mode);
                     const centerX = (xStart + xEnd) / 2;
-                    const label = sb.label.length > 30 ? sb.label.slice(0, 27) + '…' : sb.label;
-
-                    // Draw the main subband bar
-                    svg.append("rect")
-                      .attr("x", xStart)
+                    const label = sb.label.length > 20 ? sb.label.slice(0, 17) + '…' : sb.label;
+                  
+                    // Subband bar with animation
+                    svg.selectAll(`.subband-bar-${i}`)
+                      .data([sb])
+                      .join("rect")
+                      .attr("class", `subband-bar-${i}`)
                       .attr("y", 20)
-                      .attr("width", barWidth)
                       .attr("height", 12)
-                      .attr("fill", fill);
-
-                      console.log({
-                        label: sb.label,
-                        barWidth,
-                        centerX,
-                        start: sb.start,
-                        end: sb.end
-                      });                      
-
+                      .attr("fill", fill)
+                      .attr("x", xStart)
+                      .attr("width", 0)
+                      .transition()
+                      .duration(400)
+                      .attr("width", barWidth);
+                  
                     if (barWidth >= externalLabelThreshold) {
-                      // Inline label for wide enough bands
+                      // Inline label with fade-in
                       svg.append("text")
                         .attr("x", centerX)
                         .attr("y", 30)
                         .attr("text-anchor", "middle")
                         .attr("fill", "#fff")
                         .attr("font-size", "10px")
-                        .text(label);
+                        .style("opacity", 0)
+                        .text(label)
+                        .transition()
+                        .duration(300)
+                        .style("opacity", 1);
                     } else {
-                      // === External Label Placement ===
-                      // Find a lane with no conflicts
+                      // External label placement
                       let lane = 0;
                       while (
                         labelLanes[lane]?.some(pos => Math.abs(pos - centerX) < 50)
@@ -618,28 +619,35 @@ const SpectrumView = () => {
                       }
                       if (!labelLanes[lane]) labelLanes[lane] = [];
                       labelLanes[lane].push(centerX);
-
+                  
                       const labelY = 10 - lane * laneSpacing;
-
-                      // Draw external label above the bar
+                  
+                      // Fade-in external label
                       svg.append("text")
                         .attr("x", centerX)
                         .attr("y", labelY)
                         .attr("text-anchor", "middle")
                         .attr("fill", "#ccc")
                         .attr("font-size", "9px")
-                        .text(label);
-
-                      // Draw connector line from label to band
+                        .style("opacity", 0)
+                        .text(label)
+                        .transition()
+                        .duration(300)
+                        .style("opacity", 1);
+                  
+                      // Animate connector line growing downward
                       svg.append("line")
                         .attr("x1", centerX)
                         .attr("x2", centerX)
                         .attr("y1", labelY + 2)
-                        .attr("y2", 20)
+                        .attr("y2", labelY + 2)
                         .attr("stroke", "#999")
-                        .attr("stroke-width", 1);
+                        .attr("stroke-width", 1)
+                        .transition()
+                        .duration(400)
+                        .attr("y2", 20);
                     }
-                  });
+                  });                                    
                 }}
                 style={{ width: '100%', height: '70px', marginTop: '10px' }}
               />
