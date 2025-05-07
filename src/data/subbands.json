@@ -34,11 +34,11 @@
       "start": 5332000,
       "end": 5405000,
       "subbands": [
-        { "start": 5332000, "end": 5346000, "label": "Channel 1", "mode": "Digital" },
-        { "start": 5346000, "end": 5358000, "label": "Channel 2", "mode": "Digital" },
-        { "start": 5358000, "end": 5370000, "label": "Channel 3", "mode": "Digital" },
-        { "start": 5370000, "end": 5382000, "label": "Channel 4", "mode": "Digital" },
-        { "start": 5403000, "end": 5405000, "label": "Channel 5", "mode": "Digital" }
+        { "start": 5332000, "end": 5346000, "label": "Ch 1", "mode": "Digital" },
+        { "start": 5346000, "end": 5358000, "label": "Ch 2", "mode": "Digital" },
+        { "start": 5358000, "end": 5370000, "label": "Ch 3", "mode": "Digital" },
+        { "start": 5370000, "end": 5382000, "label": "Ch 4", "mode": "Digital" },
+        { "start": 5403000, "end": 5405000, "label": "Ch 5", "mode": "Digital" }
       ]
     },
     {
@@ -220,6 +220,33 @@
           { "start": 77500000000, "end": 78000000000, "label": "All Modes", "mode": "CW/SSB/FM/Digital" },
           { "start": 78000000000, "end": 81000000000, "label": "All Modes", "mode": "CW/SSB/FM/Digital" }
         ]
+      },
+      {
+        "band": "5.8 GHz FPV Video",
+        "start": 5725000000,
+        "end": 5875000000,
+        "subbands": [
+          { "start": 5725000000, "end": 5730000000, "label": "Ch 1", "mode": "Analogue / Digital" },
+          { "start": 5730000000, "end": 5735000000, "label": "Ch 2", "mode": "Analogue / Digital" },
+          { "start": 5735000000, "end": 5740000000, "label": "Ch 3", "mode": "Analogue / Digital" },
+          { "start": 5740000000, "end": 5745000000, "label": "Ch 4", "mode": "Analogue / Digital" },
+          { "start": 5745000000, "end": 5750000000, "label": "Ch 5", "mode": "Analogue / Digital" },
+          { "start": 5750000000, "end": 5755000000, "label": "Ch 6", "mode": "Analogue / Digital" },
+          { "start": 5755000000, "end": 5760000000, "label": "Ch 7", "mode": "Analogue / Digital" },
+          { "start": 5760000000, "end": 5765000000, "label": "Ch 8", "mode": "Analogue / Digital" },
+          { "start": 5765000000, "end": 5770000000, "label": "Ch 9", "mode": "Analogue / Digital" },
+          { "start": 5770000000, "end": 5775000000, "label": "Ch 10", "mode": "Analogue / Digital" },
+          { "start": 5775000000, "end": 5780000000, "label": "Ch 11", "mode": "Analogue / Digital" },
+          { "start": 5780000000, "end": 5785000000, "label": "Ch 12", "mode": "Analogue / Digital" },
+          { "start": 5785000000, "end": 5790000000, "label": "Ch 13", "mode": "Analogue / Digital" },
+          { "start": 5790000000, "end": 5795000000, "label": "Ch 14", "mode": "Analogue / Digital" },
+          { "start": 5795000000, "end": 5800000000, "label": "Ch 15", "mode": "Analogue / Digital" },
+          { "start": 5800000000, "end": 5805000000, "label": "Ch 16", "mode": "Analogue / Digital" },
+          { "start": 5805000000, "end": 5810000000, "label": "Ch 17", "mode": "Analogue / Digital" },
+          { "start": 5810000000, "end": 5815000000, "label": "Ch 18", "mode": "Analogue / Digital" },
+          { "start": 5815000000, "end": 5820000000, "label": "Ch 19", "mode": "Analogue / Digital" }
+        ]
       }
+      
   ]
   
