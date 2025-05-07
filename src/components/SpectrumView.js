@@ -519,79 +519,87 @@ const SpectrumView = () => {
   
           {selectedBand.subbands && (
             <>
-              {/* Visual Subband Spectrum */}
-              <div style={{ width: '100%', overflowX: 'auto' }}>
-                <svg
-                  ref={(el) => {
-                    if (!el || !selectedBand) return;
+              {/* Visual Subband Spectrum with Labels and Responsive Height */}
+              <svg
+                ref={(el) => {
+                  if (!el || !selectedBand) return;
+                  const svg = d3.select(el);
+                  svg.selectAll("*").remove();
 
-                    const containerWidth = el.clientWidth;
-                    const svg = d3.select(el);
-                    svg.selectAll('*').remove();
+                  const width = el.getBoundingClientRect().width;
+                  const height = 70;
+                  svg.attr("width", width).attr("height", height);
 
-                    const modeColors = {
-                      'rtty': '#bf616a',
-                      'phone': '#a3be8c',
-                      'image': '#a3be8c',
-                      'cw': '#888888',
-                      'ssb phone only': '#ebcb8b',
-                      'usb phone cw rtty and data': '#5e81ac',
-                      'fixed digital forwarding systems only': '#d08770',
-                      'digital': '#bf616a',
-                      'ssb': '#ebcb8b'
-                    };
+                  const modeColors = {
+                    'rtty': '#bf616a',
+                    'phone': '#a3be8c',
+                    'image': '#a3be8c',
+                    'cw': '#888888',
+                    'ssb phone only': '#ebcb8b',
+                    'usb phone cw rtty and data': '#5e81ac',
+                    'fixed digital forwarding systems only': '#d08770',
+                    'digital': '#bf616a',
+                    'ssb': '#ebcb8b'
+                  };
 
-                    const barY = 15;
-                    const barHeight = 10;
-                    const labelY = 48;
+                  const scale = d3.scaleLinear()
+                    .domain([selectedBand.start, selectedBand.end])
+                    .range([0, width]);
 
-                    const scale = d3.scaleLinear()
-                      .domain([selectedBand.start, selectedBand.end])
-                      .range([0, containerWidth]);
+                  // Background bar
+                  svg.append("rect")
+                    .attr("x", 0)
+                    .attr("y", 20)
+                    .attr("width", width)
+                    .attr("height", 12)
+                    .attr("fill", "#333");
 
-                    // Draw base band bar
-                    svg.append('rect')
-                      .attr('x', 0)
-                      .attr('y', barY)
-                      .attr('width', containerWidth)
-                      .attr('height', barHeight)
-                      .attr('fill', '#333');
+                  // Subband colored bars and labels
+                  selectedBand.subbands.forEach((sb) => {
+                    const xStart = scale(sb.start);
+                    const xEnd = scale(sb.end);
+                    const barWidth = xEnd - xStart;
+                    const fill = modeColors[(sb.mode || '').trim().toLowerCase()] || '#88c0d0';
 
-                    // Draw subbands
-                    selectedBand.subbands.forEach(sb => {
-                      svg.append('rect')
-                        .attr('x', scale(sb.start))
-                        .attr('y', barY)
-                        .attr('width', scale(sb.end) - scale(sb.start))
-                        .attr('height', barHeight)
-                        .attr('fill', modeColors[(sb.mode || '').trim().toLowerCase()] || '#88c0d0');
-                    });
+                    svg.append("rect")
+                      .attr("x", xStart)
+                      .attr("y", 20)
+                      .attr("width", barWidth)
+                      .attr("height", 12)
+                      .attr("fill", fill);
 
-                    // Draw tick marks and labels
-                    const ticks = d3.ticks(selectedBand.start, selectedBand.end, 6);
-                    ticks.forEach(freq => {
-                      const x = scale(freq);
-                      svg.append('line')
-                        .attr('x1', x)
-                        .attr('x2', x)
-                        .attr('y1', barY + barHeight)
-                        .attr('y2', barY + barHeight + 6)
-                        .attr('stroke', '#aaa')
-                        .attr('stroke-width', 1);
-                      svg.append('text')
-                        .attr('x', x)
-                        .attr('y', labelY)
-                        .attr('text-anchor', 'middle')
-                        .attr('font-size', '10px')
-                        .attr('fill', '#ccc')
-                        .text(`${(freq / 1e6).toFixed(3)} MHz`);
-                    });
-                  }}
-                  width="100%"
-                  height="60"
-                  style={{ marginTop: '10px' }}
-                />
-              </div>
+                    if (barWidth > 30) {
+                      svg.append("text")
+                        .attr("x", xStart + barWidth / 2)
+                        .attr("y", 30)
+                        .attr("text-anchor", "middle")
+                        .attr("fill", "#fff")
+                        .attr("font-size", "10px")
+                        .text(sb.label.length > 20 ? sb.label.slice(0, 17) + '…' : sb.label);
+                    }
+                  });
+
+                  // Frequency ticks
+                  d3.ticks(selectedBand.start, selectedBand.end, 5).forEach((freq) => {
+                    const x = scale(freq);
+                    svg.append("line")
+                      .attr("x1", x)
+                      .attr("x2", x)
+                      .attr("y1", 32)
+                      .attr("y2", 42)
+                      .attr("stroke", "#aaa");
+
+                    svg.append("text")
+                      .attr("x", x)
+                      .attr("y", 55)
+                      .attr("text-anchor", "middle")
+                      .attr("fill", "#ccc")
+                      .attr("font-size", "10px")
+                      .text((freq / 1e6).toFixed(3) + " MHz");
+                  });
+                }}
+                style={{ width: '100%', height: '70px', marginTop: '10px' }}
+              />
   
               {/* Legend */}
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '0.5rem' }}>
