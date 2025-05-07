@@ -1,6 +1,7 @@
 // src/components/SpectrumView.js
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
+import SpectrumLayout from './SpectrumLayout';
 import bands from '../data/bands.json';
 import detailedBands from '../data/detailedbands.json';
 import allocationsUS from '../data/allocations-us.json';
@@ -8,20 +9,12 @@ import allocationsEU from '../data/allocations-eu.json';
 import allocationsAPAC from '../data/allocations-apac.json';
 import subbandDetails from '../data/subbands.json';
 import '../styles.css';
-import Topbar from './Topbar';
 
-function formatHz(freq) {
-  if (freq >= 1e9) return (freq / 1e9).toFixed(3) + ' GHz';
-  if (freq >= 1e6) return (freq / 1e6).toFixed(3) + ' MHz';
-  if (freq >= 1e3) return (freq / 1e3).toFixed(1) + ' kHz';
-  return freq + ' Hz';
-}
-
-function getTruncatedLabel(label, pixelWidth) {
+/*function getTruncatedLabel(label, pixelWidth) {
   if (pixelWidth < 30) return label.slice(0, 5) + '…';
   if (pixelWidth < 50) return label.slice(0, 10) + '…';
   return label;
-}
+}*/
 
 function truncateToFit(textElem, fullLabel, maxWidthPx) {
   const textNode = d3.select(textElem);
@@ -34,141 +27,6 @@ function truncateToFit(textElem, fullLabel, maxWidthPx) {
     truncated = truncated.slice(0, -1);
     textNode.text(truncated + "…");
   }
-}
-
-function renderSubbands(svg, bandData, scale, options = {}) {
-  const {
-    barHeight = 12,
-    animate = true,
-    externalLabelThreshold = 40,
-    transitionDuration = 400,
-  } = options;
-
-  const baseModeColors = {
-    cw: '#888888',
-    ssb: '#ebcb8b',
-    fm: '#a3be8c',
-    digital: '#bf616a',
-    atv: '#b48ead',
-    satellite: '#5e81ac',
-    experimental: '#d08770',
-    mixed: '#88c0d0',
-  };
-
-  const getModeColor = (mode) => {
-    if (!mode) return '#555';
-    const cleaned = mode.trim().toLowerCase();
-    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
-    const parts = cleaned.split(/[/\s]+/);
-    for (const part of parts) {
-      if (baseModeColors[part]) return baseModeColors[part];
-    }
-    return '#999';
-  };
-
-  svg.selectAll("*").remove();
-
-  const width = parseFloat(svg.attr("width")) || 800;
-  svg.append("rect")
-    .attr("x", 0)
-    .attr("y", 20)
-    .attr("width", width)
-    .attr("height", barHeight)
-    .attr("fill", "#333");
-
-  const labelLanes = [];
-  const laneSpacing = 12;
-
-  bandData.subbands.forEach((sb, i) => {
-    const xStart = scale(sb.start);
-    const xEnd = scale(sb.end);
-    const barWidth = xEnd - xStart;
-    const centerX = xStart + barWidth / 2;
-    const fill = getModeColor(sb.mode);
-    const label = sb.label.length > 20 ? sb.label.slice(0, 17) + '…' : sb.label;
-
-    const bar = svg.append("rect")
-      .attr("x", xStart)
-      .attr("y", 20)
-      .attr("width", 0)
-      .attr("height", barHeight)
-      .attr("fill", fill);
-
-    if (animate) {
-      bar.transition()
-        .duration(transitionDuration)
-        .attr("width", barWidth);
-    } else {
-      bar.attr("width", barWidth);
-    }
-
-    if (barWidth >= externalLabelThreshold) {
-      svg.append("text")
-        .attr("x", centerX)
-        .attr("y", 30)
-        .attr("text-anchor", "middle")
-        .attr("fill", "#fff")
-        .attr("font-size", "10px")
-        .text(label)
-        .style("opacity", 0)
-        .transition()
-        .duration(transitionDuration)
-        .style("opacity", 1);
-    } else {
-      let lane = 0;
-      while (
-        labelLanes[lane]?.some(pos => Math.abs(pos - centerX) < 50)
-      ) {
-        lane++;
-      }
-      if (!labelLanes[lane]) labelLanes[lane] = [];
-      labelLanes[lane].push(centerX);
-
-      const labelY = 10 - lane * laneSpacing;
-
-      svg.append("text")
-        .attr("x", centerX)
-        .attr("y", labelY)
-        .attr("text-anchor", "middle")
-        .attr("fill", "#ccc")
-        .attr("font-size", "9px")
-        .text(label)
-        .style("opacity", 0)
-        .transition()
-        .duration(transitionDuration)
-        .style("opacity", 1);
-
-      svg.append("line")
-        .attr("x1", centerX)
-        .attr("x2", centerX)
-        .attr("y1", labelY + 2)
-        .attr("y2", 20)
-        .attr("stroke", "#999")
-        .attr("stroke-width", 1)
-        .style("opacity", 0)
-        .transition()
-        .duration(transitionDuration)
-        .style("opacity", 1);
-    }
-  });
-
-  d3.ticks(bandData.start, bandData.end, 5).forEach((freq) => {
-    const x = scale(freq);
-    svg.append("line")
-      .attr("x1", x)
-      .attr("x2", x)
-      .attr("y1", 32)
-      .attr("y2", 42)
-      .attr("stroke", "#aaa");
-
-    svg.append("text")
-      .attr("x", x)
-      .attr("y", 55)
-      .attr("text-anchor", "middle")
-      .attr("fill", "#ccc")
-      .attr("font-size", "10px")
-      .text((freq / 1e6).toFixed(3) + " MHz");
-  });
 }
 
 const SpectrumView = () => {
@@ -185,6 +43,26 @@ const SpectrumView = () => {
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [freqInput, setFreqInput] = useState('');
   const [selectedBand, setSelectedBand] = useState(null);
+  const [instructionsOpen, setInstructionsOpen] = useState(false);
+
+  const instructionsRef = useRef();
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (
+        instructionsOpen &&
+        instructionsRef.current &&
+        !instructionsRef.current.contains(e.target)
+      ) {
+        setInstructionsOpen(false);
+      }
+    };
+
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, [instructionsOpen]);
 
   const regionMap = {
         US: allocationsUS,
@@ -439,7 +317,7 @@ const SpectrumView = () => {
       .on("zoom", (event) => {
         const transform = event.transform;
         const zx = transform.rescaleX(x);
-        const zoomLevel = transform.k;
+        //const zoomLevel = transform.k;
 
         xAxis.tickFormat(formatAxis(zx));
         zoomLayer.select(".x-axis").call(xAxis.scale(zx)).selectAll("text").attr("fill", "#ccc");
@@ -458,7 +336,7 @@ const SpectrumView = () => {
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
-        const showDetailedBands = zoomLevel > 5000;
+        //const showDetailedBands = zoomLevel > 5000;
 
         bandGroup.selectAll("rect")
           .attr("x", d => zx(d.start))
@@ -507,7 +385,7 @@ const SpectrumView = () => {
       svg.call(zoom.transform, d3.zoomIdentity);
     }, 0);
 
-  }, [showAllocations, showBands, allocations]);
+  }, [showAllocations, showBands, allocations, margin.bottom, margin.left, margin.right]);
 
   const resetZoom = () => {
     const svg = d3.select(ref.current);
@@ -565,240 +443,32 @@ const SpectrumView = () => {
     }
   };
 
-  const toggleAllocations = () => {
-    setShowAllocations(prev => !prev);
-  };
+  //const toggleAllocations = () => {
+  //  setShowAllocations(prev => !prev);
+  //};
 
   return (
-    <div
-      className="spectrum-view-container"
-      style={{ backgroundColor: '#121212', padding: '1rem', minHeight: '100vh', color: 'white' }}
-    >
-      {/* ⬆️ Topbar with all controls */}
-      <Topbar
-        frequency={freqInput}
-        onFrequencyChange={setFreqInput}
-        onGo={() => {
-          const fakeEvent = {
-            preventDefault: () => {},
-            target: {
-              elements: {
-                freq: { value: freqInput },
-              },
-            },
-          };
-          goToFrequency(fakeEvent);
-        }}
-        onReset={resetZoom}
-        showAllocations={showAllocations}
-        setShowAllocations={setShowAllocations}
-        showBands={showBands}
-        setShowBands={setShowBands}
-        region={region === 'US' ? 'United States' : region === 'EU' ? 'Europe' : region}
-        setRegion={(r) => setRegion(r === 'United States' ? 'US' : r === 'Europe' ? 'EU' : r)}
-      />
-  
-      {/* ⬅️ Collapsible sidebar with band jump buttons */}
-      <div className={`band-sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
-        <button
-          className="sidebar-toggle"
-          onClick={() => setSidebarOpen((o) => !o)}
-          aria-label={sidebarOpen ? 'Collapse sidebar' : 'Open sidebar'}
-          style={{
-            background: '#222',
-            color: '#fff',
-            border: 'none',
-            padding: '4px 8px',
-            borderRadius: '4px',
-            cursor: 'pointer',
-            marginBottom: '8px',
-          }}
-        >
-          {sidebarOpen ? '«' : '»'}
-        </button>
-  
-        {sidebarOpen && (
-          <div className="buttons-container-wrapper">
-            <div className="buttons-container">
-              {bands.slice(0, 8).map((band, i) => (
-                <button key={i} className="band-button" onClick={() => zoomToBand(band)}>
-                  {band.name || band.label}
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
-      </div>
-  
-      {/* 📊 Spectrum canvas */}
-      <svg ref={ref} width="100%" height="400px" />
-  
-      {/* 📋 Detailed Band Information Box */}
-      {selectedBand && (
-        <div
-          style={{
-            background: '#1e1e1e',
-            color: 'white',
-            padding: '1rem',
-            marginTop: '1rem',
-            borderTop: '1px solid #333',
-          }}
-        >
-          <h3 style={{ marginTop: 0 }}>{selectedBand.label}</h3>
-          <p>
-            <strong>Frequency:</strong>{' '}
-            {(selectedBand.start / 1e6).toFixed(3)}–{(selectedBand.end / 1e6).toFixed(3)} MHz
-          </p>
-  
-          {selectedBand.description && <p>{selectedBand.description}</p>}
-  
-          {selectedBand.subbands && (
-            <>
-              <svg
-                ref={(el) => {
-                  if (!el || !selectedBand) return;
-                  const svg = d3.select(el);
-                  svg.selectAll("*").remove();
-
-                  const width = el.getBoundingClientRect().width;
-                  const height = 70;
-                  svg.attr("width", width).attr("height", height);
-
-                  // Map of known single-mode colors
-                  const baseModeColors = {
-                    cw: '#888888',
-                    ssb: '#ebcb8b',
-                    fm: '#a3be8c',
-                    digital: '#bf616a',
-                    atv: '#b48ead',
-                    satellite: '#5e81ac',
-                    experimental: '#d08770',
-                    mixed: '#88c0d0',
-                  };
-
-                  // Normalize mixed or unknown modes
-                  const getModeColor = (mode) => {
-                    if (!mode) return '#555';
-                    const cleaned = mode.trim().toLowerCase();
-                    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
-
-                    const parts = cleaned.split(/[\s/]+/);
-                    for (const part of parts) {
-                      if (baseModeColors[part]) return baseModeColors[part];
-                    }
-                    return '#999';
-                  };
-
-                  const scale = d3.scaleLinear()
-                    .domain([selectedBand.start, selectedBand.end])
-                    .range([0, width]);
-
-                  // Background bar
-                  svg.append("rect")
-                    .attr("x", 0)
-                    .attr("y", 20)
-                    .attr("width", width)
-                    .attr("height", 12)
-                    .attr("fill", "#333");
-
-                  // Subband bars and dynamic labels
-                  const laneHeight = 12;
-                  const labelYOffset = 8;
-
-                  const labelLanes = [];
-                  const laneSpacing = 12;
-                  const externalLabelThreshold = 40;
-
-                  renderSubbands(svg, selectedBand, scale, {
-                    animate: true,
-                    barHeight: 12,
-                    externalLabelThreshold: 40,
-                    transitionDuration: 500,
-                  });                                    
-                }}
-                style={{ width: '100%', height: '70px', marginTop: '10px' }}
-              />
-  
-              {/* Legend */}
-              {/* Dynamic Legend */}
-              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '0.5rem' }}>
-                {(() => {
-                  const baseModeColors = {
-                    cw: '#888888',
-                    ssb: '#ebcb8b',
-                    fm: '#a3be8c',
-                    digital: '#bf616a',
-                    atv: '#b48ead',
-                    satellite: '#5e81ac',
-                    experimental: '#d08770',
-                    mixed: '#88c0d0',
-                  };
-
-                  const getModeColor = (mode) => {
-                    if (!mode) return '#555';
-                    const cleaned = mode.trim().toLowerCase();
-                    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
-                    const parts = cleaned.split(/[\s/]+/);
-                    for (const part of parts) {
-                      if (baseModeColors[part]) return baseModeColors[part];
-                    }
-                    return '#999';
-                  };
-
-                  const seen = new Set();
-                  return selectedBand.subbands
-                    .map(sb => (sb.mode || '').trim().toLowerCase())
-                    .flatMap(modeStr => modeStr.split(/[\s/]+/)) // split composite modes
-                    .filter((mode, i, arr) => mode && !seen.has(mode) && seen.add(mode)) // dedupe
-                    .map(mode => (
-                      <div key={mode} style={{ display: 'flex', alignItems: 'center', fontSize: '0.9rem' }}>
-                        <span style={{ width: '14px', height: '14px', backgroundColor: getModeColor(mode), display: 'inline-block', marginRight: '6px' }} />
-                        {mode.toUpperCase()}
-                      </div>
-                    ));
-                })()}
-              </div>
-  
-              <table style={{ width: '100%', color: '#ddd', borderCollapse: 'collapse', marginTop: '1rem' }}>
-                <thead>
-                  <tr style={{ borderBottom: '1px solid #444' }}>
-                    <th style={{ textAlign: 'left', padding: '4px' }}>Label</th>
-                    <th style={{ textAlign: 'left', padding: '4px' }}>Start</th>
-                    <th style={{ textAlign: 'left', padding: '4px' }}>End</th>
-                    <th style={{ textAlign: 'left', padding: '4px' }}>Mode</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  {selectedBand.subbands.map((sb, idx) => (
-                    <tr key={idx} style={{ borderBottom: '1px solid #333' }}>
-                      <td style={{ padding: '4px' }}>{sb.label}</td>
-                      <td style={{ padding: '4px' }}>{(sb.start / 1e6).toFixed(3)} MHz</td>
-                      <td style={{ padding: '4px' }}>{(sb.end / 1e6).toFixed(3)} MHz</td>
-                      <td style={{ padding: '4px' }}>{sb.mode}</td>
-                    </tr>
-                  ))}
-                </tbody>
-              </table>
-            </>
-          )}
-  
-          <button
-            style={{
-              marginTop: '1rem',
-              backgroundColor: '#333',
-              color: 'white',
-              padding: '6px 12px',
-              border: 'none',
-              borderRadius: '4px',
-              cursor: 'pointer',
-            }}
-            onClick={() => setSelectedBand(null)}
-          >
-            Close
-          </button>
-        </div>
-      )}
-    </div>
+    <SpectrumLayout
+      refProp={ref}
+      freqInput={freqInput}
+      setFreqInput={setFreqInput}
+      resetZoom={resetZoom}
+      goToFrequency={goToFrequency}
+      showAllocations={showAllocations}
+      setShowAllocations={setShowAllocations}
+      showBands={showBands}
+      setShowBands={setShowBands}
+      region={region}
+      setRegion={setRegion}
+      sidebarOpen={sidebarOpen}
+      setSidebarOpen={setSidebarOpen}
+      bands={bands}
+      zoomToBand={zoomToBand}
+      selectedBand={selectedBand}
+      setSelectedBand={setSelectedBand}
+      instructionsOpen={instructionsOpen}
+      setInstructionsOpen={setInstructionsOpen}
+    />
   );        
 };
 
