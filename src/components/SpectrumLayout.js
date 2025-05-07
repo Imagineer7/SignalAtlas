@@ -71,7 +71,7 @@ const SpectrumLayout = ({
           zIndex: 1000,
         }}
       >
-        {instructionsOpen ? 'Click Outside To Close' : '❔ Instructions'}
+        {instructionsOpen ? 'Click To Close' : '❔ Instructions'}
       </button>
   
       {/* ⬅️ Collapsible sidebar with band jump buttons */}
