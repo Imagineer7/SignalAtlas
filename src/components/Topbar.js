@@ -24,8 +24,8 @@ function Topbar({
   return (
     <div className="topbar">
       <div className="topbar-left">
-        <img src="/favicon.png" alt="SignalAtlas Logo" className="topbar-logo" />
-        <h1 className="topbar-title">SignalAtlas</h1>
+        <img src="/soundwave.png" alt="SignalAtlas Logo" className="topbar-logo" />
+        <h1 className="topbar-title">Spectrum Explorer</h1>
       </div>
       <div className="topbar-controls">
       <div style={{ position: 'relative' }}>
