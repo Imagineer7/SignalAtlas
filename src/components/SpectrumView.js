@@ -202,32 +202,61 @@ const SpectrumView = () => {
 
     hoverLineRef.current = hoverLine;
 
+    // === Render detailed bands with vertical stacking to avoid overlaps ===
+    // Collision-avoidant rendering for detailed bands
+    const detailedBandLanes = [];
+    const detailedBandLineHeight = 10;
+    const detailedBandBaseY = 55;
+
+    // Rectangles for detailed bands
     bandGroup.selectAll("rect")
       .data(detailedBands)
       .enter()
       .append("rect")
-      .attr("x", d => x(d.start))
-      .attr("y", 160)
-      .attr("width", d => x(d.end) - x(d.start))
-      .attr("height", 8)
-      .attr("fill", d => d.color || "#ff0")
-      .attr("opacity", 0.8)
-      .append("title")
-      .text(d => `${d.label}\n${d.description || ''}`);
-
-    bandGroup.selectAll("text")
-      .data(detailedBands)
-      .enter()
-      .append("text")
-      .attr("x", d => (x(d.start) + x(d.end)) / 2)
-      .attr("y", 167)
-      .attr("text-anchor", "middle")
-      .attr("fill", "#ccc")
-      .attr("font-size", "9px")
       .each(function(d) {
-        const widthPx = x(d.end) - x(d.start);
-        truncateToFit(this, d.label, widthPx);
-      });      
+        const startPx = x(d.start);
+        const endPx = x(d.end);
+        const widthPx = endPx - startPx;
+
+        let lane = 0;
+        while (
+          detailedBandLanes[lane] &&
+          detailedBandLanes[lane].some(({ start, end }) => !(endPx < start || startPx > end))
+        ) {
+          lane++;
+        }
+
+        if (!detailedBandLanes[lane]) detailedBandLanes[lane] = [];
+        detailedBandLanes[lane].push({ start: startPx, end: endPx });
+        d.lane = lane;  // Store lane on data        
+
+        d3.select(this)
+          .attr("x", startPx)
+          .attr("y", detailedBandBaseY + lane * detailedBandLineHeight)
+          .attr("width", widthPx)
+          .attr("height", 8)
+          .attr("fill", d.color || "#ff0")
+          .attr("opacity", 0.8)
+          .append("title")
+          .text(`${d.label}\n${d.description || ''}`);
+      });
+
+    // Labels for detailed bands
+    bandGroup.selectAll("text")
+    .data(detailedBands)
+    .enter()
+    .append("text")
+    .attr("x", d => (x(d.start) + x(d.end)) / 2)
+    .attr("y", d => detailedBandBaseY + d.lane * detailedBandLineHeight + 5) // 4 centers in 8px bar
+    .attr("text-anchor", "middle")
+    .attr("dominant-baseline", "middle") // This keeps it centered vertically
+    .attr("fill", "#ccc")
+    .attr("font-size", "9px")
+    .text(d => d.label)
+    .each(function(d) {
+      const widthPx = x(d.end) - x(d.start);
+      truncateToFit(this, d.label, widthPx);
+    });   
 
     const marker = markerLayer.append("line")
       .attr("y1", 30)
