@@ -6,8 +6,16 @@ import detailedBands from '../data/detailedbands.json';
 import allocationsUS from '../data/allocations-us.json';
 import allocationsEU from '../data/allocations-eu.json';
 import allocationsAPAC from '../data/allocations-apac.json';
+import subbandDetails from '../data/subbands.json';
 import '../styles.css';
 import Topbar from './Topbar';
+
+function formatHz(freq) {
+  if (freq >= 1e9) return (freq / 1e9).toFixed(3) + ' GHz';
+  if (freq >= 1e6) return (freq / 1e6).toFixed(3) + ' MHz';
+  if (freq >= 1e3) return (freq / 1e3).toFixed(1) + ' kHz';
+  return freq + ' Hz';
+}
 
 function getTruncatedLabel(label, pixelWidth) {
   if (pixelWidth < 30) return label.slice(0, 5) + '…';
@@ -41,6 +49,7 @@ const SpectrumView = () => {
   const [region, setRegion] = useState('US');
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [freqInput, setFreqInput] = useState('');
+  const [selectedBand, setSelectedBand] = useState(null);
 
   const regionMap = {
         US: allocationsUS,
@@ -210,36 +219,43 @@ const SpectrumView = () => {
 
     // Rectangles for detailed bands
     bandGroup.selectAll("rect")
-      .data(detailedBands)
-      .enter()
-      .append("rect")
-      .each(function(d) {
-        const startPx = x(d.start);
-        const endPx = x(d.end);
-        const widthPx = endPx - startPx;
-
-        let lane = 0;
-        while (
-          detailedBandLanes[lane] &&
-          detailedBandLanes[lane].some(({ start, end }) => !(endPx < start || startPx > end))
-        ) {
-          lane++;
-        }
-
-        if (!detailedBandLanes[lane]) detailedBandLanes[lane] = [];
-        detailedBandLanes[lane].push({ start: startPx, end: endPx });
-        d.lane = lane;  // Store lane on data        
-
-        d3.select(this)
-          .attr("x", startPx)
-          .attr("y", detailedBandBaseY + lane * detailedBandLineHeight)
-          .attr("width", widthPx)
-          .attr("height", 8)
-          .attr("fill", d.color || "#ff0")
-          .attr("opacity", 0.8)
-          .append("title")
-          .text(`${d.label}\n${d.description || ''}`);
-      });
+    .data(detailedBands)
+    .enter()
+    .append("rect")
+    .each(function(d) {
+      const startPx = x(d.start);
+      const endPx = x(d.end);
+      const widthPx = endPx - startPx;
+  
+      let lane = 0;
+      while (
+        detailedBandLanes[lane] &&
+        detailedBandLanes[lane].some(({ start, end }) => !(endPx < start || startPx > end))
+      ) {
+        lane++;
+      }
+  
+      if (!detailedBandLanes[lane]) detailedBandLanes[lane] = [];
+      detailedBandLanes[lane].push({ start: startPx, end: endPx });
+      d.lane = lane; // Store lane on data
+  
+      d3.select(this)
+        .attr("x", startPx)
+        .attr("y", detailedBandBaseY + lane * detailedBandLineHeight)
+        .attr("width", widthPx)
+        .attr("height", 8)
+        .attr("fill", d.color || "#ff0")
+        .attr("opacity", 0.8)
+        .style("cursor", "pointer")
+        .on("click", () => {
+          const found = subbandDetails.find(b =>
+            b.label === d.label || (b.start === d.start && b.end === d.end)
+          );
+          setSelectedBand(found || d); // fallback to showing d if no match
+        })
+        .append("title")
+        .text(`${d.label}\n${d.description || ''}`);
+    });  
 
     // Labels for detailed bands
     bandGroup.selectAll("text")
@@ -481,8 +497,116 @@ const SpectrumView = () => {
   
       {/* 📊 Spectrum canvas */}
       <svg ref={ref} width="100%" height="400px" />
+  
+      {/* 📋 Detailed Band Information Box */}
+      {selectedBand && (
+        <div
+          style={{
+            background: '#1e1e1e',
+            color: 'white',
+            padding: '1rem',
+            marginTop: '1rem',
+            borderTop: '1px solid #333',
+          }}
+        >
+          <h3 style={{ marginTop: 0 }}>{selectedBand.label}</h3>
+          <p>
+            <strong>Frequency:</strong>{' '}
+            {(selectedBand.start / 1e6).toFixed(3)}–{(selectedBand.end / 1e6).toFixed(3)} MHz
+          </p>
+  
+          {selectedBand.description && <p>{selectedBand.description}</p>}
+  
+          {selectedBand.subbands && (
+            <>
+              {/* Visual Subband Spectrum */}
+              <svg width="100%" height="40" style={{ marginTop: '10px' }}>
+                <rect x={0} y={15} width="100%" height={10} fill="#333" />
+                {(() => {
+                  const totalWidth = 1000;
+                  const modeColors = {
+                    RTTY: '#bf616a',
+                    Phone: '#a3be8c',
+                    Image: '#a3be8c',
+                    CW: '#888888',
+                    'SSB phone only': '#ebcb8b',
+                    'USB phone CW RTTY and data': '#5e81ac',
+                    'Fixed digital forwarding systems only': '#d08770',
+                  };
+                  const scale = d3.scaleLinear()
+                    .domain([selectedBand.start, selectedBand.end])
+                    .range([0, totalWidth]);
+                  return selectedBand.subbands.map((sb, i) => (
+                    <rect
+                      key={i}
+                      x={scale(sb.start)}
+                      y={15}
+                      width={scale(sb.end) - scale(sb.start)}
+                      height={10}
+                      fill={modeColors[sb.mode] || '#88c0d0'}
+                    />
+                  ));
+                })()}
+              </svg>
+  
+              {/* Legend */}
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '0.5rem' }}>
+                {[
+                  ['RTTY', '#bf616a'],
+                  ['Phone / Image', '#a3be8c'],
+                  ['CW', '#888888'],
+                  ['SSB phone only', '#ebcb8b'],
+                  ['USB phone CW RTTY and data', '#5e81ac'],
+                  ['Fixed digital forwarding systems only', '#d08770'],
+                ].map(([label, color]) => (
+                  <div key={label} style={{ display: 'flex', alignItems: 'center', fontSize: '0.9rem' }}>
+                    <span style={{ width: '14px', height: '14px', backgroundColor: color, display: 'inline-block', marginRight: '6px' }} />
+                    {label}
+                  </div>
+                ))}
+              </div>
+  
+              <table style={{ width: '100%', color: '#ddd', borderCollapse: 'collapse', marginTop: '1rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '1px solid #444' }}>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>Label</th>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>Start</th>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>End</th>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>Mode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {selectedBand.subbands.map((sb, idx) => (
+                    <tr key={idx} style={{ borderBottom: '1px solid #333' }}>
+                      <td style={{ padding: '4px' }}>{sb.label}</td>
+                      <td style={{ padding: '4px' }}>{(sb.start / 1e6).toFixed(3)} MHz</td>
+                      <td style={{ padding: '4px' }}>{(sb.end / 1e6).toFixed(3)} MHz</td>
+                      <td style={{ padding: '4px' }}>{sb.mode}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </>
+          )}
+  
+          <button
+            style={{
+              marginTop: '1rem',
+              backgroundColor: '#333',
+              color: 'white',
+              padding: '6px 12px',
+              border: 'none',
+              borderRadius: '4px',
+              cursor: 'pointer',
+            }}
+            onClick={() => setSelectedBand(null)}
+          >
+            Close
+          </button>
+        </div>
+      )}
     </div>
-  );     
+  );        
 };
 
 export default SpectrumView;

@@ -1,0 +1,36 @@
+[
+    {
+      "band": "40 m Amateur Radio",
+      "start": 7000000,
+      "end": 7300000,
+      "subbands": [
+        { "start": 7000000, "end": 7030000, "label": "CW", "mode": "CW" },
+        { "start": 7030000, "end": 7040000, "label": "FT8", "mode": "Digital" },
+        { "start": 7040000, "end": 7125000, "label": "Digital Modes", "mode": "Digital" },
+        { "start": 7125000, "end": 7300000, "label": "Phone", "mode": "SSB" }
+      ]
+    },
+    {
+      "band": "20 m Amateur Radio",
+      "start": 14000000,
+      "end": 14350000,
+      "subbands": [
+        { "start": 14000000, "end": 14070000, "label": "CW", "mode": "CW" },
+        { "start": 14074000, "end": 14074000, "label": "FT8", "mode": "Digital" },
+        { "start": 14070000, "end": 14150000, "label": "Digital Modes", "mode": "Digital" },
+        { "start": 14150000, "end": 14350000, "label": "Phone", "mode": "SSB" }
+      ]
+    },
+    {
+      "band": "2 m Amateur Radio",
+      "start": 144000000,
+      "end": 148000000,
+      "subbands": [
+        { "start": 144000000, "end": 144100000, "label": "CW", "mode": "CW" },
+        { "start": 144100000, "end": 144500000, "label": "SSB & Weak Signal", "mode": "SSB" },
+        { "start": 144500000, "end": 145800000, "label": "FM Repeater/Voice", "mode": "FM" },
+        { "start": 145800000, "end": 146000000, "label": "Satellite Uplink", "mode": "Mixed" }
+      ]
+    }
+  ]
+  
