@@ -380,23 +380,33 @@ const SpectrumView = () => {
     markerLabelRef.current = markerLabel;
 
     const zoom = d3.zoom()
-      .scaleExtent([1, 1e8])
-      .translateExtent([[0, 0], [width, height]])
-      .extent([[0, 0], [width, height]])
+      .scaleExtent([1, 1e8]) // Define zoom scale extent
+      .translateExtent([[0, 0], [width, height]]) // Limit translation to the width and height of the container
+      .extent([[0, 0], [width, height]]) // Define zooming extent (for both X and Y axes)
       .on("zoom", (event) => {
         const transform = event.transform;
-        const zx = transform.rescaleX(x);
-        //const zoomLevel = transform.k;
+
+        // Prevent negative X translation and set a minimum scale of 0
+        const tx = Math.max(transform.x, 0); // Prevent negative X translation (pan to left)
+        const zx = transform.rescaleX(x); // Apply rescaling to X axis
+        // const zoomLevel = transform.k; // Uncomment if you need to track the zoom level
+
+        svg.attr("transform", transform.translate(tx).scale(transform.k)); // Apply translation and scaling
 
         xAxis.tickFormat(formatAxis(zx));
-        zoomLayer.select(".x-axis").call(xAxis.scale(zx)).selectAll("text").attr("fill", "#ccc");
+        zoomLayer.select(".x-axis")
+          .call(xAxis.scale(zx))
+          .selectAll("text")
+          .attr("fill", "#ccc");
 
+        // Adjusting the width and position of the allocation rectangles
         allocLayer.selectAll("rect")
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start));
 
-          styleAllocLabels(zx);      
+        styleAllocLabels(zx);
 
+        // Update other layers accordingly
         zoomLayer.selectAll("rect")
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start));
@@ -405,8 +415,7 @@ const SpectrumView = () => {
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
-        //const showDetailedBands = zoomLevel > 5000;
-
+        // Zooming behavior for frequency bands
         bandGroup.selectAll("rect")
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start))
@@ -416,13 +425,14 @@ const SpectrumView = () => {
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .each(function(d) {
             const widthPx = zx(d.end) - zx(d.start);
-            truncateToFit(this, d.label, widthPx);
-          })          
+            truncateToFit(this, d.label, widthPx); // Truncate labels if needed
+          })
           .style("opacity", d => {
             const width = zx(d.end) - zx(d.start);
-            return showBands && width > 40 ? 1 : 0;
+            return showBands && width > 40 ? 1 : 0; // Only show labels if width is large enough
           });
 
+        // Handle the marker position and visibility
         if (markerRef.current && markerRef.current.style("display") !== "none") {
           const markerX = +markerRef.current.attr("data-freq");
           const fx = zx(markerX);
@@ -432,19 +442,19 @@ const SpectrumView = () => {
 
         if (hoverLineRef.current) hoverLineRef.current.style("display", "none");
 
-        //hide any that are too close to the last one
+        // Hide allocations that are too close to each other
         if (showAllocations) {
-        let lastX = -Infinity;
-        const minSpacing = 50; // px between labels—you can tweak this
+          let lastX = -Infinity;
+          const minSpacing = 50; // px between labels—you can tweak this
 
-        allocTextLayer.selectAll("text")
-          .each(function(d) {
-            const cx = (zx(d.start) + zx(d.end)) / 2;
-            if (cx - lastX > minSpacing) {
-              d3.select(this).style("opacity", 1);
-              lastX = cx;
-            }
-          });
+          allocTextLayer.selectAll("text")
+            .each(function(d) {
+              const cx = (zx(d.start) + zx(d.end)) / 2;
+              if (cx - lastX > minSpacing) {
+                d3.select(this).style("opacity", 1);
+                lastX = cx;
+              }
+            });
         }
       });
 
@@ -476,29 +486,44 @@ const SpectrumView = () => {
   const goToFrequency = (e) => {
     e.preventDefault();
     const input = e.target.elements.freq.value.trim().toLowerCase();
-  
-    // Try to parse input as frequency
     let freq = parseFloat(input);
     if (input.includes("ghz")) freq *= 1e9;
     else if (input.includes("mhz")) freq *= 1e6;
     else if (input.includes("khz")) freq *= 1e3;
+    if (isNaN(freq)) return;
   
-    // If it's a valid frequency, zoom to it
-    if (!isNaN(freq)) {
-      zoomToFrequency(freq);
-      return;
+    const svg = d3.select(ref.current);
+    const width = svg.node().getBoundingClientRect().width;
+    const x = xScaleRef.current;
+  
+    const bandwidth = 100_000;
+    const scale = width / (x(freq + bandwidth / 2) - x(freq - bandwidth / 2));
+  
+    // Prevent negative frequency translation
+    const tx = Math.max(-x(freq) * scale + width / 2, 0);  // Ensure tx is >= 0
+  
+    const transform = d3.zoomIdentity.translate(tx, 0).scale(scale);
+  
+    svg.transition().duration(500).call(zoomRef.current.transform, transform);
+  
+    if (markerRef.current) {
+      markerRef.current
+        .attr("x1", x(freq))
+        .attr("x2", x(freq))
+        .attr("data-freq", freq)
+        .style("display", "block");
     }
-  
-    // Otherwise, try to match by label
-    const allBands = [...bands, ...detailedBands];
-    const match = allBands.find(b =>
-      b.label?.toLowerCase() === input || b.name?.toLowerCase() === input
-    );
-  
-    if (match) {
-      zoomToBand(match);
+    if (markerLabelRef.current) {
+      const label = freq >= 1e9 ? `${(freq / 1e9).toFixed(3)} GHz`
+        : freq >= 1e6 ? `${(freq / 1e6).toFixed(3)} MHz`
+        : freq >= 1e3 ? `${(freq / 1e3).toFixed(3)} kHz`
+        : `${freq.toFixed(0)} Hz`;
+      markerLabelRef.current
+        .attr("x", x(freq))
+        .text(label)
+        .style("display", "block");
     }
-  };  
+  };    
 
   //const toggleAllocations = () => {
   //  setShowAllocations(prev => !prev);

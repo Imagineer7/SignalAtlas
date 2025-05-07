@@ -170,7 +170,7 @@ const SpectrumLayout = ({
                     svg.attr("width", width).attr("height", height);
 
                     const scale = d3.scaleLinear()
-                      .domain([selectedBand.start, selectedBand.end])
+                      .domain([Math.max(0, selectedBand.start), selectedBand.end])
                       .range([0, width]);
 
                     svg.append("rect")
