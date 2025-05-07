@@ -2,13 +2,20 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import bands from '../data/bands.json';
-//import allocations from '../data/allocations.json';
-import signals from '../data/detailedbands.json';
+import detailedBands from '../data/detailedbands.json';
 import allocationsUS from '../data/allocations-us.json';
 import allocationsEU from '../data/allocations-eu.json';
 import allocationsAPAC from '../data/allocations-apac.json';
+import subbandDetails from '../data/subbands.json';
 import '../styles.css';
 import Topbar from './Topbar';
+
+function formatHz(freq) {
+  if (freq >= 1e9) return (freq / 1e9).toFixed(3) + ' GHz';
+  if (freq >= 1e6) return (freq / 1e6).toFixed(3) + ' MHz';
+  if (freq >= 1e3) return (freq / 1e3).toFixed(1) + ' kHz';
+  return freq + ' Hz';
+}
 
 function getTruncatedLabel(label, pixelWidth) {
   if (pixelWidth < 30) return label.slice(0, 5) + '…';
@@ -29,6 +36,141 @@ function truncateToFit(textElem, fullLabel, maxWidthPx) {
   }
 }
 
+function renderSubbands(svg, bandData, scale, options = {}) {
+  const {
+    barHeight = 12,
+    animate = true,
+    externalLabelThreshold = 40,
+    transitionDuration = 400,
+  } = options;
+
+  const baseModeColors = {
+    cw: '#888888',
+    ssb: '#ebcb8b',
+    fm: '#a3be8c',
+    digital: '#bf616a',
+    atv: '#b48ead',
+    satellite: '#5e81ac',
+    experimental: '#d08770',
+    mixed: '#88c0d0',
+  };
+
+  const getModeColor = (mode) => {
+    if (!mode) return '#555';
+    const cleaned = mode.trim().toLowerCase();
+    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
+    const parts = cleaned.split(/[/\s]+/);
+    for (const part of parts) {
+      if (baseModeColors[part]) return baseModeColors[part];
+    }
+    return '#999';
+  };
+
+  svg.selectAll("*").remove();
+
+  const width = parseFloat(svg.attr("width")) || 800;
+  svg.append("rect")
+    .attr("x", 0)
+    .attr("y", 20)
+    .attr("width", width)
+    .attr("height", barHeight)
+    .attr("fill", "#333");
+
+  const labelLanes = [];
+  const laneSpacing = 12;
+
+  bandData.subbands.forEach((sb, i) => {
+    const xStart = scale(sb.start);
+    const xEnd = scale(sb.end);
+    const barWidth = xEnd - xStart;
+    const centerX = xStart + barWidth / 2;
+    const fill = getModeColor(sb.mode);
+    const label = sb.label.length > 20 ? sb.label.slice(0, 17) + '…' : sb.label;
+
+    const bar = svg.append("rect")
+      .attr("x", xStart)
+      .attr("y", 20)
+      .attr("width", 0)
+      .attr("height", barHeight)
+      .attr("fill", fill);
+
+    if (animate) {
+      bar.transition()
+        .duration(transitionDuration)
+        .attr("width", barWidth);
+    } else {
+      bar.attr("width", barWidth);
+    }
+
+    if (barWidth >= externalLabelThreshold) {
+      svg.append("text")
+        .attr("x", centerX)
+        .attr("y", 30)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#fff")
+        .attr("font-size", "10px")
+        .text(label)
+        .style("opacity", 0)
+        .transition()
+        .duration(transitionDuration)
+        .style("opacity", 1);
+    } else {
+      let lane = 0;
+      while (
+        labelLanes[lane]?.some(pos => Math.abs(pos - centerX) < 50)
+      ) {
+        lane++;
+      }
+      if (!labelLanes[lane]) labelLanes[lane] = [];
+      labelLanes[lane].push(centerX);
+
+      const labelY = 10 - lane * laneSpacing;
+
+      svg.append("text")
+        .attr("x", centerX)
+        .attr("y", labelY)
+        .attr("text-anchor", "middle")
+        .attr("fill", "#ccc")
+        .attr("font-size", "9px")
+        .text(label)
+        .style("opacity", 0)
+        .transition()
+        .duration(transitionDuration)
+        .style("opacity", 1);
+
+      svg.append("line")
+        .attr("x1", centerX)
+        .attr("x2", centerX)
+        .attr("y1", labelY + 2)
+        .attr("y2", 20)
+        .attr("stroke", "#999")
+        .attr("stroke-width", 1)
+        .style("opacity", 0)
+        .transition()
+        .duration(transitionDuration)
+        .style("opacity", 1);
+    }
+  });
+
+  d3.ticks(bandData.start, bandData.end, 5).forEach((freq) => {
+    const x = scale(freq);
+    svg.append("line")
+      .attr("x1", x)
+      .attr("x2", x)
+      .attr("y1", 32)
+      .attr("y2", 42)
+      .attr("stroke", "#aaa");
+
+    svg.append("text")
+      .attr("x", x)
+      .attr("y", 55)
+      .attr("text-anchor", "middle")
+      .attr("fill", "#ccc")
+      .attr("font-size", "10px")
+      .text((freq / 1e6).toFixed(3) + " MHz");
+  });
+}
+
 const SpectrumView = () => {
   const ref = useRef();
   const zoomRef = useRef();
@@ -38,17 +180,17 @@ const SpectrumView = () => {
   const hoverLineRef = useRef();
   const margin = { top: 20, right: 20, bottom: 40, left: 20 };
   const [showAllocations, setShowAllocations] = useState(true);
-  const [showSignals, setShowSignals] = useState(true);
+  const [showBands, setShowBands] = useState(true);
   const [region, setRegion] = useState('US');
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [freqInput, setFreqInput] = useState('');
+  const [selectedBand, setSelectedBand] = useState(null);
 
   const regionMap = {
         US: allocationsUS,
         EU: allocationsEU,
         APAC: allocationsAPAC
       };
-      // current allocations for D3
   const allocations = regionMap[region];
 
   useEffect(() => {
@@ -78,7 +220,7 @@ const SpectrumView = () => {
     const allocTextLayer = svg.append("g").attr("class", "alloc-text-layer");
     const labelLayer = svg.append("g").attr("class", "label-layer");
     const markerLayer = svg.append("g").attr("class", "marker-layer");
-    const signalGroup = svg.append("g").attr("class", "signal-group");
+    const bandGroup = svg.append("g").attr("class", "band-group");
 
     const x = d3.scaleLinear()
       .domain([0, 300_000_000_000])
@@ -118,66 +260,55 @@ const SpectrumView = () => {
       .append("title")
       .text(d => `${d.label}: ${d.usage}`);
 
-      // ❶ bind data
-      const allocLabels = allocTextLayer.selectAll("text").data(allocations);
-
-      // ❷ remove any old labels
-      allocLabels.exit().remove();
-
-      // ❸ append any new labels, then merge to get full update selection
-      allocLabels.enter()
+    const allocLabels = allocTextLayer.selectAll("text").data(allocations);
+    allocLabels.exit().remove();
+    allocLabels.enter()
       .append("text")
-        .attr("text-anchor", "middle")
-        .attr("fill", "#aaa")
-        .attr("font-size", "10px")
-        .attr("x", -9999) // hide far off-screen
-        .attr("y", -9999)
-    .merge(allocLabels)
-      .text(d => d.label);    
-        
-      // Collision‐avoidant positioning for allocation labels
-      function styleAllocLabels(scale) {
-        const lanes      = [];
-        const minSpacing = 50;   // px between adjacent labels
-        const baseY      = 190;  // first row Y
-        const lineH      = 14;   // row height increment
-        const minWidthPx = 30;   // hide labels narrower than 30px
-      
-        allocTextLayer.selectAll("text")
-          .each(function(d) {
-            const cx      = (scale(d.start) + scale(d.end)) / 2;
-            const widthPx = scale(d.end) - scale(d.start);
-      
-            // 1) if toggled off or too narrow, hide and skip lane logic entirely
-            if (!showAllocations || widthPx < minWidthPx) {
-              return d3.select(this).style("opacity", 0);
-            }
-      
-            // 2) find the first lane with enough room
-            let lane = 0;
-            while (lanes[lane] != null && cx - lanes[lane] < minSpacing) {
-              lane++;
-            }
-            lanes[lane] = cx;
-      
-            // 3) position & show
-            d3.select(this)
+      .attr("text-anchor", "middle")
+      .attr("fill", "#aaa")
+      .attr("font-size", "10px")
+      .attr("x", -9999)
+      .attr("y", -9999)
+      .merge(allocLabels)
+      .text(d => d.label);
+
+    function styleAllocLabels(scale) {
+      const lanes = [];
+      const minSpacing = 50;
+      const baseY = 190;
+      const lineH = 14;
+      const minWidthPx = 30;
+
+      allocTextLayer.selectAll("text")
+        .each(function(d) {
+          const cx = (scale(d.start) + scale(d.end)) / 2;
+          const widthPx = scale(d.end) - scale(d.start);
+
+          if (!showAllocations || widthPx < minWidthPx) {
+            return d3.select(this).style("opacity", 0);
+          }
+
+          let lane = 0;
+          while (lanes[lane] != null && cx - lanes[lane] < minSpacing) {
+            lane++;
+          }
+          lanes[lane] = cx;
+
+          d3.select(this)
             .attr("x", cx)
             .attr("y", baseY + lane * lineH)
             .style("opacity", 1);
 
-            if (widthPx < 10) {
-              return d3.select(this).style("opacity", 0);
-            }        
-            truncateToFit(this, d.label, widthPx);          
-          });
-      }      
+          if (widthPx < 10) {
+            return d3.select(this).style("opacity", 0);
+          }
+          truncateToFit(this, d.label, widthPx);
+        });
+    }
 
-      // Initial call at load
-      styleAllocLabels(x);
+    styleAllocLabels(x);
 
     const bandsGroup = zoomLayer.append("g");
-
     bandsGroup.selectAll("rect")
       .data(bands)
       .enter()
@@ -215,32 +346,68 @@ const SpectrumView = () => {
 
     hoverLineRef.current = hoverLine;
 
-    signalGroup.selectAll("rect")
-      .data(signals)
-      .enter()
-      .append("rect")
-      .attr("x", d => x(d.start))
-      .attr("y", 160)
-      .attr("width", d => x(d.end) - x(d.start))
-      .attr("height", 8)
-      .attr("fill", d => d.color || "#ff0")
-      .attr("opacity", 0.8)
-      .append("title")
-      .text(d => `${d.label}\n${d.description || ''}`);
+    // === Render detailed bands with vertical stacking to avoid overlaps ===
+    // Collision-avoidant rendering for detailed bands
+    const detailedBandLanes = [];
+    const detailedBandLineHeight = 10;
+    const detailedBandBaseY = 55;
 
-    signalGroup.selectAll("text")
-      .data(signals)
-      .enter()
-      .append("text")
-      .attr("x", d => (x(d.start) + x(d.end)) / 2)
-      .attr("y", 167)
-      .attr("text-anchor", "middle")
-      .attr("fill", "#ccc")
-      .attr("font-size", "9px")
-      .each(function(d) {
-        const widthPx = x(d.end) - x(d.start);
-        truncateToFit(this, d.label, widthPx);
-      });      
+    // Rectangles for detailed bands
+    bandGroup.selectAll("rect")
+    .data(detailedBands)
+    .enter()
+    .append("rect")
+    .each(function(d) {
+      const startPx = x(d.start);
+      const endPx = x(d.end);
+      const widthPx = endPx - startPx;
+  
+      let lane = 0;
+      while (
+        detailedBandLanes[lane] &&
+        detailedBandLanes[lane].some(({ start, end }) => !(endPx < start || startPx > end))
+      ) {
+        lane++;
+      }
+  
+      if (!detailedBandLanes[lane]) detailedBandLanes[lane] = [];
+      detailedBandLanes[lane].push({ start: startPx, end: endPx });
+      d.lane = lane; // Store lane on data
+  
+      d3.select(this)
+        .attr("x", startPx)
+        .attr("y", detailedBandBaseY + lane * detailedBandLineHeight)
+        .attr("width", widthPx)
+        .attr("height", 8)
+        .attr("fill", d.color || "#ff0")
+        .attr("opacity", 0.8)
+        .style("cursor", "pointer")
+        .on("click", () => {
+          const found = subbandDetails.find(b =>
+            b.label === d.label || (b.start === d.start && b.end === d.end)
+          );
+          setSelectedBand(found || d); // fallback to showing d if no match
+        })
+        .append("title")
+        .text(`${d.label}\n${d.description || ''}`);
+    });  
+
+    // Labels for detailed bands
+    bandGroup.selectAll("text")
+    .data(detailedBands)
+    .enter()
+    .append("text")
+    .attr("x", d => (x(d.start) + x(d.end)) / 2)
+    .attr("y", d => detailedBandBaseY + d.lane * detailedBandLineHeight + 5) // 4 centers in 8px bar
+    .attr("text-anchor", "middle")
+    .attr("dominant-baseline", "middle") // This keeps it centered vertically
+    .attr("fill", "#ccc")
+    .attr("font-size", "9px")
+    .text(d => d.label)
+    .each(function(d) {
+      const widthPx = x(d.end) - x(d.start);
+      truncateToFit(this, d.label, widthPx);
+    });   
 
     const marker = markerLayer.append("line")
       .attr("y1", 30)
@@ -291,14 +458,14 @@ const SpectrumView = () => {
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
-        const showDetailedSignals = zoomLevel > 5000;
+        const showDetailedBands = zoomLevel > 5000;
 
-        signalGroup.selectAll("rect")
+        bandGroup.selectAll("rect")
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start))
-          .style("opacity", d => showSignals && (zx(d.end) - zx(d.start)) > 1 ? 0.8 : 0);
+          .style("opacity", d => showBands && (zx(d.end) - zx(d.start)) > 1 ? 0.8 : 0);
 
-        signalGroup.selectAll("text")
+        bandGroup.selectAll("text")
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .each(function(d) {
             const widthPx = zx(d.end) - zx(d.start);
@@ -306,7 +473,7 @@ const SpectrumView = () => {
           })          
           .style("opacity", d => {
             const width = zx(d.end) - zx(d.start);
-            return showSignals && width > 40 ? 1 : 0;
+            return showBands && width > 40 ? 1 : 0;
           });
 
         if (markerRef.current && markerRef.current.style("display") !== "none") {
@@ -340,7 +507,7 @@ const SpectrumView = () => {
       svg.call(zoom.transform, d3.zoomIdentity);
     }, 0);
 
-  }, [showAllocations, showSignals, allocations]);
+  }, [showAllocations, showBands, allocations]);
 
   const resetZoom = () => {
     const svg = d3.select(ref.current);
@@ -425,8 +592,8 @@ const SpectrumView = () => {
         onReset={resetZoom}
         showAllocations={showAllocations}
         setShowAllocations={setShowAllocations}
-        showBands={showSignals}
-        setShowBands={setShowSignals}
+        showBands={showBands}
+        setShowBands={setShowBands}
         region={region === 'US' ? 'United States' : region === 'EU' ? 'Europe' : region}
         setRegion={(r) => setRegion(r === 'United States' ? 'US' : r === 'Europe' ? 'EU' : r)}
       />
@@ -465,8 +632,174 @@ const SpectrumView = () => {
   
       {/* 📊 Spectrum canvas */}
       <svg ref={ref} width="100%" height="400px" />
+  
+      {/* 📋 Detailed Band Information Box */}
+      {selectedBand && (
+        <div
+          style={{
+            background: '#1e1e1e',
+            color: 'white',
+            padding: '1rem',
+            marginTop: '1rem',
+            borderTop: '1px solid #333',
+          }}
+        >
+          <h3 style={{ marginTop: 0 }}>{selectedBand.label}</h3>
+          <p>
+            <strong>Frequency:</strong>{' '}
+            {(selectedBand.start / 1e6).toFixed(3)}–{(selectedBand.end / 1e6).toFixed(3)} MHz
+          </p>
+  
+          {selectedBand.description && <p>{selectedBand.description}</p>}
+  
+          {selectedBand.subbands && (
+            <>
+              <svg
+                ref={(el) => {
+                  if (!el || !selectedBand) return;
+                  const svg = d3.select(el);
+                  svg.selectAll("*").remove();
+
+                  const width = el.getBoundingClientRect().width;
+                  const height = 70;
+                  svg.attr("width", width).attr("height", height);
+
+                  // Map of known single-mode colors
+                  const baseModeColors = {
+                    cw: '#888888',
+                    ssb: '#ebcb8b',
+                    fm: '#a3be8c',
+                    digital: '#bf616a',
+                    atv: '#b48ead',
+                    satellite: '#5e81ac',
+                    experimental: '#d08770',
+                    mixed: '#88c0d0',
+                  };
+
+                  // Normalize mixed or unknown modes
+                  const getModeColor = (mode) => {
+                    if (!mode) return '#555';
+                    const cleaned = mode.trim().toLowerCase();
+                    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
+
+                    const parts = cleaned.split(/[\s/]+/);
+                    for (const part of parts) {
+                      if (baseModeColors[part]) return baseModeColors[part];
+                    }
+                    return '#999';
+                  };
+
+                  const scale = d3.scaleLinear()
+                    .domain([selectedBand.start, selectedBand.end])
+                    .range([0, width]);
+
+                  // Background bar
+                  svg.append("rect")
+                    .attr("x", 0)
+                    .attr("y", 20)
+                    .attr("width", width)
+                    .attr("height", 12)
+                    .attr("fill", "#333");
+
+                  // Subband bars and dynamic labels
+                  const laneHeight = 12;
+                  const labelYOffset = 8;
+
+                  const labelLanes = [];
+                  const laneSpacing = 12;
+                  const externalLabelThreshold = 40;
+
+                  renderSubbands(svg, selectedBand, scale, {
+                    animate: true,
+                    barHeight: 12,
+                    externalLabelThreshold: 40,
+                    transitionDuration: 500,
+                  });                                    
+                }}
+                style={{ width: '100%', height: '70px', marginTop: '10px' }}
+              />
+  
+              {/* Legend */}
+              {/* Dynamic Legend */}
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '0.5rem' }}>
+                {(() => {
+                  const baseModeColors = {
+                    cw: '#888888',
+                    ssb: '#ebcb8b',
+                    fm: '#a3be8c',
+                    digital: '#bf616a',
+                    atv: '#b48ead',
+                    satellite: '#5e81ac',
+                    experimental: '#d08770',
+                    mixed: '#88c0d0',
+                  };
+
+                  const getModeColor = (mode) => {
+                    if (!mode) return '#555';
+                    const cleaned = mode.trim().toLowerCase();
+                    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
+                    const parts = cleaned.split(/[\s/]+/);
+                    for (const part of parts) {
+                      if (baseModeColors[part]) return baseModeColors[part];
+                    }
+                    return '#999';
+                  };
+
+                  const seen = new Set();
+                  return selectedBand.subbands
+                    .map(sb => (sb.mode || '').trim().toLowerCase())
+                    .flatMap(modeStr => modeStr.split(/[\s/]+/)) // split composite modes
+                    .filter((mode, i, arr) => mode && !seen.has(mode) && seen.add(mode)) // dedupe
+                    .map(mode => (
+                      <div key={mode} style={{ display: 'flex', alignItems: 'center', fontSize: '0.9rem' }}>
+                        <span style={{ width: '14px', height: '14px', backgroundColor: getModeColor(mode), display: 'inline-block', marginRight: '6px' }} />
+                        {mode.toUpperCase()}
+                      </div>
+                    ));
+                })()}
+              </div>
+  
+              <table style={{ width: '100%', color: '#ddd', borderCollapse: 'collapse', marginTop: '1rem' }}>
+                <thead>
+                  <tr style={{ borderBottom: '1px solid #444' }}>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>Label</th>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>Start</th>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>End</th>
+                    <th style={{ textAlign: 'left', padding: '4px' }}>Mode</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {selectedBand.subbands.map((sb, idx) => (
+                    <tr key={idx} style={{ borderBottom: '1px solid #333' }}>
+                      <td style={{ padding: '4px' }}>{sb.label}</td>
+                      <td style={{ padding: '4px' }}>{(sb.start / 1e6).toFixed(3)} MHz</td>
+                      <td style={{ padding: '4px' }}>{(sb.end / 1e6).toFixed(3)} MHz</td>
+                      <td style={{ padding: '4px' }}>{sb.mode}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </>
+          )}
+  
+          <button
+            style={{
+              marginTop: '1rem',
+              backgroundColor: '#333',
+              color: 'white',
+              padding: '6px 12px',
+              border: 'none',
+              borderRadius: '4px',
+              cursor: 'pointer',
+            }}
+            onClick={() => setSelectedBand(null)}
+          >
+            Close
+          </button>
+        </div>
+      )}
     </div>
-  );     
+  );        
 };
 
 export default SpectrumView;
