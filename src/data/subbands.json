@@ -137,51 +137,88 @@
         "start": 1240000000,
         "end": 1300000000,
         "subbands": [
-          { "start": 1240000000, "end": 1246000000, "label": "Weak Signal", "mode": "SSB" },
-          { "start": 1246000000, "end": 1252000000, "label": "Repeater Outputs", "mode": "FM" },
-          { "start": 1260000000, "end": 1270000000, "label": "Repeater Inputs", "mode": "FM" },
-          { "start": 1296000000, "end": 1300000000, "label": "Experimental / DATV", "mode": "Digital" }
+          { "start": 1240000000, "end": 1246000000, "label": "Weak Signal / ATV #1", "mode": "SSB / ATV" },
+          { "start": 1246000000, "end": 1248000000, "label": "Narrow FMl", "mode": "FM/Digital" },
+          { "start": 1248000000, "end": 1258000000, "label": "Digital Communications", "mode": "Digital" },
+          { "start": 1258000000, "end": 1260000000, "label": "ATV #2", "mode": "ATV" },
+          { "start": 1260000000, "end": 1270000000, "label": "Satellite Uplinks", "mode": "Satellite" },
+          { "start": 1270000000, "end": 1276000000, "label": "Repeater Inputs", "mode": "FM/Linear" },
+          { "start": 1276000000, "end": 1282000000, "label": "ATV #3", "mode": "ATV" },
+          { "start": 1282000000, "end": 1288000000, "label": "Repeater Outputs", "mode": "FM/Linear" },
+          { "start": 1288000000, "end": 1294000000, "label": "Wide-band Experimental", "mode": "Experimental" },
+          { "start": 1294000000, "end": 1300000000, "label": "Digital Communications", "mode": "Digital" }
         ]
-      },
+      },      
       {
         "band": "13 cm Amateur Radio",
         "start": 2300000000,
         "end": 2450000000,
         "subbands": [
-          { "start": 2300000000, "end": 2310000000, "label": "Weak Signal", "mode": "SSB" },
+          { "start": 2300000000, "end": 2310000000, "label": "Narrow-band Modes / Weak Signal", "mode": "CW/SSB" },
           { "start": 2310000000, "end": 2330000000, "label": "Digital Modes / ATV", "mode": "Digital" },
-          { "start": 2390000000, "end": 2450000000, "label": "ISM / Shared Use", "mode": "Mixed" }
+          { "start": 2390000000, "end": 2450000000, "label": "ISM / Wide-band / Shared Use", "mode": "Mixed" }
         ]
-      },
+      },      
       {
         "band": "9 cm Amateur Radio",
         "start": 3300000000,
         "end": 3500000000,
         "subbands": [
-          { "start": 3300000000, "end": 3320000000, "label": "Weak Signal", "mode": "SSB" },
+          { "start": 3300000000, "end": 3320000000, "label": "Weak Signal / Narrow-band", "mode": "CW/SSB" },
           { "start": 3320000000, "end": 3400000000, "label": "ATV / Experimental", "mode": "Digital" },
-          { "start": 3456000000, "end": 3500000000, "label": "Beacon / Mixed", "mode": "Mixed" }
+          { "start": 3400000000, "end": 3410000000, "label": "Satellite Uplinks", "mode": "Satellite" },
+          { "start": 3410000000, "end": 3500000000, "label": "Wide-band / Beacon", "mode": "Mixed" }
         ]
-      },
+      },      
       {
         "band": "5 cm Amateur Radio",
         "start": 5650000000,
         "end": 5925000000,
         "subbands": [
           { "start": 5650000000, "end": 5668000000, "label": "Weak Signal", "mode": "SSB" },
-          { "start": 5668000000, "end": 5725000000, "label": "Telemetry / UAV", "mode": "Digital" },
+          { "start": 5668000000, "end": 5670000000, "label": "Satellite Uplinks", "mode": "Satellite" },
+          { "start": 5670000000, "end": 5725000000, "label": "Telemetry / UAV", "mode": "Digital" },
           { "start": 5725000000, "end": 5850000000, "label": "FPV Video", "mode": "Digital" },
-          { "start": 5850000000, "end": 5925000000, "label": "ISM / Mixed", "mode": "Mixed" }
+          { "start": 5850000000, "end": 5925000000, "label": "ISM / Wide-band / Mixed", "mode": "Mixed" }
         ]
-      },
+      },      
       {
         "band": "3 cm Amateur Radio",
         "start": 10000000000,
         "end": 10500000000,
         "subbands": [
-          { "start": 10000000000, "end": 10150000000, "label": "Weak Signal / Beacons", "mode": "SSB" },
+          { "start": 10000000000, "end": 10150000000, "label": "Weak Signal / Beacons / Narrow-band", "mode": "CW/SSB" },
           { "start": 10150000000, "end": 10300000000, "label": "Digital / Experimental", "mode": "Digital" },
-          { "start": 10300000000, "end": 10500000000, "label": "Mixed / UAV", "mode": "Mixed" }
+          { "start": 10300000000, "end": 10450000000, "label": "Mixed / UAV", "mode": "Mixed" },
+          { "start": 10450000000, "end": 10500000000, "label": "Satellite Downlinks", "mode": "Satellite" }
+        ]
+      },
+      {
+        "band": "1.25 cm Amateur Radio",
+        "start": 24000000000,
+        "end": 24250000000,
+        "subbands": [
+          { "start": 24000000000, "end": 24050000000, "label": "Satellite Uplinks", "mode": "Satellite" },
+          { "start": 24050000000, "end": 24250000000, "label": "Wide-band Modes", "mode": "FM/ATV/Digital" }
+        ]
+      },
+      {
+        "band": "6 mm Amateur Radio",
+        "start": 47000000000,
+        "end": 47200000000,
+        "subbands": [
+          { "start": 47000000000, "end": 47200000000, "label": "All Modes", "mode": "CW/SSB/FM/Digital" }
+        ]
+      },
+      {
+        "band": "4 mm Amateur Radio",
+        "start": 75500000000,
+        "end": 81000000000,
+        "subbands": [
+          { "start": 75500000000, "end": 76000000000, "label": "All Modes", "mode": "CW/SSB/FM/Digital" },
+          { "start": 76000000000, "end": 77500000000, "label": "All Modes", "mode": "CW/SSB/FM/Digital" },
+          { "start": 77500000000, "end": 78000000000, "label": "All Modes", "mode": "CW/SSB/FM/Digital" },
+          { "start": 78000000000, "end": 81000000000, "label": "All Modes", "mode": "CW/SSB/FM/Digital" }
         ]
       }
   ]

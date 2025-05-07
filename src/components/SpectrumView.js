@@ -519,7 +519,6 @@ const SpectrumView = () => {
   
           {selectedBand.subbands && (
             <>
-              {/* Visual Subband Spectrum with Labels and Responsive Height */}
               <svg
                 ref={(el) => {
                   if (!el || !selectedBand) return;
@@ -530,16 +529,29 @@ const SpectrumView = () => {
                   const height = 70;
                   svg.attr("width", width).attr("height", height);
 
-                  const modeColors = {
-                    'rtty': '#bf616a',
-                    'phone': '#a3be8c',
-                    'image': '#a3be8c',
-                    'cw': '#888888',
-                    'ssb phone only': '#ebcb8b',
-                    'usb phone cw rtty and data': '#5e81ac',
-                    'fixed digital forwarding systems only': '#d08770',
-                    'digital': '#bf616a',
-                    'ssb': '#ebcb8b'
+                  // Map of known single-mode colors
+                  const baseModeColors = {
+                    cw: '#888888',
+                    ssb: '#ebcb8b',
+                    fm: '#a3be8c',
+                    digital: '#bf616a',
+                    atv: '#b48ead',
+                    satellite: '#5e81ac',
+                    experimental: '#d08770',
+                    mixed: '#88c0d0',
+                  };
+
+                  // Normalize mixed or unknown modes
+                  const getModeColor = (mode) => {
+                    if (!mode) return '#555';
+                    const cleaned = mode.trim().toLowerCase();
+                    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
+
+                    const parts = cleaned.split(/[\s/]+/);
+                    for (const part of parts) {
+                      if (baseModeColors[part]) return baseModeColors[part];
+                    }
+                    return '#999';
                   };
 
                   const scale = d3.scaleLinear()
@@ -554,13 +566,23 @@ const SpectrumView = () => {
                     .attr("height", 12)
                     .attr("fill", "#333");
 
-                  // Subband colored bars and labels
+                  // Subband bars and dynamic labels
+                  const laneHeight = 12;
+                  const labelYOffset = 8;
+
+                  const labelLanes = [];
+                  const laneSpacing = 12;
+                  const externalLabelThreshold = 40;
+
                   selectedBand.subbands.forEach((sb) => {
                     const xStart = scale(sb.start);
                     const xEnd = scale(sb.end);
                     const barWidth = xEnd - xStart;
-                    const fill = modeColors[(sb.mode || '').trim().toLowerCase()] || '#88c0d0';
+                    const fill = getModeColor(sb.mode);
+                    const centerX = (xStart + xEnd) / 2;
+                    const label = sb.label.length > 30 ? sb.label.slice(0, 27) + '…' : sb.label;
 
+                    // Draw the main subband bar
                     svg.append("rect")
                       .attr("x", xStart)
                       .attr("y", 20)
@@ -568,54 +590,98 @@ const SpectrumView = () => {
                       .attr("height", 12)
                       .attr("fill", fill);
 
-                    if (barWidth > 30) {
+                      console.log({
+                        label: sb.label,
+                        barWidth,
+                        centerX,
+                        start: sb.start,
+                        end: sb.end
+                      });                      
+
+                    if (barWidth >= externalLabelThreshold) {
+                      // Inline label for wide enough bands
                       svg.append("text")
-                        .attr("x", xStart + barWidth / 2)
+                        .attr("x", centerX)
                         .attr("y", 30)
                         .attr("text-anchor", "middle")
                         .attr("fill", "#fff")
                         .attr("font-size", "10px")
-                        .text(sb.label.length > 20 ? sb.label.slice(0, 17) + '…' : sb.label);
+                        .text(label);
+                    } else {
+                      // === External Label Placement ===
+                      // Find a lane with no conflicts
+                      let lane = 0;
+                      while (
+                        labelLanes[lane]?.some(pos => Math.abs(pos - centerX) < 50)
+                      ) {
+                        lane++;
+                      }
+                      if (!labelLanes[lane]) labelLanes[lane] = [];
+                      labelLanes[lane].push(centerX);
+
+                      const labelY = 10 - lane * laneSpacing;
+
+                      // Draw external label above the bar
+                      svg.append("text")
+                        .attr("x", centerX)
+                        .attr("y", labelY)
+                        .attr("text-anchor", "middle")
+                        .attr("fill", "#ccc")
+                        .attr("font-size", "9px")
+                        .text(label);
+
+                      // Draw connector line from label to band
+                      svg.append("line")
+                        .attr("x1", centerX)
+                        .attr("x2", centerX)
+                        .attr("y1", labelY + 2)
+                        .attr("y2", 20)
+                        .attr("stroke", "#999")
+                        .attr("stroke-width", 1);
                     }
-                  });
-
-                  // Frequency ticks
-                  d3.ticks(selectedBand.start, selectedBand.end, 5).forEach((freq) => {
-                    const x = scale(freq);
-                    svg.append("line")
-                      .attr("x1", x)
-                      .attr("x2", x)
-                      .attr("y1", 32)
-                      .attr("y2", 42)
-                      .attr("stroke", "#aaa");
-
-                    svg.append("text")
-                      .attr("x", x)
-                      .attr("y", 55)
-                      .attr("text-anchor", "middle")
-                      .attr("fill", "#ccc")
-                      .attr("font-size", "10px")
-                      .text((freq / 1e6).toFixed(3) + " MHz");
                   });
                 }}
                 style={{ width: '100%', height: '70px', marginTop: '10px' }}
               />
   
               {/* Legend */}
+              {/* Dynamic Legend */}
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '10px', marginTop: '0.5rem' }}>
-                {[
-                  ['RTTY/Data', '#bf616a'],
-                  ['Phone / Image', '#a3be8c'],
-                  ['CW', '#888888'],
-                  ['SSB phone only', '#ebcb8b'],
-                  ['USB phone CW, RTTY and data', '#5e81ac'],
-                  ['Fixed digital forwarding systems only', '#d08770'],
-                ].map(([label, color]) => (
-                  <div key={label} style={{ display: 'flex', alignItems: 'center', fontSize: '0.9rem' }}>
-                    <span style={{ width: '14px', height: '14px', backgroundColor: color, display: 'inline-block', marginRight: '6px' }} />
-                    {label}
-                  </div>
-                ))}
+                {(() => {
+                  const baseModeColors = {
+                    cw: '#888888',
+                    ssb: '#ebcb8b',
+                    fm: '#a3be8c',
+                    digital: '#bf616a',
+                    atv: '#b48ead',
+                    satellite: '#5e81ac',
+                    experimental: '#d08770',
+                    mixed: '#88c0d0',
+                  };
+
+                  const getModeColor = (mode) => {
+                    if (!mode) return '#555';
+                    const cleaned = mode.trim().toLowerCase();
+                    if (baseModeColors[cleaned]) return baseModeColors[cleaned];
+                    const parts = cleaned.split(/[\s/]+/);
+                    for (const part of parts) {
+                      if (baseModeColors[part]) return baseModeColors[part];
+                    }
+                    return '#999';
+                  };
+
+                  const seen = new Set();
+                  return selectedBand.subbands
+                    .map(sb => (sb.mode || '').trim().toLowerCase())
+                    .flatMap(modeStr => modeStr.split(/[\s/]+/)) // split composite modes
+                    .filter((mode, i, arr) => mode && !seen.has(mode) && seen.add(mode)) // dedupe
+                    .map(mode => (
+                      <div key={mode} style={{ display: 'flex', alignItems: 'center', fontSize: '0.9rem' }}>
+                        <span style={{ width: '14px', height: '14px', backgroundColor: getModeColor(mode), display: 'inline-block', marginRight: '6px' }} />
+                        {mode.toUpperCase()}
+                      </div>
+                    ));
+                })()}
               </div>
   
               <table style={{ width: '100%', color: '#ddd', borderCollapse: 'collapse', marginTop: '1rem' }}>
