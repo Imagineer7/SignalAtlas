@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/SignalAtlas/precache-manifest.5543d5c3ae456c9962174d9e8a72e76c.js"
+  "/SignalAtlas/precache-manifest.b47ca6616107dfa3d260609f9465377c.js"
 );
 
 self.addEventListener('message', (event) => {
