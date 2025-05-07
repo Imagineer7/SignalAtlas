@@ -2,8 +2,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import * as d3 from 'd3';
 import bands from '../data/bands.json';
-//import allocations from '../data/allocations.json';
-import signals from '../data/detailedbands.json';
+import detailedBands from '../data/detailedbands.json';
 import allocationsUS from '../data/allocations-us.json';
 import allocationsEU from '../data/allocations-eu.json';
 import allocationsAPAC from '../data/allocations-apac.json';
@@ -38,7 +37,7 @@ const SpectrumView = () => {
   const hoverLineRef = useRef();
   const margin = { top: 20, right: 20, bottom: 40, left: 20 };
   const [showAllocations, setShowAllocations] = useState(true);
-  const [showSignals, setShowSignals] = useState(true);
+  const [showBands, setShowBands] = useState(true);
   const [region, setRegion] = useState('US');
   const [sidebarOpen, setSidebarOpen] = useState(true);
   const [freqInput, setFreqInput] = useState('');
@@ -48,7 +47,6 @@ const SpectrumView = () => {
         EU: allocationsEU,
         APAC: allocationsAPAC
       };
-      // current allocations for D3
   const allocations = regionMap[region];
 
   useEffect(() => {
@@ -78,7 +76,7 @@ const SpectrumView = () => {
     const allocTextLayer = svg.append("g").attr("class", "alloc-text-layer");
     const labelLayer = svg.append("g").attr("class", "label-layer");
     const markerLayer = svg.append("g").attr("class", "marker-layer");
-    const signalGroup = svg.append("g").attr("class", "signal-group");
+    const bandGroup = svg.append("g").attr("class", "band-group");
 
     const x = d3.scaleLinear()
       .domain([0, 300_000_000_000])
@@ -118,66 +116,55 @@ const SpectrumView = () => {
       .append("title")
       .text(d => `${d.label}: ${d.usage}`);
 
-      // ❶ bind data
-      const allocLabels = allocTextLayer.selectAll("text").data(allocations);
-
-      // ❷ remove any old labels
-      allocLabels.exit().remove();
-
-      // ❸ append any new labels, then merge to get full update selection
-      allocLabels.enter()
+    const allocLabels = allocTextLayer.selectAll("text").data(allocations);
+    allocLabels.exit().remove();
+    allocLabels.enter()
       .append("text")
-        .attr("text-anchor", "middle")
-        .attr("fill", "#aaa")
-        .attr("font-size", "10px")
-        .attr("x", -9999) // hide far off-screen
-        .attr("y", -9999)
-    .merge(allocLabels)
-      .text(d => d.label);    
-        
-      // Collision‐avoidant positioning for allocation labels
-      function styleAllocLabels(scale) {
-        const lanes      = [];
-        const minSpacing = 50;   // px between adjacent labels
-        const baseY      = 190;  // first row Y
-        const lineH      = 14;   // row height increment
-        const minWidthPx = 30;   // hide labels narrower than 30px
-      
-        allocTextLayer.selectAll("text")
-          .each(function(d) {
-            const cx      = (scale(d.start) + scale(d.end)) / 2;
-            const widthPx = scale(d.end) - scale(d.start);
-      
-            // 1) if toggled off or too narrow, hide and skip lane logic entirely
-            if (!showAllocations || widthPx < minWidthPx) {
-              return d3.select(this).style("opacity", 0);
-            }
-      
-            // 2) find the first lane with enough room
-            let lane = 0;
-            while (lanes[lane] != null && cx - lanes[lane] < minSpacing) {
-              lane++;
-            }
-            lanes[lane] = cx;
-      
-            // 3) position & show
-            d3.select(this)
+      .attr("text-anchor", "middle")
+      .attr("fill", "#aaa")
+      .attr("font-size", "10px")
+      .attr("x", -9999)
+      .attr("y", -9999)
+      .merge(allocLabels)
+      .text(d => d.label);
+
+    function styleAllocLabels(scale) {
+      const lanes = [];
+      const minSpacing = 50;
+      const baseY = 190;
+      const lineH = 14;
+      const minWidthPx = 30;
+
+      allocTextLayer.selectAll("text")
+        .each(function(d) {
+          const cx = (scale(d.start) + scale(d.end)) / 2;
+          const widthPx = scale(d.end) - scale(d.start);
+
+          if (!showAllocations || widthPx < minWidthPx) {
+            return d3.select(this).style("opacity", 0);
+          }
+
+          let lane = 0;
+          while (lanes[lane] != null && cx - lanes[lane] < minSpacing) {
+            lane++;
+          }
+          lanes[lane] = cx;
+
+          d3.select(this)
             .attr("x", cx)
             .attr("y", baseY + lane * lineH)
             .style("opacity", 1);
 
-            if (widthPx < 10) {
-              return d3.select(this).style("opacity", 0);
-            }        
-            truncateToFit(this, d.label, widthPx);          
-          });
-      }      
+          if (widthPx < 10) {
+            return d3.select(this).style("opacity", 0);
+          }
+          truncateToFit(this, d.label, widthPx);
+        });
+    }
 
-      // Initial call at load
-      styleAllocLabels(x);
+    styleAllocLabels(x);
 
     const bandsGroup = zoomLayer.append("g");
-
     bandsGroup.selectAll("rect")
       .data(bands)
       .enter()
@@ -215,8 +202,8 @@ const SpectrumView = () => {
 
     hoverLineRef.current = hoverLine;
 
-    signalGroup.selectAll("rect")
-      .data(signals)
+    bandGroup.selectAll("rect")
+      .data(detailedBands)
       .enter()
       .append("rect")
       .attr("x", d => x(d.start))
@@ -228,8 +215,8 @@ const SpectrumView = () => {
       .append("title")
       .text(d => `${d.label}\n${d.description || ''}`);
 
-    signalGroup.selectAll("text")
-      .data(signals)
+    bandGroup.selectAll("text")
+      .data(detailedBands)
       .enter()
       .append("text")
       .attr("x", d => (x(d.start) + x(d.end)) / 2)
@@ -291,14 +278,14 @@ const SpectrumView = () => {
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .style("display", d => (zx(d.end) - zx(d.start)) < 40 ? "none" : "block");
 
-        const showDetailedSignals = zoomLevel > 5000;
+        const showDetailedBands = zoomLevel > 5000;
 
-        signalGroup.selectAll("rect")
+        bandGroup.selectAll("rect")
           .attr("x", d => zx(d.start))
           .attr("width", d => zx(d.end) - zx(d.start))
-          .style("opacity", d => showSignals && (zx(d.end) - zx(d.start)) > 1 ? 0.8 : 0);
+          .style("opacity", d => showBands && (zx(d.end) - zx(d.start)) > 1 ? 0.8 : 0);
 
-        signalGroup.selectAll("text")
+        bandGroup.selectAll("text")
           .attr("x", d => (zx(d.start) + zx(d.end)) / 2)
           .each(function(d) {
             const widthPx = zx(d.end) - zx(d.start);
@@ -306,7 +293,7 @@ const SpectrumView = () => {
           })          
           .style("opacity", d => {
             const width = zx(d.end) - zx(d.start);
-            return showSignals && width > 40 ? 1 : 0;
+            return showBands && width > 40 ? 1 : 0;
           });
 
         if (markerRef.current && markerRef.current.style("display") !== "none") {
@@ -340,7 +327,7 @@ const SpectrumView = () => {
       svg.call(zoom.transform, d3.zoomIdentity);
     }, 0);
 
-  }, [showAllocations, showSignals, allocations]);
+  }, [showAllocations, showBands, allocations]);
 
   const resetZoom = () => {
     const svg = d3.select(ref.current);
@@ -425,8 +412,8 @@ const SpectrumView = () => {
         onReset={resetZoom}
         showAllocations={showAllocations}
         setShowAllocations={setShowAllocations}
-        showBands={showSignals}
-        setShowBands={setShowSignals}
+        showBands={showBands}
+        setShowBands={setShowBands}
         region={region === 'US' ? 'United States' : region === 'EU' ? 'Europe' : region}
         setRegion={(r) => setRegion(r === 'United States' ? 'US' : r === 'Europe' ? 'EU' : r)}
       />
