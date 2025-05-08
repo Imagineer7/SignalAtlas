@@ -112,6 +112,10 @@ const SpectrumView = () => {
       };
   const allocations = regionMap[region];
 
+  if (!allocations) {
+    console.warn("Region allocation data not found for:", region);
+  }      
+
   useEffect(() => {
     const width = 1200;
     const height = 300;
@@ -173,8 +177,10 @@ const SpectrumView = () => {
       return d => `${(d / 1e9).toFixed(2)} GHz`;
     };
 
+    console.log("Region data for", region, regionMap[region]);
+
     allocLayer.selectAll("rect")
-      .data(allocations)
+      .data(allocations || [])
       .enter()
       .append("rect")
       .attr("x", d => x(d.start))

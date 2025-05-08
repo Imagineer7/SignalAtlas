@@ -147,9 +147,9 @@ function Topbar({
           value={region}
           onChange={(e) => setRegion(e.target.value)}
         >
-          <option>United States</option>
-          <option>Europe</option>
-          <option>APAC</option>
+          <option value="US">United States</option>
+          <option value="EU">Europe</option>
+          <option value="APAC">APAC</option>
         </select>
       </div>
     </div>
