@@ -4,9 +4,9 @@ import * as d3 from 'd3';
 import SpectrumLayout from './SpectrumLayout';
 import bands from '../data/bands.json';
 import detailedBands from '../data/detailedbands.json';
-import allocationsUS from '../data/allocations-us.json';
-import allocationsEU from '../data/allocations-eu.json';
-import allocationsAPAC from '../data/allocations-apac.json';
+import allocationsUS from '../data/allocationsITU2.json';
+import allocationsEU from '../data/allocationsITU1.json';
+import allocationsAPAC from '../data/allocationsITU3.json';
 import subbandDetails from '../data/subbands.json';
 import '../styles.css';
 
@@ -39,8 +39,9 @@ const SpectrumView = () => {
   const margin = { top: 20, right: 20, bottom: 40, left: 20 };
   const [showAllocations, setShowAllocations] = useState(true);
   const [showBands, setShowBands] = useState(true);
-  const [region, setRegion] = useState('US');
+  const [region, setRegion] = useState('ITU2'); // Default to US region
   const [sidebarOpen, setSidebarOpen] = useState(false);
+  const [bandDropdownOpen, setBandDropdownOpen] = useState(false);
   const [freqInput, setFreqInput] = useState('');
   const [selectedBand, setSelectedBand] = useState(null);
   const [instructionsOpen, setInstructionsOpen] = useState(false);
@@ -106,10 +107,10 @@ const SpectrumView = () => {
   }, [instructionsOpen]);
 
   const regionMap = {
-        US: allocationsUS,
-        EU: allocationsEU,
-        APAC: allocationsAPAC
-      };
+    ITU1: allocationsEU,    // Europe, Africa, parts of the Middle East
+    ITU2: allocationsUS,    // Americas
+    ITU3: allocationsAPAC   // Asia-Pacific
+  };  
   const allocations = regionMap[region];
 
   if (!allocations) {

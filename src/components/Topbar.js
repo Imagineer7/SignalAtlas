@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import './Topbar.css';
 
 function Topbar({
@@ -15,11 +15,27 @@ function Topbar({
   bands,
   detailedBands,
   suggestions,
-  setSuggestions
+  setSuggestions,
+  zoomToBand
 }) {
 
   const [isFocused, setIsFocused] = useState(false);
   const [highlightedIndex, setHighlightedIndex] = useState(-1);
+  const [bandDropdownOpen, setBandDropdownOpen] = useState(false);
+  const dropdownRef = useRef();
+
+  useEffect(() => {
+    const handleClickOutside = (e) => {
+      if (dropdownRef.current && !dropdownRef.current.contains(e.target)) {
+        setBandDropdownOpen(false);
+      }
+    };
+  
+    document.addEventListener('mousedown', handleClickOutside);
+    return () => {
+      document.removeEventListener('mousedown', handleClickOutside);
+    };
+  }, []);
 
   return (
     <div className="topbar">
@@ -27,6 +43,65 @@ function Topbar({
         <img src={process.env.PUBLIC_URL + '/soundwave.png'} alt="waveform image" className="topbar-logo" />
         <h1 className="topbar-title">Spectrum Explorer</h1>
       </div>
+      <div className="dropdown-wrapper" ref={dropdownRef} style={{ position: 'relative' }}>
+        <button
+          className="topbar-button"
+          onClick={() => setBandDropdownOpen((prev) => !prev)}
+          aria-label={bandDropdownOpen ? 'Hide band list' : 'Show band list'}
+          style={{ position: 'relative', zIndex: 21 }}
+        >
+          Bands ▼
+        </button>
+
+        {bandDropdownOpen && (
+          <div
+            className="band-dropdown"
+            style={{
+              position: 'absolute',
+              top: '100%',
+              left: 0,
+              backgroundColor: '#1e1e1e',
+              border: '1px solid #333',
+              boxShadow: '0 4px 8px rgba(0, 0, 0, 0.4)',
+              zIndex: 20,
+              padding: '6px 0',
+              display: 'flex',
+              flexDirection: 'column',
+              maxHeight: '250px',
+              overflowY: 'auto',
+              minWidth: '160px',
+              borderRadius: '6px',
+            }}
+          >
+            {bands.slice(0, 8).map((band, i) => (
+              <button
+                key={i}
+                className="band-dropdown-button"
+                onClick={() => {
+                  zoomToBand(band);
+                  setBandDropdownOpen(false);
+                }}
+                style={{
+                  background: 'none',
+                  border: 'none',
+                  color: '#fff',
+                  textAlign: 'left',
+                  padding: '8px 12px',
+                  cursor: 'pointer',
+                  width: '100%',
+                  fontSize: '0.95rem',
+                  transition: 'background 0.2s',
+                }}
+                onMouseEnter={(e) => (e.currentTarget.style.backgroundColor = '#333')}
+                onMouseLeave={(e) => (e.currentTarget.style.backgroundColor = 'transparent')}
+              >
+                {band.name || band.label}
+              </button>
+            ))}
+          </div>
+        )}
+      </div>
+
       <div className="topbar-controls">
       <div style={{ position: 'relative' }}>
           <input
@@ -147,9 +222,9 @@ function Topbar({
           value={region}
           onChange={(e) => setRegion(e.target.value)}
         >
-          <option value="US">United States</option>
-          <option value="EU">Europe</option>
-          <option value="APAC">APAC</option>
+          <option value="ITU1">Europe & Africa</option>
+          <option value="ITU2">Americas</option>
+          <option value="ITU3">APAC</option>
         </select>
       </div>
     </div>
