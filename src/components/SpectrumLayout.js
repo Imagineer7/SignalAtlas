@@ -58,7 +58,7 @@ const SpectrumLayout = ({
         style={{
           position: 'fixed',
           bottom: '1rem',
-          left: '1rem',
+          right: '1rem',
           backgroundColor: '#222',
           color: '#fff',
           border: 'none',
@@ -109,7 +109,7 @@ const SpectrumLayout = ({
         style={{
           position: 'fixed',
           top: 0,
-          left: 0,
+          right: 0,
           width: '260px',
           height: '100%',
           backgroundColor: '#1e1e1e',
@@ -117,7 +117,7 @@ const SpectrumLayout = ({
           padding: '1rem',
           boxShadow: '2px 0 10px rgba(0,0,0,0.3)',
           zIndex: 999,
-          transform: instructionsOpen ? 'translateX(0)' : 'translateX(-100%)',
+          transform: instructionsOpen ? 'translateX(0)' : 'translateX(100%)',
           opacity: instructionsOpen ? 1 : 0,
           pointerEvents: instructionsOpen ? 'auto' : 'none',
           transition: 'transform 0.4s ease, opacity 0.4s ease',
