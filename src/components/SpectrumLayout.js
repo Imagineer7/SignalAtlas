@@ -245,10 +245,10 @@ const SpectrumLayout = ({
             <h3 style={{ marginTop: 0 }}>Welcome to SignalAtlas</h3>
             <p>Click a frequency band on the spectrum or use the search bar to explore radio signals in detail.</p>
             <ul style={{ lineHeight: '1.6' }}>
-              <li>🔍 Search by frequency or label (e.g. "2.4 GHz", "NOAA Weather Radio")</li>
-              <li>📊 Click a band to inspect its sub-band breakdown</li>
-              <li>🖱️ Hover over the spectrum for signal info</li>
-              <li>🌐 Change regions to view different band plans</li>
+              <li><span role="img" aria-label="magnifying glass">🔍</span> Search by frequency or label (e.g. "2.4 GHz", "NOAA Weather Radio")</li>
+              <li><span role="img" aria-label="bar chart">📊</span> Click a band to inspect its sub-band breakdown</li>
+              <li><span role="img" aria-label="computer mouse">🖱️</span> Hover over the spectrum for signal info</li>
+              <li><span role="img" aria-label="globe">🌐</span> Change regions to view different band plans</li>
             </ul>
           </>
         )}
