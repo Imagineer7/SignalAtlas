@@ -1,0 +1,4427 @@
+[
+  {
+    "region1": [
+      "FIXED",
+      "RADIO ASTRONOMY"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149"
+    ],
+    "start_MHz": 13360.0,
+    "end_MHz": 13410.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Radio Astronomy",
+        "category": "Science",
+        "color": "#5e81ac"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.149",
+        "text": "5.265"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 13410.0,
+    "end_MHz": 13450.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "region2": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "region3": [],
+    "notes": [
+      "5.132A",
+      "5.149A",
+      "5.132A"
+    ],
+    "start_MHz": 13450.0,
+    "end_MHz": 13550.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.149A",
+        "text": "Alternative  allocation: in  Armenia,  Belarus,  Moldova  and  Kyrgyzstan,  the  frequency  band"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.150"
+    ],
+    "start_MHz": 13550.0,
+    "end_MHz": 13570.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.150",
+        "text": "5.150 5.150"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.134",
+      "5.151"
+    ],
+    "start_MHz": 13570.0,
+    "end_MHz": 13600.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.151",
+        "text": "Additional allocation: frequencies in the bands 13570-13600 kHz and 13800-13870 kHz may be used"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 13600.0,
+    "end_MHz": 13800.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.134",
+      "5.151"
+    ],
+    "start_MHz": 13800.0,
+    "end_MHz": 13870.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.151",
+        "text": "Additional allocation: frequencies in the bands 13570-13600 kHz and 13800-13870 kHz may be used"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 13870.0,
+    "end_MHz": 14000.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "AMATEUR",
+      "AMATEUR-SATELLITE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 14000.0,
+    "end_MHz": 14250.0,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Amateur Satellite",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "AMATEUR"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.152"
+    ],
+    "start_MHz": 14250.0,
+    "end_MHz": 14350.0,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.152",
+        "text": "Additional allocation: in Armenia, Azerbaijan, China, C\u00f4te d\u2019Ivoire, the Russian Federation, Georgia, Iran"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 14350.0,
+    "end_MHz": 14990.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.111"
+    ],
+    "start_MHz": 14990.0,
+    "end_MHz": 15005.0,
+    "services": [],
+    "notes_expanded": [
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "STANDARD FREQUENCY AND TIME SIGNAL",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 15005.0,
+    "end_MHz": 15010.0,
+    "services": [
+      {
+        "label": "Standard Frequency And Time Signal",
+        "category": "Utility",
+        "color": "#bf616a"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 15010.0,
+    "end_MHz": 15100.0,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 15100.0,
+    "end_MHz": 15600.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.134",
+      "5.146"
+    ],
+    "start_MHz": 15600.0,
+    "end_MHz": 15800.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.153"
+    ],
+    "start_MHz": 15800.0,
+    "end_MHz": 16100.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "region2": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "region3": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "notes": [
+      "5.145A",
+      "5.145B",
+      "5.145A",
+      "5.145A"
+    ],
+    "start_MHz": 16100.0,
+    "end_MHz": 16200.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 16200.0,
+    "end_MHz": 16360.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 16360.0,
+    "end_MHz": 17410.0,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 17410.0,
+    "end_MHz": 17480.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.134",
+      "5.146"
+    ],
+    "start_MHz": 17480.0,
+    "end_MHz": 17550.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 17550.0,
+    "end_MHz": 17900.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 17900.0,
+    "end_MHz": 17970.0,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 17970.0,
+    "end_MHz": 18030.0,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 18030.0,
+    "end_MHz": 18052.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 18052.0,
+    "end_MHz": 18068.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "AMATEUR",
+      "AMATEUR-SATELLITE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.154"
+    ],
+    "start_MHz": 18068.0,
+    "end_MHz": 18168.0,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Amateur Satellite",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.154",
+        "text": "Additional allocation: in Armenia, Azerbaijan, the Russian Federation, Georgia, Kazakhstan, Kyrgyzstan,"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 18168.0,
+    "end_MHz": 18780.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 18780.0,
+    "end_MHz": 18900.0,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.134",
+      "5.146"
+    ],
+    "start_MHz": 18900.0,
+    "end_MHz": 19020.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 19020.0,
+    "end_MHz": 19680.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.132"
+    ],
+    "start_MHz": 19680.0,
+    "end_MHz": 19800.0,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 19800.0,
+    "end_MHz": 19990.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "STANDARD FREQUENCY AND TIME SIGNAL",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.111"
+    ],
+    "start_MHz": 19990.0,
+    "end_MHz": 19995.0,
+    "services": [
+      {
+        "label": "Standard Frequency And Time Signal",
+        "category": "Utility",
+        "color": "#bf616a"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.111"
+    ],
+    "start_MHz": 19995.0,
+    "end_MHz": 20010.0,
+    "services": [],
+    "notes_expanded": [
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 20010.0,
+    "end_MHz": 21000.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "AMATEUR",
+      "AMATEUR-SATELLITE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 21000.0,
+    "end_MHz": 21450.0,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Amateur Satellite",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 21450.0,
+    "end_MHz": 21850.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.155A",
+      "5.155"
+    ],
+    "start_MHz": 21850.0,
+    "end_MHz": 21870.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.155A",
+        "text": "In Armenia, Azerbaijan, Belarus, the Russian Federation, Georgia, Moldova, Uzbekistan, Kyrgyzstan,"
+      },
+      {
+        "ref": "5.155",
+        "text": "Additional allocation: in Armenia, Azerbaijan, Belarus, the Russian Federation, Georgia, Moldova,"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.155B"
+    ],
+    "start_MHz": 21870.0,
+    "end_MHz": 21924.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.155B",
+        "text": "The band 21870-21924 kHz is used by the fixed service for provision of services related to aircraft flight"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 21924.0,
+    "end_MHz": 22000.0,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.156"
+    ],
+    "start_MHz": 22000.0,
+    "end_MHz": 22855.0,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.156",
+        "text": "Additional allocation: in Nigeria, the band 22720-23200 kHz is also allocated to the meteorological aids"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.156"
+    ],
+    "start_MHz": 22855.0,
+    "end_MHz": 23000.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.156",
+        "text": "Additional allocation: in Nigeria, the band 22720-23200 kHz is also allocated to the meteorological aids"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.156"
+    ],
+    "start_MHz": 23000.0,
+    "end_MHz": 23200.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.156",
+        "text": "Additional allocation: in Nigeria, the band 22720-23200 kHz is also allocated to the meteorological aids"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.156A"
+    ],
+    "start_MHz": 23200.0,
+    "end_MHz": 23350.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.156A",
+        "text": "The use of the band 23200-23350 kHz by the fixed service is limited to provision of services related to"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.157"
+    ],
+    "start_MHz": 23350.0,
+    "end_MHz": 24000.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.157",
+        "text": "The use of the band 23350-24000 kHz by the maritime mobile service is limited to inter-ship"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 24000.0,
+    "end_MHz": 24450.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "region2": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "region3": [
+      "FIXED",
+      "RADIOLOCATION"
+    ],
+    "notes": [
+      "5.132A",
+      "5.158",
+      "5.132A",
+      "5.132A"
+    ],
+    "start_MHz": 24450.0,
+    "end_MHz": 24600.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.158",
+        "text": "Alternative allocation: in Armenia, Belarus, Moldova and Kyrgyzstan, the frequency band 24450-"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [
+      "FIXED"
+    ],
+    "notes": [],
+    "start_MHz": 24600.0,
+    "end_MHz": 24890.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED"
+    ],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 24650.0,
+    "end_MHz": 24890.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "AMATEUR",
+      "AMATEUR-SATELLITE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 24890.0,
+    "end_MHz": 24990.0,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Amateur Satellite",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 24990.0,
+    "end_MHz": 25005.0,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "STANDARD FREQUENCY AND TIME SIGNAL",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 25005.0,
+    "end_MHz": 25010.0,
+    "services": [
+      {
+        "label": "Standard Frequency And Time Signal",
+        "category": "Utility",
+        "color": "#bf616a"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 25010.0,
+    "end_MHz": 25070.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 25070.0,
+    "end_MHz": 25210.0,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 25210.0,
+    "end_MHz": 25550.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "RADIO ASTRONOMY"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149"
+    ],
+    "start_MHz": 25550.0,
+    "end_MHz": 25670.0,
+    "services": [
+      {
+        "label": "Radio Astronomy",
+        "category": "Science",
+        "color": "#5e81ac"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.149",
+        "text": "5.265"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 25670.0,
+    "end_MHz": 26100.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.132"
+    ],
+    "start_MHz": 26100.0,
+    "end_MHz": 26175.0,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 26175.0,
+    "end_MHz": 26200.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "notes": [
+      "5.132A",
+      "5.133A",
+      "5.132A",
+      "5.132A"
+    ],
+    "start_MHz": 26200.0,
+    "end_MHz": 26350.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [
+      "5.150",
+      "5.150"
+    ],
+    "start_MHz": 26350.0,
+    "end_MHz": 27500.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.150",
+        "text": "5.150 5.150"
+      },
+      {
+        "ref": "5.150",
+        "text": "5.150 5.150"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.150"
+    ],
+    "start_MHz": 26420.0,
+    "end_MHz": 27500.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.150",
+        "text": "5.150 5.150"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "METEOROLOGICAL AIDS",
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 27.5,
+    "end_MHz": 28.0,
+    "services": [
+      {
+        "label": "Meteorological Aids",
+        "category": "Weather",
+        "color": "#eceff4"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "AMATEUR",
+      "AMATEUR-SATELLITE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 28.0,
+    "end_MHz": 29.7,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Amateur Satellite",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 29.7,
+    "end_MHz": 30.005,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 30.005,
+    "end_MHz": 30.01,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 30.01,
+    "end_MHz": 37.5,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "RADIO ASTRONOMY"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149"
+    ],
+    "start_MHz": 37.5,
+    "end_MHz": 38.25,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radio Astronomy",
+        "category": "Science",
+        "color": "#5e81ac"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.149",
+        "text": "5.265"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [],
+    "start_MHz": 38.25,
+    "end_MHz": 39.5,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.132A",
+      "5.159"
+    ],
+    "start_MHz": 39.0,
+    "end_MHz": 39.5,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159",
+        "text": "Alternative allocation: in Armenia, Belarus, Moldova and Kyrgyzstan, the frequency band 39-39.5MHz"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "notes": [
+      "5.132A"
+    ],
+    "start_MHz": 39.5,
+    "end_MHz": 39.986,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION",
+      "SPACE RESEARCH"
+    ],
+    "notes": [
+      "5.132A"
+    ],
+    "start_MHz": 39.986,
+    "end_MHz": 40.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "SPACE RESEARCH"
+    ],
+    "notes": [
+      "5.159A",
+      "5.159A"
+    ],
+    "start_MHz": 40.0,
+    "end_MHz": 40.02,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.159A",
+      "5.150"
+    ],
+    "start_MHz": 40.02,
+    "end_MHz": 40.98,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.150",
+        "text": "5.150 5.150"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "SPACE RESEARCH"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.159A"
+    ],
+    "start_MHz": 40.98,
+    "end_MHz": 41.015,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.159A",
+      "5.160",
+      "5.161",
+      "5.161A"
+    ],
+    "start_MHz": 41.015,
+    "end_MHz": 42.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.160",
+        "text": "Additional allocation: in Botswana, Burundi, Dem. Rep. of the Congo and Rwanda, the band 41-44MHz"
+      },
+      {
+        "ref": "5.161",
+        "text": "Additional allocation: in Iran (Islamic Republic of) and Japan, the band 41-44 MHz is also allocated to the"
+      },
+      {
+        "ref": "5.161A",
+        "text": "Additional allocation: in Korea (Rep. of), the United States and Mexico, the frequency bands"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.159A",
+      "5.132A",
+      "5.160",
+      "5.161B",
+      "5.159A",
+      "5.161"
+    ],
+    "start_MHz": 42.0,
+    "end_MHz": 42.5,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.160",
+        "text": "Additional allocation: in Botswana, Burundi, Dem. Rep. of the Congo and Rwanda, the band 41-44MHz"
+      },
+      {
+        "ref": "5.161B",
+        "text": "Alternative  allocation: in  Albania,  Germany,  Armenia,  Austria,  Belarus,  Belgium,  Bosnia  and"
+      },
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.161",
+        "text": "Additional allocation: in Iran (Islamic Republic of) and Japan, the band 41-44 MHz is also allocated to the"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.159A",
+      "5.160",
+      "5.161",
+      "5.161A"
+    ],
+    "start_MHz": 42.5,
+    "end_MHz": 44.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.160",
+        "text": "Additional allocation: in Botswana, Burundi, Dem. Rep. of the Congo and Rwanda, the band 41-44MHz"
+      },
+      {
+        "ref": "5.161",
+        "text": "Additional allocation: in Iran (Islamic Republic of) and Japan, the band 41-44 MHz is also allocated to the"
+      },
+      {
+        "ref": "5.161A",
+        "text": "Additional allocation: in Korea (Rep. of), the United States and Mexico, the frequency bands"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.159A"
+    ],
+    "start_MHz": 44.0,
+    "end_MHz": 47.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "BROADCASTING"
+    ],
+    "notes": [
+      "5.159A",
+      "5.159A",
+      "5.159A",
+      "5.162A"
+    ],
+    "start_MHz": 47.0,
+    "end_MHz": 50.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.159A",
+        "text": "Earth exploration-satellite (active)"
+      },
+      {
+        "ref": "5.162A",
+        "text": "5.163 5.164 5.165"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [
+      "AMATEUR"
+    ],
+    "region3": [],
+    "notes": [
+      "5.166C",
+      "5.166D",
+      "5.169",
+      "5.169A"
+    ],
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      },
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.166C",
+        "text": "In Region1, stations in the amateur service in the frequency band 50-52MHz, with the exception of those"
+      },
+      {
+        "ref": "5.166D",
+        "text": "Different category of service: in Lebanon, the frequency band 50-52MHz is allocated to the amateur"
+      },
+      {
+        "ref": "5.169",
+        "text": "Alternative allocation: in Botswana, Eswatini, Lesotho, Malawi, Namibia, Rwanda, South Africa, Zambia"
+      },
+      {
+        "ref": "5.169A",
+        "text": "Alternative allocation: in the following countries in Region 1: Angola, Saudi Arabia, Bahrain, Burkina"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.169B",
+      "5.171"
+    ],
+    "start_MHz": 52.0,
+    "end_MHz": 68.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.169B",
+        "text": "Except countries listed under No. 5.169, stations in the amateur service used in Region1, in all or part of"
+      },
+      {
+        "ref": "5.171",
+        "text": "Additional allocation: in Botswana, Eswatini, Lesotho, Malawi, Mali, Namibia, Dem. Rep. of the Congo,"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "BROADCASTING",
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "BROADCASTING"
+    ],
+    "notes": [
+      "5.172",
+      "5.162A"
+    ],
+    "start_MHz": 54.0,
+    "end_MHz": 68.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.172",
+        "text": "Different category of service: in the French overseas departments and communities in Region2 and"
+      },
+      {
+        "ref": "5.162A",
+        "text": "5.163 5.164 5.165"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "BROADCASTING",
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [
+      "5.173"
+    ],
+    "start_MHz": 68.0,
+    "end_MHz": 74.8,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.173",
+        "text": "Different category of service: in the French overseas departments and communities in Region2 and"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 72.0,
+    "end_MHz": 73.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [
+      "RADIO ASTRONOMY"
+    ],
+    "region3": [],
+    "notes": [
+      "5.178"
+    ],
+    "start_MHz": 73.0,
+    "end_MHz": 74.6,
+    "services": [
+      {
+        "label": "Radio Astronomy",
+        "category": "Science",
+        "color": "#5e81ac"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.178",
+        "text": "Additional allocation: in Colombia, Cuba, El Salvador, Guatemala, Guyana, Honduras and Nicaragua, the"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 74.6,
+    "end_MHz": 74.8,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 74.8,
+    "end_MHz": 75.2,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.179"
+    ],
+    "start_MHz": 75.2,
+    "end_MHz": 75.4,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.179",
+        "text": "Additional allocation: in Armenia, Azerbaijan, Belarus, China, the Russian Federation, Georgia,"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [],
+    "start_MHz": 75.4,
+    "end_MHz": 87.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [
+      "BROADCASTING",
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.185"
+    ],
+    "start_MHz": 76.0,
+    "end_MHz": 88.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.185",
+        "text": "Different category of service: in the United States, the French overseas departments and communities in"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "BROADCASTING"
+    ],
+    "notes": [],
+    "start_MHz": 87.0,
+    "end_MHz": 100.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.190"
+    ],
+    "start_MHz": 87.5,
+    "end_MHz": 100.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.190",
+        "text": "Additional allocation: in Monaco, the band 87.5-88 MHz is also allocated to the land mobile service on a"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "BROADCASTING"
+    ],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 88.0,
+    "end_MHz": 100.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 100.0,
+    "end_MHz": 108.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 108.0,
+    "end_MHz": 117.975,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 117.975,
+    "end_MHz": 137.0,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.203C"
+    ],
+    "start_MHz": 137.0,
+    "end_MHz": 137.025,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.203C",
+        "text": "The use of the space operation service (space-to-Earth) with non-geostationarysatellite short-duration"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.203C"
+    ],
+    "start_MHz": 137.025,
+    "end_MHz": 137.175,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.203C",
+        "text": "The use of the space operation service (space-to-Earth) with non-geostationarysatellite short-duration"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.203C",
+      "5.209A"
+    ],
+    "start_MHz": 137.175,
+    "end_MHz": 137.825,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.203C",
+        "text": "The use of the space operation service (space-to-Earth) with non-geostationarysatellite short-duration"
+      },
+      {
+        "ref": "5.209A",
+        "text": "The use of the frequency band 137.175-137.825MHz by non-geostationary-satellite systems in the space"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.203C"
+    ],
+    "start_MHz": 137.825,
+    "end_MHz": 138.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.203C",
+        "text": "The use of the space operation service (space-to-Earth) with non-geostationarysatellite short-duration"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [],
+    "start_MHz": 138.0,
+    "end_MHz": 143.6,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "SPACE RESEARCH"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION",
+      "SPACE RESEARCH"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "SPACE RESEARCH"
+    ],
+    "notes": [],
+    "start_MHz": 143.6,
+    "end_MHz": 143.65,
+    "services": [
+      {
+        "label": "Space Research",
+        "category": "Space",
+        "color": "#ebcb8b"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [],
+    "start_MHz": 143.65,
+    "end_MHz": 144.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "AMATEUR",
+      "AMATEUR-SATELLITE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.216"
+    ],
+    "start_MHz": 144.0,
+    "end_MHz": 146.0,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Amateur Satellite",
+        "category": "Amateur",
+        "color": "#b48ead"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.216",
+        "text": "Additional allocation: in China, the band 144-146 MHz is also allocated to the aeronautical mobile (OR)"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [
+      "AMATEUR"
+    ],
+    "region3": [
+      "AMATEUR",
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [
+      "5.217",
+      "5.217"
+    ],
+    "start_MHz": 146.0,
+    "end_MHz": 148.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.217",
+        "text": "Alternative allocation: in Afghanistan, Bangladesh, Cuba, Guyana and India, the band146-148MHz is"
+      },
+      {
+        "ref": "5.217",
+        "text": "Alternative allocation: in Afghanistan, Bangladesh, Cuba, Guyana and India, the band146-148MHz is"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE-SATELLITE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.209",
+      "5.218",
+      "5.218A",
+      "5.209",
+      "5.218",
+      "5.218A"
+    ],
+    "start_MHz": 148.0,
+    "end_MHz": 149.9,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile Satellite",
+        "category": "Satellite",
+        "color": "#ebcb8b"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.209",
+        "text": "The  use  of  the  bands  137-138  MHz,  148-150.05  MHz,  399.9-400.05  MHz,  400.15-401MHz,"
+      },
+      {
+        "ref": "5.218",
+        "text": "Additional allocation: the band 148-149.9 MHz is also allocated to the space operation service (Earth-to-"
+      },
+      {
+        "ref": "5.218A",
+        "text": "The frequency band 148-149.9MHz in the space operation service (Earth-to-space) may be used by non-"
+      },
+      {
+        "ref": "5.209",
+        "text": "The  use  of  the  bands  137-138  MHz,  148-150.05  MHz,  399.9-400.05  MHz,  400.15-401MHz,"
+      },
+      {
+        "ref": "5.218",
+        "text": "Additional allocation: the band 148-149.9 MHz is also allocated to the space operation service (Earth-to-"
+      },
+      {
+        "ref": "5.218A",
+        "text": "The frequency band 148-149.9MHz in the space operation service (Earth-to-space) may be used by non-"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.209",
+      "5.220"
+    ],
+    "start_MHz": 149.9,
+    "end_MHz": 150.05,
+    "services": [],
+    "notes_expanded": [
+      {
+        "ref": "5.209",
+        "text": "The  use  of  the  bands  137-138  MHz,  148-150.05  MHz,  399.9-400.05  MHz,  400.15-401MHz,"
+      },
+      {
+        "ref": "5.220",
+        "text": "The use of the frequency bands 149.9-150.05MHz and 399.9-400.05MHz by the mobile-satellite service"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "RADIO ASTRONOMY"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.225"
+    ],
+    "start_MHz": 150.05,
+    "end_MHz": 154.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radio Astronomy",
+        "category": "Science",
+        "color": "#5e81ac"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.149",
+        "text": "5.265"
+      },
+      {
+        "ref": "5.225",
+        "text": "Additional allocation: in Australia and India, the band 150.05-153 MHz is also allocated to the radio"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "METEOROLOGICAL AIDS"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 153.0,
+    "end_MHz": 154.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Meteorological Aids",
+        "category": "Weather",
+        "color": "#eceff4"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [
+      "5.225A",
+      "5.226",
+      "5.226",
+      "5.225A",
+      "5.226"
+    ],
+    "start_MHz": 154.0,
+    "end_MHz": 156.4875,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.225A",
+        "text": "Additional allocation:in Algeria, Armenia, Azerbaijan, Belarus, China, the Russian Federation, France,"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.225A",
+        "text": "Additional allocation:in Algeria, Armenia, Azerbaijan, Belarus, China, the Russian Federation, France,"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.111",
+      "5.226",
+      "5.227"
+    ],
+    "start_MHz": 156.4875,
+    "end_MHz": 156.5625,
+    "services": [],
+    "notes_expanded": [
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.227",
+        "text": "Additional allocation: the bands 156.4875-156.5125MHz and 156.5375-156.5625MHz are also allocated"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.226",
+      "5.226"
+    ],
+    "start_MHz": 156.5625,
+    "end_MHz": 156.7625,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [
+      "MARITIME MOBILE"
+    ],
+    "region3": [
+      "MARITIME MOBILE"
+    ],
+    "notes": [
+      "5.111",
+      "5.226",
+      "5.228",
+      "5.111",
+      "5.226",
+      "5.228",
+      "5.111",
+      "5.226",
+      "5.228"
+    ],
+    "start_MHz": 156.7625,
+    "end_MHz": 156.7875,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.228",
+        "text": "The use of the frequency bands 156.7625-156.7875MHz and 156.8125-156.8375MHz by the mobile-"
+      },
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.228",
+        "text": "The use of the frequency bands 156.7625-156.7875MHz and 156.8125-156.8375MHz by the mobile-"
+      },
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.228",
+        "text": "The use of the frequency bands 156.7625-156.7875MHz and 156.8125-156.8375MHz by the mobile-"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 156.7875,
+    "end_MHz": 156.8125,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "MARITIME MOBILE"
+    ],
+    "region2": [
+      "MARITIME MOBILE"
+    ],
+    "region3": [
+      "MARITIME MOBILE"
+    ],
+    "notes": [
+      "5.111",
+      "5.226",
+      "5.228",
+      "5.111",
+      "5.226",
+      "5.228",
+      "5.111",
+      "5.226",
+      "5.228"
+    ],
+    "start_MHz": 156.8125,
+    "end_MHz": 156.8375,
+    "services": [
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.228",
+        "text": "The use of the frequency bands 156.7625-156.7875MHz and 156.8125-156.8375MHz by the mobile-"
+      },
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.228",
+        "text": "The use of the frequency bands 156.7625-156.7875MHz and 156.8125-156.8375MHz by the mobile-"
+      },
+      {
+        "ref": "5.111",
+        "text": "5.252 5.254 5.256 5.256A"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.228",
+        "text": "The use of the frequency bands 156.7625-156.7875MHz and 156.8125-156.8375MHz by the mobile-"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.226",
+      "5.226"
+    ],
+    "start_MHz": 156.8375,
+    "end_MHz": 157.1875,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.208A",
+      "5.208B",
+      "5.226",
+      "5.208B",
+      "5.226"
+    ],
+    "start_MHz": 157.1875,
+    "end_MHz": 157.3375,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.208A",
+        "text": "In making assignments to space stations in the mobile-satellite service in the frequency bands"
+      },
+      {
+        "ref": "5.208B",
+        "text": "5.228AB  5.228AC"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.208B",
+        "text": "5.228AB  5.228AC"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.226",
+      "5.226"
+    ],
+    "start_MHz": 157.3375,
+    "end_MHz": 161.7875,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.208B",
+      "5.226",
+      "5.208A",
+      "5.208B",
+      "5.226"
+    ],
+    "start_MHz": 161.7875,
+    "end_MHz": 161.9375,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.208B",
+        "text": "5.228AB  5.228AC"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.208A",
+        "text": "In making assignments to space stations in the mobile-satellite service in the frequency bands"
+      },
+      {
+        "ref": "5.208B",
+        "text": "5.228AB  5.228AC"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.226",
+      "5.226"
+    ],
+    "start_MHz": 161.9375,
+    "end_MHz": 161.9625,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "MARITIME MOBILE"
+    ],
+    "region3": [
+      "MARITIME MOBILE"
+    ],
+    "notes": [
+      "5.228F",
+      "5.226",
+      "5.228A",
+      "5.228B",
+      "5.228C",
+      "5.228D",
+      "5.228E",
+      "5.228F",
+      "5.226"
+    ],
+    "start_MHz": 161.9625,
+    "end_MHz": 161.9875,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.228F",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by the mobile-"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.228A",
+        "text": "The frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz may be used by aircraft"
+      },
+      {
+        "ref": "5.228B",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by the fixed and"
+      },
+      {
+        "ref": "5.228C",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by themaritime"
+      },
+      {
+        "ref": "5.228D",
+        "text": "The frequency bands 161.9625-161.9875MHz (AIS1) and 162.0125-162.0375MHz (AIS2) may continue"
+      },
+      {
+        "ref": "5.228E",
+        "text": "The use of the automatic identification system in the frequency bands 161.9625-161.9875MHz and"
+      },
+      {
+        "ref": "5.228F",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by the mobile-"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.226",
+      "5.226"
+    ],
+    "start_MHz": 161.9875,
+    "end_MHz": 162.0125,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "MARITIME MOBILE"
+    ],
+    "region3": [
+      "MARITIME MOBILE"
+    ],
+    "notes": [
+      "5.228F",
+      "5.228B",
+      "5.228C",
+      "5.228D",
+      "5.228E",
+      "5.228F",
+      "5.226"
+    ],
+    "start_MHz": 162.0125,
+    "end_MHz": 162.0375,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.228F",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by the mobile-"
+      },
+      {
+        "ref": "5.228B",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by the fixed and"
+      },
+      {
+        "ref": "5.228C",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by themaritime"
+      },
+      {
+        "ref": "5.228D",
+        "text": "The frequency bands 161.9625-161.9875MHz (AIS1) and 162.0125-162.0375MHz (AIS2) may continue"
+      },
+      {
+        "ref": "5.228E",
+        "text": "The use of the automatic identification system in the frequency bands 161.9625-161.9875MHz and"
+      },
+      {
+        "ref": "5.228F",
+        "text": "The use of the frequency bands 161.9625-161.9875MHz and 162.0125-162.0375MHz by the mobile-"
+      },
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [
+      "5.226"
+    ],
+    "start_MHz": 162.0375,
+    "end_MHz": 174.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.226",
+        "text": "5.226 5.230 5.231"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "BROADCASTING"
+    ],
+    "region2": [
+      "BROADCASTING",
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "BROADCASTING"
+    ],
+    "notes": [],
+    "start_MHz": 174.0,
+    "end_MHz": 223.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MARITIME MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region3": [],
+    "notes": [
+      "5.241",
+      "5.242"
+    ],
+    "start_MHz": 216.0,
+    "end_MHz": 220.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Maritime Mobile",
+        "category": "Maritime",
+        "color": "#8fbcbb"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.242",
+        "text": "Additional allocation: in Canada and Mexico, the frequency band 216-220MHz is also allocated to the"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "AMATEUR",
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION"
+    ],
+    "region3": [],
+    "notes": [
+      "5.241"
+    ],
+    "start_MHz": 220.0,
+    "end_MHz": 225.0,
+    "services": [
+      {
+        "label": "Amateur",
+        "category": "Amateur",
+        "color": "#b48ead"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "BROADCASTING",
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "BROADCASTING",
+      "RADIOLOCATION"
+    ],
+    "notes": [
+      "5.250"
+    ],
+    "start_MHz": 223.0,
+    "end_MHz": 230.0,
+    "services": [
+      {
+        "label": "Broadcasting",
+        "category": "Broadcast",
+        "color": "#d08770"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radiolocation",
+        "category": "Navigation",
+        "color": "#d08770"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.250",
+        "text": "Additional allocation: in China, the band 225-235 MHz is also allocated to the radio astronomy service on"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 225.0,
+    "end_MHz": 235.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "notes": [
+      "5.250"
+    ],
+    "start_MHz": 230.0,
+    "end_MHz": 235.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.250",
+        "text": "Additional allocation: in China, the band 225-235 MHz is also allocated to the radio astronomy service on"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 235.0,
+    "end_MHz": 267.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 267.0,
+    "end_MHz": 272.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254"
+    ],
+    "start_MHz": 272.0,
+    "end_MHz": 273.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.254",
+        "text": "The bands 235-322 MHz and 335.4-399.9 MHz may be used by the mobile-satellite service, subject to"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254"
+    ],
+    "start_MHz": 273.0,
+    "end_MHz": 312.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.254",
+        "text": "The bands 235-322 MHz and 335.4-399.9 MHz may be used by the mobile-satellite service, subject to"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 312.0,
+    "end_MHz": 315.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254"
+    ],
+    "start_MHz": 315.0,
+    "end_MHz": 322.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.254",
+        "text": "The bands 235-322 MHz and 335.4-399.9 MHz may be used by the mobile-satellite service, subject to"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "RADIO ASTRONOMY"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149"
+    ],
+    "start_MHz": 322.0,
+    "end_MHz": 328.6,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      },
+      {
+        "label": "Radio Astronomy",
+        "category": "Science",
+        "color": "#5e81ac"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.149",
+        "text": "5.265"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.258",
+      "5.259"
+    ],
+    "start_MHz": 328.6,
+    "end_MHz": 335.4,
+    "services": [],
+    "notes_expanded": [
+      {
+        "ref": "5.258",
+        "text": "The use of the band 328.6-335.4 MHz by the aeronautical radionavigation service is limited to Instrument"
+      },
+      {
+        "ref": "5.259",
+        "text": "Additional allocation: in Egypt and the Syrian Arab Republic, the band 328.6-335.4MHz is also allocated"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254"
+    ],
+    "start_MHz": 335.4,
+    "end_MHz": 387.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.254",
+        "text": "The bands 235-322 MHz and 335.4-399.9 MHz may be used by the mobile-satellite service, subject to"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 387.0,
+    "end_MHz": 390.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "FIXED",
+      "MOBILE"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254"
+    ],
+    "start_MHz": 390.0,
+    "end_MHz": 399.9,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Mobile",
+        "category": "Mobile",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.254",
+        "text": "The bands 235-322 MHz and 335.4-399.9 MHz may be used by the mobile-satellite service, subject to"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.209",
+      "5.220"
+    ],
+    "start_MHz": 399.9,
+    "end_MHz": 400.05,
+    "services": [],
+    "notes_expanded": [
+      {
+        "ref": "5.209",
+        "text": "The  use  of  the  bands  137-138  MHz,  148-150.05  MHz,  399.9-400.05  MHz,  400.15-401MHz,"
+      },
+      {
+        "ref": "5.220",
+        "text": "The use of the frequency bands 149.9-150.05MHz and 399.9-400.05MHz by the mobile-satellite service"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 400.05,
+    "end_MHz": 400.15,
+    "services": [],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "METEOROLOGICAL AIDS"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.263"
+    ],
+    "start_MHz": 400.15,
+    "end_MHz": 401.0,
+    "services": [
+      {
+        "label": "Meteorological Aids",
+        "category": "Weather",
+        "color": "#eceff4"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.263",
+        "text": "The band 400.15-401 MHz is also allocated to the space research service in the space-to-space direction for"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "METEOROLOGICAL AIDS",
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 401.0,
+    "end_MHz": 402.0,
+    "services": [
+      {
+        "label": "Meteorological Aids",
+        "category": "Weather",
+        "color": "#eceff4"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "METEOROLOGICAL AIDS",
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [],
+    "start_MHz": 402.0,
+    "end_MHz": 403.0,
+    "services": [
+      {
+        "label": "Meteorological Aids",
+        "category": "Weather",
+        "color": "#eceff4"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": []
+  },
+  {
+    "region1": [
+      "METEOROLOGICAL AIDS",
+      "FIXED"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.265"
+    ],
+    "start_MHz": 403.0,
+    "end_MHz": 406.0,
+    "services": [
+      {
+        "label": "Meteorological Aids",
+        "category": "Weather",
+        "color": "#eceff4"
+      },
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.265",
+        "text": "In the frequency band 403-410MHz, Resolution 205 (Rev.WRC-19)applies.     (WRC-19)"
+      }
+    ]
+  },
+  {
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.265"
+    ],
+    "start_MHz": 406.0,
+    "end_MHz": 406.1,
+    "services": [],
+    "notes_expanded": [
+      {
+        "ref": "5.265",
+        "text": "In the frequency band 403-410MHz, Resolution 205 (Rev.WRC-19)applies.     (WRC-19)"
+      }
+    ]
+  },
+  {
+    "region1": [
+      "FIXED",
+      "RADIO ASTRONOMY"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.265"
+    ],
+    "start_MHz": 406.1,
+    "end_MHz": 410.0,
+    "services": [
+      {
+        "label": "Fixed",
+        "category": "Fixed",
+        "color": "#88c0d0"
+      },
+      {
+        "label": "Radio Astronomy",
+        "category": "Science",
+        "color": "#5e81ac"
+      }
+    ],
+    "notes_expanded": [
+      {
+        "ref": "5.149",
+        "text": "5.265"
+      },
+      {
+        "ref": "5.265",
+        "text": "In the frequency band 403-410MHz, Resolution 205 (Rev.WRC-19)applies.     (WRC-19)"
+      }
+    ]
+  }
+]
