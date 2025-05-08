@@ -70,7 +70,7 @@ const SpectrumLayout = ({
       >
         {instructionsOpen ? 'Click To Close' : '❔ Instructions'}
       </button>
-  
+        
       {/* ⬅️ Collapsible sidebar with band jump buttons */}
       <div className={`band-sidebar ${sidebarOpen ? 'open' : 'closed'}`}>
         <button
@@ -85,16 +85,24 @@ const SpectrumLayout = ({
             borderRadius: '4px',
             cursor: 'pointer',
             marginBottom: '8px',
+            display: 'flex',
+            alignItems: 'center',
+            gap: '4px',
+            minWidth: '80px', // Ensures enough space for the label
+            justifyContent: 'center',
           }}
         >
-          {sidebarOpen ? '«' : '»'}
+          <span>{sidebarOpen ? '« Close' : '» Bands'}</span>
         </button>
-  
+
         {sidebarOpen && (
           <div className="buttons-container-wrapper">
             <div className="buttons-container">
               {bands.slice(0, 8).map((band, i) => (
-                <button key={i} className="band-button" onClick={() => zoomToBand(band)}>
+                <button key={i} className="band-button" onClick={() => {
+                  zoomToBand(band);
+                  setSidebarOpen(false); // Auto-close
+                }}>
                   {band.name || band.label}
                 </button>
               ))}

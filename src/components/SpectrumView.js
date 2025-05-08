@@ -40,7 +40,7 @@ const SpectrumView = () => {
   const [showAllocations, setShowAllocations] = useState(true);
   const [showBands, setShowBands] = useState(true);
   const [region, setRegion] = useState('US');
-  const [sidebarOpen, setSidebarOpen] = useState(true);
+  const [sidebarOpen, setSidebarOpen] = useState(false);
   const [freqInput, setFreqInput] = useState('');
   const [selectedBand, setSelectedBand] = useState(null);
   const [instructionsOpen, setInstructionsOpen] = useState(false);
