@@ -1,0 +1,3145 @@
+[
+  {
+    "start_MHz": 243.05,
+    "end_MHz": 267.0,
+    "region1": [
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "EN 302 617"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.111",
+      "5.252",
+      "5.254",
+      "5.256",
+      "5.256A",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 267.0,
+    "end_MHz": 272.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "EN 302 617"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.257",
+      "5.254",
+      "5.257"
+    ]
+  },
+  {
+    "start_MHz": 272.0,
+    "end_MHz": 273.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "SPACE OPERATION (SPACE-TO-EARTH)",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "EN 302 617"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 273.0,
+    "end_MHz": 312.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "EN 302 617"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 312.0,
+    "end_MHz": 315.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "EN 302 617"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.255"
+    ]
+  },
+  {
+    "start_MHz": 315.0,
+    "end_MHz": 322.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "EN 302 617"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 322.0,
+    "end_MHz": 328.6,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "RADIO ASTRONOMY",
+      "MOBILE",
+      "RADIO ASTRONOMY",
+      "ECA10",
+      "ECA36"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.149"
+    ]
+  },
+  {
+    "start_MHz": 328.6,
+    "end_MHz": 335.4,
+    "region1": [
+      "AERONAUTICAL RADIONAVIGATION",
+      "AERONAUTICAL RADIONAVIGATION",
+      "ILS"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.258",
+      "5.259",
+      "5.258"
+    ]
+  },
+  {
+    "start_MHz": 335.4,
+    "end_MHz": 380.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA7",
+      "ECA10",
+      "ECA36",
+      "EN 302 617"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 380.0,
+    "end_MHz": 385.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "PPDR sharing with defence applications",
+      "ECC/DEC/(06)05",
+      "ECC/DEC/(08)05",
+      "ERC/DEC/(01)19",
+      "PPDR",
+      "EN 300 113",
+      "EN 300 390",
+      "EN 302 561",
+      "EN 303 039",
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 385.0,
+    "end_MHz": 387.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "PMR/PAMR",
+      "EN 300 113",
+      "EN 300 390",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "PPDR on a tuning range basis in 380-470"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 387.0,
+    "end_MHz": 390.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "PMR/PAMR",
+      "EN 300 113",
+      "EN 300 390",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "PPDR on a tuning range basis in 380-470"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.255   5.208B"
+    ]
+  },
+  {
+    "start_MHz": 390.0,
+    "end_MHz": 395.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "PPDR sharing with defence applications",
+      "ECC/DEC/(06)05",
+      "ECC/DEC/(08)05",
+      "ERC/DEC/(01)19",
+      "PPDR",
+      "EN 300 113",
+      "EN 300 390",
+      "EN 302 561",
+      "EN 303 039"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 395.0,
+    "end_MHz": 399.9,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE",
+      "MOBILE",
+      "ECA10",
+      "ECA36",
+      "PMR/PAMR",
+      "EN 300 113",
+      "EN 300 390",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.254",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 399.9,
+    "end_MHz": 400.05,
+    "region1": [
+      "MOBILE-SATELLITE",
+      "MOBILE-SATELLITE",
+      "ERC/DEC/(99)05",
+      "ERC/DEC/(99)06",
+      "MSS Earth stations",
+      "EN 301 721",
+      "ECC/DEC/(08)05",
+      "PPDR"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.220   5.209   5.260A    5.260B",
+      "5.209   5.220"
+    ]
+  },
+  {
+    "start_MHz": 400.05,
+    "end_MHz": 400.15,
+    "region1": [
+      "STANDARD FREQUENCY AND TIME SIGNAL-",
+      "SATELLITE (400.1 MHZ)",
+      "STANDARD FREQUENCY AND TIME SIGNAL-",
+      "SATELLITE (400.1 MHZ)",
+      "ECC/DEC/(08)05",
+      "PPDR"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.261",
+      "5.262",
+      "5.261",
+      "5.262"
+    ]
+  },
+  {
+    "start_MHz": 400.15,
+    "end_MHz": 401.0,
+    "region1": [
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "MOBILE-SATELLITE",
+      "SPACE",
+      "RESEARCH",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "MOBILE-SATELLITE",
+      "SPACE OPERATION (SPACE-TO-EARTH)",
+      "SPACE",
+      "RESEARCH",
+      "ERC/DEC/(99)05",
+      "ERC/DEC/(99)06",
+      "MSS Earth stations",
+      "EN 301 721",
+      "ERC/DEC/(99)05",
+      "ERC/DEC/(99)06",
+      "MSS Earth stations",
+      "EN 301 721",
+      "ECC/DEC/(08)05",
+      "PPDR",
+      "EN 302 054"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.208A   5.208B   5.209",
+      "5.263",
+      "5.262",
+      "5.264",
+      "5.208A   5.208B   5.209",
+      "5.263",
+      "5.262",
+      "5.264"
+    ]
+  },
+  {
+    "start_MHz": 401.0,
+    "end_MHz": 402.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "EARTH EXPLORATION-SATELLITE (EARTH-",
+      "TO-SPACE)",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (EARTH-TO-",
+      "SPACE)",
+      "SPACE OPERATION (SPACE-TO-EARTH)",
+      "EARTH EXPLORATION-SATELLITE (EARTH-",
+      "TO-SPACE)",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (EARTH-TO-",
+      "SPACE)",
+      "ERC/DEC/(01)17",
+      "EN 302 537",
+      "ULP-AMI within the band 401-406 MHz",
+      "EN 302 054"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.264A",
+      "5.264B",
+      "5.264A",
+      "5.264B"
+    ]
+  },
+  {
+    "start_MHz": 402.0,
+    "end_MHz": 403.0,
+    "region1": [
+      "EARTH EXPLORATION-SATELLITE (EARTH-",
+      "TO-SPACE)",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (EARTH-TO-",
+      "SPACE)",
+      "EARTH EXPLORATION-SATELLITE (EARTH-",
+      "TO-SPACE)",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (EARTH-TO-",
+      "SPACE)",
+      "ERC/DEC/(01)17",
+      "EN 301 839",
+      "ULP-AMI within the band 401-406 MHz",
+      "EN 302 054"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.264A",
+      "5.264B",
+      "5.264A",
+      "5.264B"
+    ]
+  },
+  {
+    "start_MHz": 403.0,
+    "end_MHz": 406.0,
+    "region1": [
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL AIDS",
+      "ERC/DEC/(01)17",
+      "EN 301 839",
+      "EN 302 537",
+      "ULP-AMI within the band 401-406 MHz",
+      "EN 302 054"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.265",
+      "5.265"
+    ]
+  },
+  {
+    "start_MHz": 406.0,
+    "end_MHz": 406.1,
+    "region1": [
+      "MOBILE-SATELLITE (EARTH-TO-SPACE)",
+      "MOBILE-SATELLITE (EARTH-TO-SPACE)",
+      "EPIRBs",
+      "EN 300 066",
+      "EN 302 152"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.265",
+      "5.266",
+      "5.267",
+      "5.265",
+      "5.266",
+      "5.267"
+    ]
+  },
+  {
+    "start_MHz": 406.1,
+    "end_MHz": 410.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "RADIO ASTRONOMY",
+      "LAND MOBILE",
+      "RADIO ASTRONOMY",
+      "ECA36",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.265",
+      "5.149",
+      "5.265"
+    ]
+  },
+  {
+    "start_MHz": 410.0,
+    "end_MHz": 420.0,
+    "region1": [
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "SPACE",
+      "RESEARCH",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA36",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "ECC/DEC/(16)02",
+      "PPDR",
+      "EN 303 505",
+      "BB-PPDR within 410-415 MHz / 420-425"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.268"
+    ]
+  },
+  {
+    "start_MHz": 420.0,
+    "end_MHz": 430.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA7",
+      "ECA36",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "ECC/DEC/(16)02",
+      "PPDR",
+      "EN 303 505",
+      "BB-PPDR within 410-415 MHz / 420-425"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.269",
+      "5.270",
+      "5.271"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 432.0,
+    "region1": [
+      "AMATEUR",
+      "RADIOLOCATION",
+      "AMATEUR",
+      "RADIOLOCATION",
+      "ECA12",
+      "ECA36",
+      "EN 301 783",
+      "ERC/REC 70-03",
+      "ULP-WMCE",
+      "EN 303 520"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.271",
+      "5.274",
+      "5.275",
+      "5.276",
+      "5.277"
+    ]
+  },
+  {
+    "start_MHz": 432.0,
+    "end_MHz": 433.05,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "AMATEUR",
+      "RADIOLOCATION",
+      "AMATEUR",
+      "RADIOLOCATION",
+      "ECA12",
+      "ECA36",
+      "EESS (active) shall be in accordance with",
+      "EN 301 783",
+      "ERC/REC 70-03",
+      "ULP-WMCE",
+      "EN 303 520"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.138",
+      "5.271",
+      "5.276",
+      "5.277",
+      "5.280"
+    ]
+  },
+  {
+    "start_MHz": 433.05,
+    "end_MHz": 434.79,
+    "region1": [
+      "AMATEUR",
+      "RADIOLOCATION",
+      "AMATEUR",
+      "RADIOLOCATION",
+      "ECA12",
+      "ECA36",
+      "EESS (active) shall be in accordance with",
+      "EN 301 783",
+      "ISM",
+      "ERC/REC 70-03",
+      "EN 300 220",
+      "ERC/REC 70-03",
+      "ULP-WMCE",
+      "EN 303 520"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.138",
+      "5.271",
+      "5.276",
+      "5.277",
+      "5.280",
+      "5.281",
+      "5.138",
+      "5.280"
+    ]
+  },
+  {
+    "start_MHz": 434.79,
+    "end_MHz": 438.0,
+    "region1": [
+      "AMATEUR",
+      "RADIOLOCATION",
+      "AMATEUR",
+      "AMATEUR-SATELLITE",
+      "RADIOLOCATION",
+      "ECA12",
+      "ECA36",
+      "EESS (active) shall be in accordance with",
+      "EN 301 783",
+      "ERC/REC 70-03",
+      "ULP-WMCE",
+      "EN 303 520"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.138",
+      "5.271",
+      "5.276",
+      "5.277",
+      "5.280",
+      "5.282"
+    ]
+  },
+  {
+    "start_MHz": 438.0,
+    "end_MHz": 440.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "AMATEUR",
+      "RADIOLOCATION",
+      "AMATEUR",
+      "RADIOLOCATION",
+      "ECA12",
+      "ECA36",
+      "EN 301 783",
+      "ERC/REC 70-03",
+      "ULP-WMCE",
+      "EN 303 520"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.271",
+      "5.274",
+      "5.275",
+      "5.276",
+      "5.277",
+      "5.283"
+    ]
+  },
+  {
+    "start_MHz": 440.0,
+    "end_MHz": 450.0,
+    "region1": [
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA7",
+      "ECA36",
+      "EN 300 224",
+      "ECC/DEC/(15)05",
+      "PMR 446",
+      "EN 303 405",
+      "PMR446 in 446.0-446.2 MHz",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.269",
+      "5.270",
+      "5.271",
+      "5.284",
+      "5.285",
+      "5.286"
+    ]
+  },
+  {
+    "start_MHz": 450.0,
+    "end_MHz": 455.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE   5.286AA",
+      "MOBILE",
+      "ECA7",
+      "ECA34",
+      "EN 300 224",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "ECC/DEC/(16)02",
+      "PPDR",
+      "EN 303 505",
+      "BB-PPDR"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.209",
+      "5.271",
+      "5.286",
+      "5.286A",
+      "5.286B",
+      "5.286C",
+      "5.286D",
+      "5.286E"
+    ]
+  },
+  {
+    "start_MHz": 455.0,
+    "end_MHz": 456.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.286AA",
+      "MOBILE",
+      "ECA7",
+      "ECA34",
+      "EN 300 224",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "ECC/DEC/(16)02",
+      "PPDR",
+      "EN 303 505",
+      "BB-PPDR",
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.209",
+      "5.271",
+      "5.286A",
+      "5.286B",
+      "5.286C",
+      "5.286E"
+    ]
+  },
+  {
+    "start_MHz": 456.0,
+    "end_MHz": 459.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.286AA",
+      "MOBILE",
+      "ECA7",
+      "ECA34",
+      "EN 300 720",
+      "EN 300 224",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "ECC/DEC/(16)02",
+      "PPDR",
+      "EN 303 505",
+      "BB-PPDR"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.271",
+      "5.287",
+      "5.288",
+      "5.287"
+    ]
+  },
+  {
+    "start_MHz": 459.0,
+    "end_MHz": 460.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.286AA",
+      "MOBILE",
+      "ECA7",
+      "EN 300 224",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.209",
+      "5.271",
+      "5.286A",
+      "5.286B",
+      "5.286C",
+      "5.286E"
+    ]
+  },
+  {
+    "start_MHz": 460.0,
+    "end_MHz": 470.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.286AA",
+      "MOBILE",
+      "ECA7",
+      "ECA34",
+      "EN 300 720",
+      "EN 300 224",
+      "ECC/DEC/(19)02",
+      "PMR/PAMR",
+      "EN 300 086",
+      "EN 300 113",
+      "EN 300 219",
+      "EN 300 296",
+      "EN 300 341",
+      "EN 300 390",
+      "EN 300 471",
+      "EN 301 166",
+      "EN 302 561",
+      "EN 303 039",
+      "ECC/DEC/(16)02",
+      "PPDR",
+      "EN 303 505",
+      "BB-PPDR"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.287",
+      "5.288",
+      "5.289",
+      "5.290",
+      "5.287",
+      "5.289"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 694.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "BROADCASTING",
+      "BROADCASTING",
+      "ECA13",
+      "EN 302 296",
+      "EN 303 340",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 300 422",
+      "EN 300 454",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.291A",
+      "5.294",
+      "5.296",
+      "5.300",
+      "5.304",
+      "5.306",
+      "5.312",
+      "5.149",
+      "5.291A",
+      "5.296",
+      "5.306"
+    ]
+  },
+  {
+    "start_MHz": 694.0,
+    "end_MHz": 790.0,
+    "region1": [
+      "BROADCASTING",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "BROADCASTING",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA38",
+      "EN 302 296",
+      "EN 303 340",
+      "ECC/DEC/(15)01",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "ECC/REC/(15)01",
+      "MFCN",
+      "ECC Decision (22)07",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 300 422",
+      "EN 300 454",
+      "ECC/DEC/(16)02",
+      "ECC/REC/(16)03",
+      "PPDR",
+      "EN 303 505",
+      "BB-PPDR options in 698-703/753-758 MHz,",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.312A   5.317A",
+      "5.300",
+      "5.312",
+      "5.312A   5.317A",
+      "5.312"
+    ]
+  },
+  {
+    "start_MHz": 790.0,
+    "end_MHz": 862.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "BROADCASTING",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA13",
+      "ECA38",
+      "ECC/DEC/(09)03",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "ECC/REC/(11)04",
+      "MFCN",
+      "EN 301 908",
+      "ECC Decision (22)07",
+      "ECC/DEC/(16)02",
+      "ECC/REC/(16)03",
+      "PPDR",
+      "BB-PPDR",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.317A   5.316B",
+      "5.312",
+      "5.319",
+      "5.312",
+      "5.316B",
+      "5.317A"
+    ]
+  },
+  {
+    "start_MHz": 862.0,
+    "end_MHz": 870.0,
+    "region1": [
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA36",
+      "ERC/REC 70-03",
+      "EN 300 220",
+      "ERC/REC 70-03",
+      "EN 300 220",
+      "ERC/REC 70-03",
+      "RFID",
+      "EN 302 208",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422",
+      "EN 301 357",
+      "ERC/REC 70-03",
+      "ERC/REC 70-03"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.317A",
+      "5.319",
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 870.0,
+    "end_MHz": 876.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA36",
+      "ECC/DEC/(20)02",
+      "FRMCS",
+      "EN 301 502",
+      "ERC/REC 70-03",
+      "EN 300 220",
+      "ERC/REC 70-03",
+      "EN 303 204"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.317A",
+      "5.319",
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 876.0,
+    "end_MHz": 880.0,
+    "region1": [
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA36",
+      "ECC/DEC/(20)02",
+      "FRMCS",
+      "EN 301 502",
+      "ECC/REC/(05)08",
+      "GSM-R",
+      "EN 301 502",
+      "EN 301 511"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.317A",
+      "5.319",
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 880.0,
+    "end_MHz": 890.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA29",
+      "ECA32",
+      "ECC/REC/(05)08",
+      "ECC/REC/(08)02",
+      "ERC/DEC/(97)02",
+      "GSM",
+      "EN 301 502",
+      "EN 301 511",
+      "EN 303 609",
+      "ECC/DEC/(06)13",
+      "ECC/REC/(08)02",
+      "IMT",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)13",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN",
+      "ECC Decision (22)07"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.317A",
+      "5.319",
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 890.0,
+    "end_MHz": 915.0,
+    "region1": [
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA14",
+      "ECA29",
+      "ECA32",
+      "ECA36",
+      "ECC/REC/(05)08",
+      "ECC/REC/(08)02",
+      "ERC/DEC/(94)01",
+      "ERC/DEC/(97)02",
+      "GSM",
+      "EN 301 502",
+      "EN 301 511",
+      "EN 303 609",
+      "ECC/DEC/(06)13",
+      "ECC/REC/(08)02",
+      "IMT",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)13",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN",
+      "ECC Decision (22)07"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 915.0,
+    "end_MHz": 921.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA14",
+      "ECA36",
+      "IMT",
+      "ECC/DEC/(20)02",
+      "FRMCS",
+      "EN 301 502",
+      "ERC/REC 70-03",
+      "EN 300 220",
+      "ERC/REC 70-03",
+      "RFID",
+      "EN 302 208"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 921.0,
+    "end_MHz": 925.0,
+    "region1": [
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA14",
+      "ECA36",
+      "IMT",
+      "ECC/DEC/(20)02",
+      "FRMCS",
+      "EN 301 502",
+      "ECC/REC/(05)08",
+      "GSM-R",
+      "EN 301 502",
+      "EN 301 511"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 925.0,
+    "end_MHz": 942.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA14",
+      "ECA29",
+      "ECA30",
+      "ECA32",
+      "ECA36",
+      "ECC/REC/(05)08",
+      "ECC/REC/(08)02",
+      "ERC/DEC/(94)01",
+      "ERC/DEC/(97)02",
+      "GSM",
+      "EN 301 502",
+      "EN 301 511",
+      "EN 303 609",
+      "ECC/DEC/(06)13",
+      "ECC/REC/(08)02",
+      "IMT",
+      "ECC/DEC/(08)08",
+      "MCV"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 942.0,
+    "end_MHz": 960.0,
+    "region1": [
+      "BROADCASTING   5.322",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE   5.317A",
+      "ECA13",
+      "ECA29",
+      "ECA32",
+      "ECC/REC/(05)08",
+      "ECC/REC/(08)02",
+      "ERC/DEC/(94)01",
+      "ERC/DEC/(97)02",
+      "GSM",
+      "EN 301 502",
+      "EN 301 511",
+      "EN 303 609",
+      "ECC/DEC/(06)13",
+      "ECC/REC/(08)02",
+      "IMT",
+      "ECC/DEC/(08)08",
+      "MCV"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.317A",
+      "5.323",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 960.0,
+    "end_MHz": 1164.0,
+    "region1": [
+      "AERONAUTICAL MOBILE (R)   5.327A",
+      "AERONAUTICAL RADIONAVIGATION   5.328",
+      "AERONAUTICAL MOBILE (R)   5.327A",
+      "AERONAUTICAL MOBILE-SATELLITE (R)",
+      "AERONAUTICAL RADIONAVIGATION   5.328",
+      "ECA36",
+      "TACAN within 108.7-1092.3 MHz"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.328AA",
+      "5.328AA"
+    ]
+  },
+  {
+    "start_MHz": 1164.0,
+    "end_MHz": 1215.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "AERONAUTICAL RADIONAVIGATION   5.328",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH) (SPACE-TO-SPACE)   5.328B",
+      "AERONAUTICAL RADIONAVIGATION   5.328",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH) (SPACE-TO-SPACE)   5.328B",
+      "ECA36",
+      "GALILEO",
+      "EN 303 413",
+      "GLONASS",
+      "EN 303 413",
+      "ECC/REC/(10)02",
+      "GNSS Repeater",
+      "EN 302 645"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.328A",
+      "5.328A"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1240.0,
+    "region1": [
+      "EARTH EXPLORATION-SATELLITE (ACTIVE)",
+      "RADIOLOCATION",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH) (SPACE-TO-SPACE)   5.328B   5.329",
+      "SPACE RESEARCH (ACTIVE)",
+      "EARTH EXPLORATION-SATELLITE (ACTIVE)",
+      "RADIOLOCATION",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH) (SPACE-TO-SPACE)   5.328B   5.329",
+      "SPACE RESEARCH (ACTIVE)",
+      "ECA36",
+      "GLONASS",
+      "EN 303 413",
+      "ECC/REC/(10)02",
+      "GNSS Repeater",
+      "EN 302 645",
+      "GPS",
+      "EN 303 413"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.329A",
+      "5.330",
+      "5.331",
+      "5.332",
+      "5.329A",
+      "5.331",
+      "5.332"
+    ]
+  },
+  {
+    "start_MHz": 1240.0,
+    "end_MHz": 1300.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "EARTH EXPLORATION-SATELLITE (ACTIVE)",
+      "RADIOLOCATION",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH) (SPACE-TO-SPACE)   5.329   5.328B",
+      "SPACE RESEARCH (ACTIVE)",
+      "EARTH EXPLORATION-SATELLITE (ACTIVE)",
+      "RADIOLOCATION",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH) (SPACE-TO-SPACE)   5.228B   5.329",
+      "SPACE RESEARCH (ACTIVE)",
+      "ECA36",
+      "EN 301 783",
+      "GALILEO",
+      "EN 303 413",
+      "GLONASS",
+      "EN 303 413",
+      "ECC/REC/(10)02",
+      "GNSS Repeater",
+      "EN 302 645"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.329A",
+      "5.282",
+      "5.330",
+      "5.331",
+      "5.332",
+      "5.335",
+      "5.335A",
+      "5.329A",
+      "5.282",
+      "5.331",
+      "5.332",
+      "5.335A"
+    ]
+  },
+  {
+    "start_MHz": 1300.0,
+    "end_MHz": 1350.0,
+    "region1": [
+      "AERONAUTICAL RADIONAVIGATION   5.337",
+      "RADIOLOCATION",
+      "RADIONAVIGATION-SATELLITE",
+      "SPACE)",
+      "AERONAUTICAL RADIONAVIGATION   5.337",
+      "RADIOLOCATION",
+      "RADIONAVIGATION-SATELLITE",
+      "SPACE)",
+      "ECA36"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.337A",
+      "5.149",
+      "5.337A"
+    ]
+  },
+  {
+    "start_MHz": 1350.0,
+    "end_MHz": 1400.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION",
+      "FIXED",
+      "MOBILE",
+      "RADIOLOCATION",
+      "ECA36",
+      "EN 302 217",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.338",
+      "5.338A",
+      "5.339",
+      "5.149",
+      "5.338A",
+      "5.339"
+    ]
+  },
+  {
+    "start_MHz": 1400.0,
+    "end_MHz": 1427.0,
+    "region1": [
+      "EARTH EXPLORATION-SATELLITE (PASSIVE)",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)",
+      "EARTH EXPLORATION-SATELLITE (PASSIVE)",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)",
+      "ECC/DEC/(11)01"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.340",
+      "5.341",
+      "5.340",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1427.0,
+    "end_MHz": 1429.0,
+    "region1": [
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "SPACE OPERATION (EARTH-TO-SPACE)",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "SPACE OPERATION (EARTH-TO-SPACE)",
+      "ECA36",
+      "EN 302 217",
+      "ECC/DEC/(17)06",
+      "ECC/DEC/(22)01",
+      "MFCN",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.341A",
+      "5.338A",
+      "5.341",
+      "5.338A",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1429.0,
+    "end_MHz": 1452.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA36",
+      "EN 302 217",
+      "ECC/DEC/(17)06",
+      "ECC/DEC/(22)01",
+      "MFCN",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.341A",
+      "5.338A",
+      "5.341",
+      "5.342",
+      "5.338A",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1492.0,
+    "region1": [
+      "BROADCASTING",
+      "BROADCASTING-SATELLITE   5.208B",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "BROADCASTING",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECC/DEC/(13)03",
+      "ECC/DEC/(22)01",
+      "ECC/REC/(15)01",
+      "MFCN",
+      "EN 301 908",
+      "T-DAB",
+      "EN 302 077",
+      "EN 303 345"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.346",
+      "5.341",
+      "5.342",
+      "5.345",
+      "5.341",
+      "5.342",
+      "5.345"
+    ]
+  },
+  {
+    "start_MHz": 1492.0,
+    "end_MHz": 1518.0,
+    "region1": [
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA36",
+      "EN 302 217",
+      "ECC/DEC/(17)06",
+      "ECC/DEC/(22)01",
+      "MFCN",
+      "EN 301 908",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.341A",
+      "5.341",
+      "5.342",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1518.0,
+    "end_MHz": 1525.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE-SATELLITE",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE-SATELLITE",
+      "ECA15",
+      "ECA36",
+      "EN 302 217",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(04)09",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 444",
+      "EN 301 473",
+      "EN 301 681",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.348   5.348A   5.348B   5.351A",
+      "5.341",
+      "5.342",
+      "5.348   5.348A   5.348B   5.351A",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1530.0,
+    "region1": [
+      "FIXED",
+      "MOBILE-SATELLITE",
+      "SPACE OPERATION (SPACE-TO-EARTH)",
+      "FIXED",
+      "MOBILE-SATELLITE",
+      "SPACE OPERATION (SPACE-TO-EARTH)",
+      "EN 302 217",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 426",
+      "EN 301 444",
+      "EN 301 473",
+      "EN 301 681"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.208B   5.351A",
+      "5.341",
+      "5.342",
+      "5.350",
+      "5.351",
+      "5.352A",
+      "5.354",
+      "5.208B   5.351A",
+      "5.341",
+      "5.351",
+      "5.354"
+    ]
+  },
+  {
+    "start_MHz": 1530.0,
+    "end_MHz": 1535.0,
+    "region1": [
+      "MOBILE-SATELLITE",
+      "SPACE OPERATION (SPACE-TO-EARTH)",
+      "MOBILE-SATELLITE",
+      "SPACE OPERATION (SPACE-TO-EARTH)",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 426",
+      "EN 301 444",
+      "EN 301 473",
+      "EN 301 681",
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.208B   5.353A   5.351A",
+      "5.341",
+      "5.342",
+      "5.351",
+      "5.354",
+      "5.208B   5.351A   5.353A",
+      "5.341",
+      "5.351",
+      "5.354"
+    ]
+  },
+  {
+    "start_MHz": 1535.0,
+    "end_MHz": 1559.0,
+    "region1": [
+      "MOBILE-SATELLITE",
+      "MOBILE-SATELLITE",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 426",
+      "EN 301 444",
+      "EN 301 473",
+      "EN 301 681"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.208B   5.351A",
+      "5.341",
+      "5.351",
+      "5.353A",
+      "5.354",
+      "5.355",
+      "5.356",
+      "5.357",
+      "5.357A",
+      "5.359",
+      "5.208B   5.351A",
+      "5.341",
+      "5.351",
+      "5.353A",
+      "5.354",
+      "5.356",
+      "5.357",
+      "5.357A",
+      "5.359"
+    ]
+  },
+  {
+    "start_MHz": 1559.0,
+    "end_MHz": 1610.0,
+    "region1": [
+      "AERONAUTICAL RADIONAVIGATION",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH)   5.208B",
+      "RADIONAVIGATION-SATELLITE",
+      "SPACE)   5.328B   5.329A",
+      "AERONAUTICAL RADIONAVIGATION",
+      "RADIONAVIGATION-SATELLITE",
+      "EARTH)   5.208B",
+      "RADIONAVIGATION-SATELLITE",
+      "SPACE)   5.328B   5.329A",
+      "GALILEO",
+      "EN 303 413",
+      "GLONASS",
+      "EN 303 413",
+      "ECC/REC/(11)08",
+      "GNSS Pseudolites",
+      "ECC/REC/(10)02",
+      "GNSS Repeater",
+      "EN 302 645",
+      "GPS",
+      "EN 303 413"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.341",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1610.0,
+    "end_MHz": 1610.6,
+    "region1": [
+      "AERONAUTICAL RADIONAVIGATION",
+      "MOBILE-SATELLITE",
+      "AERONAUTICAL RADIONAVIGATION",
+      "MOBILE-SATELLITE",
+      "GLONASS",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(09)02",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 441",
+      "EN 301 473",
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.341",
+      "5.355",
+      "5.359",
+      "5.364",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.369",
+      "5.371",
+      "5.372",
+      "5.351A",
+      "5.341",
+      "5.359",
+      "5.364",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.371",
+      "5.372"
+    ]
+  },
+  {
+    "start_MHz": 1610.6,
+    "end_MHz": 1613.8,
+    "region1": [
+      "AERONAUTICAL RADIONAVIGATION",
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "AERONAUTICAL RADIONAVIGATION",
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(09)02",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 441",
+      "EN 301 473",
+      "VLBI"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.149",
+      "5.341",
+      "5.355",
+      "5.359",
+      "5.364",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.369",
+      "5.371",
+      "5.372",
+      "5.351A",
+      "5.149",
+      "5.341",
+      "5.359",
+      "5.364",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.371",
+      "5.372"
+    ]
+  },
+  {
+    "start_MHz": 1613.8,
+    "end_MHz": 1621.35,
+    "region1": [
+      "AERONAUTICAL RADIONAVIGATION",
+      "MOBILE-SATELLITE",
+      "AERONAUTICAL RADIONAVIGATION",
+      "MOBILE-SATELLITE",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(09)02",
+      "ECC/DEC/(09)04",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 426",
+      "EN 301 441",
+      "EN 301 473"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.341",
+      "5.355",
+      "5.359",
+      "5.364",
+      "5.365",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.369",
+      "5.371",
+      "5.372",
+      "5.351A",
+      "5.341",
+      "5.359",
+      "5.364",
+      "5.365",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.371",
+      "5.372"
+    ]
+  },
+  {
+    "start_MHz": 1621.35,
+    "end_MHz": 1626.5,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "AERONAUTICAL RADIONAVIGATION",
+      "MARITIME MOBILE-SATELLITE (SPACE-TO-",
+      "EARTH)   5.373A   5.373",
+      "MOBILE-SATELLITE",
+      "AERONAUTICAL RADIONAVIGATION",
+      "MARITIME MOBILE-SATELLITE (SPACE-TO-",
+      "EARTH)   5.373   5.373A",
+      "MOBILE-SATELLITE",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(09)02",
+      "ECC/DEC/(09)04",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 426",
+      "EN 301 441",
+      "EN 301 473"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.341",
+      "5.355",
+      "5.359",
+      "5.364",
+      "5.365",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.369",
+      "5.371",
+      "5.372",
+      "5.351A",
+      "5.341",
+      "5.359",
+      "5.364",
+      "5.365",
+      "5.365",
+      "5.366",
+      "5.367",
+      "5.368",
+      "5.371",
+      "5.372"
+    ]
+  },
+  {
+    "start_MHz": 1626.5,
+    "end_MHz": 1660.0,
+    "region1": [
+      "MOBILE-SATELLITE",
+      "MOBILE-SATELLITE",
+      "ERC/REC 70-03",
+      "ALS",
+      "EN 300 422",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 426",
+      "EN 301 473",
+      "EN 301 681"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.341",
+      "5.351",
+      "5.353A",
+      "5.354",
+      "5.355",
+      "5.357A",
+      "5.359",
+      "5.374",
+      "5.375",
+      "5.376",
+      "5.351A",
+      "5.100",
+      "5.341",
+      "5.351",
+      "5.353A",
+      "5.354",
+      "5.359",
+      "5.374",
+      "5.375",
+      "5.376"
+    ]
+  },
+  {
+    "start_MHz": 1660.0,
+    "end_MHz": 1660.5,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "ERC/REC 70-03",
+      "ALS",
+      "EN 300 422",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 426",
+      "EN 301 444",
+      "EN 301 473",
+      "EN 301 681"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.149",
+      "5.341",
+      "5.351",
+      "5.354",
+      "5.376A",
+      "5.351A",
+      "5.149",
+      "5.341",
+      "5.351",
+      "5.354",
+      "5.376A"
+    ]
+  },
+  {
+    "start_MHz": 1660.5,
+    "end_MHz": 1668.0,
+    "region1": [
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.341",
+      "5.379",
+      "5.379A",
+      "5.149",
+      "5.341",
+      "5.379A"
+    ]
+  },
+  {
+    "start_MHz": 1668.0,
+    "end_MHz": 1668.4,
+    "region1": [
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)",
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)",
+      "IMT-2000 satellite component",
+      "EN 301 473"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A   5.379B   5.379C",
+      "5.149",
+      "5.341",
+      "5.379",
+      "5.379A",
+      "5.351A   5.379B   5.379C",
+      "5.149",
+      "5.341",
+      "5.379A"
+    ]
+  },
+  {
+    "start_MHz": 1668.4,
+    "end_MHz": 1670.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "METEOROLOGICAL AIDS",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "FIXED",
+      "METEOROLOGICAL AIDS",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "MOBILE-SATELLITE",
+      "RADIO ASTRONOMY",
+      "IMT-2000 satellite component",
+      "EN 301 473",
+      "EN 302 454"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A   5.379B   5.379C",
+      "5.149",
+      "5.341",
+      "5.379D",
+      "5.379E",
+      "5.351A   5.379B   5.379C",
+      "5.149",
+      "5.341",
+      "5.379D",
+      "5.379E"
+    ]
+  },
+  {
+    "start_MHz": 1670.0,
+    "end_MHz": 1675.0,
+    "region1": [
+      "FIXED",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "IMT-2000 satellite component",
+      "ECC/DEC/(04)09",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 444",
+      "EN 301 473",
+      "EN 301 681",
+      "EN 302 454"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A   5.379B",
+      "5.341",
+      "5.379D",
+      "5.379E",
+      "5.380A",
+      "5.351A   5.379B",
+      "5.341",
+      "5.379D",
+      "5.379E",
+      "5.380A"
+    ]
+  },
+  {
+    "start_MHz": 1675.0,
+    "end_MHz": 1690.0,
+    "region1": [
+      "FIXED",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA36",
+      "EN 302 454"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.341",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1690.0,
+    "end_MHz": 1700.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "METEOROLOGICAL AIDS",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "ECA36"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.289",
+      "5.341",
+      "5.382",
+      "5.289",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1700.0,
+    "end_MHz": 1710.0,
+    "region1": [
+      "FIXED",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "METEOROLOGICAL-SATELLITE (SPACE-TO-",
+      "EARTH)",
+      "ECA36"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.289",
+      "5.341",
+      "5.289",
+      "5.341"
+    ]
+  },
+  {
+    "start_MHz": 1710.0,
+    "end_MHz": 1785.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.384A",
+      "FIXED",
+      "MOBILE   5.384A",
+      "ECA29",
+      "ECC/REC/(05)08",
+      "ECC/REC/(08)02",
+      "ERC/DEC/(95)03",
+      "GSM",
+      "EN 301 502",
+      "EN 301 511",
+      "EN 303 609",
+      "ECC/DEC/(06)13",
+      "ECC/REC/(08)02",
+      "IMT",
+      "EN 301 908",
+      "ECC/DEC/(06)07",
+      "MCA",
+      "EN 302 480",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)13",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN",
+      "VLBI"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.341",
+      "5.385",
+      "5.386",
+      "5.387",
+      "5.149",
+      "5.341",
+      "5.385"
+    ]
+  },
+  {
+    "start_MHz": 1785.0,
+    "end_MHz": 1800.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE   5.384A",
+      "FIXED",
+      "MOBILE",
+      "ECA36",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.386",
+      "5.387"
+    ]
+  },
+  {
+    "start_MHz": 1800.0,
+    "end_MHz": 1805.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.384A",
+      "MOBILE",
+      "ECA36",
+      "ERC/REC 25-10",
+      "ERC/REC 70-03",
+      "EN 300 422"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.386"
+    ]
+  },
+  {
+    "start_MHz": 1805.0,
+    "end_MHz": 1880.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.384A",
+      "FIXED",
+      "MOBILE   5.384A",
+      "ECA29",
+      "ECC/REC/(05)08",
+      "ECC/REC/(08)02",
+      "ERC/DEC/(95)03",
+      "GSM",
+      "EN 301 502",
+      "EN 301 511",
+      "EN 303 609",
+      "ECC/DEC/(06)13",
+      "ECC/REC/(08)02",
+      "IMT",
+      "EN 301 908",
+      "ECC/DEC/(06)07",
+      "MCA",
+      "EN 302 480",
+      "ECC/DEC/(08)08",
+      "MCV"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.386"
+    ]
+  },
+  {
+    "start_MHz": 1880.0,
+    "end_MHz": 1885.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE   5.384A",
+      "MOBILE   5.384A",
+      "ERC/DEC/(94)03",
+      "ERC/DEC/(98)22",
+      "DECT",
+      "EN 300 176",
+      "EN 300 700",
+      "EN 301 406",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1885.0,
+    "end_MHz": 1900.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.388A   5.388B",
+      "MOBILE   5.388A",
+      "ERC/DEC/(94)03",
+      "ERC/DEC/(98)22",
+      "DECT",
+      "EN 300 176",
+      "EN 300 700",
+      "EN 301 406",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.388",
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 1900.0,
+    "end_MHz": 1930.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.388A   5.388B",
+      "MOBILE   5.388A   ECA38",
+      "ECA29",
+      "ECC/DEC/(06)07",
+      "MCA",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)01",
+      "ERC/REC/(01)01",
+      "MFCN",
+      "EN 301 908",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.388",
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 1930.0,
+    "end_MHz": 1970.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE   5.388A   5.388B",
+      "MOBILE   5.388A   ECA38",
+      "ECA29",
+      "ECC/DEC/(06)07",
+      "MCA",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)01",
+      "ERC/REC/(01)01",
+      "MFCN",
+      "EN 301 908",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.388",
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 1970.0,
+    "end_MHz": 1980.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.388A   5.388B",
+      "MOBILE   5.388A   ECA38",
+      "ECA29",
+      "ECC/DEC/(06)07",
+      "MCA",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)01",
+      "ERC/REC/(01)01",
+      "MFCN",
+      "EN 301 908",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.388",
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 1980.0,
+    "end_MHz": 2010.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "ECC/DEC/(06)09",
+      "ECC/DEC/(06)10",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 442",
+      "EN 301 473",
+      "EN 302 574"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.388",
+      "5.389A",
+      "5.389B",
+      "5.389F",
+      "5.351A",
+      "5.388",
+      "5.389A"
+    ]
+  },
+  {
+    "start_MHz": 2010.0,
+    "end_MHz": 2025.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE   5.388A   5.388B",
+      "MOBILE",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 2025.0,
+    "end_MHz": 2110.0,
+    "region1": [
+      "EARTH EXPLORATION-SATELLITE (EARTH-",
+      "TO-SPACE) (SPACE-TO-SPACE)",
+      "FIXED",
+      "MOBILE   5.391",
+      "SPACE",
+      "OPERATION",
+      "SPACE",
+      "RESEARCH",
+      "EARTH EXPLORATION-SATELLITE (EARTH-",
+      "TO-SPACE) (SPACE-TO-SPACE)",
+      "FIXED",
+      "MOBILE   5.391",
+      "SPACE",
+      "OPERATION",
+      "SPACE",
+      "RESEARCH",
+      "ECA16A",
+      "ECA36",
+      "EN 302 217",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.392",
+      "5.392"
+    ]
+  },
+  {
+    "start_MHz": 2110.0,
+    "end_MHz": 2120.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.388A   5.388B",
+      "SPACE RESEARCH (DEEP SPACE) (EARTH-",
+      "TO-SPACE)",
+      "MOBILE   5.388A",
+      "SPACE RESEARCH (DEEP SPACE) (EARTH-",
+      "TO-SPACE)",
+      "ECA29",
+      "ECC/DEC/(06)07",
+      "MCA",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)01",
+      "ERC/REC/(01)01",
+      "MFCN",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.388",
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 2120.0,
+    "end_MHz": 2170.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE   5.388A   5.388B",
+      "MOBILE   5.388A",
+      "ECA29",
+      "ECC/DEC/(06)07",
+      "MCA",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(06)01",
+      "ERC/REC/(01)01",
+      "MFCN",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.388",
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 2170.0,
+    "end_MHz": 2200.0,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "ECC/DEC/(06)09",
+      "ECC/DEC/(06)10",
+      "ECC/DEC/(12)01",
+      "ECC/REC/(10)01",
+      "MSS Earth stations",
+      "EN 301 442",
+      "EN 301 473",
+      "EN 302 574"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.388",
+      "5.389A",
+      "5.389F",
+      "5.351A",
+      "5.388",
+      "5.389A"
+    ]
+  },
+  {
+    "start_MHz": 2200.0,
+    "end_MHz": 2290.0,
+    "region1": [
+      "EARTH EXPLORATION-SATELLITE (SPACE-",
+      "TO-EARTH) (SPACE-TO-SPACE)",
+      "FIXED",
+      "MOBILE   5.391",
+      "SPACE",
+      "OPERATION",
+      "SPACE",
+      "RESEARCH",
+      "EARTH EXPLORATION-SATELLITE (SPACE-",
+      "TO-EARTH) (SPACE-TO-SPACE)",
+      "FIXED",
+      "MOBILE   5.391",
+      "SPACE",
+      "OPERATION",
+      "SPACE",
+      "RESEARCH",
+      "ECA16A",
+      "ECA36",
+      "EN 302 217",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064",
+      "SRS)",
+      "ECC/REC/(10)01",
+      "EESS",
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.392",
+      "5.392"
+    ]
+  },
+  {
+    "start_MHz": 2290.0,
+    "end_MHz": 2300.0,
+    "region1": [
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "SPACE RESEARCH (DEEP SPACE) (SPACE-",
+      "TO-EARTH)",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "SPACE RESEARCH (DEEP SPACE) (SPACE-",
+      "TO-EARTH)",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2300.0,
+    "end_MHz": 2400.0,
+    "region1": [
+      "FIXED",
+      "MOBILE   5.384A",
+      "FIXED",
+      "MOBILE   5.384A",
+      "ECA36",
+      "ERC/REC 62-02",
+      "EN 301 783",
+      "ECC/DEC/(14)02",
+      "ECC/REC/(14)04",
+      "MFCN",
+      "EN 301 908",
+      "ECC/REC/(15)04",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.395"
+    ]
+  },
+  {
+    "start_MHz": 2400.0,
+    "end_MHz": 2450.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE",
+      "FIXED",
+      "MOBILE",
+      "EN 301 783",
+      "ISM",
+      "ERC/REC 70-03",
+      "EN 300 440",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064",
+      "ERC/REC 70-03",
+      "RFID",
+      "EN 300 440",
+      "ERC/REC 70-03",
+      "EN 300 440",
+      "ERC/REC 70-03",
+      "EN 300 328"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.150",
+      "5.282",
+      "5.150",
+      "5.282"
+    ]
+  },
+  {
+    "start_MHz": 2450.0,
+    "end_MHz": 2483.5,
+    "region1": [
+      "FIXED",
+      "MOBILE",
+      "FIXED",
+      "MOBILE",
+      "ISM",
+      "ERC/REC 70-03",
+      "EN 300 440",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064",
+      "ERC/REC 70-03",
+      "RFID",
+      "EN 300 440",
+      "ERC/REC 70-03",
+      "EN 300 440",
+      "ERC/REC 70-03",
+      "EN 300 328"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.150",
+      "5.150"
+    ]
+  },
+  {
+    "start_MHz": 2483.5,
+    "end_MHz": 2500.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "FIXED",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "RADIODETERMINATION-SATELLITE (SPACE-",
+      "TO-EARTH)   5.398",
+      "FIXED",
+      "MOBILE",
+      "MOBILE-SATELLITE",
+      "ERC/REC 70-03",
+      "EN 301 559",
+      "IMT-2000 satellite component",
+      "ISM",
+      "ERC/REC 70-03",
+      "MBANS",
+      "EN 303 203",
+      "ECC/DEC/(09)02",
+      "ECC/DEC/(12)01",
+      "MSS Earth stations",
+      "EN 301 441",
+      "EN 301 473",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.351A",
+      "5.150",
+      "5.399",
+      "5.401",
+      "5.402",
+      "5.351A",
+      "5.150",
+      "5.399",
+      "5.402"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2520.0,
+    "region1": [
+      "FIXED   5.410",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(05)05",
+      "ECC/REC/(11)05",
+      "MFCN",
+      "EN 301 908",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.384A",
+      "5.412",
+      "5.384A"
+    ]
+  },
+  {
+    "start_MHz": 2520.0,
+    "end_MHz": 2655.0,
+    "region1": [
+      "BROADCASTING-SATELLITE   5.413   5.416",
+      "FIXED   5.410",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA16",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(05)05",
+      "ECC/REC/(11)05",
+      "MFCN",
+      "EN 301 908",
+      "ECC/DEC/(22)01",
+      "ECC/DEC/(22)07",
+      "MFCN"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.384A",
+      "5.339",
+      "5.403",
+      "5.412",
+      "5.418B",
+      "5.418C",
+      "5.384A   ECA38",
+      "5.339",
+      "5.418B",
+      "5.418C"
+    ]
+  },
+  {
+    "start_MHz": 2655.0,
+    "end_MHz": 2670.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "BROADCASTING-SATELLITE   5.208B   5.413",
+      "FIXED   5.410",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECA16",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(05)05",
+      "ECC/REC/(11)05",
+      "MFCN",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.416",
+      "5.384A",
+      "5.149",
+      "5.412",
+      "5.420",
+      "5.384A",
+      "5.149",
+      "5.208B"
+    ]
+  },
+  {
+    "start_MHz": 2670.0,
+    "end_MHz": 2690.0,
+    "region1": [
+      "FIXED   5.410",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "FIXED",
+      "MOBILE EXCEPT AERONAUTICAL MOBILE",
+      "ECC/DEC/(08)08",
+      "MCV",
+      "ECC/DEC/(05)05",
+      "ECC/REC/(11)05",
+      "MFCN",
+      "EN 301 908"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.384A",
+      "5.149",
+      "5.412",
+      "5.419",
+      "5.384A",
+      "5.149"
+    ]
+  },
+  {
+    "start_MHz": 2690.0,
+    "end_MHz": 2700.0,
+    "region1": [
+      "EARTH EXPLORATION-SATELLITE (PASSIVE)",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)",
+      "EARTH EXPLORATION-SATELLITE (PASSIVE)",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH (PASSIVE)"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.340",
+      "5.422",
+      "5.340"
+    ]
+  },
+  {
+    "start_MHz": 2700.0,
+    "end_MHz": 2900.0,
+    "region1": [
+      "ERC REPORT 25",
+      "RR Region 1 Allocation and RR footnotes",
+      "ECC/ERC",
+      "AERONAUTICAL RADIONAVIGATION   5.337",
+      "AERONAUTICAL RADIONAVIGATION   5.337",
+      "ECA36",
+      "ECC/REC/(02)09",
+      "ERC/REC 25-10",
+      "PMSE",
+      "EN 302 064",
+      "EN 303 347"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.423",
+      "5.423"
+    ]
+  },
+  {
+    "start_MHz": 2900.0,
+    "end_MHz": 3100.0,
+    "region1": [
+      "RADIOLOCATION   5.424A",
+      "RADIONAVIGATION   5.426",
+      "RADIOLOCATION   5.424A",
+      "RADIONAVIGATION   5.426",
+      "ECA36",
+      "EN 302 248",
+      "EN 302 752"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.425",
+      "5.427",
+      "5.425",
+      "5.427"
+    ]
+  },
+  {
+    "start_MHz": 3100.0,
+    "end_MHz": 3300.0,
+    "region1": [
+      "RADIOLOCATION",
+      "RADIOLOCATION",
+      "ECA36",
+      "ECC/DEC/(06)04",
+      "ECC/REC/(11)09",
+      "ECC/REC/(11)10",
+      "UWB applications",
+      "EN 302 065"
+    ],
+    "region2": [],
+    "region3": [],
+    "notes": [
+      "5.149",
+      "5.428",
+      "5.149"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "notes": []
+  }
+]

@@ -1,0 +1,9792 @@
+[
+  {
+    "start_MHz": 0.003,
+    "end_MHz": 0.11,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "B",
+      "N",
+      "METEOROLOGICAL AIDS  5",
+      "A",
+      "B  5",
+      "C"
+    ],
+    "services": [
+      {
+        "label": "B",
+        "category": "General",
+        "color": "#9d5ed6"
+      },
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "METEOROLOGICAL AIDS  5",
+        "category": "General",
+        "color": "#dd168b"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "B  5",
+        "category": "General",
+        "color": "#76537b"
+      },
+      {
+        "label": "C",
+        "category": "General",
+        "color": "#0d61f8"
+      }
+    ],
+    "notes": [
+      "5.53",
+      "5.54",
+      "5.54A",
+      "5.54B",
+      "5.54C"
+    ]
+  },
+  {
+    "start_MHz": 0.003,
+    "end_MHz": 0.009,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.54C",
+      "5.55"
+    ]
+  },
+  {
+    "start_MHz": 0.003,
+    "end_MHz": 0.009,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.54C",
+      "5.55"
+    ]
+  },
+  {
+    "start_MHz": 0.014,
+    "end_MHz": 0.017,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.56",
+      "5.57"
+    ]
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 0.07,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.57",
+      "5.58"
+    ]
+  },
+  {
+    "start_MHz": 0.072,
+    "end_MHz": 0.084,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.57",
+      "5.58"
+    ]
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 0.07,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.57",
+      "5.58"
+    ]
+  },
+  {
+    "start_MHz": 0.067,
+    "end_MHz": 0.07,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.59",
+      "5.60",
+      "5.61"
+    ]
+  },
+  {
+    "start_MHz": 0.07,
+    "end_MHz": 0.072,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.60",
+      "5.61"
+    ]
+  },
+  {
+    "start_MHz": 0.084,
+    "end_MHz": 0.086,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.60",
+      "5.61",
+      "5.62"
+    ]
+  },
+  {
+    "start_MHz": 0.07,
+    "end_MHz": 0.09,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.61",
+      "5.62"
+    ]
+  },
+  {
+    "start_MHz": 0.07,
+    "end_MHz": 0.09,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.61",
+      "5.62"
+    ]
+  },
+  {
+    "start_MHz": 0.09,
+    "end_MHz": 0.11,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.63",
+      "5.64"
+    ]
+  },
+  {
+    "start_MHz": 0.11,
+    "end_MHz": 0.255,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MARITIME MOBILE",
+      "RADIONAVIGATION",
+      "FIXED",
+      "MARITIME MOBILE"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MARITIME MOBILE",
+        "category": "General",
+        "color": "#c9ff77"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 0.126,
+    "end_MHz": 0.129,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.32",
+      "5.33",
+      "5.66",
+      "5.67",
+      "5.67A"
+    ]
+  },
+  {
+    "start_MHz": 0.16,
+    "end_MHz": 0.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.69",
+      "5.70"
+    ]
+  },
+  {
+    "start_MHz": 0.2,
+    "end_MHz": 0.255,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.70"
+    ]
+  },
+  {
+    "start_MHz": 0.2,
+    "end_MHz": 0.415,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "AERONAUTICAL",
+      "RADIONAVIGATION",
+      "A",
+      "AERONAUTICAL",
+      "RADIONAVIGATION"
+    ],
+    "services": [
+      {
+        "label": "AERONAUTICAL",
+        "category": "General",
+        "color": "#ab2b5c"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 0.285,
+    "end_MHz": 0.325,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.74",
+      "5.75"
+    ]
+  },
+  {
+    "start_MHz": 0.315,
+    "end_MHz": 0.325,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.76"
+    ]
+  },
+  {
+    "start_MHz": 0.405,
+    "end_MHz": 0.415,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 0.415,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MARITIME MOBILE  5",
+      "AERONAUTICAL",
+      "RADIONAVIGATION",
+      "MARITIME MOBILE  5",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "MARITIME MOBILE  5",
+        "category": "General",
+        "color": "#d71734"
+      },
+      {
+        "label": "AERONAUTICAL",
+        "category": "General",
+        "color": "#ab2b5c"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": [
+      "5.77",
+      "5.78",
+      "5.79",
+      "5.80"
+    ]
+  },
+  {
+    "start_MHz": 0.415,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MARITIME MOBILE  5",
+      "AERONAUTICAL",
+      "RADIONAVIGATION",
+      "MARITIME MOBILE  5",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "MARITIME MOBILE  5",
+        "category": "General",
+        "color": "#d71734"
+      },
+      {
+        "label": "AERONAUTICAL",
+        "category": "General",
+        "color": "#ab2b5c"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": [
+      "5.77",
+      "5.78",
+      "5.79",
+      "5.80"
+    ]
+  },
+  {
+    "start_MHz": 0.435,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.78",
+      "5.79"
+    ]
+  },
+  {
+    "start_MHz": 0.435,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.78",
+      "5.79"
+    ]
+  },
+  {
+    "start_MHz": 0.415,
+    "end_MHz": 0.435,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.79",
+      "5.79A",
+      "5.80"
+    ]
+  },
+  {
+    "start_MHz": 0.415,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MARITIME MOBILE  5",
+      "AERONAUTICAL",
+      "RADIONAVIGATION",
+      "MARITIME MOBILE  5",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "MARITIME MOBILE  5",
+        "category": "General",
+        "color": "#d71734"
+      },
+      {
+        "label": "AERONAUTICAL",
+        "category": "General",
+        "color": "#ab2b5c"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": [
+      "5.77",
+      "5.78",
+      "5.79",
+      "5.80"
+    ]
+  },
+  {
+    "start_MHz": 0.435,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.78",
+      "5.79"
+    ]
+  },
+  {
+    "start_MHz": 0.472,
+    "end_MHz": 0.479,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.80B"
+    ]
+  },
+  {
+    "start_MHz": 0.472,
+    "end_MHz": 0.479,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.80B"
+    ]
+  },
+  {
+    "start_MHz": 0.415,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MARITIME MOBILE  5",
+      "AERONAUTICAL",
+      "RADIONAVIGATION",
+      "MARITIME MOBILE  5",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "MARITIME MOBILE  5",
+        "category": "General",
+        "color": "#d71734"
+      },
+      {
+        "label": "AERONAUTICAL",
+        "category": "General",
+        "color": "#ab2b5c"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": [
+      "5.77",
+      "5.78",
+      "5.79",
+      "5.80"
+    ]
+  },
+  {
+    "start_MHz": 0.472,
+    "end_MHz": 0.479,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.80B"
+    ]
+  },
+  {
+    "start_MHz": 0.495,
+    "end_MHz": 1.8,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MARITIME MOBILE  5",
+      "C 5",
+      "D",
+      "MARITIME MOBILE 5",
+      "A 5",
+      "AERONAUTICAL",
+      "RADIONAVIGATION"
+    ],
+    "services": [
+      {
+        "label": "MARITIME MOBILE  5",
+        "category": "General",
+        "color": "#d71734"
+      },
+      {
+        "label": "C 5",
+        "category": "General",
+        "color": "#3de479"
+      },
+      {
+        "label": "D",
+        "category": "General",
+        "color": "#f623e7"
+      },
+      {
+        "label": "MARITIME MOBILE 5",
+        "category": "General",
+        "color": "#ca6aa5"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "AERONAUTICAL",
+        "category": "General",
+        "color": "#ab2b5c"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      }
+    ],
+    "notes": [
+      "5.79",
+      "5.79A",
+      "5.82C",
+      "5.82D",
+      "5.84"
+    ]
+  },
+  {
+    "start_MHz": 0.495,
+    "end_MHz": 0.505,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.82D"
+    ]
+  },
+  {
+    "start_MHz": 0.525,
+    "end_MHz": 0.535,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.87",
+      "5.87A",
+      "5.88"
+    ]
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 0.535,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.87A",
+      "5.88",
+      "5.89"
+    ]
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 0.535,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.87A",
+      "5.88",
+      "5.89"
+    ]
+  },
+  {
+    "start_MHz": 1.605,
+    "end_MHz": 1.705,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.90",
+      "5.91",
+      "5.92"
+    ]
+  },
+  {
+    "start_MHz": 1.625,
+    "end_MHz": 1.705,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.90",
+      "5.91",
+      "5.92"
+    ]
+  },
+  {
+    "start_MHz": 1.605,
+    "end_MHz": 1.705,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.90",
+      "5.91",
+      "5.92"
+    ]
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 1.705,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.92",
+      "5.93"
+    ]
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 1.625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.93",
+      "5.94",
+      "5.95",
+      "5.96"
+    ]
+  },
+  {
+    "start_MHz": 1.635,
+    "end_MHz": 1.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.93",
+      "5.94",
+      "5.95",
+      "5.96"
+    ]
+  },
+  {
+    "start_MHz": 1.625,
+    "end_MHz": 1.635,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.94",
+      "5.95",
+      "5.96"
+    ]
+  },
+  {
+    "start_MHz": 1.715,
+    "end_MHz": 1.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1.8,
+    "end_MHz": 2.194,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "RADIOLOCATION",
+      "AMATEUR",
+      "AMATEUR"
+    ],
+    "services": [
+      {
+        "label": "RADIOLOCATION",
+        "category": "General",
+        "color": "#4a1f59"
+      },
+      {
+        "label": "AMATEUR",
+        "category": "General",
+        "color": "#026b2a"
+      }
+    ],
+    "notes": [
+      "5.93"
+    ]
+  },
+  {
+    "start_MHz": 1.825,
+    "end_MHz": 1.875,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.98",
+      "5.99"
+    ]
+  },
+  {
+    "start_MHz": 1.81,
+    "end_MHz": 1.83,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.100",
+      "5.101",
+      "5.102",
+      "5.98",
+      "5.99"
+    ]
+  },
+  {
+    "start_MHz": 1.81,
+    "end_MHz": 1.83,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.100",
+      "5.101",
+      "5.102",
+      "5.98",
+      "5.99"
+    ]
+  },
+  {
+    "start_MHz": 1.85,
+    "end_MHz": 2.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.103",
+      "5.104",
+      "5.105"
+    ]
+  },
+  {
+    "start_MHz": 1.85,
+    "end_MHz": 2.045,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.104",
+      "5.105"
+    ]
+  },
+  {
+    "start_MHz": 2.025,
+    "end_MHz": 2.045,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.105",
+      "5.106"
+    ]
+  },
+  {
+    "start_MHz": 2.065,
+    "end_MHz": 2.107,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.106",
+      "5.107"
+    ]
+  },
+  {
+    "start_MHz": 2.16,
+    "end_MHz": 2.17,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.108",
+      "5.109",
+      "5.110"
+    ]
+  },
+  {
+    "start_MHz": 2.194,
+    "end_MHz": 3.23,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "R)",
+      "FIXED",
+      "MOBILE"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "R)",
+        "category": "General",
+        "color": "#c5ba7e"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 2.194,
+    "end_MHz": 2.3,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.113",
+      "5.114",
+      "5.115",
+      "5.16",
+      "5.20",
+      "5.21"
+    ]
+  },
+  {
+    "start_MHz": 2.3,
+    "end_MHz": 2.495,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.114",
+      "5.115",
+      "5.116",
+      "5.16",
+      "5.20",
+      "5.21"
+    ]
+  },
+  {
+    "start_MHz": 4.75,
+    "end_MHz": 4.995,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.114",
+      "5.115",
+      "5.116",
+      "5.16",
+      "5.20",
+      "5.21"
+    ]
+  },
+  {
+    "start_MHz": 2.502,
+    "end_MHz": 2.625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.115",
+      "5.116"
+    ]
+  },
+  {
+    "start_MHz": 3.155,
+    "end_MHz": 3.195,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.117"
+    ]
+  },
+  {
+    "start_MHz": 3.155,
+    "end_MHz": 3.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3.23,
+    "end_MHz": 5.003,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "BROADCASTING  5",
+      "AERONAUTICAL MOBILE (R)"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "BROADCASTING  5",
+        "category": "General",
+        "color": "#934aea"
+      },
+      {
+        "label": "AERONAUTICAL MOBILE (R)",
+        "category": "General",
+        "color": "#453290"
+      }
+    ],
+    "notes": [
+      "5.113",
+      "5.116",
+      "5.118"
+    ]
+  },
+  {
+    "start_MHz": 3.23,
+    "end_MHz": 3.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.119",
+      "5.120",
+      "5.121",
+      "5.122"
+    ]
+  },
+  {
+    "start_MHz": 3.5,
+    "end_MHz": 3.75,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.120",
+      "5.121",
+      "5.122",
+      "5.123"
+    ]
+  },
+  {
+    "start_MHz": 3.75,
+    "end_MHz": 4.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.123",
+      "5.124",
+      "5.125"
+    ]
+  },
+  {
+    "start_MHz": 3.9,
+    "end_MHz": 3.95,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.124",
+      "5.125",
+      "5.126",
+      "5.127"
+    ]
+  },
+  {
+    "start_MHz": 3.95,
+    "end_MHz": 4.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.126",
+      "5.127",
+      "5.128"
+    ]
+  },
+  {
+    "start_MHz": 3.995,
+    "end_MHz": 4.005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.127",
+      "5.128"
+    ]
+  },
+  {
+    "start_MHz": 4.0,
+    "end_MHz": 4.063,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.128",
+      "5.129"
+    ]
+  },
+  {
+    "start_MHz": 4.063,
+    "end_MHz": 4.123,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.129",
+      "5.130"
+    ]
+  },
+  {
+    "start_MHz": 4.063,
+    "end_MHz": 4.123,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.129",
+      "5.130"
+    ]
+  },
+  {
+    "start_MHz": 4.438,
+    "end_MHz": 4.488,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5.003,
+    "end_MHz": 7.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "STANDARD FREQUENCY AND TIME SIGNAL",
+      "S",
+      "FIXED",
+      "BROADCASTING  5"
+    ],
+    "services": [
+      {
+        "label": "STANDARD FREQUENCY AND TIME SIGNAL",
+        "category": "General",
+        "color": "#cd2187"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "BROADCASTING  5",
+        "category": "General",
+        "color": "#934aea"
+      }
+    ],
+    "notes": [
+      "5.113"
+    ]
+  },
+  {
+    "start_MHz": 5.13,
+    "end_MHz": 5.25,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.133A",
+      "5.133B",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 5.25,
+    "end_MHz": 5.275,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.133B"
+    ]
+  },
+  {
+    "start_MHz": 5.9,
+    "end_MHz": 5.95,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 12.05,
+    "end_MHz": 12.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.135"
+    ]
+  },
+  {
+    "start_MHz": 15.6,
+    "end_MHz": 15.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.135",
+      "5.136"
+    ]
+  },
+  {
+    "start_MHz": 17.48,
+    "end_MHz": 17.55,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.135",
+      "5.136"
+    ]
+  },
+  {
+    "start_MHz": 18.9,
+    "end_MHz": 19.02,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.135",
+      "5.136"
+    ]
+  },
+  {
+    "start_MHz": 5.9,
+    "end_MHz": 5.95,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 6.525,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.137A",
+      "5.138"
+    ]
+  },
+  {
+    "start_MHz": 6.765,
+    "end_MHz": 6.795,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.280"
+    ]
+  },
+  {
+    "start_MHz": 7.0,
+    "end_MHz": 7.45,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "AMATEUR",
+      "AMATEUR-SATELLITE",
+      "A",
+      "AMATEUR",
+      "A 5",
+      "B"
+    ],
+    "services": [
+      {
+        "label": "AMATEUR",
+        "category": "General",
+        "color": "#026b2a"
+      },
+      {
+        "label": "AMATEUR-SATELLITE",
+        "category": "General",
+        "color": "#e8b88e"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "B",
+        "category": "General",
+        "color": "#9d5ed6"
+      }
+    ],
+    "notes": [
+      "5.140",
+      "5.141",
+      "5.141A",
+      "5.141B"
+    ]
+  },
+  {
+    "start_MHz": 7.0,
+    "end_MHz": 7.05,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.141",
+      "5.141A",
+      "5.141B"
+    ]
+  },
+  {
+    "start_MHz": 7.0,
+    "end_MHz": 7.05,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.141",
+      "5.141A",
+      "5.141B"
+    ]
+  },
+  {
+    "start_MHz": 7.0,
+    "end_MHz": 7.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.141B",
+      "5.141C",
+      "5.142"
+    ]
+  },
+  {
+    "start_MHz": 7.1,
+    "end_MHz": 7.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.141C",
+      "5.142",
+      "5.143"
+    ]
+  },
+  {
+    "start_MHz": 7.2,
+    "end_MHz": 7.3,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.143",
+      "5.143A"
+    ]
+  },
+  {
+    "start_MHz": 7.3,
+    "end_MHz": 7.35,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.143A",
+      "5.143B"
+    ]
+  },
+  {
+    "start_MHz": 7.35,
+    "end_MHz": 7.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.143B"
+    ]
+  },
+  {
+    "start_MHz": 7.35,
+    "end_MHz": 7.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.143B"
+    ]
+  },
+  {
+    "start_MHz": 7.35,
+    "end_MHz": 7.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.143D"
+    ]
+  },
+  {
+    "start_MHz": 7.35,
+    "end_MHz": 7.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.143D"
+    ]
+  },
+  {
+    "start_MHz": 7.45,
+    "end_MHz": 13.36,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "R)",
+      "FIXED",
+      "MARITIME MOBILE"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "R)",
+        "category": "General",
+        "color": "#c5ba7e"
+      },
+      {
+        "label": "MARITIME MOBILE",
+        "category": "General",
+        "color": "#c9ff77"
+      }
+    ],
+    "notes": [
+      "5.144"
+    ]
+  },
+  {
+    "start_MHz": 7.995,
+    "end_MHz": 8.005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.145",
+      "5.145A",
+      "5.145B"
+    ]
+  },
+  {
+    "start_MHz": 9.305,
+    "end_MHz": 9.355,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.146",
+      "5.147"
+    ]
+  },
+  {
+    "start_MHz": 9.4,
+    "end_MHz": 9.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.147",
+      "5.148"
+    ]
+  },
+  {
+    "start_MHz": 15.6,
+    "end_MHz": 15.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.135",
+      "5.136"
+    ]
+  },
+  {
+    "start_MHz": 9.775,
+    "end_MHz": 9.9,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.148"
+    ]
+  },
+  {
+    "start_MHz": 13.36,
+    "end_MHz": 18.03,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "RADIO ASTRONOMY",
+      "FIXED",
+      "M",
+      "R)"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "RADIO ASTRONOMY",
+        "category": "General",
+        "color": "#342942"
+      },
+      {
+        "label": "M",
+        "category": "General",
+        "color": "#69691c"
+      },
+      {
+        "label": "R)",
+        "category": "General",
+        "color": "#c5ba7e"
+      }
+    ],
+    "notes": [
+      "5.149"
+    ]
+  },
+  {
+    "start_MHz": 13.36,
+    "end_MHz": 13.41,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 25.55,
+    "end_MHz": 25.67,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 153.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1.0,
+    "end_MHz": 410.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 608.0,
+    "end_MHz": 614.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1330.0,
+    "end_MHz": 1400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1660.0,
+    "end_MHz": 1670.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2655.0,
+    "end_MHz": 2690.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3260.0,
+    "end_MHz": 3267.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3332.0,
+    "end_MHz": 3339.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4825.0,
+    "end_MHz": 4835.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4950.0,
+    "end_MHz": 4990.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4990.0,
+    "end_MHz": 5000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 13.45,
+    "end_MHz": 13.55,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.150"
+    ]
+  },
+  {
+    "start_MHz": 13.553,
+    "end_MHz": 13.567,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 26.957,
+    "end_MHz": 27.283,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 902.0,
+    "end_MHz": 928.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.151"
+    ]
+  },
+  {
+    "start_MHz": 2400.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.151"
+    ]
+  },
+  {
+    "start_MHz": 5725.0,
+    "end_MHz": 5875.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.151"
+    ]
+  },
+  {
+    "start_MHz": 13.57,
+    "end_MHz": 13.6,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.152"
+    ]
+  },
+  {
+    "start_MHz": 14.25,
+    "end_MHz": 14.35,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.153"
+    ]
+  },
+  {
+    "start_MHz": 15.995,
+    "end_MHz": 16.005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 18.03,
+    "end_MHz": 23.35,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "FIXED",
+      "S",
+      "AMATEUR"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "AMATEUR",
+        "category": "General",
+        "color": "#026b2a"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 18.068,
+    "end_MHz": 18.168,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.155",
+      "5.155A",
+      "5.155B"
+    ]
+  },
+  {
+    "start_MHz": 21.85,
+    "end_MHz": 21.87,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.155A",
+      "5.155B",
+      "5.156"
+    ]
+  },
+  {
+    "start_MHz": 21.85,
+    "end_MHz": 21.87,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.155A",
+      "5.155B",
+      "5.156"
+    ]
+  },
+  {
+    "start_MHz": 21.87,
+    "end_MHz": 21.924,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.156",
+      "5.156A"
+    ]
+  },
+  {
+    "start_MHz": 22.72,
+    "end_MHz": 23.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.156A"
+    ]
+  },
+  {
+    "start_MHz": 23.2,
+    "end_MHz": 23.35,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 23.35,
+    "end_MHz": 27.5,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "FIXED",
+      "LAND MOBILE"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "LAND MOBILE",
+        "category": "General",
+        "color": "#eebbf2"
+      }
+    ],
+    "notes": [
+      "5.157"
+    ]
+  },
+  {
+    "start_MHz": 23.35,
+    "end_MHz": 24.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.158"
+    ]
+  },
+  {
+    "start_MHz": 40.0,
+    "end_MHz": 50.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.29",
+      "5.30"
+    ]
+  },
+  {
+    "start_MHz": 98.0,
+    "end_MHz": 47.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "E",
+      "A",
+      "S"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      }
+    ],
+    "notes": [
+      "5.159A",
+      "5.160",
+      "5.161"
+    ]
+  },
+  {
+    "start_MHz": 41.0,
+    "end_MHz": 44.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.161",
+      "5.161A"
+    ]
+  },
+  {
+    "start_MHz": 41.0,
+    "end_MHz": 44.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.161",
+      "5.161A"
+    ]
+  },
+  {
+    "start_MHz": 35.0,
+    "end_MHz": 44.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 44.0,
+    "end_MHz": 47.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.162A"
+    ]
+  },
+  {
+    "start_MHz": 46.0,
+    "end_MHz": 68.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 58.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.164"
+    ]
+  },
+  {
+    "start_MHz": 47.0,
+    "end_MHz": 68.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.165",
+      "5.166",
+      "5.166A"
+    ]
+  },
+  {
+    "start_MHz": 58.0,
+    "end_MHz": 68.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.165",
+      "5.166",
+      "5.166A"
+    ]
+  },
+  {
+    "start_MHz": 47.0,
+    "end_MHz": 68.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.165",
+      "5.166",
+      "5.166A"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 52.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.162A",
+      "5.166C",
+      "5.166D",
+      "5.167",
+      "5.168",
+      "5.169"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 52.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.162A",
+      "5.166C",
+      "5.166D",
+      "5.167",
+      "5.168",
+      "5.169"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 52.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.162A",
+      "5.166C",
+      "5.166D",
+      "5.167",
+      "5.168",
+      "5.169"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 52.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.162A",
+      "5.166C",
+      "5.166D",
+      "5.167",
+      "5.168",
+      "5.169"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 51.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.169",
+      "5.169A"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 52.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.162A",
+      "5.166C",
+      "5.166D",
+      "5.167",
+      "5.168",
+      "5.169"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.167A",
+      "5.168"
+    ]
+  },
+  {
+    "start_MHz": 51.0,
+    "end_MHz": 54.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.171",
+      "5.172",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 54.0,
+    "end_MHz": 68.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.172",
+      "5.173",
+      "5.174",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 54.0,
+    "end_MHz": 68.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.172",
+      "5.173",
+      "5.174",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 68.0,
+    "end_MHz": 72.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.174",
+      "5.175",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 68.0,
+    "end_MHz": 73.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.176",
+      "5.177"
+    ]
+  },
+  {
+    "start_MHz": 68.0,
+    "end_MHz": 73.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.176",
+      "5.177"
+    ]
+  },
+  {
+    "start_MHz": 68.0,
+    "end_MHz": 74.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.177"
+    ]
+  },
+  {
+    "start_MHz": 73.0,
+    "end_MHz": 74.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4.0,
+    "end_MHz": 87.0,
+    "region1": [],
+    "region2": [
+      "N",
+      "WRC-23)"
+    ],
+    "region3": [],
+    "services": [
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": [
+      "5.183",
+      "5.184",
+      "5.185",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 76.0,
+    "end_MHz": 87.0,
+    "region1": [],
+    "region2": [
+      "N",
+      "WRC-23)"
+    ],
+    "region3": [],
+    "services": [
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": [
+      "5.184",
+      "5.185",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 76.0,
+    "end_MHz": 88.0,
+    "region1": [],
+    "region2": [
+      "N",
+      "WRC-23)"
+    ],
+    "region3": [],
+    "services": [
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": [
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 85.0,
+    "end_MHz": 87.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.189",
+      "5.190",
+      "5.191",
+      "5.192"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 88.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.191",
+      "5.192",
+      "5.193",
+      "5.194"
+    ]
+  },
+  {
+    "start_MHz": 100.0,
+    "end_MHz": 108.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.193",
+      "5.194",
+      "5.195",
+      "5.196",
+      "5.197"
+    ]
+  },
+  {
+    "start_MHz": 104.0,
+    "end_MHz": 108.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.195",
+      "5.196",
+      "5.197",
+      "5.197A"
+    ]
+  },
+  {
+    "start_MHz": 108.0,
+    "end_MHz": 112.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.198",
+      "5.198A",
+      "5.198B"
+    ]
+  },
+  {
+    "start_MHz": 975.0,
+    "end_MHz": 137.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.198B",
+      "5.199",
+      "5.200"
+    ]
+  },
+  {
+    "start_MHz": 975.0,
+    "end_MHz": 137.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.198B",
+      "5.199",
+      "5.200"
+    ]
+  },
+  {
+    "start_MHz": 975.0,
+    "end_MHz": 137.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.198B",
+      "5.199",
+      "5.200"
+    ]
+  },
+  {
+    "start_MHz": 132.0,
+    "end_MHz": 136.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 136.0,
+    "end_MHz": 137.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.203",
+      "5.203A",
+      "5.203B",
+      "5.203C"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 144.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.208",
+      "5.208A"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 153.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 608.0,
+    "end_MHz": 614.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 387.0,
+    "end_MHz": 390.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209"
+    ]
+  },
+  {
+    "start_MHz": 15.0,
+    "end_MHz": 401.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1492.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1610.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 2655.0,
+    "end_MHz": 2690.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.204",
+      "5.205",
+      "5.206",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 456.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209A",
+      "5.347A"
+    ]
+  },
+  {
+    "start_MHz": 175.0,
+    "end_MHz": 148.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "SPACE OPERATION (",
+      "E",
+      "C  5",
+      "A",
+      "METEOROLOGICAL-SATELLITE (",
+      "E",
+      "MOBILE-SATELLITE (",
+      "E",
+      "A 5",
+      "B 5",
+      "SPACE RESEARCH (",
+      "E",
+      "F",
+      "M",
+      "R) 5"
+    ],
+    "services": [
+      {
+        "label": "SPACE OPERATION (",
+        "category": "General",
+        "color": "#cc52c4"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "C  5",
+        "category": "General",
+        "color": "#862a44"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "METEOROLOGICAL-SATELLITE (",
+        "category": "General",
+        "color": "#18458a"
+      },
+      {
+        "label": "MOBILE-SATELLITE (",
+        "category": "General",
+        "color": "#63c8d6"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "B 5",
+        "category": "General",
+        "color": "#72065f"
+      },
+      {
+        "label": "SPACE RESEARCH (",
+        "category": "General",
+        "color": "#843391"
+      },
+      {
+        "label": "F",
+        "category": "General",
+        "color": "#800618"
+      },
+      {
+        "label": "M",
+        "category": "General",
+        "color": "#69691c"
+      },
+      {
+        "label": "R) 5",
+        "category": "General",
+        "color": "#31b1ed"
+      }
+    ],
+    "notes": [
+      "5.203C",
+      "5.206",
+      "5.208",
+      "5.208A",
+      "5.208B",
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 65.0,
+    "end_MHz": 144.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.211",
+      "5.212"
+    ]
+  },
+  {
+    "start_MHz": 138.0,
+    "end_MHz": 144.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.212",
+      "5.213"
+    ]
+  },
+  {
+    "start_MHz": 138.0,
+    "end_MHz": 144.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.212",
+      "5.213"
+    ]
+  },
+  {
+    "start_MHz": 138.0,
+    "end_MHz": 144.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.212",
+      "5.213"
+    ]
+  },
+  {
+    "start_MHz": 138.0,
+    "end_MHz": 144.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.212",
+      "5.213"
+    ]
+  },
+  {
+    "start_MHz": 144.0,
+    "end_MHz": 146.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.217"
+    ]
+  },
+  {
+    "start_MHz": 146.0,
+    "end_MHz": 148.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 153.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 154.0,
+    "end_MHz": 156.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 154.0,
+    "end_MHz": 156.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 154.0,
+    "end_MHz": 156.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 375.0,
+    "end_MHz": 223.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "M",
+      "E",
+      "AA"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "M",
+        "category": "General",
+        "color": "#69691c"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "AA",
+        "category": "General",
+        "color": "#3b98e2"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 163.0,
+    "end_MHz": 167.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.231",
+      "5.232",
+      "5.233"
+    ]
+  },
+  {
+    "start_MHz": 167.0,
+    "end_MHz": 174.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.232",
+      "5.233",
+      "5.234",
+      "5.235"
+    ]
+  },
+  {
+    "start_MHz": 174.0,
+    "end_MHz": 184.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.234",
+      "5.235",
+      "5.236"
+    ]
+  },
+  {
+    "start_MHz": 174.0,
+    "end_MHz": 223.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.236"
+    ]
+  },
+  {
+    "start_MHz": 174.0,
+    "end_MHz": 223.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.236"
+    ]
+  },
+  {
+    "start_MHz": 200.0,
+    "end_MHz": 216.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.239",
+      "5.240",
+      "5.241",
+      "5.242"
+    ]
+  },
+  {
+    "start_MHz": 216.0,
+    "end_MHz": 223.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.241",
+      "5.242",
+      "5.243"
+    ]
+  },
+  {
+    "start_MHz": 216.0,
+    "end_MHz": 225.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.242",
+      "5.243",
+      "5.244",
+      "5.245"
+    ]
+  },
+  {
+    "start_MHz": 216.0,
+    "end_MHz": 220.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.243",
+      "5.244",
+      "5.245"
+    ]
+  },
+  {
+    "start_MHz": 216.0,
+    "end_MHz": 225.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.242",
+      "5.243",
+      "5.244",
+      "5.245"
+    ]
+  },
+  {
+    "start_MHz": 222.0,
+    "end_MHz": 223.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 223.0,
+    "end_MHz": 230.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.247",
+      "5.248",
+      "5.249",
+      "5.250",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 223.0,
+    "end_MHz": 235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.248",
+      "5.249",
+      "5.250",
+      "5.251",
+      "5.252"
+    ]
+  },
+  {
+    "start_MHz": 225.0,
+    "end_MHz": 235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.251",
+      "5.252",
+      "5.253",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 230.0,
+    "end_MHz": 235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.252",
+      "5.253",
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 230.0,
+    "end_MHz": 238.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.253",
+      "5.254",
+      "5.255",
+      "5.256A"
+    ]
+  },
+  {
+    "start_MHz": 235.0,
+    "end_MHz": 322.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.255",
+      "5.256",
+      "5.256A"
+    ]
+  },
+  {
+    "start_MHz": 312.0,
+    "end_MHz": 315.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.256",
+      "5.256A"
+    ]
+  },
+  {
+    "start_MHz": 258.0,
+    "end_MHz": 261.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.257",
+      "5.258"
+    ]
+  },
+  {
+    "start_MHz": 267.0,
+    "end_MHz": 272.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.258",
+      "5.259"
+    ]
+  },
+  {
+    "start_MHz": 4.0,
+    "end_MHz": 410.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "FIXED",
+      "MOBILE"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      }
+    ],
+    "notes": [
+      "5.254"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 401.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.263",
+      "5.264",
+      "5.264A"
+    ]
+  },
+  {
+    "start_MHz": 15.0,
+    "end_MHz": 401.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209"
+    ]
+  },
+  {
+    "start_MHz": 15.0,
+    "end_MHz": 401.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209"
+    ]
+  },
+  {
+    "start_MHz": 401.0,
+    "end_MHz": 403.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 401.0,
+    "end_MHz": 403.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 401.0,
+    "end_MHz": 403.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 403.0,
+    "end_MHz": 410.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.266",
+      "5.267"
+    ]
+  },
+  {
+    "start_MHz": 410.0,
+    "end_MHz": 460.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "SPACE RESEARCH (",
+      "FIXED",
+      "MOBILE"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "SPACE RESEARCH (",
+        "category": "General",
+        "color": "#843391"
+      }
+    ],
+    "notes": [
+      "5.268"
+    ]
+  },
+  {
+    "start_MHz": 410.0,
+    "end_MHz": 420.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.269",
+      "5.270",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 410.0,
+    "end_MHz": 420.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.269",
+      "5.270",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 420.0,
+    "end_MHz": 430.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.270",
+      "5.271",
+      "5.272",
+      "5.273",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 420.0,
+    "end_MHz": 430.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.270",
+      "5.271",
+      "5.272",
+      "5.273",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 440.0,
+    "end_MHz": 450.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.271",
+      "5.272",
+      "5.273",
+      "5.274"
+    ]
+  },
+  {
+    "start_MHz": 420.0,
+    "end_MHz": 460.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.272",
+      "5.273",
+      "5.274",
+      "5.275"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 432.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.275",
+      "5.276"
+    ]
+  },
+  {
+    "start_MHz": 438.0,
+    "end_MHz": 440.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.275",
+      "5.276"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 432.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.275",
+      "5.276"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 440.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.277",
+      "5.278"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 435.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.277",
+      "5.278",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 440.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.277",
+      "5.278"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 440.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.277",
+      "5.278"
+    ]
+  },
+  {
+    "start_MHz": 430.0,
+    "end_MHz": 435.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.277",
+      "5.278",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 432.0,
+    "end_MHz": 438.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.280",
+      "5.29",
+      "5.30"
+    ]
+  },
+  {
+    "start_MHz": 432.0,
+    "end_MHz": 438.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.280",
+      "5.29",
+      "5.30"
+    ]
+  },
+  {
+    "start_MHz": 435.0,
+    "end_MHz": 438.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.283",
+      "5.284",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 5650.0,
+    "end_MHz": 5670.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.283",
+      "5.284",
+      "5.285",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 1260.0,
+    "end_MHz": 1270.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.283",
+      "5.284",
+      "5.285",
+      "5.286",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 438.0,
+    "end_MHz": 440.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.275",
+      "5.276"
+    ]
+  },
+  {
+    "start_MHz": 440.0,
+    "end_MHz": 450.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.271",
+      "5.272",
+      "5.273",
+      "5.274"
+    ]
+  },
+  {
+    "start_MHz": 440.0,
+    "end_MHz": 450.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.271",
+      "5.272",
+      "5.273",
+      "5.274"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 456.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209A",
+      "5.347A"
+    ]
+  },
+  {
+    "start_MHz": 450.0,
+    "end_MHz": 470.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.286B",
+      "5.286C",
+      "5.286D",
+      "5.286E"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 455.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.286C",
+      "5.286D",
+      "5.286E"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 456.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209A",
+      "5.347A"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 455.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.286C",
+      "5.286D",
+      "5.286E"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 456.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209A",
+      "5.347A"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 455.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.286C",
+      "5.286D",
+      "5.286E"
+    ]
+  },
+  {
+    "start_MHz": 454.0,
+    "end_MHz": 456.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209A",
+      "5.347A"
+    ]
+  },
+  {
+    "start_MHz": 460.0,
+    "end_MHz": 890.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE 5",
+      "AA 5",
+      "M",
+      "E",
+      "BROADCASTING"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE 5",
+        "category": "General",
+        "color": "#0d330f"
+      },
+      {
+        "label": "AA 5",
+        "category": "General",
+        "color": "#b51a45"
+      },
+      {
+        "label": "M",
+        "category": "General",
+        "color": "#69691c"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "BROADCASTING",
+        "category": "General",
+        "color": "#dcf300"
+      }
+    ],
+    "notes": [
+      "5.287",
+      "5.288",
+      "5.289",
+      "5.290"
+    ]
+  },
+  {
+    "start_MHz": 460.0,
+    "end_MHz": 470.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.290",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 460.0,
+    "end_MHz": 470.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.290",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 485.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.291A",
+      "5.292",
+      "5.293",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 494.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.292",
+      "5.293",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 512.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.293",
+      "5.294",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 512.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.293",
+      "5.294",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 512.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.293",
+      "5.294",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 512.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.293",
+      "5.294",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 582.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.295",
+      "5.295A",
+      "5.43",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 608.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.295A",
+      "5.43",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 694.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 694.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 470.0,
+    "end_MHz": 698.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.297",
+      "5.43",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 610.0,
+    "end_MHz": 698.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.297",
+      "5.43",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 512.0,
+    "end_MHz": 608.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.298",
+      "5.299",
+      "5.300",
+      "5.32"
+    ]
+  },
+  {
+    "start_MHz": 512.0,
+    "end_MHz": 608.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.298",
+      "5.299",
+      "5.300",
+      "5.32"
+    ]
+  },
+  {
+    "start_MHz": 512.0,
+    "end_MHz": 608.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.298",
+      "5.299",
+      "5.300",
+      "5.32"
+    ]
+  },
+  {
+    "start_MHz": 582.0,
+    "end_MHz": 790.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.10",
+      "5.13",
+      "5.301",
+      "5.302",
+      "5.303",
+      "5.304",
+      "5.305"
+    ]
+  },
+  {
+    "start_MHz": 606.0,
+    "end_MHz": 614.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.10",
+      "5.13",
+      "5.305",
+      "5.306",
+      "5.307"
+    ]
+  },
+  {
+    "start_MHz": 606.0,
+    "end_MHz": 614.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.10",
+      "5.13",
+      "5.305",
+      "5.306",
+      "5.307"
+    ]
+  },
+  {
+    "start_MHz": 608.0,
+    "end_MHz": 614.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 608.0,
+    "end_MHz": 614.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 614.0,
+    "end_MHz": 694.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 606.0,
+    "end_MHz": 614.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.10",
+      "5.13",
+      "5.305",
+      "5.306",
+      "5.307"
+    ]
+  },
+  {
+    "start_MHz": 645.0,
+    "end_MHz": 862.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.307B"
+    ]
+  },
+  {
+    "start_MHz": 614.0,
+    "end_MHz": 694.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 614.0,
+    "end_MHz": 698.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.308A",
+      "5.309",
+      "5.43",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 614.0,
+    "end_MHz": 698.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.308A",
+      "5.309",
+      "5.43",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 614.0,
+    "end_MHz": 806.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.310",
+      "5.311",
+      "5.311A",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 645.0,
+    "end_MHz": 862.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.307B"
+    ]
+  },
+  {
+    "start_MHz": 726.0,
+    "end_MHz": 753.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.312A",
+      "5.312B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 694.0,
+    "end_MHz": 790.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.312B",
+      "5.313",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 698.0,
+    "end_MHz": 960.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.313",
+      "5.313A",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 694.0,
+    "end_MHz": 728.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.313",
+      "5.313A"
+    ]
+  },
+  {
+    "start_MHz": 830.0,
+    "end_MHz": 835.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.313",
+      "5.313A"
+    ]
+  },
+  {
+    "start_MHz": 698.0,
+    "end_MHz": 790.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.313B",
+      "5.314"
+    ]
+  },
+  {
+    "start_MHz": 698.0,
+    "end_MHz": 960.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.313",
+      "5.313A",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 703.0,
+    "end_MHz": 733.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.315",
+      "5.316",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 698.0,
+    "end_MHz": 728.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.315",
+      "5.316",
+      "5.316A",
+      "5.316B"
+    ]
+  },
+  {
+    "start_MHz": 790.0,
+    "end_MHz": 862.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.312"
+    ]
+  },
+  {
+    "start_MHz": 806.0,
+    "end_MHz": 890.0,
+    "region1": [
+      "I",
+      "M",
+      "T",
+      "IMT)",
+      "R",
+      "R",
+      "WRC-23)",
+      "R",
+      "WRC-23)",
+      "R",
+      "WRC-23)",
+      "T",
+      "R",
+      "R",
+      "WRC-23)",
+      "A",
+      "C",
+      "U",
+      "S",
+      "M",
+      "MH"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "I",
+        "category": "General",
+        "color": "#dd7536"
+      },
+      {
+        "label": "M",
+        "category": "General",
+        "color": "#69691c"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "IMT)",
+        "category": "General",
+        "color": "#11ccaf"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "C",
+        "category": "General",
+        "color": "#0d61f8"
+      },
+      {
+        "label": "U",
+        "category": "General",
+        "color": "#4c6143"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      }
+    ],
+    "notes": [
+      "5.317A",
+      "5.318"
+    ]
+  },
+  {
+    "start_MHz": 698.0,
+    "end_MHz": 960.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.313",
+      "5.313A",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 790.0,
+    "end_MHz": 960.0,
+    "region1": [
+      "I",
+      "M",
+      "T",
+      "IMT)",
+      "R",
+      "R",
+      "WRC-23)",
+      "R",
+      "WRC-23)",
+      "R",
+      "WRC-23)",
+      "T",
+      "R",
+      "R",
+      "WRC-23)",
+      "A",
+      "C",
+      "U",
+      "S",
+      "M",
+      "MH",
+      "MH",
+      "T",
+      "MH",
+      "MH",
+      "A",
+      "B",
+      "R",
+      "F",
+      "U",
+      "MH",
+      "E"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "I",
+        "category": "General",
+        "color": "#dd7536"
+      },
+      {
+        "label": "M",
+        "category": "General",
+        "color": "#69691c"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "IMT)",
+        "category": "General",
+        "color": "#11ccaf"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "C",
+        "category": "General",
+        "color": "#0d61f8"
+      },
+      {
+        "label": "U",
+        "category": "General",
+        "color": "#4c6143"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      },
+      {
+        "label": "B",
+        "category": "General",
+        "color": "#9d5ed6"
+      },
+      {
+        "label": "F",
+        "category": "General",
+        "color": "#800618"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      }
+    ],
+    "notes": [
+      "5.318",
+      "5.319"
+    ]
+  },
+  {
+    "start_MHz": 849.0,
+    "end_MHz": 851.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.319",
+      "5.320"
+    ]
+  },
+  {
+    "start_MHz": 894.0,
+    "end_MHz": 896.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.319",
+      "5.320"
+    ]
+  },
+  {
+    "start_MHz": 849.0,
+    "end_MHz": 851.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.319",
+      "5.320"
+    ]
+  },
+  {
+    "start_MHz": 894.0,
+    "end_MHz": 896.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.319",
+      "5.320"
+    ]
+  },
+  {
+    "start_MHz": 806.0,
+    "end_MHz": 840.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.320",
+      "5.321"
+    ]
+  },
+  {
+    "start_MHz": 856.0,
+    "end_MHz": 890.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.320",
+      "5.321"
+    ]
+  },
+  {
+    "start_MHz": 806.0,
+    "end_MHz": 890.0,
+    "region1": [
+      "I",
+      "M",
+      "T",
+      "IMT)",
+      "R",
+      "R",
+      "WRC-23)",
+      "R",
+      "WRC-23)",
+      "R",
+      "WRC-23)",
+      "T",
+      "R",
+      "R",
+      "WRC-23)",
+      "A",
+      "C",
+      "U",
+      "S",
+      "M",
+      "MH"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "I",
+        "category": "General",
+        "color": "#dd7536"
+      },
+      {
+        "label": "M",
+        "category": "General",
+        "color": "#69691c"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "IMT)",
+        "category": "General",
+        "color": "#11ccaf"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "C",
+        "category": "General",
+        "color": "#0d61f8"
+      },
+      {
+        "label": "U",
+        "category": "General",
+        "color": "#4c6143"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      }
+    ],
+    "notes": [
+      "5.317A",
+      "5.318"
+    ]
+  },
+  {
+    "start_MHz": 862.0,
+    "end_MHz": 960.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.10",
+      "5.13",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 862.0,
+    "end_MHz": 960.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.10",
+      "5.13",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 862.0,
+    "end_MHz": 880.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 890.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE",
+      "B 5",
+      "A",
+      "BROADCASTING  5",
+      "R"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "B 5",
+        "category": "General",
+        "color": "#72065f"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "BROADCASTING  5",
+        "category": "General",
+        "color": "#934aea"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      }
+    ],
+    "notes": [
+      "5.312B",
+      "5.317A",
+      "5.322",
+      "5.323"
+    ]
+  },
+  {
+    "start_MHz": 890.0,
+    "end_MHz": 942.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.325A",
+      "5.326",
+      "5.327",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 902.0,
+    "end_MHz": 928.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.151"
+    ]
+  },
+  {
+    "start_MHz": 902.0,
+    "end_MHz": 928.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.151"
+    ]
+  },
+  {
+    "start_MHz": 902.0,
+    "end_MHz": 915.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.326",
+      "5.327",
+      "5.327A",
+      "5.328",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 903.0,
+    "end_MHz": 905.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.327",
+      "5.327A",
+      "5.328",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 915.0,
+    "end_MHz": 928.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.327A",
+      "5.328",
+      "5.328A",
+      "5.33"
+    ]
+  },
+  {
+    "start_MHz": 960.0,
+    "end_MHz": 1164.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.328",
+      "5.328A",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 960.0,
+    "end_MHz": 1215.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.328A",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1164.0,
+    "end_MHz": 1215.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.328B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 960.0,
+    "end_MHz": 1215.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.328A",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1164.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.329",
+      "5.329A",
+      "5.331"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.329",
+      "5.329A",
+      "5.331",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.329",
+      "5.329A",
+      "5.331",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.329",
+      "5.329A",
+      "5.331",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.329",
+      "5.329A",
+      "5.331",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.329",
+      "5.329A",
+      "5.331",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.329",
+      "5.329A",
+      "5.331",
+      "5.43"
+    ]
+  },
+  {
+    "start_MHz": 1240.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.29",
+      "5.332",
+      "5.332A"
+    ]
+  },
+  {
+    "start_MHz": 1215.0,
+    "end_MHz": 1260.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.29",
+      "5.332A"
+    ]
+  },
+  {
+    "start_MHz": 1240.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.29",
+      "5.332",
+      "5.332A"
+    ]
+  },
+  {
+    "start_MHz": 1350.0,
+    "end_MHz": 1370.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.335",
+      "5.335A"
+    ]
+  },
+  {
+    "start_MHz": 1240.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.29",
+      "5.332",
+      "5.332A"
+    ]
+  },
+  {
+    "start_MHz": 1260.0,
+    "end_MHz": 1300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1300.0,
+    "end_MHz": 1525.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "RADIOLOCATION",
+      "AERONAUTICAL RADIONAVIGATION  5",
+      "RADIONAVIGATION-SATELLITE (E",
+      "A",
+      "FIXED"
+    ],
+    "services": [
+      {
+        "label": "RADIOLOCATION",
+        "category": "General",
+        "color": "#4a1f59"
+      },
+      {
+        "label": "AERONAUTICAL RADIONAVIGATION  5",
+        "category": "General",
+        "color": "#41fa2b"
+      },
+      {
+        "label": "RADIONAVIGATION-SATELLITE (E",
+        "category": "General",
+        "color": "#1c43d1"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      }
+    ],
+    "notes": [
+      "5.149",
+      "5.337",
+      "5.337A"
+    ]
+  },
+  {
+    "start_MHz": 1300.0,
+    "end_MHz": 1350.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.337A",
+      "5.338",
+      "5.338A"
+    ]
+  },
+  {
+    "start_MHz": 1300.0,
+    "end_MHz": 1350.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.337A",
+      "5.338",
+      "5.338A"
+    ]
+  },
+  {
+    "start_MHz": 1350.0,
+    "end_MHz": 1400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.338A",
+      "5.339",
+      "5.339A",
+      "5.340"
+    ]
+  },
+  {
+    "start_MHz": 1350.0,
+    "end_MHz": 1400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.338A",
+      "5.339",
+      "5.339A",
+      "5.340"
+    ]
+  },
+  {
+    "start_MHz": 1370.0,
+    "end_MHz": 1400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.339A",
+      "5.340",
+      "5.422",
+      "5.483"
+    ]
+  },
+  {
+    "start_MHz": 1400.0,
+    "end_MHz": 1427.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.422",
+      "5.483",
+      "5.511"
+    ]
+  },
+  {
+    "start_MHz": 2690.0,
+    "end_MHz": 2700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.422",
+      "5.483",
+      "5.511"
+    ]
+  },
+  {
+    "start_MHz": 1400.0,
+    "end_MHz": 1727.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.340"
+    ]
+  },
+  {
+    "start_MHz": 1427.0,
+    "end_MHz": 1452.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.341B",
+      "5.341C",
+      "5.342"
+    ]
+  },
+  {
+    "start_MHz": 1427.0,
+    "end_MHz": 1518.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "R",
+      "WRC-15)",
+      "T",
+      "IMT",
+      "MH",
+      "MH",
+      "N",
+      "T",
+      "R",
+      "R",
+      "WRC-15)"
+    ],
+    "services": [
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-15)",
+        "category": "General",
+        "color": "#19320c"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "IMT",
+        "category": "General",
+        "color": "#c5dcd3"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      },
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      }
+    ],
+    "notes": [
+      "5.341C"
+    ]
+  },
+  {
+    "start_MHz": 1427.0,
+    "end_MHz": 1452.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.341B",
+      "5.341C",
+      "5.342"
+    ]
+  },
+  {
+    "start_MHz": 1429.0,
+    "end_MHz": 1452.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.342",
+      "5.343"
+    ]
+  },
+  {
+    "start_MHz": 1429.0,
+    "end_MHz": 1535.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.343",
+      "5.344",
+      "5.345"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1492.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 1435.0,
+    "end_MHz": 1535.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.343",
+      "5.344",
+      "5.345"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1525.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.343",
+      "5.345"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1492.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1492.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1492.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 1452.0,
+    "end_MHz": 1492.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 1518.0,
+    "end_MHz": 1525.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.348A",
+      "5.348B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1518.0,
+    "end_MHz": 1525.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.348A",
+      "5.348B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1518.0,
+    "end_MHz": 1525.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.348A",
+      "5.348B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1518.0,
+    "end_MHz": 1525.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.348A",
+      "5.348B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1518.0,
+    "end_MHz": 1525.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.348A",
+      "5.348B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1610.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.209",
+      "5.209A"
+    ]
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1530.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.350",
+      "5.351",
+      "5.351A"
+    ]
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1530.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.350",
+      "5.351",
+      "5.351A"
+    ]
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1544.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.351A"
+    ]
+  },
+  {
+    "start_MHz": 1518.0,
+    "end_MHz": 1544.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1668.0,
+    "end_MHz": 1675.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1530.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.350",
+      "5.351",
+      "5.351A"
+    ]
+  },
+  {
+    "start_MHz": 1530.0,
+    "end_MHz": 1544.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.354",
+      "5.355"
+    ]
+  },
+  {
+    "start_MHz": 1525.0,
+    "end_MHz": 1559.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.355",
+      "5.356",
+      "5.357"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 1660.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.356",
+      "5.357",
+      "5.357A"
+    ]
+  },
+  {
+    "start_MHz": 1544.0,
+    "end_MHz": 1545.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.357",
+      "5.357A"
+    ]
+  },
+  {
+    "start_MHz": 1545.0,
+    "end_MHz": 1555.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.357A"
+    ]
+  },
+  {
+    "start_MHz": 1545.0,
+    "end_MHz": 1555.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.357A"
+    ]
+  },
+  {
+    "start_MHz": 1550.0,
+    "end_MHz": 1559.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.360",
+      "5.362"
+    ]
+  },
+  {
+    "start_MHz": 1555.0,
+    "end_MHz": 1559.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.362B",
+      "5.362C",
+      "5.363"
+    ]
+  },
+  {
+    "start_MHz": 1610.0,
+    "end_MHz": 1660.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MOBILE-SATELLITE",
+      "E",
+      "A",
+      "AERONAUTICAL",
+      "RADIONAVIGATION",
+      "MOBILE-SATELLITE"
+    ],
+    "services": [
+      {
+        "label": "MOBILE-SATELLITE",
+        "category": "General",
+        "color": "#93a969"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "AERONAUTICAL",
+        "category": "General",
+        "color": "#ab2b5c"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "General",
+        "color": "#6c00a8"
+      }
+    ],
+    "notes": [
+      "5.351A"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 1660.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.356",
+      "5.357",
+      "5.357A"
+    ]
+  },
+  {
+    "start_MHz": 1660.0,
+    "end_MHz": 1710.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MOBILE-SATELLITE (E",
+      "A",
+      "RADIO ASTRONOMY",
+      "A 5",
+      "A",
+      "RADIO ASTRONOMY",
+      "SPACE RESEARCH ("
+    ],
+    "services": [
+      {
+        "label": "MOBILE-SATELLITE (E",
+        "category": "General",
+        "color": "#86daea"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "RADIO ASTRONOMY",
+        "category": "General",
+        "color": "#342942"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "SPACE RESEARCH (",
+        "category": "General",
+        "color": "#843391"
+      }
+    ],
+    "notes": [
+      "5.149",
+      "5.341",
+      "5.351",
+      "5.351A",
+      "5.354",
+      "5.362A",
+      "5.376A"
+    ]
+  },
+  {
+    "start_MHz": 1668.0,
+    "end_MHz": 1675.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1668.0,
+    "end_MHz": 1670.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.379D",
+      "5.379E"
+    ]
+  },
+  {
+    "start_MHz": 4.0,
+    "end_MHz": 1675.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.379E",
+      "5.380",
+      "5.380A"
+    ]
+  },
+  {
+    "start_MHz": 4.0,
+    "end_MHz": 1675.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.379E",
+      "5.380",
+      "5.380A"
+    ]
+  },
+  {
+    "start_MHz": 4.0,
+    "end_MHz": 1675.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.379E",
+      "5.380",
+      "5.380A"
+    ]
+  },
+  {
+    "start_MHz": 1670.0,
+    "end_MHz": 1675.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.381",
+      "5.382"
+    ]
+  },
+  {
+    "start_MHz": 1690.0,
+    "end_MHz": 1700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.382",
+      "5.383"
+    ]
+  },
+  {
+    "start_MHz": 1690.0,
+    "end_MHz": 1700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.382",
+      "5.383"
+    ]
+  },
+  {
+    "start_MHz": 1690.0,
+    "end_MHz": 1700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.382",
+      "5.383"
+    ]
+  },
+  {
+    "start_MHz": 1700.0,
+    "end_MHz": 1710.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1710.0,
+    "end_MHz": 2170.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE  5",
+      "A 5",
+      "A",
+      "FIXED",
+      "MOBILE  5",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE  5",
+        "category": "General",
+        "color": "#e947cb"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": [
+      "5.149",
+      "5.341",
+      "5.384A",
+      "5.385",
+      "5.386",
+      "5.387",
+      "5.388",
+      "5.388A"
+    ]
+  },
+  {
+    "start_MHz": 1710.0,
+    "end_MHz": 1885.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.385",
+      "5.386"
+    ]
+  },
+  {
+    "start_MHz": 1750.0,
+    "end_MHz": 1850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.387",
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 1770.0,
+    "end_MHz": 1790.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.388"
+    ]
+  },
+  {
+    "start_MHz": 1885.0,
+    "end_MHz": 2025.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1710.0,
+    "end_MHz": 1980.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.388B",
+      "5.389",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1710.0,
+    "end_MHz": 1980.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.388B",
+      "5.389",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1710.0,
+    "end_MHz": 1785.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.388B",
+      "5.389",
+      "5.389A",
+      "5.389B",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 1710.0,
+    "end_MHz": 1815.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.388B",
+      "5.389",
+      "5.389A",
+      "5.389B"
+    ]
+  },
+  {
+    "start_MHz": 2110.0,
+    "end_MHz": 2170.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.388B",
+      "5.389",
+      "5.389A",
+      "5.389B"
+    ]
+  },
+  {
+    "start_MHz": 1980.0,
+    "end_MHz": 2010.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.389B",
+      "5.389C",
+      "5.389D"
+    ]
+  },
+  {
+    "start_MHz": 1980.0,
+    "end_MHz": 1990.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.389C",
+      "5.389D"
+    ]
+  },
+  {
+    "start_MHz": 2010.0,
+    "end_MHz": 2025.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.389D"
+    ]
+  },
+  {
+    "start_MHz": 2010.0,
+    "end_MHz": 2025.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.389D"
+    ]
+  },
+  {
+    "start_MHz": 1980.0,
+    "end_MHz": 2010.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.389B",
+      "5.389C",
+      "5.389D"
+    ]
+  },
+  {
+    "start_MHz": 2025.0,
+    "end_MHz": 2110.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.392",
+      "5.392A"
+    ]
+  },
+  {
+    "start_MHz": 2200.0,
+    "end_MHz": 2290.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.392",
+      "5.392A"
+    ]
+  },
+  {
+    "start_MHz": 2025.0,
+    "end_MHz": 2110.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.392",
+      "5.392A"
+    ]
+  },
+  {
+    "start_MHz": 2170.0,
+    "end_MHz": 2520.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE 5",
+      "MOBILE-SATELLITE (",
+      "E",
+      "A",
+      "A 5",
+      "F",
+      "SPACE OPERATION (",
+      "E"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE 5",
+        "category": "General",
+        "color": "#0d330f"
+      },
+      {
+        "label": "MOBILE-SATELLITE (",
+        "category": "General",
+        "color": "#63c8d6"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "F",
+        "category": "General",
+        "color": "#800618"
+      },
+      {
+        "label": "SPACE OPERATION (",
+        "category": "General",
+        "color": "#cc52c4"
+      }
+    ],
+    "notes": [
+      "5.351A",
+      "5.388",
+      "5.389A",
+      "5.389F"
+    ]
+  },
+  {
+    "start_MHz": 2310.0,
+    "end_MHz": 2360.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.394",
+      "5.395"
+    ]
+  },
+  {
+    "start_MHz": 2360.0,
+    "end_MHz": 2395.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.395",
+      "5.396",
+      "5.397",
+      "5.398"
+    ]
+  },
+  {
+    "start_MHz": 2360.0,
+    "end_MHz": 2400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.395",
+      "5.396",
+      "5.397",
+      "5.398"
+    ]
+  },
+  {
+    "start_MHz": 2310.0,
+    "end_MHz": 2360.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.394",
+      "5.395"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 4990.0,
+    "end_MHz": 5000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2520.0,
+    "end_MHz": 2535.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.404"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2520.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "HIBS)",
+      "T",
+      "R",
+      "R",
+      "R",
+      "WRC-23)"
+    ],
+    "services": [
+      {
+        "label": "HIBS)",
+        "category": "General",
+        "color": "#a27c90"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": [
+      "5.408",
+      "5.409",
+      "5.409A"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2690.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "HIBS)",
+      "T",
+      "R",
+      "R",
+      "R",
+      "WRC-23)",
+      "HIBS",
+      "N",
+      "A",
+      "S",
+      "HIBS"
+    ],
+    "services": [
+      {
+        "label": "HIBS)",
+        "category": "General",
+        "color": "#a27c90"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      },
+      {
+        "label": "HIBS",
+        "category": "General",
+        "color": "#c12a72"
+      },
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      }
+    ],
+    "notes": [
+      "5.410",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2510.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.410",
+      "5.411",
+      "5.412"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2690.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "HIBS)",
+      "T",
+      "R",
+      "R",
+      "R",
+      "WRC-23)",
+      "HIBS",
+      "N",
+      "A",
+      "S",
+      "HIBS"
+    ],
+    "services": [
+      {
+        "label": "HIBS)",
+        "category": "General",
+        "color": "#a27c90"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      },
+      {
+        "label": "HIBS",
+        "category": "General",
+        "color": "#c12a72"
+      },
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      }
+    ],
+    "notes": [
+      "5.410",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2690.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "HIBS)",
+      "T",
+      "R",
+      "R",
+      "R",
+      "WRC-23)",
+      "HIBS",
+      "N",
+      "A",
+      "S",
+      "HIBS"
+    ],
+    "services": [
+      {
+        "label": "HIBS)",
+        "category": "General",
+        "color": "#a27c90"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      },
+      {
+        "label": "HIBS",
+        "category": "General",
+        "color": "#c12a72"
+      },
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      }
+    ],
+    "notes": [
+      "5.410",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 2690.0,
+    "end_MHz": 2700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.422",
+      "5.483",
+      "5.511"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2520.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "HIBS)",
+      "T",
+      "R",
+      "R",
+      "R",
+      "WRC-23)"
+    ],
+    "services": [
+      {
+        "label": "HIBS)",
+        "category": "General",
+        "color": "#a27c90"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": [
+      "5.408",
+      "5.409",
+      "5.409A"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2520.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "HIBS)",
+      "T",
+      "R",
+      "R",
+      "R",
+      "WRC-23)"
+    ],
+    "services": [
+      {
+        "label": "HIBS)",
+        "category": "General",
+        "color": "#a27c90"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": [
+      "5.408",
+      "5.409",
+      "5.409A"
+    ]
+  },
+  {
+    "start_MHz": 2500.0,
+    "end_MHz": 2690.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "HIBS)",
+      "T",
+      "R",
+      "R",
+      "R",
+      "WRC-23)",
+      "HIBS",
+      "N",
+      "A",
+      "S",
+      "HIBS"
+    ],
+    "services": [
+      {
+        "label": "HIBS)",
+        "category": "General",
+        "color": "#a27c90"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      },
+      {
+        "label": "HIBS",
+        "category": "General",
+        "color": "#c12a72"
+      },
+      {
+        "label": "N",
+        "category": "General",
+        "color": "#8d9c30"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      }
+    ],
+    "notes": [
+      "5.410",
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 2520.0,
+    "end_MHz": 2535.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.404"
+    ]
+  },
+  {
+    "start_MHz": 2520.0,
+    "end_MHz": 2700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED  5",
+      "MOBILE",
+      "A  5",
+      "A",
+      "BROADCASTING-SATELLITE"
+    ],
+    "services": [
+      {
+        "label": "FIXED  5",
+        "category": "General",
+        "color": "#a25c5d"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "A  5",
+        "category": "General",
+        "color": "#9cd63e"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "BROADCASTING-SATELLITE",
+        "category": "General",
+        "color": "#64b04a"
+      }
+    ],
+    "notes": [
+      "5.384A",
+      "5.409A",
+      "5.410",
+      "5.413",
+      "5.416"
+    ]
+  },
+  {
+    "start_MHz": 2520.0,
+    "end_MHz": 2670.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.417",
+      "5.417A",
+      "5.417B",
+      "5.417C",
+      "5.417D"
+    ]
+  },
+  {
+    "start_MHz": 2535.0,
+    "end_MHz": 2655.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.416"
+    ]
+  },
+  {
+    "start_MHz": 2630.0,
+    "end_MHz": 2655.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2630.0,
+    "end_MHz": 2655.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2630.0,
+    "end_MHz": 2655.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2630.0,
+    "end_MHz": 2655.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2670.0,
+    "end_MHz": 2690.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.420",
+      "5.420A",
+      "5.421",
+      "5.422"
+    ]
+  },
+  {
+    "start_MHz": 2655.0,
+    "end_MHz": 2670.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.420A",
+      "5.421",
+      "5.422"
+    ]
+  },
+  {
+    "start_MHz": 2690.0,
+    "end_MHz": 2700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.422",
+      "5.483",
+      "5.511"
+    ]
+  },
+  {
+    "start_MHz": 2700.0,
+    "end_MHz": 3600.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "AERONAUTICAL RADIONAVIGATION  5",
+      "R",
+      "RADIOLOCATION  5",
+      "A",
+      "RADIONAVIGATION  5"
+    ],
+    "services": [
+      {
+        "label": "AERONAUTICAL RADIONAVIGATION  5",
+        "category": "General",
+        "color": "#41fa2b"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "RADIOLOCATION  5",
+        "category": "General",
+        "color": "#96dfc1"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "RADIONAVIGATION  5",
+        "category": "General",
+        "color": "#5bab63"
+      }
+    ],
+    "notes": [
+      "5.337",
+      "5.423",
+      "5.424",
+      "5.424A",
+      "5.426"
+    ]
+  },
+  {
+    "start_MHz": 2700.0,
+    "end_MHz": 2900.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.424",
+      "5.424A",
+      "5.425",
+      "5.426"
+    ]
+  },
+  {
+    "start_MHz": 2850.0,
+    "end_MHz": 2900.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.424A",
+      "5.425",
+      "5.426"
+    ]
+  },
+  {
+    "start_MHz": 2900.0,
+    "end_MHz": 3100.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.425",
+      "5.426"
+    ]
+  },
+  {
+    "start_MHz": 2900.0,
+    "end_MHz": 3100.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.425",
+      "5.426"
+    ]
+  },
+  {
+    "start_MHz": 2900.0,
+    "end_MHz": 3100.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.425",
+      "5.426"
+    ]
+  },
+  {
+    "start_MHz": 2900.0,
+    "end_MHz": 3100.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.425",
+      "5.426"
+    ]
+  },
+  {
+    "start_MHz": 3100.0,
+    "end_MHz": 3300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429",
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3300.0,
+    "end_MHz": 3400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.429A"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3600.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3600.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3475.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.431A",
+      "5.431B"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.431B"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3600.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3600.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.431B"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.431B"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.431B"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.431B"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.431B"
+    ]
+  },
+  {
+    "start_MHz": 3400.0,
+    "end_MHz": 3600.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3500.0,
+    "end_MHz": 3600.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3600.0,
+    "end_MHz": 4800.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "FIXED-SATELLITE",
+      "E",
+      "MOBILE",
+      "B  5",
+      "A 5",
+      "B",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "FIXED-SATELLITE",
+        "category": "General",
+        "color": "#394439"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "B  5",
+        "category": "General",
+        "color": "#76537b"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "B",
+        "category": "General",
+        "color": "#9d5ed6"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": [
+      "5.433B",
+      "5.434A",
+      "5.434B",
+      "5.435A"
+    ]
+  },
+  {
+    "start_MHz": 3600.0,
+    "end_MHz": 3700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.434",
+      "5.434A"
+    ]
+  },
+  {
+    "start_MHz": 3600.0,
+    "end_MHz": 3700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.434",
+      "5.434A"
+    ]
+  },
+  {
+    "start_MHz": 3600.0,
+    "end_MHz": 3800.0,
+    "region1": [
+      "B(W",
+      "H",
+      "S",
+      "MH",
+      "T",
+      "R",
+      "R",
+      "WRC-23)"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "B(W",
+        "category": "General",
+        "color": "#480976"
+      },
+      {
+        "label": "H",
+        "category": "General",
+        "color": "#c1d9f5"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 3600.0,
+    "end_MHz": 3800.0,
+    "region1": [
+      "B(W",
+      "H",
+      "S",
+      "MH",
+      "T",
+      "R",
+      "R",
+      "WRC-23)"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "B(W",
+        "category": "General",
+        "color": "#480976"
+      },
+      {
+        "label": "H",
+        "category": "General",
+        "color": "#c1d9f5"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 3600.0,
+    "end_MHz": 3800.0,
+    "region1": [
+      "B(W",
+      "H",
+      "S",
+      "MH",
+      "T",
+      "R",
+      "R",
+      "WRC-23)"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "B(W",
+        "category": "General",
+        "color": "#480976"
+      },
+      {
+        "label": "H",
+        "category": "General",
+        "color": "#c1d9f5"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 3600.0,
+    "end_MHz": 3800.0,
+    "region1": [
+      "B(W",
+      "H",
+      "S",
+      "MH",
+      "T",
+      "R",
+      "R",
+      "WRC-23)"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "B(W",
+        "category": "General",
+        "color": "#480976"
+      },
+      {
+        "label": "H",
+        "category": "General",
+        "color": "#c1d9f5"
+      },
+      {
+        "label": "S",
+        "category": "General",
+        "color": "#5dbc98"
+      },
+      {
+        "label": "MH",
+        "category": "General",
+        "color": "#002f27"
+      },
+      {
+        "label": "T",
+        "category": "General",
+        "color": "#b9ece1"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      },
+      {
+        "label": "WRC-23)",
+        "category": "General",
+        "color": "#cdf6cc"
+      }
+    ],
+    "notes": []
+  },
+  {
+    "start_MHz": 3620.0,
+    "end_MHz": 3700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.435A",
+      "5.435B"
+    ]
+  },
+  {
+    "start_MHz": 3700.0,
+    "end_MHz": 3800.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.435B",
+      "5.436"
+    ]
+  },
+  {
+    "start_MHz": 3700.0,
+    "end_MHz": 3800.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.435B",
+      "5.436"
+    ]
+  },
+  {
+    "start_MHz": 4200.0,
+    "end_MHz": 4400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.437",
+      "5.438",
+      "5.439"
+    ]
+  },
+  {
+    "start_MHz": 4200.0,
+    "end_MHz": 4400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.437",
+      "5.438",
+      "5.439"
+    ]
+  },
+  {
+    "start_MHz": 4200.0,
+    "end_MHz": 4400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.437",
+      "5.438",
+      "5.439"
+    ]
+  },
+  {
+    "start_MHz": 4200.0,
+    "end_MHz": 4400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.437",
+      "5.438",
+      "5.439"
+    ]
+  },
+  {
+    "start_MHz": 4400.0,
+    "end_MHz": 4940.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4500.0,
+    "end_MHz": 4800.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 4800.0,
+    "end_MHz": 5250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "MOBILE  5",
+      "A  5",
+      "A  5",
+      "B  5",
+      "R",
+      "FIXED"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "MOBILE  5",
+        "category": "General",
+        "color": "#e947cb"
+      },
+      {
+        "label": "A  5",
+        "category": "General",
+        "color": "#9cd63e"
+      },
+      {
+        "label": "B  5",
+        "category": "General",
+        "color": "#76537b"
+      },
+      {
+        "label": "R",
+        "category": "General",
+        "color": "#e1e1d3"
+      }
+    ],
+    "notes": [
+      "5.149",
+      "5.339",
+      "5.440A",
+      "5.441A",
+      "5.441B",
+      "5.442",
+      "5.443"
+    ]
+  },
+  {
+    "start_MHz": 4800.0,
+    "end_MHz": 4900.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4800.0,
+    "end_MHz": 4990.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.442"
+    ]
+  },
+  {
+    "start_MHz": 4825.0,
+    "end_MHz": 4835.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4825.0,
+    "end_MHz": 4835.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 4825.0,
+    "end_MHz": 4835.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5000.0,
+    "end_MHz": 5030.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443B"
+    ]
+  },
+  {
+    "start_MHz": 5030.0,
+    "end_MHz": 5150.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443C"
+    ]
+  },
+  {
+    "start_MHz": 5010.0,
+    "end_MHz": 5030.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443C",
+      "5.443D"
+    ]
+  },
+  {
+    "start_MHz": 4990.0,
+    "end_MHz": 5000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5010.0,
+    "end_MHz": 5030.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443C",
+      "5.443D"
+    ]
+  },
+  {
+    "start_MHz": 5030.0,
+    "end_MHz": 5091.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443D",
+      "5.444"
+    ]
+  },
+  {
+    "start_MHz": 5030.0,
+    "end_MHz": 5091.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443D",
+      "5.444"
+    ]
+  },
+  {
+    "start_MHz": 5010.0,
+    "end_MHz": 5030.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443C",
+      "5.443D"
+    ]
+  },
+  {
+    "start_MHz": 5030.0,
+    "end_MHz": 5091.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443D",
+      "5.444"
+    ]
+  },
+  {
+    "start_MHz": 5030.0,
+    "end_MHz": 5150.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443C"
+    ]
+  },
+  {
+    "start_MHz": 5030.0,
+    "end_MHz": 5091.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.443D",
+      "5.444"
+    ]
+  },
+  {
+    "start_MHz": 5091.0,
+    "end_MHz": 5150.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.444A"
+    ]
+  },
+  {
+    "start_MHz": 5091.0,
+    "end_MHz": 5150.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.444A"
+    ]
+  },
+  {
+    "start_MHz": 5091.0,
+    "end_MHz": 5150.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.444A"
+    ]
+  },
+  {
+    "start_MHz": 5091.0,
+    "end_MHz": 5150.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.444A"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5216.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.369",
+      "5.446A"
+    ]
+  },
+  {
+    "start_MHz": 5.0,
+    "end_MHz": 2500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.398A",
+      "5.399",
+      "5.401"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5350.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.446B",
+      "5.446C"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.446C",
+      "5.446D"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.446C",
+      "5.446D"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.446C",
+      "5.446D"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.446C",
+      "5.446D"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.446C",
+      "5.446D"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5216.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.369",
+      "5.446A"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5216.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.369",
+      "5.446A"
+    ]
+  },
+  {
+    "start_MHz": 5150.0,
+    "end_MHz": 5250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.446C",
+      "5.446D"
+    ]
+  },
+  {
+    "start_MHz": 5250.0,
+    "end_MHz": 5570.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "EARTH EXPLORATION-SATELLITE (",
+      "MOBILE",
+      "A 5",
+      "F",
+      "RADIOLOCATION",
+      "SPACE RESEARCH  5",
+      "D",
+      "E 5",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "EARTH EXPLORATION-SATELLITE (",
+        "category": "General",
+        "color": "#db414e"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "F",
+        "category": "General",
+        "color": "#800618"
+      },
+      {
+        "label": "RADIOLOCATION",
+        "category": "General",
+        "color": "#4a1f59"
+      },
+      {
+        "label": "SPACE RESEARCH  5",
+        "category": "General",
+        "color": "#4a8b62"
+      },
+      {
+        "label": "D",
+        "category": "General",
+        "color": "#f623e7"
+      },
+      {
+        "label": "E 5",
+        "category": "General",
+        "color": "#ebe834"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      }
+    ],
+    "notes": [
+      "5.446A",
+      "5.447D",
+      "5.447E",
+      "5.447F",
+      "5.448",
+      "5.448A"
+    ]
+  },
+  {
+    "start_MHz": 5250.0,
+    "end_MHz": 5255.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.447E"
+    ]
+  },
+  {
+    "start_MHz": 5250.0,
+    "end_MHz": 5350.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.447F"
+    ]
+  },
+  {
+    "start_MHz": 5250.0,
+    "end_MHz": 5350.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.447F"
+    ]
+  },
+  {
+    "start_MHz": 5250.0,
+    "end_MHz": 5350.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.447F"
+    ]
+  },
+  {
+    "start_MHz": 5250.0,
+    "end_MHz": 5350.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.447F"
+    ]
+  },
+  {
+    "start_MHz": 5350.0,
+    "end_MHz": 5570.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.448C",
+      "5.448D",
+      "5.449"
+    ]
+  },
+  {
+    "start_MHz": 5460.0,
+    "end_MHz": 5570.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.448C",
+      "5.448D",
+      "5.449"
+    ]
+  },
+  {
+    "start_MHz": 5350.0,
+    "end_MHz": 5460.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.448C",
+      "5.448D",
+      "5.449"
+    ]
+  },
+  {
+    "start_MHz": 5470.0,
+    "end_MHz": 5570.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.448C",
+      "5.448D",
+      "5.449",
+      "5.450"
+    ]
+  },
+  {
+    "start_MHz": 5350.0,
+    "end_MHz": 5460.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.448C",
+      "5.448D",
+      "5.449"
+    ]
+  },
+  {
+    "start_MHz": 5350.0,
+    "end_MHz": 5470.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.449",
+      "5.450",
+      "5.450A"
+    ]
+  },
+  {
+    "start_MHz": 5350.0,
+    "end_MHz": 5470.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.449",
+      "5.450",
+      "5.450A"
+    ]
+  },
+  {
+    "start_MHz": 5470.0,
+    "end_MHz": 5650.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.450A",
+      "5.450B",
+      "5.451"
+    ]
+  },
+  {
+    "start_MHz": 5470.0,
+    "end_MHz": 5725.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.450B",
+      "5.451"
+    ]
+  },
+  {
+    "start_MHz": 5470.0,
+    "end_MHz": 5650.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.450A",
+      "5.450B",
+      "5.451"
+    ]
+  },
+  {
+    "start_MHz": 5600.0,
+    "end_MHz": 5650.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.451"
+    ]
+  },
+  {
+    "start_MHz": 5470.0,
+    "end_MHz": 5850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5725.0,
+    "end_MHz": 5850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5570.0,
+    "end_MHz": 6700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "MOBILE",
+      "A 5",
+      "A",
+      "RADIOLOCATION  5",
+      "B",
+      "MARITIME RADIONAVIGATION",
+      "MOBILE",
+      "A 5",
+      "A"
+    ],
+    "services": [
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "A",
+        "category": "General",
+        "color": "#7fc562"
+      },
+      {
+        "label": "RADIOLOCATION  5",
+        "category": "General",
+        "color": "#96dfc1"
+      },
+      {
+        "label": "B",
+        "category": "General",
+        "color": "#9d5ed6"
+      },
+      {
+        "label": "MARITIME RADIONAVIGATION",
+        "category": "General",
+        "color": "#21d4f6"
+      }
+    ],
+    "notes": [
+      "5.446A",
+      "5.450",
+      "5.450A",
+      "5.450B",
+      "5.451",
+      "5.452"
+    ]
+  },
+  {
+    "start_MHz": 5650.0,
+    "end_MHz": 5850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.454",
+      "5.455"
+    ]
+  },
+  {
+    "start_MHz": 5725.0,
+    "end_MHz": 5850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5670.0,
+    "end_MHz": 5725.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.455",
+      "5.456",
+      "5.457"
+    ]
+  },
+  {
+    "start_MHz": 5670.0,
+    "end_MHz": 5850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.456",
+      "5.457"
+    ]
+  },
+  {
+    "start_MHz": 6440.0,
+    "end_MHz": 6520.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.457A"
+    ]
+  },
+  {
+    "start_MHz": 5925.0,
+    "end_MHz": 6425.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.457B"
+    ]
+  },
+  {
+    "start_MHz": 5925.0,
+    "end_MHz": 6425.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.457B"
+    ]
+  },
+  {
+    "start_MHz": 5925.0,
+    "end_MHz": 6425.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.457B"
+    ]
+  },
+  {
+    "start_MHz": 5925.0,
+    "end_MHz": 6700.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.457D"
+    ]
+  },
+  {
+    "start_MHz": 6425.0,
+    "end_MHz": 7025.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 6425.0,
+    "end_MHz": 7125.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.457F"
+    ]
+  },
+  {
+    "start_MHz": 6425.0,
+    "end_MHz": 7125.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.457F"
+    ]
+  },
+  {
+    "start_MHz": 6425.0,
+    "end_MHz": 7075.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 7075.0,
+    "end_MHz": 7250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 6425.0,
+    "end_MHz": 7075.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 6700.0,
+    "end_MHz": 7250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "FIXED-SATELLITE (E",
+      "E",
+      "MOBILE  5",
+      "D 5",
+      "E 5",
+      "F",
+      "A 5",
+      "B",
+      "FIXED"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "FIXED-SATELLITE (E",
+        "category": "General",
+        "color": "#3a491d"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "MOBILE  5",
+        "category": "General",
+        "color": "#e947cb"
+      },
+      {
+        "label": "D 5",
+        "category": "General",
+        "color": "#229112"
+      },
+      {
+        "label": "E 5",
+        "category": "General",
+        "color": "#ebe834"
+      },
+      {
+        "label": "F",
+        "category": "General",
+        "color": "#800618"
+      },
+      {
+        "label": "A 5",
+        "category": "General",
+        "color": "#6964d7"
+      },
+      {
+        "label": "B",
+        "category": "General",
+        "color": "#9d5ed6"
+      }
+    ],
+    "notes": [
+      "5.441",
+      "5.457D",
+      "5.457E",
+      "5.457F",
+      "5.458",
+      "5.458A",
+      "5.458B"
+    ]
+  },
+  {
+    "start_MHz": 6700.0,
+    "end_MHz": 7075.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.458B",
+      "5.458C",
+      "5.459"
+    ]
+  },
+  {
+    "start_MHz": 6700.0,
+    "end_MHz": 7075.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.458B",
+      "5.458C",
+      "5.459"
+    ]
+  },
+  {
+    "start_MHz": 6700.0,
+    "end_MHz": 7075.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.458B",
+      "5.458C",
+      "5.459"
+    ]
+  },
+  {
+    "start_MHz": 7100.0,
+    "end_MHz": 7155.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460"
+    ]
+  },
+  {
+    "start_MHz": 7190.0,
+    "end_MHz": 7235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460"
+    ]
+  },
+  {
+    "start_MHz": 7190.0,
+    "end_MHz": 7235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460"
+    ]
+  },
+  {
+    "start_MHz": 7190.0,
+    "end_MHz": 7235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460"
+    ]
+  },
+  {
+    "start_MHz": 7190.0,
+    "end_MHz": 7235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460"
+    ]
+  },
+  {
+    "start_MHz": 7190.0,
+    "end_MHz": 7250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460B"
+    ]
+  },
+  {
+    "start_MHz": 7190.0,
+    "end_MHz": 7250.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460B"
+    ]
+  },
+  {
+    "start_MHz": 7190.0,
+    "end_MHz": 7235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.460"
+    ]
+  },
+  {
+    "start_MHz": 7250.0,
+    "end_MHz": 8500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "FIXED",
+      "FIXED-SATELLITE (",
+      "E",
+      "MOBILE",
+      "FIXED"
+    ],
+    "services": [
+      {
+        "label": "FIXED",
+        "category": "General",
+        "color": "#c6e6dc"
+      },
+      {
+        "label": "FIXED-SATELLITE (",
+        "category": "General",
+        "color": "#fa1537"
+      },
+      {
+        "label": "E",
+        "category": "General",
+        "color": "#3a3ea0"
+      },
+      {
+        "label": "MOBILE",
+        "category": "General",
+        "color": "#d9e311"
+      }
+    ],
+    "notes": [
+      "5.461"
+    ]
+  },
+  {
+    "start_MHz": 7250.0,
+    "end_MHz": 7375.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A",
+      "5.461A"
+    ]
+  },
+  {
+    "start_MHz": 7450.0,
+    "end_MHz": 7550.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 7375.0,
+    "end_MHz": 7750.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 7375.0,
+    "end_MHz": 7750.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 7375.0,
+    "end_MHz": 7750.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.43A"
+    ]
+  },
+  {
+    "start_MHz": 7750.0,
+    "end_MHz": 7900.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.462",
+      "5.462A"
+    ]
+  },
+  {
+    "start_MHz": 8025.0,
+    "end_MHz": 8400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 8025.0,
+    "end_MHz": 8400.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 8400.0,
+    "end_MHz": 8450.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.32",
+      "5.466"
+    ]
+  },
+  {
+    "start_MHz": 8400.0,
+    "end_MHz": 8500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.32"
+    ]
+  },
+  {
+    "start_MHz": 8500.0,
+    "end_MHz": 10000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [
+      "RADIOLOCATION",
+      "EARTH EXPLORATION-SATELLITE (",
+      "RADIOLOCATION",
+      "SPACE RESEARCH ("
+    ],
+    "services": [
+      {
+        "label": "RADIOLOCATION",
+        "category": "General",
+        "color": "#4a1f59"
+      },
+      {
+        "label": "EARTH EXPLORATION-SATELLITE (",
+        "category": "General",
+        "color": "#db414e"
+      },
+      {
+        "label": "SPACE RESEARCH (",
+        "category": "General",
+        "color": "#843391"
+      }
+    ],
+    "notes": [
+      "5.468",
+      "5.469"
+    ]
+  },
+  {
+    "start_MHz": 8500.0,
+    "end_MHz": 8750.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.469",
+      "5.469A"
+    ]
+  },
+  {
+    "start_MHz": 8500.0,
+    "end_MHz": 8750.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.469",
+      "5.469A"
+    ]
+  },
+  {
+    "start_MHz": 8550.0,
+    "end_MHz": 8650.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.470",
+      "5.471",
+      "5.472"
+    ]
+  },
+  {
+    "start_MHz": 8750.0,
+    "end_MHz": 8850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.471",
+      "5.472",
+      "5.473"
+    ]
+  },
+  {
+    "start_MHz": 8825.0,
+    "end_MHz": 8850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.337",
+      "5.472",
+      "5.473",
+      "5.473A"
+    ]
+  },
+  {
+    "start_MHz": 8850.0,
+    "end_MHz": 9000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.337",
+      "5.471",
+      "5.473",
+      "5.473A",
+      "5.474"
+    ]
+  },
+  {
+    "start_MHz": 8850.0,
+    "end_MHz": 9000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.337",
+      "5.471",
+      "5.473",
+      "5.473A",
+      "5.474"
+    ]
+  },
+  {
+    "start_MHz": 9000.0,
+    "end_MHz": 9200.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.337",
+      "5.471",
+      "5.474",
+      "5.474A"
+    ]
+  },
+  {
+    "start_MHz": 9200.0,
+    "end_MHz": 9500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.474A",
+      "5.474B"
+    ]
+  },
+  {
+    "start_MHz": 9200.0,
+    "end_MHz": 9300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.474B",
+      "5.474C"
+    ]
+  },
+  {
+    "start_MHz": 9300.0,
+    "end_MHz": 9900.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.474B",
+      "5.474C",
+      "5.474D"
+    ]
+  },
+  {
+    "start_MHz": 9200.0,
+    "end_MHz": 9300.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.474B",
+      "5.474C"
+    ]
+  },
+  {
+    "start_MHz": 9300.0,
+    "end_MHz": 9500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.475A",
+      "5.475B"
+    ]
+  },
+  {
+    "start_MHz": 9300.0,
+    "end_MHz": 9320.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.475A",
+      "5.475B"
+    ]
+  },
+  {
+    "start_MHz": 9300.0,
+    "end_MHz": 9500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.475A",
+      "5.475B"
+    ]
+  },
+  {
+    "start_MHz": 9500.0,
+    "end_MHz": 9800.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.475B",
+      "5.476",
+      "5.476A"
+    ]
+  },
+  {
+    "start_MHz": 9300.0,
+    "end_MHz": 9500.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.475A",
+      "5.475B"
+    ]
+  },
+  {
+    "start_MHz": 9300.0,
+    "end_MHz": 9800.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.477",
+      "5.478"
+    ]
+  },
+  {
+    "start_MHz": 9800.0,
+    "end_MHz": 10000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.478",
+      "5.478A",
+      "5.478B"
+    ]
+  },
+  {
+    "start_MHz": 9800.0,
+    "end_MHz": 10000.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.478",
+      "5.478A",
+      "5.478B"
+    ]
+  },
+  {
+    "start_MHz": 9800.0,
+    "end_MHz": 9900.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.478B",
+      "5.479"
+    ]
+  },
+  {
+    "start_MHz": 9300.0,
+    "end_MHz": 9800.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.33",
+      "5.477",
+      "5.478"
+    ]
+  },
+  {
+    "start_MHz": 9800.0,
+    "end_MHz": 9900.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.478B",
+      "5.479"
+    ]
+  },
+  {
+    "start_MHz": 9975.0,
+    "end_MHz": 10025.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 5725.0,
+    "end_MHz": 5850.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1.85,
+    "end_MHz": 1.95,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 1.95,
+    "end_MHz": 2.045,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 2.498,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2.502,
+    "end_MHz": 2.578,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2.578,
+    "end_MHz": 2.85,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3.155,
+    "end_MHz": 3.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3.2,
+    "end_MHz": 3.34,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3.34,
+    "end_MHz": 3.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3.5,
+    "end_MHz": 3.6,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 3.6,
+    "end_MHz": 3.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 1.625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.93",
+      "5.94",
+      "5.95",
+      "5.96"
+    ]
+  },
+  {
+    "start_MHz": 1.635,
+    "end_MHz": 1.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [
+      "5.93",
+      "5.94",
+      "5.95",
+      "5.96"
+    ]
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 2.16,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 156.0,
+    "end_MHz": 174.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 2.17,
+    "end_MHz": 2.194,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 0.005,
+    "end_MHz": 2.194,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 156.0,
+    "end_MHz": 174.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 156.0,
+    "end_MHz": 174.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 156.0,
+    "end_MHz": 174.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": []
+  },
+  {
+    "start_MHz": 275000,
+    "end_MHz": 300000,
+    "region1": [
+      "PASSIVE"
+    ],
+    "region2": [
+      "PASSIVE"
+    ],
+    "region3": [
+      "PASSIVE"
+    ],
+    "services": [
+      {
+        "label": "RADIO ASTRONOMY",
+        "color": "#ffcc00",
+        "category": "Passive"
+      },
+      {
+        "label": "EARTH EXPLORATION-SATELLITE",
+        "color": "#00ccff",
+        "category": "Passive"
+      },
+      {
+        "label": "SPACE RESEARCH",
+        "color": "#cc00ff",
+        "category": "Passive"
+      },
+      {
+        "label": "INTER-SATELLITE",
+        "color": "#00ff99",
+        "category": "Passive"
+      },
+      {
+        "label": "METEOROLOGICAL AIDS",
+        "color": "#9999ff",
+        "category": "Passive"
+      }
+    ],
+    "notes": [
+      "5.565"
+    ]
+  }
+]

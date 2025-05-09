@@ -1,0 +1,2245 @@
+[
+  {
+    "start_MHz": 0,
+    "end_MHz": 0.0083,
+    "region1": [
+      "Not Allocated"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "NOT ALLOCATED",
+        "category": "None",
+        "color": "#333"
+      }
+    ],
+    "notes": [
+      "5.53",
+      "5.54"
+    ],
+    "raw": [
+      "0 Hz - 8300 Hz",
+      "Not allocated",
+      "5.53",
+      "5.54"
+    ]
+  },
+  {
+    "start_MHz": 0.0083,
+    "end_MHz": 0.009,
+    "region1": [
+      "METEOROLOGICAL AIDS"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "METEOROLOGICAL AIDS",
+        "category": "Passive",
+        "color": "#81a1c1"
+      }
+    ],
+    "notes": [
+      "5.54A",
+      "5.54B"
+    ],
+    "raw": [
+      "8300 Hz - 9 kHz",
+      "METEOROLOGICAL AIDS",
+      "5.54A",
+      "5.54B"
+    ]
+  },
+  {
+    "start_MHz": 0.009,
+    "end_MHz": 0.0113,
+    "region1": [
+      "METEOROLOGICAL AIDS",
+      "RADIONAVIGATION"
+    ],
+    "region2": [],
+    "region3": [],
+    "services": [
+      {
+        "label": "METEOROLOGICAL AIDS",
+        "category": "Passive",
+        "color": "#81a1c1"
+      },
+      {
+        "label": "RADIONAVIGATION",
+        "category": "Navigation",
+        "color": "#a3be8c"
+      }
+    ],
+    "notes": [
+      "5.54A"
+    ],
+    "raw": [
+      "9 kHz - 11.3 kHz",
+      "METEOROLOGICAL AIDS",
+      "RADIONAVIGATION",
+      "5.54A"
+    ]
+  },
+  {
+    "start_MHz": 0.01995,
+    "end_MHz": 0.02005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "19.95 kHz - 20.05 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.02005,
+    "end_MHz": 0.07,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "20.05 kHz - 70 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.07,
+    "end_MHz": 0.072,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "70 kHz - 72 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.072,
+    "end_MHz": 0.084,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "72 kHz - 84 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.084,
+    "end_MHz": 0.086,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "84 kHz - 86 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.086,
+    "end_MHz": 0.09,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "86 kHz - 90 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.09,
+    "end_MHz": 0.11,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "90 kHz - 110 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.11,
+    "end_MHz": 0.112,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "110 kHz - 112 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.112,
+    "end_MHz": 0.115,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "112 kHz - 115 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.115,
+    "end_MHz": 0.1176,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "115 kHz - 117.6 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.1176,
+    "end_MHz": 0.126,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "117.6 kHz - 126 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.126,
+    "end_MHz": 0.129,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "126 kHz - 129 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.129,
+    "end_MHz": 0.13,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "129 kHz - 130 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.13,
+    "end_MHz": 0.1357,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "130 kHz - 135.7 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.1357,
+    "end_MHz": 0.1378,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "135.7 kHz - 137.8 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.1378,
+    "end_MHz": 0.1485,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "137.8 kHz - 148.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.1485,
+    "end_MHz": 0.255,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "148.5 kHz - 255 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.255,
+    "end_MHz": 0.2835,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "255 kHz - 283.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.2835,
+    "end_MHz": 0.315,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "283.5 kHz - 315 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.315,
+    "end_MHz": 0.325,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "315 kHz - 325 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.325,
+    "end_MHz": 0.405,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "325 kHz - 405 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.405,
+    "end_MHz": 0.415,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "405 kHz - 415 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.415,
+    "end_MHz": 0.435,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "415 kHz - 435 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.435,
+    "end_MHz": 0.472,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "435 kHz - 472 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.472,
+    "end_MHz": 0.479,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "472 kHz - 479 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.479,
+    "end_MHz": 0.495,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "479 kHz - 495 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.495,
+    "end_MHz": 0.505,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "495 kHz - 505 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.505,
+    "end_MHz": 0.5265,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "505 kHz - 526.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 0.5265,
+    "end_MHz": 1.6065,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "526.5 kHz - 1606.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 1.6065,
+    "end_MHz": 1.625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "1606.5 kHz - 1625 kHz"
+    ]
+  },
+  {
+    "start_MHz": 1.625,
+    "end_MHz": 1.635,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "1625 kHz - 1635 kHz"
+    ]
+  },
+  {
+    "start_MHz": 1.635,
+    "end_MHz": 1.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "1635 kHz - 1800 kHz"
+    ]
+  },
+  {
+    "start_MHz": 1.8,
+    "end_MHz": 1.81,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "1800 kHz - 1810 kHz"
+    ]
+  },
+  {
+    "start_MHz": 1.81,
+    "end_MHz": 1.85,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "1810 kHz - 1850 kHz"
+    ]
+  },
+  {
+    "start_MHz": 1.85,
+    "end_MHz": 2.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "1850 kHz - 2000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.0,
+    "end_MHz": 2.025,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2000 kHz - 2025 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.025,
+    "end_MHz": 2.045,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2025 kHz - 2045 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.045,
+    "end_MHz": 2.16,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2045 kHz - 2160 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.16,
+    "end_MHz": 2.17,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2160 kHz - 2170 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.17,
+    "end_MHz": 2.1735,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2170 kHz - 2173.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.1735,
+    "end_MHz": 2.1905,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2173.5 kHz - 2190.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.1905,
+    "end_MHz": 2.194,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2190.5 kHz - 2194 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.194,
+    "end_MHz": 2.3,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2194 kHz - 2300 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.3,
+    "end_MHz": 2.498,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2300 kHz - 2498 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.498,
+    "end_MHz": 2.501,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2498 kHz - 2501 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.501,
+    "end_MHz": 2.502,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2501 kHz - 2502 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.502,
+    "end_MHz": 2.625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2502 kHz - 2625 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.625,
+    "end_MHz": 2.65,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2625 kHz - 2650 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.65,
+    "end_MHz": 2.85,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2650 kHz - 2850 kHz"
+    ]
+  },
+  {
+    "start_MHz": 2.85,
+    "end_MHz": 3.025,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "2850 kHz - 3025 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.025,
+    "end_MHz": 3.155,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3025 kHz - 3155 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.155,
+    "end_MHz": 3.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3155 kHz - 3200 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.2,
+    "end_MHz": 3.23,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3200 kHz - 3230 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.23,
+    "end_MHz": 3.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3230 kHz - 3400 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.4,
+    "end_MHz": 3.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3400 kHz - 3500 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.5,
+    "end_MHz": 3.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3500 kHz - 3800 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.8,
+    "end_MHz": 3.9,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3800 kHz - 3900 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.9,
+    "end_MHz": 3.95,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3900 kHz - 3950 kHz"
+    ]
+  },
+  {
+    "start_MHz": 3.95,
+    "end_MHz": 4.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "3950 kHz - 4000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.0,
+    "end_MHz": 4.063,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4000 kHz - 4063 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.063,
+    "end_MHz": 4.438,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4063 kHz - 4438 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.438,
+    "end_MHz": 4.488,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4438 kHz - 4488 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.488,
+    "end_MHz": 4.65,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4488 kHz - 4650 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.65,
+    "end_MHz": 4.7,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4650 kHz - 4700 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.7,
+    "end_MHz": 4.75,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4700 kHz - 4750 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.75,
+    "end_MHz": 4.85,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4750 kHz - 4850 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.85,
+    "end_MHz": 4.995,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4850 kHz - 4995 kHz"
+    ]
+  },
+  {
+    "start_MHz": 4.995,
+    "end_MHz": 5.003,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "4995 kHz - 5003 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.003,
+    "end_MHz": 5.005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5003 kHz - 5005 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.005,
+    "end_MHz": 5.06,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5005 kHz - 5060 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.06,
+    "end_MHz": 5.25,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5060 kHz - 5250 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.25,
+    "end_MHz": 5.275,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5250 kHz - 5275 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.275,
+    "end_MHz": 5.3515,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5275 kHz - 5351.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.3515,
+    "end_MHz": 5.3665,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5351.5 kHz - 5366.5 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.3665,
+    "end_MHz": 5.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5366.5 kHz - 5450 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.45,
+    "end_MHz": 5.48,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5450 kHz - 5480 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.48,
+    "end_MHz": 5.68,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5480 kHz - 5680 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.68,
+    "end_MHz": 5.73,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5680 kHz - 5730 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.73,
+    "end_MHz": 5.9,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5730 kHz - 5900 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.9,
+    "end_MHz": 5.95,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5900 kHz - 5950 kHz"
+    ]
+  },
+  {
+    "start_MHz": 5.95,
+    "end_MHz": 6.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "5950 kHz - 6200 kHz"
+    ]
+  },
+  {
+    "start_MHz": 6.2,
+    "end_MHz": 6.525,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "6200 kHz - 6525 kHz"
+    ]
+  },
+  {
+    "start_MHz": 6.525,
+    "end_MHz": 6.685,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "6525 kHz - 6685 kHz"
+    ]
+  },
+  {
+    "start_MHz": 6.685,
+    "end_MHz": 6.765,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "6685 kHz - 6765 kHz"
+    ]
+  },
+  {
+    "start_MHz": 6.765,
+    "end_MHz": 7.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "6765 kHz - 7000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 7.0,
+    "end_MHz": 7.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "7000 kHz - 7100 kHz"
+    ]
+  },
+  {
+    "start_MHz": 7.1,
+    "end_MHz": 7.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "7100 kHz - 7200 kHz"
+    ]
+  },
+  {
+    "start_MHz": 7.2,
+    "end_MHz": 7.3,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "7200 kHz - 7300 kHz"
+    ]
+  },
+  {
+    "start_MHz": 7.3,
+    "end_MHz": 7.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "7300 kHz - 7400 kHz"
+    ]
+  },
+  {
+    "start_MHz": 7.4,
+    "end_MHz": 7.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "7400 kHz - 7450 kHz"
+    ]
+  },
+  {
+    "start_MHz": 7.45,
+    "end_MHz": 8.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "7450 kHz - 8100 kHz"
+    ]
+  },
+  {
+    "start_MHz": 8.1,
+    "end_MHz": 8.195,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "8100 kHz - 8195 kHz"
+    ]
+  },
+  {
+    "start_MHz": 8.195,
+    "end_MHz": 8.815,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "8195 kHz - 8815 kHz"
+    ]
+  },
+  {
+    "start_MHz": 8.815,
+    "end_MHz": 8.965,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "8815 kHz - 8965 kHz"
+    ]
+  },
+  {
+    "start_MHz": 8.965,
+    "end_MHz": 9.04,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "8965 kHz - 9040 kHz"
+    ]
+  },
+  {
+    "start_MHz": 9.04,
+    "end_MHz": 9.305,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "9040 kHz - 9305 kHz"
+    ]
+  },
+  {
+    "start_MHz": 9.305,
+    "end_MHz": 9.355,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "9305 kHz - 9355 kHz"
+    ]
+  },
+  {
+    "start_MHz": 9.355,
+    "end_MHz": 9.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "9355 kHz - 9400 kHz"
+    ]
+  },
+  {
+    "start_MHz": 9.4,
+    "end_MHz": 9.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "9400 kHz - 9500 kHz"
+    ]
+  },
+  {
+    "start_MHz": 9.5,
+    "end_MHz": 9.9,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "9500 kHz - 9900 kHz"
+    ]
+  },
+  {
+    "start_MHz": 9.9,
+    "end_MHz": 9.995,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "9900 kHz - 9995 kHz"
+    ]
+  },
+  {
+    "start_MHz": 9.995,
+    "end_MHz": 10.003,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "9995 kHz - 10003 kHz"
+    ]
+  },
+  {
+    "start_MHz": 10.003,
+    "end_MHz": 10.005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "10003 kHz - 10005 kHz"
+    ]
+  },
+  {
+    "start_MHz": 10.005,
+    "end_MHz": 10.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "10005 kHz - 10100 kHz"
+    ]
+  },
+  {
+    "start_MHz": 10.1,
+    "end_MHz": 10.15,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "10100 kHz - 10150 kHz"
+    ]
+  },
+  {
+    "start_MHz": 10.15,
+    "end_MHz": 11.175,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "10150 kHz - 11175 kHz"
+    ]
+  },
+  {
+    "start_MHz": 11.175,
+    "end_MHz": 11.275,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "11175 kHz - 11275 kHz"
+    ]
+  },
+  {
+    "start_MHz": 11.275,
+    "end_MHz": 11.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "11275 kHz - 11400 kHz"
+    ]
+  },
+  {
+    "start_MHz": 11.4,
+    "end_MHz": 11.6,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "11400 kHz - 11600 kHz"
+    ]
+  },
+  {
+    "start_MHz": 11.6,
+    "end_MHz": 11.65,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "11600 kHz - 11650 kHz"
+    ]
+  },
+  {
+    "start_MHz": 11.65,
+    "end_MHz": 12.05,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "11650 kHz - 12050 kHz"
+    ]
+  },
+  {
+    "start_MHz": 12.05,
+    "end_MHz": 12.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "12050 kHz - 12100 kHz"
+    ]
+  },
+  {
+    "start_MHz": 12.1,
+    "end_MHz": 12.23,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "12100 kHz - 12230 kHz"
+    ]
+  },
+  {
+    "start_MHz": 12.23,
+    "end_MHz": 13.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "12230 kHz - 13200 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.2,
+    "end_MHz": 13.26,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13200 kHz - 13260 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.26,
+    "end_MHz": 13.36,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13260 kHz - 13360 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.36,
+    "end_MHz": 13.41,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13360 kHz - 13410 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.41,
+    "end_MHz": 13.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13410 kHz - 13450 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.45,
+    "end_MHz": 13.55,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13450 kHz - 13550 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.55,
+    "end_MHz": 13.57,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13550 kHz - 13570 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.57,
+    "end_MHz": 13.6,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13570 kHz - 13600 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.6,
+    "end_MHz": 13.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13600 kHz - 13800 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.8,
+    "end_MHz": 13.87,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13800 kHz - 13870 kHz"
+    ]
+  },
+  {
+    "start_MHz": 13.87,
+    "end_MHz": 14.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "13870 kHz - 14000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 14.0,
+    "end_MHz": 14.25,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "14000 kHz - 14250 kHz"
+    ]
+  },
+  {
+    "start_MHz": 14.25,
+    "end_MHz": 14.35,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "14250 kHz - 14350 kHz"
+    ]
+  },
+  {
+    "start_MHz": 14.35,
+    "end_MHz": 14.99,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "14350 kHz - 14990 kHz"
+    ]
+  },
+  {
+    "start_MHz": 14.99,
+    "end_MHz": 15.005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "14990 kHz - 15005 kHz"
+    ]
+  },
+  {
+    "start_MHz": 15.005,
+    "end_MHz": 15.01,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "15005 kHz - 15010 kHz"
+    ]
+  },
+  {
+    "start_MHz": 15.01,
+    "end_MHz": 15.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "15010 kHz - 15100 kHz"
+    ]
+  },
+  {
+    "start_MHz": 15.1,
+    "end_MHz": 15.6,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "15100 kHz - 15600 kHz"
+    ]
+  },
+  {
+    "start_MHz": 15.6,
+    "end_MHz": 15.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "15600 kHz - 15800 kHz"
+    ]
+  },
+  {
+    "start_MHz": 15.8,
+    "end_MHz": 16.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "15800 kHz - 16100 kHz"
+    ]
+  },
+  {
+    "start_MHz": 16.1,
+    "end_MHz": 16.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "16100 kHz - 16200 kHz"
+    ]
+  },
+  {
+    "start_MHz": 16.2,
+    "end_MHz": 16.36,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "16200 kHz - 16360 kHz"
+    ]
+  },
+  {
+    "start_MHz": 16.36,
+    "end_MHz": 17.41,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "16360 kHz - 17410 kHz"
+    ]
+  },
+  {
+    "start_MHz": 17.41,
+    "end_MHz": 17.48,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "17410 kHz - 17480 kHz"
+    ]
+  },
+  {
+    "start_MHz": 17.48,
+    "end_MHz": 17.55,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "17480 kHz - 17550 kHz"
+    ]
+  },
+  {
+    "start_MHz": 17.55,
+    "end_MHz": 17.9,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "17550 kHz - 17900 kHz"
+    ]
+  },
+  {
+    "start_MHz": 17.9,
+    "end_MHz": 17.97,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "17900 kHz - 17970 kHz"
+    ]
+  },
+  {
+    "start_MHz": 17.97,
+    "end_MHz": 18.03,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "17970 kHz - 18030 kHz"
+    ]
+  },
+  {
+    "start_MHz": 18.03,
+    "end_MHz": 18.052,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "18030 kHz - 18052 kHz"
+    ]
+  },
+  {
+    "start_MHz": 18.052,
+    "end_MHz": 18.068,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "18052 kHz - 18068 kHz"
+    ]
+  },
+  {
+    "start_MHz": 18.068,
+    "end_MHz": 18.168,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "18068 kHz - 18168 kHz"
+    ]
+  },
+  {
+    "start_MHz": 18.168,
+    "end_MHz": 18.78,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "18168 kHz - 18780 kHz"
+    ]
+  },
+  {
+    "start_MHz": 18.78,
+    "end_MHz": 18.9,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "18780 kHz - 18900 kHz"
+    ]
+  },
+  {
+    "start_MHz": 18.9,
+    "end_MHz": 19.02,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "18900 kHz - 19020 kHz"
+    ]
+  },
+  {
+    "start_MHz": 19.02,
+    "end_MHz": 19.68,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "19020 kHz - 19680 kHz"
+    ]
+  },
+  {
+    "start_MHz": 19.68,
+    "end_MHz": 19.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "19680 kHz - 19800 kHz"
+    ]
+  },
+  {
+    "start_MHz": 19.8,
+    "end_MHz": 19.99,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "19800 kHz - 19990 kHz"
+    ]
+  },
+  {
+    "start_MHz": 19.99,
+    "end_MHz": 19.995,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "19990 kHz - 19995 kHz"
+    ]
+  },
+  {
+    "start_MHz": 19.995,
+    "end_MHz": 20.01,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "19995 kHz - 20010 kHz"
+    ]
+  },
+  {
+    "start_MHz": 20.01,
+    "end_MHz": 21.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "20010 kHz - 21000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 21.0,
+    "end_MHz": 21.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "21000 kHz - 21450 kHz"
+    ]
+  },
+  {
+    "start_MHz": 21.45,
+    "end_MHz": 21.85,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "21450 kHz - 21850 kHz"
+    ]
+  },
+  {
+    "start_MHz": 21.85,
+    "end_MHz": 21.87,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "21850 kHz - 21870 kHz"
+    ]
+  },
+  {
+    "start_MHz": 21.87,
+    "end_MHz": 21.924,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "21870 kHz - 21924 kHz"
+    ]
+  },
+  {
+    "start_MHz": 21.924,
+    "end_MHz": 22.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "21924 kHz - 22000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 22.0,
+    "end_MHz": 22.855,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "22000 kHz - 22855 kHz"
+    ]
+  },
+  {
+    "start_MHz": 22.855,
+    "end_MHz": 23.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "22855 kHz - 23000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 23.0,
+    "end_MHz": 23.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "23000 kHz - 23200 kHz"
+    ]
+  },
+  {
+    "start_MHz": 23.2,
+    "end_MHz": 23.35,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "23200 kHz - 23350 kHz"
+    ]
+  },
+  {
+    "start_MHz": 23.35,
+    "end_MHz": 24.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "23350 kHz - 24000 kHz"
+    ]
+  },
+  {
+    "start_MHz": 24.0,
+    "end_MHz": 24.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "24000 kHz - 24450 kHz"
+    ]
+  },
+  {
+    "start_MHz": 24.45,
+    "end_MHz": 24.6,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "24450 kHz - 24600 kHz"
+    ]
+  },
+  {
+    "start_MHz": 24.6,
+    "end_MHz": 24.89,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "24600 kHz - 24890 kHz"
+    ]
+  },
+  {
+    "start_MHz": 24.89,
+    "end_MHz": 24.99,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "24890 kHz - 24990 kHz"
+    ]
+  },
+  {
+    "start_MHz": 24.99,
+    "end_MHz": 25.005,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "24990 kHz - 25005 kHz"
+    ]
+  },
+  {
+    "start_MHz": 25.005,
+    "end_MHz": 25.01,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "25005 kHz - 25010 kHz"
+    ]
+  },
+  {
+    "start_MHz": 25.01,
+    "end_MHz": 25.07,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "25010 kHz - 25070 kHz"
+    ]
+  },
+  {
+    "start_MHz": 25.07,
+    "end_MHz": 25.21,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "25070 kHz - 25210 kHz"
+    ]
+  },
+  {
+    "start_MHz": 25.21,
+    "end_MHz": 25.55,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "25210 kHz - 25550 kHz"
+    ]
+  },
+  {
+    "start_MHz": 25.55,
+    "end_MHz": 25.67,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "25550 kHz - 25670 kHz"
+    ]
+  },
+  {
+    "start_MHz": 25.67,
+    "end_MHz": 26.1,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "25670 kHz - 26100 kHz"
+    ]
+  },
+  {
+    "start_MHz": 26.1,
+    "end_MHz": 26.175,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "26100 kHz - 26175 kHz"
+    ]
+  },
+  {
+    "start_MHz": 26.175,
+    "end_MHz": 26.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "26175 kHz - 26200 kHz"
+    ]
+  },
+  {
+    "start_MHz": 26.2,
+    "end_MHz": 26.35,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "26200 kHz - 26350 kHz"
+    ]
+  },
+  {
+    "start_MHz": 26.35,
+    "end_MHz": 27.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "26350 kHz - 27500 kHz"
+    ]
+  },
+  {
+    "start_MHz": 27.5,
+    "end_MHz": 28.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "27500 kHz - 28 MHz"
+    ]
+  },
+  {
+    "start_MHz": 28.0,
+    "end_MHz": 29.7,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "28 MHz - 29.7 MHz"
+    ]
+  }
+]

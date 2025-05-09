@@ -246,6 +246,18 @@
           { "start": 5810000000, "end": 5815000000, "label": "Ch 18", "mode": "Analogue / Digital" },
           { "start": 5815000000, "end": 5820000000, "label": "Ch 19", "mode": "Analogue / Digital" }
         ]
+      },
+      {
+        "band": "MURS Radio Service",
+        "start": 151820000,
+        "end": 154600000,
+        "subbands": [
+          { "start": 151820000, "end": 151831000, "label": "Ch 1", "mode": "FM" },
+          { "start": 151880000, "end": 151891000, "label": "Ch 2", "mode": "FM" },
+          { "start": 151940000, "end": 151951000, "label": "Ch 3", "mode": "FM" },
+          { "start": 154570000, "end": 15459000, "label": "Ch 4", "mode": "FM" },
+          { "start": 154600000, "end": 154620000, "label": "Ch 5", "mode": "FM" }
+        ]
       }
       
   ]

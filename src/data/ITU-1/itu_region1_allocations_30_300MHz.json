@@ -1,0 +1,866 @@
+[
+  {
+    "start_MHz": 30.005,
+    "end_MHz": 30.01,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "30.005 MHz - 30.01 MHz"
+    ]
+  },
+  {
+    "start_MHz": 30.01,
+    "end_MHz": 37.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "30.01 MHz - 37.5 MHz"
+    ]
+  },
+  {
+    "start_MHz": 37.5,
+    "end_MHz": 38.25,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "37.5 MHz - 38.25 MHz"
+    ]
+  },
+  {
+    "start_MHz": 38.25,
+    "end_MHz": 39.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "38.25 MHz - 39 MHz"
+    ]
+  },
+  {
+    "start_MHz": 39.0,
+    "end_MHz": 39.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "39 MHz - 39.5 MHz"
+    ]
+  },
+  {
+    "start_MHz": 39.5,
+    "end_MHz": 39.986,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "39.5 MHz - 39.986 MHz"
+    ]
+  },
+  {
+    "start_MHz": 39.986,
+    "end_MHz": 40.02,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "39.986 MHz - 40.02 MHz"
+    ]
+  },
+  {
+    "start_MHz": 40.02,
+    "end_MHz": 40.66,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "40.02 MHz - 40.66 MHz"
+    ]
+  },
+  {
+    "start_MHz": 40.66,
+    "end_MHz": 40.7,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "40.66 MHz - 40.7 MHz"
+    ]
+  },
+  {
+    "start_MHz": 40.7,
+    "end_MHz": 40.98,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "40.7 MHz - 40.98 MHz"
+    ]
+  },
+  {
+    "start_MHz": 40.98,
+    "end_MHz": 41.015,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "40.98 MHz - 41.015 MHz"
+    ]
+  },
+  {
+    "start_MHz": 41.015,
+    "end_MHz": 42.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "41.015 MHz - 42 MHz"
+    ]
+  },
+  {
+    "start_MHz": 42.0,
+    "end_MHz": 42.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "42 MHz - 42.5 MHz"
+    ]
+  },
+  {
+    "start_MHz": 42.5,
+    "end_MHz": 44.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "42.5 MHz - 44 MHz"
+    ]
+  },
+  {
+    "start_MHz": 44.0,
+    "end_MHz": 47.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "44 MHz - 47 MHz"
+    ]
+  },
+  {
+    "start_MHz": 47.0,
+    "end_MHz": 50.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "47 MHz - 50 MHz"
+    ]
+  },
+  {
+    "start_MHz": 50.0,
+    "end_MHz": 52.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "50 MHz - 52 MHz"
+    ]
+  },
+  {
+    "start_MHz": 52.0,
+    "end_MHz": 68.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "52 MHz - 68 MHz"
+    ]
+  },
+  {
+    "start_MHz": 68.0,
+    "end_MHz": 70.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "68 MHz - 70.45 MHz"
+    ]
+  },
+  {
+    "start_MHz": 70.45,
+    "end_MHz": 74.8,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "70.45 MHz - 74.8 MHz"
+    ]
+  },
+  {
+    "start_MHz": 74.8,
+    "end_MHz": 75.2,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "74.8 MHz - 75.2 MHz"
+    ]
+  },
+  {
+    "start_MHz": 75.2,
+    "end_MHz": 87.5,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "75.2 MHz - 87.5 MHz"
+    ]
+  },
+  {
+    "start_MHz": 87.5,
+    "end_MHz": 100.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "87.5 MHz - 100 MHz"
+    ]
+  },
+  {
+    "start_MHz": 100.0,
+    "end_MHz": 108.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "100 MHz - 108 MHz"
+    ]
+  },
+  {
+    "start_MHz": 108.0,
+    "end_MHz": 117.975,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "108 MHz - 117.975 MHz"
+    ]
+  },
+  {
+    "start_MHz": 117.975,
+    "end_MHz": 121.45,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "117.975 MHz - 121.45 MHz"
+    ]
+  },
+  {
+    "start_MHz": 121.45,
+    "end_MHz": 121.55,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "121.45 MHz - 121.55 MHz"
+    ]
+  },
+  {
+    "start_MHz": 121.55,
+    "end_MHz": 136.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "121.55 MHz - 136 MHz"
+    ]
+  },
+  {
+    "start_MHz": 136.0,
+    "end_MHz": 137.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "136 MHz - 137 MHz"
+    ]
+  },
+  {
+    "start_MHz": 137.0,
+    "end_MHz": 137.025,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "137 MHz - 137.025 MHz"
+    ]
+  },
+  {
+    "start_MHz": 137.025,
+    "end_MHz": 137.175,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "137.025 MHz - 137.175 MHz"
+    ]
+  },
+  {
+    "start_MHz": 137.175,
+    "end_MHz": 137.825,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "137.175 MHz - 137.825 MHz"
+    ]
+  },
+  {
+    "start_MHz": 137.825,
+    "end_MHz": 138.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "137.825 MHz - 138 MHz"
+    ]
+  },
+  {
+    "start_MHz": 138.0,
+    "end_MHz": 143.6,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "138 MHz - 143.6 MHz"
+    ]
+  },
+  {
+    "start_MHz": 143.6,
+    "end_MHz": 143.65,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "143.6 MHz - 143.65 MHz"
+    ]
+  },
+  {
+    "start_MHz": 143.65,
+    "end_MHz": 144.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "143.65 MHz - 144 MHz"
+    ]
+  },
+  {
+    "start_MHz": 144.0,
+    "end_MHz": 146.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "144 MHz - 146 MHz"
+    ]
+  },
+  {
+    "start_MHz": 146.0,
+    "end_MHz": 148.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "146 MHz - 148 MHz"
+    ]
+  },
+  {
+    "start_MHz": 148.0,
+    "end_MHz": 149.9,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "148 MHz - 149.9 MHz"
+    ]
+  },
+  {
+    "start_MHz": 149.9,
+    "end_MHz": 150.05,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "149.9 MHz - 150.05 MHz"
+    ]
+  },
+  {
+    "start_MHz": 150.05,
+    "end_MHz": 153.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "150.05 MHz - 153 MHz"
+    ]
+  },
+  {
+    "start_MHz": 153.0,
+    "end_MHz": 154.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "153 MHz - 154 MHz"
+    ]
+  },
+  {
+    "start_MHz": 154.0,
+    "end_MHz": 156.4875,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "154 MHz - 156.4875 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.4875,
+    "end_MHz": 156.5125,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.4875 MHz - 156.5125 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.5125,
+    "end_MHz": 156.5375,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.5125 MHz - 156.5375 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.5375,
+    "end_MHz": 156.5625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.5375 MHz - 156.5625 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.5625,
+    "end_MHz": 156.7625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.5625 MHz - 156.7625 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.7625,
+    "end_MHz": 156.7875,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.7625 MHz - 156.7875 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.7875,
+    "end_MHz": 156.8125,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.7875 MHz - 156.8125 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.8125,
+    "end_MHz": 156.8375,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.8125 MHz - 156.8375 MHz"
+    ]
+  },
+  {
+    "start_MHz": 156.8375,
+    "end_MHz": 157.1875,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "156.8375 MHz - 157.1875 MHz"
+    ]
+  },
+  {
+    "start_MHz": 157.1875,
+    "end_MHz": 157.3375,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "157.1875 MHz - 157.3375 MHz"
+    ]
+  },
+  {
+    "start_MHz": 157.3375,
+    "end_MHz": 161.7875,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "157.3375 MHz - 161.7875 MHz"
+    ]
+  },
+  {
+    "start_MHz": 161.7875,
+    "end_MHz": 161.9375,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "161.7875 MHz - 161.9375 MHz"
+    ]
+  },
+  {
+    "start_MHz": 161.9375,
+    "end_MHz": 161.9625,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "161.9375 MHz - 161.9625 MHz"
+    ]
+  },
+  {
+    "start_MHz": 161.9625,
+    "end_MHz": 161.9875,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "161.9625 MHz - 161.9875 MHz"
+    ]
+  },
+  {
+    "start_MHz": 161.9875,
+    "end_MHz": 162.0125,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "161.9875 MHz - 162.0125 MHz"
+    ]
+  },
+  {
+    "start_MHz": 162.0125,
+    "end_MHz": 162.0375,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "162.0125 MHz - 162.0375 MHz"
+    ]
+  },
+  {
+    "start_MHz": 162.0375,
+    "end_MHz": 169.4,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "162.0375 MHz - 169.4 MHz"
+    ]
+  },
+  {
+    "start_MHz": 169.4,
+    "end_MHz": 169.8125,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "169.4 MHz - 169.8125 MHz"
+    ]
+  },
+  {
+    "start_MHz": 169.8125,
+    "end_MHz": 174.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "169.8125 MHz - 174 MHz"
+    ]
+  },
+  {
+    "start_MHz": 174.0,
+    "end_MHz": 223.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "174 MHz - 223 MHz"
+    ]
+  },
+  {
+    "start_MHz": 223.0,
+    "end_MHz": 225.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "223 MHz - 225 MHz"
+    ]
+  },
+  {
+    "start_MHz": 225.0,
+    "end_MHz": 230.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "225 MHz - 230 MHz"
+    ]
+  },
+  {
+    "start_MHz": 230.0,
+    "end_MHz": 235.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "230 MHz - 235 MHz"
+    ]
+  },
+  {
+    "start_MHz": 235.0,
+    "end_MHz": 240.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "235 MHz - 240 MHz"
+    ]
+  },
+  {
+    "start_MHz": 240.0,
+    "end_MHz": 242.95,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "240 MHz - 242.95 MHz"
+    ]
+  },
+  {
+    "start_MHz": 242.95,
+    "end_MHz": 243.05,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "242.95 MHz - 243.05 MHz"
+    ]
+  },
+  {
+    "start_MHz": 243.05,
+    "end_MHz": 267.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "243.05 MHz - 267 MHz"
+    ]
+  },
+  {
+    "start_MHz": 267.0,
+    "end_MHz": 272.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "267 MHz - 272 MHz"
+    ]
+  },
+  {
+    "start_MHz": 272.0,
+    "end_MHz": 273.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "272 MHz - 273 MHz"
+    ]
+  },
+  {
+    "start_MHz": 273.0,
+    "end_MHz": 312.0,
+    "region1": [],
+    "region2": [],
+    "region3": [],
+    "services": [],
+    "notes": [],
+    "raw": [
+      "273 MHz - 312 MHz"
+    ]
+  }
+]

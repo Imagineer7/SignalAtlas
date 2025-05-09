@@ -550,5 +550,13 @@
     "description": "24.00–24.25 GHz band used for short‐range radar altimeters and experimental drone telemetry links.",
     "type": "drone",
     "color": "#bf616a"
+  },
+  {
+    "start": 151820000,
+    "end": 154600000,
+    "label": "MURS Radio Service",
+    "description": "Multi-Use Radio Service (MURS) for short-range two-way radio.",
+    "type": "Unlicensed 2-way Radio",
+    "color": "#bf616a"
   }
 ]
